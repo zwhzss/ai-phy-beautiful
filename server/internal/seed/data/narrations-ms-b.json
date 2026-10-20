@@ -1,0 +1,290 @@
+{
+  "archimedes-principle": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "两千三百年前，一位国王怀疑王冠掺假，一位科学家跳进了浴缸。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "浮力定律：浸在液体中的物体受到向上的浮力，大小等于排开液体的重量。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "浮力来自液体上下表面的压强差，密度差决定沉浮——尤里卡的物理内核。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "静止流体，完全或部分浸没均成立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "船舶设计、潜水器与气球飞行的第一原理，两千多年前的推理方式奠基流体静力学。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "阿基米德还用杠杆给出'给我一个支点，我能撬动地球'的力学证明。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：阿基米德《论浮体》，约公元前二五〇年。", "duration_ms": 0 }
+    ]
+  },
+  "thermometer": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "在温度计发明之前，冷热只是感觉；之后，它成了可比较的数字。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "温度计利用物质随温度的单调变化（热胀冷缩）来标定冷热程度。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "摄氏温标以水的相变点为锚，开尔文温标以绝对零度为起点，摆脱了对测温物质的依赖。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "测温物质需在量程内单调响应；标准大气压下定义相变点。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "没有温度计就没有热力学：体温诊断、冶金、冷藏、气象与半导体工艺全依赖精确测温。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "伽利略的空气温度计到今天的激光测温，量程已覆盖从零下两百七十度到恒星核心。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "出处：伽利略空气温度计约一五九三年；摄氏温标一七四二年。", "duration_ms": 0 }
+    ]
+  },
+  "hooke-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "拉伸弹簧，松手它就弹回——回复力与形变成正比，这就是胡克定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "弹簧的回复力等于劲度系数乘形变量，方向指向平衡位置。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "小形变下弹性体的响应是线性的，劲度系数是材料与几何的固有属性。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "仅在弹性限度内成立；超过极限发生塑性形变，定律失效。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从钟表弹簧到桥梁减震，弹性设计的定量起点；也是简谐振动与波动的最简模型。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "胡克与牛顿的优先权之争留名科学史，但以他命名的定律写进了每本物理教材。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：胡克《势能的恢复论》，一六七八年。", "duration_ms": 0 }
+    ]
+  },
+  "bernoulli-principle": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "飞机为什么能飞？一张纸贴在吹风机前反而被吸住——伯努利原理在作怪。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "定常流体中流速大的地方压强小，流线上的动能与压强势能之和守恒。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "机翼上表面气流更快、压强更低，上下压强差托起几十吨的飞机。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "理想流体、定常流动；黏性边界层需附面层理论补充。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "飞机机翼设计、喷管与文丘里流量计的理论根基——空气动力学的开篇。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "棒球的曲线球、烟囱的风鸣，也都能从这条原理解释。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：丹尼尔·伯努利《流体动力学》，一七三八年。", "duration_ms": 0 }
+    ]
+  },
+  "coulomb-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电力有多强、随距离衰减多快？库仑用一台扭秤量了出来。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "真空中两个点电荷的作用力与电荷乘积成正比、与距离平方成反比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "电力与引力同为平方反比律——电荷是电力之源，电学从此可以计算。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "真空中点电荷；介质中需用介电常数修正，高速情形需相对论形式。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "静电学、电容、半导体器件与整个电气工程的计算基础。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "与卡文迪许测引力同一套实验思想——相隔六十年，两种基本力被同一方法称量。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：库仑，《科学院文集》，一七八五年。", "duration_ms": 0 }
+    ]
+  },
+  "euler-lagrange-equation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "不再问'受什么力'，改问'走哪条路'——力学被欧拉与拉格朗日彻底改写。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "由最小作用量原理导出的运动方程：拉格朗日量对广义坐标与速度的偏导之差为零。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "坐标无关的统一表述，广义坐标的选择自由正是它的力量所在。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "完整约束系统；进入量子力学的路径积分与规范场论皆由此出发。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "分析力学的基石，通向哈密顿力学与量子力学的通用语言。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "航天轨道计算、机器人动力学今天仍在使用这套两百多年前的方程。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：欧拉一七四四年；拉格朗日《分析力学》，一七八八年。", "duration_ms": 0 }
+    ]
+  },
+  "voltaic-pile": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "青蛙腿的一次抽动，让人类第一次握住了持续的电流。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "伏打电堆把锌片、铜片与浸盐水的纸片交替叠放，化学能持续转化为电能。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "串联叠层提高电压，'电压'一词即以伏特命名。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "内阻限制电流；极化现象需定期更换电解液——后来的干电池改进了它。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "电流第一次可控、持续，电解、电镀与电报随之诞生。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "戴维用电堆分解出钾钠等新元素——化学与物理共用这台机器。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：伏打，《皇家学会哲学汇刊》，一八〇〇年。", "duration_ms": 0 }
+    ]
+  },
+  "fourier-heat-conduction": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "热从烫的一端流向凉的一端，速率与温度差成正比——傅里叶把直觉写成了方程。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "热流密度与温度梯度成正比，方向指向温度降低的方向，负号体现从热到冷。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "热导率是材料属性；由此导出的热传导方程是偏微分方程的原型。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "各向同性介质、近平衡态；辐射主导的极端条件需修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "研究地球温度时他证明任何函数都能分解为正弦波之和——从热传导长出傅里叶分析。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "信号处理、图像压缩与量子力学的展开方法，都建立在这块基石上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：傅里叶《热的解析理论》，一八二二年。", "duration_ms": 0 }
+    ]
+  },
+  "ampere-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "奥斯特发现电流旁的磁针偏转后数周内，安培给出了定量的数学定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "磁感应强度沿闭合回路的环流，等于穿过回路的电流乘以真空磁导率。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "电流是磁场的涡旋源，磁场线永远闭合——没有磁单极子。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "稳恒电流；非稳恒情形需补位移电流项，由麦克斯韦完成。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "电机、变压器、电磁铁与磁共振成像的场计算都从这个环路积分出发。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "电流强度的单位'安培'以他命名——电学中的牛顿。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：安培《电动力学现象的数学理论》，一八二六年。", "duration_ms": 0 }
+    ]
+  },
+  "electric-generator": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "法拉第圆盘转动，电流计的指针偏转——磁生电的那一刻，电气时代开始倒计时。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "发电机依据电磁感应定律：导体切割磁感线或磁通量变化，回路中产生感应电动势。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "机械能持续转化为电能，交流与直流的区别只在换向方式。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需磁场、导体与相对运动三者齐备；效率受铜损铁损限制。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "火力、水力、风力与核能最终都通过发电机变成电——电网的源头。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "如今全球发电装机数十亿千瓦，原理仍是法拉第一八三一年的发现。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：法拉第，《电学实验研究》，一八三一年。", "duration_ms": 0 }
+    ]
+  },
+  "faraday-induction-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "变化的磁场能在闭合回路里点起电流——这是改变世界的十行实验记录。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "感应电动势等于磁通量时间变化率的负值，负号即楞次定律——感应电流总反抗起因。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "动生与感生电动势统一于一个式子，变化的磁场产生电场。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "闭合回路；磁通量变化可以来自磁场变化、面积变化或两者兼有。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "发电机、变压器、无线充电与感应电机的共同原理。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "'磁变电'点亮第二次工业革命，法拉第由订书匠学徒成为实验大师。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：法拉第，《电学实验研究》，一八三一年。", "duration_ms": 0 }
+    ]
+  },
+  "ideal-gas-equation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "给自行车打气筒打气会发热、松手又变凉——气体的压强、体积与温度相互牵连。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "一定量理想气体的压强、体积与热力学温度满足 pV 等于 nRT。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "温度是分子平均动能的量度，压强来自亿万分子对器壁的碰撞统计。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "低密度、分子间作用可忽略的理想气体；高压低温下需范德瓦尔斯方程修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从蒸汽机效率计算到大气物理、气象预报与低温工程，工程热物理的通用语言。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "阿伏伽德罗、玻意耳、盖-吕萨克的实验定律在此汇流成一个简洁的等式。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：克拉伯龙，《巴黎综合理工学院学报》，一八三四年。", "duration_ms": 0 }
+    ]
+  },
+  "hamilton-principle": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "自然从不做无用之功——哈密顿把这句哲学变成了可计算的变分原理。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "真实运动使作用量——拉格朗日量对时间的积分——取驻值。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "所有动力学定律统一为一条变分原理，经典场与量子路径积分皆源于此。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "保守或广义力系统均可纳入拉格朗日量；诺特定理由它与对称性结合而生。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "费曼的路径积分把量子力学也写成了作用量的求和——经典与量子在此一脉相承。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "哈密顿形式还是相空间与统计力学的语言，也是数值积分算法的思想源头。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：哈密顿，《皇家学会哲学汇刊》，一八三四年。", "duration_ms": 0 }
+    ]
+  },
+  "doppler-effect": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "救护车呼啸而过，音调先高后低——多普勒效应在日常里随处可见。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "波源与观察者相对运动时，观测频率随接近而升高、远离而降低。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "接近时波被压缩蓝移，远离时被拉伸红移——频率成了相对运动的信使。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "波源速度小于波速；电磁波需用相对论多普勒公式。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从交警测速雷达到星系红移测速，红移是天文学最基本的测量量。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "哈勃定律正是多普勒效应在宇宙尺度上的应用；超声多普勒则用于医学成像。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：多普勒，《论双星光的颜色》，一八四二年。", "duration_ms": 0 }
+    ]
+  },
+  "energy-conservation-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "能量不会凭空出现，也不会凭空消失——自然界最普适的账本。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "能量既不能创造也不能消灭，只能从一种形式转化为另一种形式，总量守恒。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "热、功、化学能、电能、质量能全部可互换而总量不变；焦耳用十年实验测出换算关系。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "封闭系统；高速与核过程需计入质能等价 E=mc²。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从蒸汽机效率到永动机禁令，从核电到宇宙演化——一切工程计算的守恒底账。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "能量单位'焦耳'以他命名；守恒与对称的深刻联系由诺特最终揭示。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：焦耳一八四五年实验；亥姆霍兹一八四七年综述确立。", "duration_ms": 0 }
+    ]
+  },
+  "kelvin-absolute-scale": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "冷到不能再冷有多冷？开尔文给出答案：存在一个绝对零度。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "热力学温标以绝对零度为起点，与具体测温物质无关，摄氏度加二七三点一五即为开尔文。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "温度的本义是分子平均动能的量度——温标从此脱离了任意性。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "由卡诺效率定义，与气体温度计在低压极限一致；绝对零度不可达到（第三定律）。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "统一了热力学语言，低温物理与超导研究从此有共同的刻度。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "开尔文勋爵同时铺设海底电缆，成为应用科学家的典范。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：威廉·汤姆森，《哲学杂志》，一八四八年。", "duration_ms": 0 }
+    ]
+  },
+  "kirchhoff-spectrum": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "太阳光里有暗线，每条暗线对应一种元素的亮线——分光镜能看穿物质成分。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "每种元素发射与吸收其特征谱线，谱线位置是元素的指纹。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "热物体连续谱上的暗线，正好对应冷却元素的亮线位置。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "局部热平衡；天体物理中用于测定恒星与星系的化学丰度。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "分析化学与天体物理学的共同基石：人类第一次知道太阳含氢。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "不用亲赴天体采样，就能知道几十亿光年外星系的成分——光谱是宇宙的化学报告。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：基尔霍夫与本生，《物理学年鉴》，一八五九年。", "duration_ms": 0 }
+    ]
+  },
+  "maxwell-demon": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "麦克斯韦设想了一只小妖精：它能逐个筛选分子，似乎可以逆转熵增。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "妖精若能分辨分子速度并开门放行，就能制造温差——表面上违背热力学第二定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "答案：抹除信息必须耗散能量，把妖精的记忆计入，总熵照样增加。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需计入妖精的存储与测量过程；兰道尔原理给出擦除一比特的最低耗能。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "思想实验长出信息热力学，熵与信息在此握手。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "成为量子计算与纳米热机的理论背景——香农熵的思想先声。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：麦克斯韦致泰特的信，一八六七年。", "duration_ms": 0 }
+    ]
+  },
+  "rayleigh-scattering": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "天空为什么是蓝的、朝霞为什么是红的？答案藏在光与分子的碰撞里。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "小粒子对光的散射强度与波长的四次方成反比——短波长被散射得更狠。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "蓝紫光被空气分子四面八方散开，天空因此通体发蓝；夕阳时光程长，只剩红光。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "粒子尺寸远小于波长；云滴等大粒子进入米氏散射区，云因此是白的。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "解释天空颜色与大气光学，也是遥感与气溶胶探测的理论基础。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "瑞利因空气液化获一九〇四年诺贝尔奖，散射定律则写进了中学课本。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：瑞利，《哲学杂志》，一八七一年。", "duration_ms": 0 }
+    ]
+  },
+  "telephone": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "沃森先生，快来这里！——一八七六年，人类第一次把声音变成电流远传。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "电话把声音振动转成电流强弱变化，接收端再还原成声音——声电声的双向变换。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "电磁感应是它的物理内核，麦克风与扬声器是同一原理的两面。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需双工线路与阻抗匹配；后世电子放大与数字化彻底改造了它。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "电信业的开端：地球村的第一根线，通信从电报码跃进到自然语言。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "今天的智能手机依然执行着同样的变换，只是信号变成了数字。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：贝尔，美国专利一七四四六五号，一八七六年。", "duration_ms": 0 }
+    ]
+  },
+  "hall-effect": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "给通电导体加一个横向磁场，侧面竟然出现了电压——霍尔一八七九年的意外发现。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "载流子受洛伦兹力偏转，在导体一侧积累电荷，直到电场力与磁场力平衡。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "霍尔电压的极性直接告诉你载流子是电子还是空穴——判别半导体类型的标尺。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "均匀磁场、稳态电流；量子极限下霍尔电阻量子化为基本常数之比。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "霍尔传感器遍布汽车与手机；量子霍尔效应使电阻成为基本常数。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "一项研究生课题，串起半导体工业与两届诺贝尔物理学奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：霍尔，《美国科学杂志》，一八七九年。", "duration_ms": 0 }
+    ]
+  },
+  "stefan-boltzmann-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "温度翻一倍，热辐射强十六倍——炉火通红与钢水白炽的定量解释。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "黑体单位面积的辐射功率与热力学温度的四次方成正比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "比例常数即斯特藩-玻尔兹曼常数；实际物体再乘上小于一的发射率。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "理想黑体；恒星表面温度决定其光度——测温即测星。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "恒星物理与测温技术的支柱；白矮星冷却与宇宙演化计算都依赖它。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "从冶金测温到红外测温仪，四次方定律统治着一切高温世界。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：斯特藩一八七九年实验；玻尔兹曼一八八四年理论推导。", "duration_ms": 0 }
+    ]
+  },
+  "hertz-electromagnetic-wave": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "麦克斯韦去世八年后，赫兹用一组火花证明了他的方程组。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "火花隙产生无线电波，在金属板上反射、干涉，波速测得等于光速。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "电磁波真实存在，光被确认为电磁波——以太失去存在必要。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需屏蔽杂散火花与共振调谐；波长由隙距与反射镜面决定。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "无线电、电视、雷达、移动通信全部从这组火花开始。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "频率单位'赫兹'永载其名；他生前却说电磁波毫无用处。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：赫兹，《物理学年鉴》，一八八八年。", "duration_ms": 0 }
+    ]
+  },
+  "tesla-ac-system": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电流该用直流还是交流？特斯拉用旋转磁场给出了决定性答案。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "多相交流电加变压器可升降压远距离输送，旋转磁场驱动感应电机。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "交流电压可自由变换，电网因此可以长途运输电能。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "绝缘与频率标准五十或六十赫兹；趋肤效应限制更高频率输电。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "击败直流方案成为全球电网标准；尼亚加拉水电站一八九六年送电。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "特斯拉放弃专利选择开放，交流电由此普及——电气时代定型。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "出处：特斯拉，美国专利三八一九六八号及交流电机系列，一八八七至一八八八年。", "duration_ms": 0 }
+    ]
+  }
+}

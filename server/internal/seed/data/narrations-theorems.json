@@ -1,0 +1,243 @@
+{
+  "plimpton-322": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "这是一块三千八百年前的巴比伦泥版，编号普林顿三二二。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "上面刻着十五组数字，看起来毫无规律——直到你发现它们都是勾股数。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "三、四、五，五、十二、十三，这些边长能拼出完美的直角三角形。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "勾股数是满足 a 平方加 b 平方等于 c 平方的整数三元组。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上把两组小正方形拼在一起，正好铺满最大的那个正方形。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动参数，切换到不同组的勾股数，看格子数量怎样保持相等。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "巴比伦人已经会算，却还没有普遍证明——数学正站在从技艺走向论证的门槛上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "会算，不等于会证。这一步之差，就是三千年数学史的分水岭。", "duration_ms": 0 }
+    ]
+  },
+  "pythagorean-theorem-history": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "直角三角形里藏着一条最简单也最深刻的规律。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "毕达哥拉斯学派第一次给出了普遍证明，因此它在西方以他命名。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "两条直角边的平方和，等于斜边的平方。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把三个正方形分别贴在三角形的三边上，两个小的面积之和正好等于大的。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动两条直角边，看三个正方形的面积如何始终配平。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "证明过程中他们发现，正方形对角线无法用整数之比表示，第一次数学危机就此爆发。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一条关于长度的定理，意外逼出了无理数。这就是数学的自我发现。", "duration_ms": 0 }
+    ]
+  },
+  "euclidean-algorithm": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "求两个数的最大公约数，有一个两千三百年没被超越的方法。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "它记载在欧几里得的几何原本第七卷里。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "用小数除大数取余数，再用余数替换除数，直到整除为止。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把它画成矩形：用正方形去填满，填不下的部分继续填，最后剩下的正方形边长就是答案。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改动两个整数，看每一步的算式和正方形的填充过程。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "这是数论与算法史共同的源头，今天的密码学仍在用它。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一个纯粹的几何问题，催生了人类第一个非平凡的算法。", "duration_ms": 0 }
+    ]
+  },
+  "sieve-of-eratosthenes": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "怎样把所有素数一次找出来？两千多年前就有人给出了答案。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "埃拉托斯特尼用它筛出素数，他还用影子算出了地球的周长。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把自然数排好，从最小的素数开始，划掉它的所有倍数，剩下的就是素数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "绿色是素数，红色是被划掉的合数，橙色是你当前使用的筛子。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动当前素数按钮，看红色怎样一层层铺开，绿色怎样浮现。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "筛到根号 n 就可以停下——这是最早的规模化素数算法。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一张筛子，筛了两千三百年，筛出的素数至今仍是数论的核心对象。", "duration_ms": 0 }
+    ]
+  },
+  "fibonacci-rabbit-problem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一对兔子，一年能繁殖出多少对？这个看似无聊的问题藏着一条著名数列。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "斐波那契在计算之书中提出它，同时把印度阿拉伯数字引入了欧洲。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "每项等于前两项之和：一、一、二、三、五、八、十三。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "柱状图是每一项的大小，橙色虚线是黄金比一点六一八。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加项数，看相邻两项的比值怎样迅速逼近黄金比。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "这条数列还出现在花瓣数、松果鳞片和向日葵种子的排列里。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "最简单的递推，通向自然界最普遍的形态。", "duration_ms": 0 }
+    ]
+  },
+  "lune-of-hippocrates": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个弯弯的月牙，面积竟然能精确等于一块直边图形。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "希波克拉底用这件事证明：论证数学的力量远超测量。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "以直角三角形两直角边为直径作半圆，围出的两个月牙面积之和等于三角形面积。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "两个小半圆面积之和等于大半圆面积，各自减去公共的弓形，剩下的就是月牙。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变直角边的比例，看月牙形状变化，而面积关系始终成立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "这是最早的化月牙为方，人们由此相信曲线图形也能被精确计算。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "曲线并不可怕，只要找到与直边图形的等价关系。", "duration_ms": 0 }
+    ]
+  },
+  "herons-formula": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "不量高、不作图，只凭三条边就能算出一块地的面积。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "海伦在度量论中给出了这个公式，亚历山大港的工程师用它丈量土地。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "面积等于根号下，半周长乘以半周长减三边，三者之积。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "三条边完全对称地出现在公式里，没有哪条边更特殊。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动三条边，看公式结果与底乘高除以二始终一致。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "三边若不满足两边之和大于第三边，屏幕会提示无法构成三角形。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "对称的形式，往往暗示着更深的几何含义。", "duration_ms": 0 }
+    ]
+  },
+  "zu-geng-principle": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两个形状看起来完全不同的立体，体积却可能相等。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "祖暅在六世纪提出这个原理，比西方的卡瓦列里早了一千多年。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "等高的两个立体，如果在每一高度处的截面积都相等，体积就相等。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "青色椭圆是同一高度上的截面，左右两个立体的截面始终一样大。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "上下拖动截面高度，看两侧截面始终等宽；改变倾斜量，结果依然不变。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "祖冲之父子用它推导出球体积公式，这是积分思想的东方先声。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "幂势既同，则积不容异。八个字，说尽了以直代曲的精髓。", "duration_ms": 0 }
+    ]
+  },
+  "al-khwarizmi-algebra": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "代数这个词，来自一千二百年前一本书的名字。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "花拉子米在还原与对消中系统给出了方程解法，书名的音译就是 algebra。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把方程整理成标准形式，再通过移项、配方求出未知量。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把 x 平方画成正方形，一次项画成两个矩形，缺的角正好补成完整的大正方形。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变一次项系数，看缺角的大小和公式怎样同步变化。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "从此数学有了处理未知量的通用程序，而不必逐题设计技巧。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "配方法看似是技巧，本质是用几何补齐代数的不完整。", "duration_ms": 0 }
+    ]
+  },
+  "jia-xian-triangle": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一张三角形数表，把二项式展开的系数全部排好了。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "中国数学家贾宪在十一世纪就记录了它，比帕斯卡早数百年。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "每行相邻两数相加，得到下一行；第 n 行第 k 个数就是组合数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色是奇数，橙色是偶数，颜色分布呈现出分形的规律。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加行数，观察数和颜色的规律怎样层层展开。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "它同时是组合数表、二项式系数表，也是概率计算的基本工具。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "最简单的加法规则，生成了一整片组合数学的森林。", "duration_ms": 0 }
+    ]
+  },
+  "invention-of-logarithm": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在计算器出现之前，天文学家最怕的不是观星，而是算乘法。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "纳皮尔在一六一四年发明对数，用加法代替了乘法。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "对数的核心恒等式是：乘积的对数等于对数之和。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "面板上的两个黑点是两个因数，绿点是它们的乘积，三者都在同一条对数曲线上。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变两个因数，观察它们的对数之和怎样精确等于乘积的对数。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "拉普拉斯说，这项发明以缩短计算时间的方式，延长了天文学家的生命。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "把乘法变成加法，看似只是技巧，却重构了整个科学计算的节奏。", "duration_ms": 0 }
+    ]
+  },
+  "descartes-analytic-geometry": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在笛卡尔之前，几何与代数是两门几乎不相往来的学问。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一六三七年，笛卡尔在几何学中建立了坐标系。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "平面上的每个点都对应一对数，每条曲线都对应一个方程。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "曲线与 x 轴的交点就是方程的实根，红点把它们标了出来。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整三个系数，看曲线形状、判别式与实根个数如何联动。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "从此几何问题可以化为代数运算，解析几何成为近代数学的第一块基石。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "形与数的互相翻译，是数学史上最重要的一次打通。", "duration_ms": 0 }
+    ]
+  },
+  "konigsberg-bridges": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "柯尼斯堡的居民有个消遣：能不能走遍七座桥，每座只走一次？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一七三六年，欧拉证明这件事做不到。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "欧拉的判据是：奇数度顶点的个数必须是零或二。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "四个顶点的度数分别是三、三、五、三，全是奇数，红圈标出了它们。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换度数标注，试着在脑海里走一遍，感受为什么总有一架桥走不到。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "欧拉抛开了长度和角度，只看连接关系——图论与拓扑学由此诞生。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一个散步难题，开创了两门新学科。", "duration_ms": 0 }
+    ]
+  },
+  "euler-polyhedron-formula": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "随便找一个凸多面体，数一数顶点、棱和面。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧拉在十八世纪发现，这三个数之间有一个惊人固定的关系。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "顶点数减棱数加面数，恒等于二。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "四面体是四减六加四，正方体是八减十二加六，结果都是二。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换多面体类型，看这个值怎样始终保持不变。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "无论怎样拉伸变形，只要不打洞，这个数就不变——它是最早的拓扑不变量之一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "打在形状上的变化无关紧要，连接方式才决定本质。", "duration_ms": 0 }
+    ]
+  },
+  "infinitude-of-primes": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "素数到底有多少个？欧几里得用几行字给出了答案。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "这个证明收在几何原本第九卷，被后人称为最美的证明之一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "假设素数只有有限个，把它们全部相乘再加一，这个新数不是任何素数的倍数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上逐个验证：新数除以任何已知素数都余一，所以它必须含有新的素因子。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加假设的素数个数，看连乘结果和余数怎样始终成立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "反证法在这里展现出惊人的力量：从有限推出矛盾，从而证明无限。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "素数没有尽头，而证明它的方法只有几步。", "duration_ms": 0 }
+    ]
+  },
+  "archimedes-circle-sphere": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "没有微积分，怎样才能求出一块曲边图形的面积？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿基米德用穷竭法做到了，他把它视为自己一生最重要的成就。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "用内接多边形逼近圆，边数越多，面积越接近。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "青色多边形随着边数增加越来越像圆，趋近比也一路升到接近百分之百。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动边数滑块，感受有限怎样逼近无限。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "他还证明了球与其外切圆柱的体积比为二比三，并把这张图刻在墓碑上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "阿基米德已经摸到了积分的大门，只差最后一步符号化。", "duration_ms": 0 }
+    ]
+  },
+  "menelaus-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一条直线穿过三角形，会留下三组比例。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "梅涅劳斯在公元一世纪发现了这三组比例之间惊人的关系。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "三段有向比值相乘，结果恒等于一。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上三个青色交点对应的比例实时显示，乘积始终停在一附近。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动截线位置，无论怎么移动，乘积都保持不变。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "它把共线这个几何事实翻译成代数等式，是射影几何的先声。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "不变量往往藏在看似随意的比例关系里。", "duration_ms": 0 }
+    ]
+  },
+  "chinese-remainder-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "有一堆东西，三个三个数剩两个，五个五个数剩三个。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "这个问题出自孙子算经，秦九韶后来把它系统化为大衍求一术。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "当模数两两互素时，一次同余方程组在模乘积范围内恰有一个解。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "数轴上的橙点就是解，下一个解总是隔着三乘五乘七等于一百零五。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整三个余数，看最小解怎样变化、周期怎样始终是一百零五。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "西方把它称为中国剩余定理，今天它仍在密码学与编码理论中使用。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "千年前的点兵问题，成了现代信息安全的一块砖。", "duration_ms": 0 }
+    ]
+  },
+  "aryabhata-linear-diophantine": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一条直线上，有多少个点同时落在整数格子上？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿耶波多在公元五百年左右给出了求解这类方程的系统方法。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "方程有整数解的条件是两系数的最大公约数能整除常数项。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色点就是整数解，它们等间距地排在这条直线上。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变系数，看什么时候有解、什么时候无解，以及解怎样排列。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "印度数学对不定方程的系统处理，后来传入阿拉伯世界与欧洲。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "整数解的问题，是整个数论最古老也最持久的主题。", "duration_ms": 0 }
+    ]
+  },
+  "viete-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "不解方程，也能知道两根的和与积。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "韦达率先用字母表示已知量与未知量，方程理论从此可以一般地讨论。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "两根之和等于负的二次项系数分之一次项系数，两根之积等于二次项系数分之常数项。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色是两个交点，绿色文字实时显示它们的和与积。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "直接拖动和与积两个参数，看抛物线和两个根怎样同步变化。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "意义影响", "line_index": 0, "line_id": "imp-1", "text": "对 n 次多项式，这套关系同样成立——根与系数被彻底绑定。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "方程的解从一开始就被系数悄悄决定了。", "duration_ms": 0 }
+    ]
+  }
+}

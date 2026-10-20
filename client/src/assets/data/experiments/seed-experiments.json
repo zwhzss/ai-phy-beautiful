@@ -1,0 +1,72 @@
+{
+  "categories": [
+    { "name": "算术与数论", "slug": "arithmetic-number-theory", "level": "basic", "order_index": 1 },
+    { "name": "几何与空间", "slug": "geometry-space", "level": "basic", "order_index": 2 },
+    { "name": "代数与方程", "slug": "algebra-equations", "level": "intro", "order_index": 3 },
+    { "name": "函数与图像", "slug": "functions-graphs", "level": "intro", "order_index": 4 },
+    { "name": "概率统计", "slug": "probability-statistics", "level": "intro", "order_index": 5 },
+    { "name": "算法与数据结构", "slug": "algorithms-data-structures", "level": "intro", "order_index": 6 },
+    { "name": "三角学与复数", "slug": "trigonometry-complex", "level": "intermediate", "order_index": 7 },
+    { "name": "微积分", "slug": "calculus", "level": "intermediate", "order_index": 8 },
+    { "name": "线性代数", "slug": "linear-algebra", "level": "intermediate", "order_index": 9 },
+    { "name": "微分方程与动力系统", "slug": "ode-dynamics", "level": "advanced", "order_index": 10 },
+    { "name": "数值计算与优化", "slug": "numerical-optimization", "level": "advanced", "order_index": 11 },
+    { "name": "信号与傅里叶分析", "slug": "signal-fourier", "level": "advanced", "order_index": 12 },
+    { "name": "机器学习数学", "slug": "ml-math", "level": "advanced", "order_index": 13 },
+    { "name": "密码学", "slug": "cryptography", "level": "advanced", "order_index": 14 },
+    { "name": "微分几何与拓扑", "slug": "diff-geometry-topology", "level": "professional", "order_index": 15 },
+    { "name": "混沌与分形", "slug": "chaos-fractals", "level": "professional", "order_index": 16 },
+    { "name": "随机过程", "slug": "stochastic-processes", "level": "professional", "order_index": 17 },
+    { "name": "信息论与编码", "slug": "information-theory", "level": "professional", "order_index": 18 },
+    { "name": "物理应用", "slug": "physics-applications", "level": "professional", "order_index": 19 }
+  ],
+  "experiments": [
+    {
+      "slug": "basic-arithmetic", "title": "四则运算可视化", "difficulty": "basic", "level": "小学",
+      "description": "通过交互式动画理解加减乘除的几何意义，感受运算背后的直观逻辑。",
+      "viz_component": "BasicArithmeticViz", "category_slug": "arithmetic-number-theory",
+      "formulas": [{"label": "加法", "latex": "a + b = b + a"}, {"label": "乘法", "latex": "a \\times b = b \\times a"}],
+      "history_info": {"mathematician": "古代文明", "background": "四则运算是人类最基础的数学工具，起源于计数和测量的需要。", "story": "古埃及人和巴比伦人早在5000年前就已掌握基本的算术运算。"},
+      "app_hooks": [{"title": "日常计算", "desc": "购物、预算、计时都离不开四则运算"}, {"title": "计算机基础", "desc": "CPU的ALU（算术逻辑单元）实现四则运算"}]
+    },
+    {
+      "slug": "fractions", "title": "分数可视化", "difficulty": "basic", "level": "小学",
+      "description": "通过饼图和条形图直观理解分数的概念、比较和运算。",
+      "viz_component": "FractionsViz", "category_slug": "arithmetic-number-theory",
+      "history_info": {"mathematician": "古埃及人", "background": "分数概念最早出现在古埃及，用于土地测量和粮食分配。", "story": "莱因德数学纸草书（约公元前1650年）中记录了大量分数运算。"},
+      "app_hooks": [{"title": "烹饪配方", "desc": "食谱中的1/2杯、3/4茶匙都是分数"}, {"title": "时间计算", "desc": "半小时、四分之一小时"}]
+    },
+    {
+      "slug": "calculus", "title": "微积分可视化", "difficulty": "intermediate", "level": "高中",
+      "description": "通过动画演示理解导数和积分的几何意义，感受微积分的基本思想。",
+      "viz_component": "CalculusViz", "category_slug": "calculus",
+      "formulas": [{"label": "导数定义", "latex": "f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}"}, {"label": "微积分基本定理", "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a)"}],
+      "history_info": {"mathematician": "艾萨克·牛顿 / 莱布尼茨", "background": "17世纪，牛顿和莱布尼茨独立发明了微积分，解决了运动和变化的数学描述问题。", "story": "牛顿为描述天体运动发明流数术（微积分），莱布尼茨则发展了至今使用的符号体系。"},
+      "app_hooks": [{"title": "物理学", "desc": "速度是位移的导数，加速度是速度的导数"}, {"title": "经济学", "desc": "边际成本是总成本的导数"}]
+    },
+    {
+      "slug": "fourier", "title": "傅里叶变换", "difficulty": "advanced", "level": "大学",
+      "description": "探索傅里叶变换的奥秘：任何周期信号都可以分解为不同频率正弦波的叠加。",
+      "viz_component": "FourierViz", "category_slug": "signal-fourier",
+      "formulas": [{"label": "傅里叶级数", "latex": "f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty}\\left(a_n\\cos\\frac{n\\pi x}{L} + b_n\\sin\\frac{n\\pi x}{L}\\right)"}, {"label": "傅里叶变换", "latex": "\\hat{f}(\\xi) = \\int_{-\\infty}^{\\infty} f(x)e^{-2\\pi i x \\xi}\\,dx"}],
+      "history_info": {"mathematician": "约瑟夫·傅里叶 (1768-1830)", "background": "傅里叶在研究热传导方程时提出了这一革命性的思想。", "story": "傅里叶出身贫寒，凭借数学天赋获得拉格朗日和拉普拉斯的赏识，他的方法彻底改变了信号处理领域。"},
+      "app_hooks": [{"title": "音频压缩", "desc": "MP3格式利用傅里叶变换分析声音频谱"}, {"title": "图像压缩", "desc": "JPEG使用离散余弦变换（DCT）"}, {"title": "MRI医学成像", "desc": "磁共振成像是傅里叶变换的重要应用"}]
+    },
+    {
+      "slug": "pythagorean", "title": "勾股定理", "difficulty": "intro", "level": "初中",
+      "description": "通过几何证明和动态演示理解勾股定理 a²+b²=c² 的深刻内涵。",
+      "viz_component": "PythagoreanViz", "category_slug": "geometry-space",
+      "formulas": [{"label": "勾股定理", "latex": "a^2 + b^2 = c^2"}],
+      "history_info": {"mathematician": "毕达哥拉斯 (约前570-前495)", "background": "勾股定理是最著名的数学定理之一，在中国称为'勾三股四弦五'。", "story": "毕达哥拉斯学派发现直角三角形边长关系后，据说杀了一百头牛来庆祝。"},
+      "app_hooks": [{"title": "建筑测量", "desc": "计算对角线长度、斜坡距离"}, {"title": "导航定位", "desc": "GPS定位中的距离计算"}]
+    },
+    {
+      "slug": "trigonometry", "title": "三角函数", "difficulty": "intro", "level": "初中",
+      "description": "通过单位圆动画理解sin/cos/tan的本质，探索三角函数在现实世界中的应用。",
+      "viz_component": "TrigViz", "category_slug": "trigonometry-complex",
+      "formulas": [{"label": "基本关系", "latex": "\\sin^2\\theta + \\cos^2\\theta = 1"}, {"label": "正弦定理", "latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}"}],
+      "history_info": {"mathematician": "希帕克斯 (约前190-前120)", "background": "三角学起源于天文学和测量学的需要。", "story": "希帕克斯被称为'三角学之父'，他编制了第一张三角函数表。"},
+      "app_hooks": [{"title": "波浪与振动", "desc": "声波、光波都可以用三角函数描述"}, {"title": "建筑拱桥", "desc": "拱形结构的力学分析"}]
+    }
+  ]
+}

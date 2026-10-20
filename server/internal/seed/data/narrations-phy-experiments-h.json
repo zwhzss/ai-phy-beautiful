@@ -1,0 +1,736 @@
+{
+  "shm-phase-circle": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一个旋转矢量把位移、速度、加速度的相位差一次看清——考研振动题的第一件工具。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "旋转矢量在 x 轴的投影就是简谐振动：圆周匀速运动与直线简谐互为表里。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "速度超前位移 π/2，加速度超前位移 π——求相位差画一个圆最快，不必背公式。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "解题价值", "line_index": 0, "line_id": "impact-1", "text": "同频振动合成先画矢量再相加：A² = A₁² + A₂² + 2A₁A₂cosΔφ，相位差决定合振幅。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "大学物理振动章节；旋转矢量法（相量法）", "duration_ms": 0}
+    ]
+  },
+  "lissajous-figures": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "两个垂直简谐振动的合成：频率比与相位差决定图形的全部身份——李萨如图形是振动的指纹。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "频率比为有理数时图形闭合；无理数则永不重合，轨迹填满整个矩形。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "1:1 且相位差 π/2 时是圆，相位差 0 时退化为直线——圆与线都是椭圆的特例。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "示波器测频：已知一轴频率，数切线接触点数比即得未知频率——频率比是图形的拓扑指纹。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Lissajous 1857；大学物理振动合成章节", "duration_ms": 0}
+    ]
+  },
+  "forced-resonance-peak": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "驱动力频率扫过固有频率：振幅冲顶、相位翻转 180 度——共振的两张面孔同时出现。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "稳态解振幅 A = F₀/√((ω₀²−ω²)² + (2ζω₀ω)²)：共振峰位置略低于固有频率，阻尼越大峰越矮。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "相频响应三段：低频同相、共振处差 90°、高频反相——相位翻转是共振的可靠签名。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "判据", "line_index": 0, "line_id": "conditions-1", "text": "品质因数 Q = 1/(2ζ)：半功率带宽 Δω ≈ 2ζω₀——Q 大即峰尖，选频能力强。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "警示", "line_index": 0, "line_id": "impact-1", "text": "桥梁与队列过桥的事故都源于小阻尼共振——考题爱问'何时最危险'，答案是 ω 接近 ω₀ 且 ζ 小。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "大学物理受迫振动章节；机械振动标准教材", "duration_ms": 0}
+    ]
+  },
+  "damped-q-factor": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "振幅按指数衰减，能量按双倍指数衰减——Q 值为什么是共振锐度的标尺，答案在这组账里。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "欠阻尼解 x = e^(−βt)·cos(ω_d t)，β = ζω₀——包络线是衰减的尺子，能量衰减更快一倍。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "Q 的三种读法全部等价：2π×(储能/每周期损耗)、1/(2ζ)、f₀/Δf——敲钟听音估的就是它。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "实验法", "line_index": 0, "line_id": "conditions-1", "text": "对数减缩 δ = ln(x_n/x_{n+1}) = 2πζ/√(1−ζ²)：从衰减波形直接读出阻尼比。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "钟表、音叉、电路滤波器都在追求高 Q——衰减越慢，频率选择越准。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "大学物理阻尼振动章节；振动理论标准教材", "duration_ms": 0}
+    ]
+  },
+  "inertia-parallel-axis": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "转动惯量决定'转起来沉不沉'——平行轴定理的口诀：先算质心轴，再平移。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "I = I_c + Md²：任意轴惯量等于质心轴惯量加质量乘轴距平方——M d² 项必须从质心起步。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "常见形体记牢三个：圆环 MR²、圆盘 ½MR²、细杆端轴 ⅓ML²——考试高频词库。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "配套", "line_index": 0, "line_id": "conditions-1", "text": "垂直轴定理（薄板）I_z = I_x + I_y 与它配对使用；组合体拆件算后相加。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "转动动能 T = ½Iω²：换轴即换惯量——飞轮储能、机械配平全靠这笔账。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "理论力学刚体转动章节", "duration_ms": 0}
+    ]
+  },
+  "angular-momentum-scenarios": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "花样滑冰收臂加速、卫星变轨角动量不减——守恒律选对轴，复杂问题一步到位。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "守恒判据：外力矩为零（对同一固定轴或定点）——用之前先问一句'对哪个轴'。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "角动量是矢量：方向右手螺旋定则，进动类问题必须矢量操作——标量直觉会翻车。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "题型", "line_index": 0, "line_id": "impact-1", "text": "碰撞斜轴、开链运动、陀螺进动三大经典题型，核心都是'先选轴、再判矩、后列式'。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "理论力学动量矩章节；刘维尔定理为其在相空间的推广", "duration_ms": 0}
+    ]
+  },
+  "collision-restitution": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "动量总守恒，动能不一定——恢复系数 e 把'非弹性'量化成一条直线方程。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "e = (v₁′−v₂′)/(v₂−v₁)：分离相对速度与接近相对速度之比，e=1 弹性、e=0 共速。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "质量相等、被碰者静止时：v₁′ = (1−e)v/2，v₂′ = (1+e)v/2——两式联立即得标准答案。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "能量", "line_index": 0, "line_id": "conditions-1", "text": "动能亏损 ΔE = ½μ(1−e²)v_rel²（μ 折合质量）——损失进形变、热与声，守恒的是总能量。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "实验", "line_index": 0, "line_id": "impact-1", "text": "e 可由下落反弹高度比测量（比值平方）——钢球 e 约 0.6，黏土近 0。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "大学物理碰撞章节；Newton 恢复系数定义", "duration_ms": 0}
+    ]
+  },
+  "orbital-transfer-speeds": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "霍曼转移两次点火完成变轨：能量账本决定燃料下限——航天任务规划的第一课。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "活力公式 v² = GM(2/r − 1/a) 把速度与轨道半长轴绑定：近地点加速，远地点抬升。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "三宇宙速度：7.9 环绕、11.2 逃逸、16.7 出太阳系——注意圆轨道越高跑得越慢。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "最优", "line_index": 0, "line_id": "conditions-1", "text": "两脉冲的霍曼转移在长距离比冲下最省 Δv，耗时恰为转移椭圆周期的一半。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "地球同步轨道入轨、地月转移、行星际探测——全是霍曼转移的变体。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Hohmann 1925；天体力学轨道机动章节", "duration_ms": 0}
+    ]
+  },
+  "dalembert-inertial-force": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "把动力学改写成静力学：非惯性系里的惯性力让斜面刹车问题一步到位。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "动静法：在受力图中加上 −ma，牛顿方程即变为平衡方程 ΣF − ma = 0——只是移项的智慧。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "惯性力作用在质心上，是参考系的账而非真实相互作用——但在非惯性系里它真实地推动物体。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "判据", "line_index": 0, "line_id": "conditions-1", "text": "斜面题临界：车厢加速度 a > g·tanθ 时物块相对滑动——转动参考系还要补科氏力。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "工程上动静法是有限元动力分析的理论前身——让机器'看起来静止'再列方程。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "d'Alembert 1743；理论力学非惯性系章节", "duration_ms": 0}
+    ]
+  },
+  "virtual-work-principle": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "不列方程、只看位移：理想约束下平衡的充要条件是一切虚功之和为零。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "虚位移是瞬时可能的微小位移——与时间无关、不破坏约束；理想约束（光滑、刚性）不做功。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "ΣFᵢ·δrᵢ = 0：未知的约束力（铰链反力、轨道支持力）全部自动消失——这是它的全部卖点。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "推广", "line_index": 0, "line_id": "conditions-1", "text": "加上广义坐标与达朗贝尔项即得拉格朗日方程——分析力学的第一块基石。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "桁架、机构、摩擦平衡题的高效解法：不求约束力时，虚功原理比矢量法快一半。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Lagrange《分析力学》（1788）虚速度原理", "duration_ms": 0}
+    ]
+  },
+  "double-pendulum-lagrange": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "双摆的牛顿法要解两个杆的约束力，拉格朗日法两页纸写完方程——选对语言，问题减半。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "广义坐标选两个角 θ₁、θ₂：L = T −V，代入欧拉-拉格朗日方程，约束力全程不出现。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "动能矩阵含 cos(θ₁−θ₂) 耦合项——两个方程互相纠缠，这正是混沌的温床。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "要点", "line_index": 0, "line_id": "conditions-1", "text": "广义坐标数 = 自由度数；循环坐标（不出现的 q）对应动量守恒——诺特定理的入口。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "延伸", "line_index": 0, "line_id": "impact-1", "text": "双摆对初值指数敏感：教学演示混沌的明星——确定性方程长出不可预测的轨迹。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Lagrange 分析力学；Goldstein《经典力学》第 6 章", "duration_ms": 0}
+    ]
+  },
+  "hamilton-phase-space": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "位置与动量平起平坐：相空间里的轨迹把守恒量画成几何——哈密顿语言的看图说话。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "正则方程 q̇ = ∂H/∂p、ṗ = −∂H/∂q：一阶方程对称形式，q 与 p 完全平权。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "谐振子的等能线是椭圆，单摆有鞍点与分界线——相图一眼读出全部动力学定性行为。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "定理", "line_index": 0, "line_id": "conditions-1", "text": "刘维尔定理：相体积守恒——统计力学系综演化的不变骨架，也是正则变换的几何约束。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "正则变换、生成函数、作用量-角度变量——哈密顿-雅可比理论的全部入口都在相空间。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Hamilton 1834；Goldstein《经典力学》第 8 章", "duration_ms": 0}
+    ]
+  },
+  "coupled-beats-energy": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "两个全同弹簧振子之间能量来回搬运：拍频就是耦合强度的读数。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "本征模式：对称（低频）与反对称（高频）——任何初态都是两者的叠加。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "两本征频之差产生拍：能量在两振子间以 T = π/Δω 的周期往返搬运。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "条件", "line_index": 0, "line_id": "conditions-1", "text": "完全转移需要简并与精确共振——耦合越弱，交换越慢但越彻底（绝热跟随）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "对应", "line_index": 0, "line_id": "impact-1", "text": "Rabi 振荡是它的量子版：两能级间的布居往返就是这幅图的微观镜像。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "耦合振子标准教材；Normal mode 分析", "duration_ms": 0}
+    ]
+  },
+  "gyroscopic-nutation": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "重力矩不使陀螺跌倒反而让它画圈——角动量定理最反直觉的胜利。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "M = dL/dt：力矩垂直于 L，只改变方向不减小大小——L 绕竖直轴进动，进动角速度 Ω = MgL/(I₁ω_s)。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "进动速度与自转速度成反比：转得越快越稳、进动越慢——快自转是陀螺仪的地基。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "章动", "line_index": 0, "line_id": "conditions-1", "text": "章动是进动上叠加的小幅上下抖动：能量耗散或启动扰动引起，自转减小时放大。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "导航陀螺、船舶减摇鳍、手机角速度计——旋转参照系的动力学全是这套方程。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "理论力学进动章节；Poinsot 1834 几何解释", "duration_ms": 0}
+    ]
+  },
+  "cylindrical-gauss-law": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "无限长带电直线的场怎么求？柱面一画，积分变除法——对称性选面的范题。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "柱对称 ⇒ E 沿径向、同半径等大：∮E·dS = E·2πrL = λL/ε₀，立刻得 E = λ/(2πε₀r)。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "注意与面电荷的区别：线电荷 E ∝ 1/r，面电荷 1/r²，无限大平面竟与距离无关。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "三问", "line_index": 0, "line_id": "conditions-1", "text": "选面三问：E 什么方向？何处恒定？通量只算哪块？答完三问，高斯定理就是除法。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "延伸", "line_index": 0, "line_id": "impact-1", "text": "带电导体内部 E = 0 是高斯定理与静电平衡的联合推论——导体静电学的第一块多米诺。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "大学物理静电场章节", "duration_ms": 0}
+    ]
+  },
+  "faraday-lenz-law": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "磁通变化生电场：先定正方向再取负号——感应电流方向从此不靠手感判断。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "ε = −dΦ/dt：负号就是楞次定律——感应电流的磁场总是阻碍引起它的磁通变化。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "磁通链 Ψ = NΦ：匝数直接乘进感应电动势——变压器与电机的电压比由此而来。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "两种版本", "line_index": 0, "line_id": "conditions-1", "text": "动生电动势（洛伦兹力版）与感生电动势（涡旋电场版）统一于法拉第定律。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "深层", "line_index": 0, "line_id": "impact-1", "text": "负号=能量守恒：若感应电流助增磁通就是永动机——楞次定律是第二定律的电路版。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Faraday 1831；Lenz 1834", "duration_ms": 0}
+    ]
+  },
+  "electric-dipole-field": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电偶极子的势按 1/r² 衰减、场按 1/r³——比单极快一档，天线与极化的共同起点。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "p = qd 从负 q 指向正 q：轴线上 E = 2p/(4πε₀r³)，赤道面反向减半——两侧反号是它的签名。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "势 Φ = p·cosθ/(4πε₀r²)：角向不对称是偶极势的灵魂——单极的球对称被打破。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "应用", "line_index": 0, "line_id": "conditions-1", "text": "一切中性分子对外都像小偶极：范德华力（瞬时偶极、~1/r⁶ 能量）由此而来。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "延伸", "line_index": 0, "line_id": "impact-1", "text": "振荡偶极子辐射是电动力学重头戏——天线发射的最低阶模式。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "电动力学多极展开章节", "duration_ms": 0}
+    ]
+  },
+  "potential-multipole-expansion": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "任意电荷分布远看=单极+偶极+四极——多极展开把复杂源拆成逐级可算的壳。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "把 1/|r−r′| 按 (r′/r) 的幂展开：r 越大，高阶项压得越低——远场收敛极快。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "通式含球谐 P_l(cosγ)：单极（总电荷）、偶极、四极、八极依次登场，系数即多极矩。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "要点", "line_index": 0, "line_id": "conditions-1", "text": "中性体系单极项为零，偶极主导——这就是为何远看分子都是'小偶极'。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "核四极矩共振、引力波四极辐射、天线方向图——同一套展开不同物理。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Jackson《经典电动力学》第 4 章", "duration_ms": 0}
+    ]
+  },
+  "rl-circuit-transient": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电感不让电流突变：τ = L/R 的指数爬升是开关三问的答案模板。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "三要素法：稳态值 ε/R、初值 0（开路等效）、时间常数 L/R——任何一阶电路的通解模板。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "i(t) = (ε/R)(1 − e^(−Rt/L))：1τ 到 63.2%，约 5τ 视为稳态——口算级估算必备。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "断电", "line_index": 0, "line_id": "conditions-1", "text": "感性负载断电产生高压电弧：E = −L di/dt——开关保护与续流二极管的物理依据。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "能量", "line_index": 0, "line_id": "impact-1", "text": "磁能 ½Li² 存在磁场里：断电时它要么泄放、要么以火花烧掉。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "电路分析暂态章节", "duration_ms": 0}
+    ]
+  },
+  "rlc-impedance-resonance": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "相量图上转一圈：容抗与感抗抵消的频率，就是 Q 值挑高的那个尖峰。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "复阻抗 Z = R + j(ωL − 1/ωC)：微分方程变成复数代数——相量法的全部意义。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "谐振 ω₀ = 1/√(LC) 时 X_L = X_C 抵消，|Z| = R 最小、电流最大；Q = ω₀L/R 决定峰锐度。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "注意", "line_index": 0, "line_id": "conditions-1", "text": "谐振时电感与电容上电压可达 Q 倍源电压——绝缘设计要防'谐振升压'。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "串联谐振电流最大、并联谐振阻抗最大——收音机中频变压器与滤波器的两种接法。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "电路分析交流章节；相量法（Steinmetz）", "duration_ms": 0}
+    ]
+  },
+  "ac-power-factor": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "视在功率、有功、无功构成直角三角形——电网为什么在乎那个夹角，答案在电费单上。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "P = UI cosφ：只有有功分量做真功进电表；S² = P² + Q²，设备按 S 选型、按 P 结算。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "cosφ 低意味着同样线电流干更少的活——电流白白在线路电阻上发热。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "补偿", "line_index": 0, "line_id": "conditions-1", "text": "并联电容抵消感性无功：cosφ 提升到 0.95 以上——电网最普及的'优化'，功率因数考核指标。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "识别", "line_index": 0, "line_id": "impact-1", "text": "感性负载电流滞后电压（电机、变压器），容性超前——相位方向判断负载性质。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "电路分析功率章节；电力系统标准", "duration_ms": 0}
+    ]
+  },
+  "transformer-mutual-inductance": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "匝数比既变压又变流，理想条件守恒的是功率——互感 M 的松紧由耦合系数说了算。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "理想变压器：V₂/V₁ = N₂/N₁，I₂/I₁ = N₁/N₂，P₁ ≈ P₂——同一磁通穿过两组线圈是全部来源。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "互感 M = k√(L₁L₂)，k ≤ 1：漏磁使实际变压器偏离理想，k 掉到 0.9 以下漏感损耗显著。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "电网", "line_index": 0, "line_id": "conditions-1", "text": "升压输电降低线损 I²R：同样的功率，电压翻倍电流减半，损耗降到四分之一。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "工程", "line_index": 0, "line_id": "impact-1", "text": "铁芯=磁路：硅钢片叠压抑制涡流，磁滞回线面积即铁损——材料选择紧跟着这本账。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "电路互感章节；变压器工程手册", "duration_ms": 0}
+    ]
+  },
+  "maxwell-displacement-current": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电容充电间隙没有电荷流却有电流——麦克斯韦补的一块拼图救了电荷守恒。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "旧安培定律自相矛盾：包导线的环路得 I，包间隙的环路得 0——同一环两种答案。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "修复：∮B·dl = μ₀(I_c + ε₀ dΦ_E/dt)——板间位移电流恰好等于导线传导电流，全电流连续。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "本质", "line_index": 0, "line_id": "conditions-1", "text": "位移电流不是电荷运动而是电场变化率——真空中它照样激发磁场。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "后果", "line_index": 0, "line_id": "impact-1", "text": "变化 E 生 B、变化 B 生 E 自持传播——电磁波预言与麦克斯韦方程组的完成。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Maxwell 1865《电磁通论》", "duration_ms": 0}
+    ]
+  },
+  "poynting-energy-flow": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "能量不在导线里而在场中：S = E×H 把直流电路的功率重新安了家。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "坡印廷定理：场能密度的减少率加流出率 = 对电荷做功（−J·E）——能量守恒的场形式。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "直流导线情形：S 径向指向导线内侧——能量从场流入电阻变焦耳热，导线只是引导 S 方向。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "反直觉", "line_index": 0, "line_id": "conditions-1", "text": "'能量在导线里'是错觉：导线的作用是提供让场能定向流动的边界条件。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "天线辐射、微波输能、无线充电的功率计算，全部靠坡印廷矢量记账。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Poynting 1884；Heaviside 独立提出", "duration_ms": 0}
+    ]
+  },
+  "transmission-line-matching": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "线长可与波长相比时，'导线'变成分布参数——驻波比是失配的体温计。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "特征阻抗 Z₀、反射系数 Γ = (Z_L−Z₀)/(Z_L+Z₀)、驻波比 VSWR = (1+|Γ|)/(1−|Γ|) 三件套。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "沿线电压=入射波+反射波：完全匹配时 |Γ|=0 无驻波；失配时出现固定的波腹波节。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "技巧", "line_index": 0, "line_id": "conditions-1", "text": "λ/4 变换器：Z_in = Z₀²/Z_L——把任意负载变到匹配的四分之一波长魔法段。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "天线馈线、示波器探头、射频模块都要 50Ω 对 50Ω——终端匹配电阻吸掉最后的反射。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "传输线理论；Smith 圆图（1939）", "duration_ms": 0}
+    ]
+  },
+  "hysteresis-loop": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "B 落后 H 一拍，回线面积就是铁损——软磁与硬磁被这条曲线分了家。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "矫顽力 H_c 决定去磁难度、剩磁 B_r 决定保持能力：回线面积 ∝ 每周期磁滞损耗。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "软磁（H_c 小、回线瘦）做变压器铁芯易翻转损耗低；硬磁（H_c 大、回线胖）做永磁体赖着不走。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "铁损", "line_index": 0, "line_id": "conditions-1", "text": "总铁损 = 磁滞损（正比频率）+ 涡流损（正比频率²）——硅钢片加叠压就是冲着这两项去的。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "磁记录、MRAM、节能变压器钢——材料工程都在'把回线掰成想要的形状'。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "磁性材料标准；Ferromagnetism 教材", "duration_ms": 0}
+    ]
+  },
+  "minimal-coupling-momentum": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "p = mv + qA：机械动量与正则动量分家——磁场里连哈密顿量都要改写。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "从拉格朗日量 L = ½mv² − qφ + qA·v 求导即得正则动量——电磁相互作用以规范势入场。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "最小耦合把偏导换成 D = ∂ + iqA：电磁作用的规范原理——A 不是辅助量而是主角。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "对称", "line_index": 0, "line_id": "conditions-1", "text": "规范变换 A → A + ∇χ 下哈密顿量看似变了，φ 的同步变换恰好抵消——物理不变。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "后果", "line_index": 0, "line_id": "impact-1", "text": "A 方向平移对称 ⇒ 正则动量守恒 ⇒ 朗道能级与量子霍尔效应——起点就在这行改写。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "规范场论标准教材；Aharonov-Bohm 效应（1959）", "duration_ms": 0}
+    ]
+  },
+  "speed-distribution-derivation": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "从各向同性速度空间到麦克斯韦分布：高斯加球壳，三行推完。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "f(v) = 4π(m/2πkT)^{3/2} v²·e^{−mv²/2kT}：高斯负责衰减，v² 球壳负责低速归零——峰值在 √(2kT/m)。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "三种特征速率 v_p : v_avg : v_rms = √2 : √(8/π) : √3 = 1 : 1.128 : 1.225——考研必背比值。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "推导", "line_index": 0, "line_id": "conditions-1", "text": "三步走：速度空间各向同性 → 高斯 → 换成 4πv²dv 球壳——每一步都是标准化件。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "大气逃逸、恒星核聚变、麦克斯韦妖思想实验——都从这条曲线出发。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Maxwell 1860；统计物理标准教材", "duration_ms": 0}
+    ]
+  },
+  "equipartition-freeze": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "每个二次自由度分 kT/2——但量子会把高温自由度一个个冻住，比热曲线因此台阶化。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "经典均分：每个 ½mv²、½kx² 各得 ½kT；C_V = fR/2，双原子常温 f=5（平动3+转动2）。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "振动自由度要 ε ≈ kT 才解冻：N₂ 在约 10⁴K 才贡献——H₂、Cl₂ 比热的量子修正。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "推论", "line_index": 0, "line_id": "conditions-1", "text": "定容比热多出的一份 R 是'膨胀的工资'：C_p = C_V + R，绝热指数 γ 随之确定。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "历史", "line_index": 0, "line_id": "impact-1", "text": "1912 年前后量子化解释了均分与实验的偏差——这是量子论的最早证据之一。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "统计物理能量均分章节；Einstein 比热理论（1907）", "duration_ms": 0}
+    ]
+  },
+  "partition-function-z": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一个 Z 装下全部热力学：对 lnZ 求导就能领出 U、S、F 三份工资。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "Z = Σe^{−Eᵢ/kT} 是概率归一的分母：pᵢ = e^{−Eᵢ/kT}/Z——所有热力学量从它长出来。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "F = −kT lnZ，U = −∂lnZ/∂β，S = (U−F)/T——求三次导数领三份工资。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "要点", "line_index": 0, "line_id": "conditions-1", "text": "熵的另一式 S = k(lnZ + βU)：微观状态数的宏观读法，与 S = k lnW 完全一致。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "正则系综的中枢：巨正则系综再给粒子数涨落——统计力学的记账系统由此完备。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "统计力学正则系综章节；Pathria《统计力学》", "duration_ms": 0}
+    ]
+  },
+  "boltzmann-entropy-formula": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "S = k lnW：一个墓志铭式公式把微观计数变成宏观温度的刻度。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "W 是微观状态数，等概率假设是一切起点：没有任何理由偏向任何一个微观态。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "涨落幅度 ~1/√W：宏观熵减的概率小到宇宙年龄乘万亿倍也不够——第二定律的统计必然。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "对照", "line_index": 0, "line_id": "conditions-1", "text": "香农熵 H = −Σp·lnp 与它同形——信息与熵的百年联姻（信息=负熵的争议延续至今）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "从理想气体熵变到黑洞贝肯斯坦-霍金熵，计数方法一脉相承。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Boltzmann 1877；Gibbs 统计力学", "duration_ms": 0}
+    ]
+  },
+  "heat-engine-efficiency": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "两热源之间的一切机器都跨不过 1−T_L/T_H——效率竞赛的终点线画在卡诺这里。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "卡诺定理：同温限间任何热机效率 ≤ 卡诺效率，等号仅当可逆——与工作物质无关。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "实际效率永远更低：摩擦、非等温吸放热、有限温差传热都在扣分——差距就是改进空间。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "实例", "line_index": 0, "line_id": "conditions-1", "text": "燃煤电厂 T_H≈850K、T_L≈300K：上限 65%，实际约 45%——材料与不可逆性各占一半责任。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "卡诺循环反过来定义了热力学温标——效率与温度互为表里。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Carnot 1824《火的动力》", "duration_ms": 0}
+    ]
+  },
+  "refrigeration-cop": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "逆向热机搬热量：COP 可以大于 1，但它不是'效率'——制冷系数的常见误区先掰开。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "COP = Q_L/W = T_L/(T_H−T_L)：搬走 1 J 冷量只花 1/COP J 的电——因为热量本身'免费'。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "温差越小 COP 越高：热泵供暖 COP 常在 3–5；酷夏空调室外机越热越费电。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "对照", "line_index": 0, "line_id": "conditions-1", "text": "热机效率 ≤1 而 COP 可 >1：前者是转化率，后者是搬运比——两个概念不能混。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "生活", "line_index": 0, "line_id": "impact-1", "text": "冰箱放热到厨房，所以厨房更热；换向阀一拨，制冷机变供暖机——空调制热的原理。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "制冷工程热力学；逆卡诺循环", "duration_ms": 0}
+    ]
+  },
+  "adiabatic-polytropic": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "PV^n = 常数一族曲线把四种过程画进同一张图——多方指数是它们的通用坐标。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "多方指数 n 的取值：0 等压、1 等温、γ 绝热、∞ 等容——一张图看清四条经典过程线。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "P-V 斜率比较：等压 0 < 等温 |1| < 绝热 |γ|——绝热膨胀降温最快（γ>1）。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "公式", "line_index": 0, "line_id": "conditions-1", "text": "绝热指数 γ = C_p/C_V：单原子 5/3、双原子 7/5——声速公式里也有它。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "柴油机压燃、冰箱膨胀阀、云滴上升凝结——绝热降温的三个现场。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "热力学过程章节；多方过程模型", "duration_ms": 0}
+    ]
+  },
+  "clausius-inequality": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "∮δQ/T ≤ 0：可逆得等号，不可逆差出来的就是这笔熵债——第二定律的数学形式。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "推导起点：可逆卡诺循环每段热温商之和为零，叠加任意循环即得不等式。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "推论一：单热源吸热全变功的机器不可能（第二类永动机判死）；推论二：可逆机效率最高。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "工程", "line_index": 0, "line_id": "conditions-1", "text": "熵产 σ ≥ 0 是不可逆程度的定量刻度：㶲分析、传热温差优化都以它为准绳。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "地位", "line_index": 0, "line_id": "impact-1", "text": "一行积分同时给出卡诺定理与第二类永动机禁令——热力学最有生产力的式子之一。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Clausius 1854；热力学第二定律标准教材", "duration_ms": 0}
+    ]
+  },
+  "maxwell-demon-statistical": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "麦克斯韦妖靠开关小门分快慢分子造温差——1871 年的思想实验逼了第二定律一个多世纪。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "看似违反：孤立系熵减了。死穴在妖的行为——测量分子速度必须记录信息，记忆会耗尽。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "兰道尔原理：擦除 1 bit 信息至少耗散 kT·ln2 的热量——信息熵补回热力学熵，总账摆平。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "证据", "line_index": 0, "line_id": "conditions-1", "text": "Szilard 引擎（1929）把单分子测量与 k ln2 联系；Bennett（1982）指出逻辑不可逆需要物理不可逆。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "影响", "line_index": 0, "line_id": "impact-1", "text": "1961 年兰道尔的理论 2012 年被实验证实——信息不是虚的，热力学从不为比特网开一面。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Maxwell 1871；Landauer IBM J. Res. Dev. 5（1961）", "duration_ms": 0}
+    ]
+  },
+  "joule-thomson-throttle": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "节流前后焓不变，却能降温——最'经济'的制冷手段，靠的是分子间作用力。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "焦耳-汤姆孙系数 μ = (∂T/∂P)_h：等焓节流下压强骤降引起温度变化，由状态方程决定。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "理想气体 μ ≡ 0：降温完全依赖分子间引力（范德瓦尔斯 a 项）——没有作用力就没有制冷。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "反转曲线", "line_index": 0, "line_id": "conditions-1", "text": "转折温度上 μ 变号：He、H₂ 在室温附近 μ<0 反而变热——必须先预冷才能液化（林德工艺）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "空调膨胀阀、空气液化、氦低温恒温器——节流制冷无运动部件，工业最爱。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Joule & Thomson 1852；低温工程标准", "duration_ms": 0}
+    ]
+  },
+  "critical-exponents": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "气液界面在临界点消失：一组幂律指数描述这次相变——惊人之处是它们与物质身份无关。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "序参量 φ ~ |t|^β（t 为约化温度）：三维伊辛 β≈0.326——平均场给出的 ½ 已被涨落修正。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "普适性：水、铁、聚合物的指数相同——只与空间维度和序参量对称性有关，与微观细节无关。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "机制", "line_index": 0, "line_id": "conditions-1", "text": "关联长度在临界点发散，微观细节被抹掉——标度律（如 α+2β+γ=2）让指数不独立。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "理论", "line_index": 0, "line_id": "impact-1", "text": "重正化群（Wilson 1972 诺奖）：不同模型流向同一不动点——普适性的动力学解释。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Wilson Kogut 1974 重正化群；Ising 精确解（Onsager 1944）", "duration_ms": 0}
+    ]
+  },
+  "quantum-statistics-limit": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "费米与玻色只差一个分母符号——什么时候这套量子统计可以忘掉、退回经典？", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "非简并条件：n·λ³ ≪ 1（λ 热德布罗意波长）——此时 e^{μ/kT} ≪ 1，三种分布都退化为玻尔兹曼。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "室温空气 nλ³ ≈ 10⁻⁶ 完全经典；金属电子 nλ³ ≈ 10² 强简并——统计选择看这个数。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "判据", "line_index": 0, "line_id": "conditions-1", "text": "退化温度 T_d ∝ n^{2/3}：白矮星电子 T_d ~ 10⁹K——恒星内部永远量子。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "经典极限是量子力学的'校验档'：新理论必须在能标足够低时还原旧理论。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "量子统计标准教材；非简并条件章节", "duration_ms": 0}
+    ]
+  },
+  "finite-square-well": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "有限深的坑里，波函数不再碰壁归零——它穿进壁里指数衰减，束缚态由超越方程点数决定。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "边界条件变了：ψ 与 ψ′ 都连续（无穷深只要求 ψ=0）——穿透深度 κ⁻¹ 由此而来。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "超越方程 ka·tan(ka) = κa（偶）与 ka·cot(ka) = −κa（奇）的交点数 = 束缚态数。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "结论", "line_index": 0, "line_id": "conditions-1", "text": "势阱再浅也有基态（至少 1 个）；越深能级越多——无限深是有限深的极限情形。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "量子阱激光器、半导体异质结——能带工程就是设计这些'有限深'的日常。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Griffiths《量子力学导论》有限深方阱章节", "duration_ms": 0}
+    ]
+  },
+  "delta-potential": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一个无穷窄的坑恰好绑住一个态——δ 势把导数跃变条件演成最干净的练习。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "波函数导数跃变 ψ′(0⁺) − ψ′(0⁻) = (2mg/ℏ²)ψ(0)：奇异势的全部规则浓缩在这一行。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "束缚态 E = −mg²/(2ℏ²)：只有吸引（g<0）才有一个束缚态——'任意浅的坑必绑一态'。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "散射", "line_index": 0, "line_id": "conditions-1", "text": "排斥情形透射率 T = 1/(1+(mg/ℏ²k)²)：特定能量全透射——共振透射的最简模型。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "延伸", "line_index": 0, "line_id": "impact-1", "text": "双 δ 势就是化学键的最粗模型（H₂⁺）；周期 δ 阵列给出近自由电子的能带图像。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Griffiths《量子力学导论》δ 势章节", "duration_ms": 0}
+    ]
+  },
+  "rectangular-barrier": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "E 小于势垒高度也能穿过去：隧穿概率随宽度指数掉——不是奇迹，是数学。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "三个区域解方程，四处匹配 ψ 与 ψ′：E<V₀ 时透射率 T ≈ e^(−2κa)，κ = √(2m(V₀−E))/ℏ。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "E>V₀ 时不全透！仍有反射——且在特定能量出现全透射（共振透射，透射率随能量震荡）。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "实验", "line_index": 0, "line_id": "conditions-1", "text": "STM 扫描隧道显微镜：电流 ∝ e^(−2κd)，原子级分辨全靠指数对距离的极端敏感。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "验证", "line_index": 0, "line_id": "impact-1", "text": "盖革-努塔尔定律：α 衰变半衰期跨 30 个数量级只因隧穿概率的微小差别——隧穿的天文级证据。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Gamow 1928 α 衰变量子解释；Griffiths 势垒章节", "duration_ms": 0}
+    ]
+  },
+  "coherent-state-oscillator": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "最像经典的量子态：波包不展宽、中心沿经典轨道蹦跳——激光的微观肖像。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "相干态是湮灭算符本征态 a|α⟩ = α|α⟩：⟨x⟩ 严格走经典轨迹，σ_x 恒定不扩散。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "与自由粒子高斯包（会展宽）形成对照：谐振子势的束缚让相干态成为'永久的经典幽灵'。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "统计", "line_index": 0, "line_id": "conditions-1", "text": "|α|² 是平均光子数，粒子数服从泊松分布（涨落 √n̄）——相位确定、粒子数不确定。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "家族", "line_index": 0, "line_id": "impact-1", "text": "激光输出就是大 |α| 相干态；压缩态、薛定谔猫态（叠加）都是它的近亲。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Schrödinger 1926；Glauber 相干态（2005 诺奖）", "duration_ms": 0}
+    ]
+  },
+  "ladder-operators-angular": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "J± 把本征值一级一级抬上去：最高权态一找，整个角动量表就搭出来了。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "对易代数 [Jx,Jy] = iℏJz 导出 J± = Jx ± iJy，[J²,J±] = 0——升迁不改总角动量。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "J±|j,m⟩ = ℏ√(j(j+1)∓m(m±1))|j,m±1⟩：系数开方出现、到顶归零——谱由代数锁定。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "方法", "line_index": 0, "line_id": "conditions-1", "text": "先设最高权态 J₊|j,m_max⟩ = 0 定出 m_max，再逐级下数——群表示论的最简入口。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "SU(2) 的整数与半整数表示由此分类——自旋为何存在，代数先给了答案。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Dirac《量子力学原理》角动量章节；Sakurai 修订版第 3 章", "duration_ms": 0}
+    ]
+  },
+  "pauli-matrices-spin": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "三个 2×2 厄米矩阵满足 SU(2) 代数——自旋 1/2 的全部把戏都藏在 σ 的对易子里。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "σ 矩阵性质三条：σ² = 1̂、迹为零、行列式 −1——记住这些，代数运算全部推得出来。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "σ/2 就是自旋 1/2 的角动量算符：泡利矩阵是李代数 su(2) 的基——Bloch 球是它的几何。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "测量", "line_index": 0, "line_id": "conditions-1", "text": "[σx,σy] = 2iσz：方向不可同测——不确定性关系的矩阵版本，测量问题的代数面孔。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "电子 g≈2、Stern-Gerlach 分束、核磁共振——三块实验基石共用这三块 2×2。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Pauli 1927；Sakurai 量子力学自旋章节", "duration_ms": 0}
+    ]
+  },
+  "heisenberg-picture": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "态不动、算符动：与经典力学的对照让量子-经典对应一目了然——海森堡绘景的魅力。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "算符运动方程 iℏ dÂ/dt = [Â, Ĥ] + ∂Â/∂t——与经典泊松括号同形，只差一个 i/ℏ。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "幺演化把全部时间依赖装进算符：Â(t) = e^{iHt}Âe^{−iHt}——态在两个绘景里等价。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "等价", "line_index": 0, "line_id": "conditions-1", "text": "⟨ψ_S|Â_S|ψ_S⟩ = ⟨ψ_H|Â_H|ψ_H⟩：观测结果不依赖绘景选择——它们只是记账方式不同。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "延伸", "line_index": 0, "line_id": "impact-1", "text": "相互作用绘景介于两者——微扰论的天然工作语言；路径积分则天然海森堡化。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Heisenberg 1925 矩阵力学起源；Dirac 对应关系", "duration_ms": 0}
+    ]
+  },
+  "second-quantization": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "粒子数不再是常数：产生与湮灭算符把多体问题从'排列组合'变成'代数运算'。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "对易关系 [a, a†] = 1 长出整个 Fock 空间：数算符 N = a†a，基态到激发态逐级生成。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "哈密顿量 H = Σεᵢa†ᵢaᵢ + ½ΣVᵢⱼa†a†aa：多体相互作用的全部麻烦变成四项乘积。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "统计", "line_index": 0, "line_id": "conditions-1", "text": "费米子换成反对易 [a,a†]₊ = 1̂——Slater 行列式的复杂被代数的简洁替换。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "地位", "line_index": 0, "line_id": "impact-1", "text": "超流、BCS 超导、格点规范理论、量子场论的粒子概念——全部建立在这套语言上。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Dirac 1927；量子多体方法标准教材", "duration_ms": 0}
+    ]
+  },
+  "degenerate-perturbation": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "简并时微扰'分不清该往哪偏'——先在简并子空间对角化，再谈修正。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "步骤三件套：取矩阵 ⟨m|V|n⟩、解久期方程 det(V − E¹δ) = 0、选对基后再算高阶。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "为什么必须先对角化：一级能量就是该子空间的本征值——选错基，后面的修正全部白算。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "战例", "line_index": 0, "line_id": "conditions-1", "text": "氢原子 n=2 加电场出现线性 Stark 分裂：简并态在电场里混合成新本征态（1913 年即被验证）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "同族", "line_index": 0, "line_id": "impact-1", "text": "晶体场分裂、塞曼拆分、Jahn-Teller 效应——同款数学，不同舞台。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Stark 1913 实验；Schiff 微扰论章节", "duration_ms": 0}
+    ]
+  },
+  "wkb-approximation": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "缓变势场中的波函数：相位按局部动量积分——半经典近似架起量子与经典的桥。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "ψ ≈ (2m(E−V))^{−1/4}·exp(±i∫p dx/ℏ)：局部波长随'动能'伸缩——快处密、慢处疏。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "束缚态量子化 ∮p dx = nh（含转折点 ¼ 修正）；隧穿率 T ≈ exp(−2∫|p|dx/ℏ)。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "适用", "line_index": 0, "line_id": "conditions-1", "text": "要求波长随空间缓变；转折点处 WKB 失效，需用抛物线函数连接——连接公式给 ¼ 相移。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "α 衰变、场发射、分子振动能级、隧穿宇宙学——'大参数'问题的通用近似。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Wentzel-Kramers-Brillouin 1926；Mathews & Wave 函数方法", "duration_ms": 0}
+    ]
+  },
+  "fermi-golden-rule": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "跃迁率 = 矩阵元平方 × 末态密度——含时微扰论交出的通用速率公式。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "Γ = (2π/ℏ)·|⟨f|V|i⟩|²·ρ(E_f)：微扰打开后，系统按这个速率从初态流向末态。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "能量守恒以 δ 函数形式出现：有限时长相互作用把它抹宽成洛伦兹峰（宽 ~1/τ）。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "依赖", "line_index": 0, "line_id": "conditions-1", "text": "态密度 ρ 是关键：末态越多跳得越快——光子态密度 ∝ ω³ 给出自发辐射的频率依赖。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "自发辐射寿命、半导体复合、核 β 衰变、光谱线宽——凡是'翻转速率'都归它管。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Dirac 含时微扰（1927）；费米命名", "duration_ms": 0}
+    ]
+  },
+  "phase-shift-scattering": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "散射是各分波相位的叠加：相移一确定，截面与共振全部到手。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "把平面波按角动量分解：每个 l 分波被势散射后相位平移 δ_l——散射的一切信息在 δ_l 里。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "总截面 σ = (4π/k²)Σ(2l+1)sin²δ_l：低能只看 s 波（l=0）——极简图像。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "共振", "line_index": 0, "line_id": "conditions-1", "text": "δ_l 穿过 π/2 时该分波贡献最大——Breit-Wigner 共振峰的相移解释。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "地位", "line_index": 0, "line_id": "impact-1", "text": "核反应、超冷原子碰撞、粒子物理散射——相移是三界通用的散射语言。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Mott & Massey 散射理论；Breit-Wigner 1936", "duration_ms": 0}
+    ]
+  },
+  "hartree-fock-mean-field": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "每个粒子在'其余粒子的平均势场'里单体运动——多体问题的第一近似与自洽循环。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "Ĥ_F φᵢ = εᵢφᵢ：库仑直接项（Hartree）+ 交换项（Fock）——后者是全同粒子的专属记账。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "自洽循环：由轨道算密度 → 由密度重建场 → 解出新轨道——迭代到能量收敛（变分性质保证下降）。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "误差", "line_index": 0, "line_id": "conditions-1", "text": "丢失的'关联能'=电子间瞬时互避——后哈特里方法（CI、MP2、DFT）都是往回补这一块。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "地位", "line_index": 0, "line_id": "impact-1", "text": "量子化学的高速公路入口：Slater 行列式 + 变分法的工业实现。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Hartree 1928；Fock 1930；Szabo & Ostlund 计算量子化学", "duration_ms": 0}
+    ]
+  },
+  "rabi-oscillation": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "共振驱动下粒子在两能级间完全倒转——量子比特翻转的物理原型。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "两能级+单色驱动的精确解：布居 P_e = sin²(Ω_R t/2)——确定性地从 0 到 1 来回搬运。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "广义拉比频率 Ω_R = √(Ω²+Δ²)：失谐 Δ 越大转得越快但翻不满——效率与速度的权衡。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "操作", "line_index": 0, "line_id": "conditions-1", "text": "共振 π 脉冲实现 100% 翻转；Ramsey 干涉、自旋回波都是脉冲序列的编排——量子控制的语法。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "NMR/ESR 共振吸收、量子计算门操作、光学粘胶——Rabi 1937 分子束实验是它的出生地。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Rabi 1937（1944 诺奖）；量子信息脉冲控制", "duration_ms": 0}
+    ]
+  },
+  "single-slit-fraunhofer": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "半波带法三行推出 sinθ = λ/a——中央亮纹宽度是缝宽倒数的回声，越窄越'散'。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "暗纹条件 sinθ = mλ/a：把波前按程差 λ/2 切带，奇偶抵消即得——衍射的最小算法。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "强度 I = sinc²(β)：中央亮纹独占约 90% 能量，级次越高越暗。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "反直觉", "line_index": 0, "line_id": "conditions-1", "text": "缝越窄衍射越显著——孔径与角宽成反比，这是显微镜要大孔径的根本原因。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "对应", "line_index": 0, "line_id": "impact-1", "text": "傅里叶视角：单缝的 sinc 谱——空域越紧频域越宽，光学的不确定性关系。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Fraunhofer 衍射；Hecht《光学》第 4 章", "duration_ms": 0}
+    ]
+  },
+  "brewsters-angle": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "反射光在此角完全线偏振：反射与折射恰好垂直——几何馈赠出的偏振开关。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "布儒斯特定律 tanθB = n₂/n₁：玻璃 n≈1.5 对应 56.3°，水 n=1.33 对应 53.1°。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "物理解释：折射方向的偶极子振荡不辐射反射波——平行分量被'吃掉'，只剩垂直分量。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "局限", "line_index": 0, "line_id": "conditions-1", "text": "一次反射偏振不纯：叠多片玻璃（偏振堆）或配偏振片补足——摄影与激光腔的日常。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "偏振太阳镜、激光腔布儒斯特窗（损耗最小的进出方式）、水面反光滤除。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Brewster 1812；偏振光学标准教材", "duration_ms": 0}
+    ]
+  },
+  "quarter-wave-plate": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "快慢轴之间差 90 度相位：线变圆、圆变线——波片是偏振态的旋转门。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "四分之一波片让正交分量相位差 π/2：45° 线偏入射得圆偏，圆偏入射退回线偏——互为逆操作。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "一般情形输出椭圆：方位角+轴比完整刻画——Jones 矢量与矩阵把这套运算线性化。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "家族", "line_index": 0, "line_id": "conditions-1", "text": "半波片（δ=π）把线偏转轴（转角=快慢轴夹角的两倍）——波片组合可造任意偏振变换。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "圆二色 CD 谱测手性分子、圆偏光通信、液晶显示——相位延迟是偏振工程的核心旋钮。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Born & Wolf《光学原理》波片章节", "duration_ms": 0}
+    ]
+  },
+  "telescope-diffraction-limit": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "口径决定角分辨 θ = 1.22λ/D——为什么大镜片是天文学的硬通货。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "瑞利判据：一星艾里斑中心压在另一星第一暗环上——分辨率极限由衍射而非放大倍数决定。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "2.4 米口径约 0.05 角秒；地基还卡在大气视宁度（约 1 角秒）——自适应光学逐点补畸变。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "进阶", "line_index": 0, "line_id": "conditions-1", "text": "口径合成（VLBI、EHT）：多镜等效大口径——黑洞照片就是地球尺度的一口'望远镜'。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "收益", "line_index": 0, "line_id": "impact-1", "text": "大口径三重收益：分辨更细、集光更多、信噪更高——天文学家痴迷大镜片的全部理由。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Rayleigh 判据；EHT Collaboration 2019 黑洞成像", "duration_ms": 0}
+    ]
+  },
+  "bragg-diffraction": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "2d sinθ = nλ：把晶体当天然光栅，X 射线由此看清原子排队——结构化学的眼睛。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "相邻晶面反射波的程差恰为波长整数倍时相长——一维光栅方程的体推广。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "结构因子决定峰强：原子种类与位置调制幅度——消光规律就是晶体对称性的指纹。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "两用", "line_index": 0, "line_id": "conditions-1", "text": "已知 λ 测 θ 得结构（单晶衍射定蛋白）；已知 d 测得 λ（X 射线谱的历史用途）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "影响", "line_index": 0, "line_id": "impact-1", "text": "DNA 双螺旋、血红蛋白结构、材料物相分析——1913 年之后整个物质结构科学的地基。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Bragg父子 1913（1915 诺奖）；粉末衍射 PDF 卡片库", "duration_ms": 0}
+    ]
+  },
+  "raman-scattering": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "散射光频移读出分子振动——非弹性散射把光变成分子的指纹扫描仪。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "斯托克斯线（出射降频）与反斯托克斯线（升频）对称分布在瑞利线两侧，间距=振动能级。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "反斯托克斯更弱：v=1 热布居少（玻尔兹曼因子）——峰强比可当温度计用。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "选律", "line_index": 0, "line_id": "conditions-1", "text": "红外看偶极矩变化，拉曼看极化率变化——两者互补定分子对称性（互斥律）。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "碳材料 D/G 峰、毒品快检、组织成像、受激拉曼显微——1928 年发现后迅速工业化的谱学。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Raman & Krishnan Nature 121（1928，1930 诺奖）", "duration_ms": 0}
+    ]
+  },
+  "spatial-coherence": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "光源太胖，干涉条纹就糊——空间相干性给杨氏双缝的缝宽上了紧箍咒。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "可见度 V = |源亮度分布的傅里叶变换|：缝距增大或源变宽，V 下降——条纹反差是相干性的读数。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "范·西泰特-泽尼克定理：可见度=光源分布的傅里叶变换——恒星角径就是用基线扫描 V 零点测出的。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "区分", "line_index": 0, "line_id": "conditions-1", "text": "时间相干看光程差（单色性），空间相干看横向位置（源宽度）——两个独立的门槛。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "迈克尔逊星体干涉仪调基线找 V 零点，直接量出恒星直径——天文干涉测量的原型。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "van Cittert-Zernike 1938（Zernike 1953 诺奖）；Michelson 干涉测角", "duration_ms": 0}
+    ]
+  },
+  "laser-threshold": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "增益追上损耗的那一瞬激光起振——粒子数反转、谐振腔、阈值条件三者缺一不可。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "受激辐射截面 × 反转布居 = 增益；腔内反馈让光反复穿过介质——正反馈超过损耗即振荡。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "阈值以上增益被'钳位'到等于损耗：泵浦再高，多出的光子以激光形式输出——功率线性增长。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "三条件", "line_index": 0, "line_id": "conditions-1", "text": "增益≥损耗、粒子数反转、腔模对齐——缺一不振；纵模间隔 Δν = c/2nL 决定单模或多模。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "指标", "line_index": 0, "line_id": "impact-1", "text": "斜率效率是激光器名片：输出功率与（泵浦−阈值）成正比——选型先看这两个数。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Maiman 1960 首台激光；Schawlow-Townes 1958 线宽极限", "duration_ms": 0}
+    ]
+  },
+  "relativity-simultaneity": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "同一列火车的两端闪光，在站台上不再同时——狭义相对论的第一块多米诺。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "中点判断法：在某参考系中点同时收到两端信号 ⇔ 该系认为同时——光速不变是唯一裁判。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "洛伦兹变换 t′ = γ(t − vx/c²) 把空间混进时间——'时空'一词由此诞生。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "推论链", "line_index": 0, "line_id": "conditions-1", "text": "同时相对 → 尺缩钟慢 → 因果限制：类空间隔的事件无法互相影响——光锥的由来。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "意义", "line_index": 0, "line_id": "impact-1", "text": "不是错觉：任何测量都无法调和——绝对同时性被逐出物理学。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Einstein 1905《论动体的电动力学》", "duration_ms": 0}
+    ]
+  },
+  "invariant-mass-collision": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "s = (E_总/c²)² − (p_总/c)² 与参照系无关——对撞阈值题的万能钥匙。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "不变质量可直接当'质心系总静能'读：阈值条件 √s_min = 末态粒子静质量之和。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "对撞 E_thr = Σm/2 起步；固定靶 E_thr ≈ (Σm)²/2m_靶——动量守恒让固定靶浪费大半能量。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "例子", "line_index": 0, "line_id": "conditions-1", "text": "LHC 14 TeV 对撞 ≈ 固定靶 10⁸ TeV——对撞机存在的全部理由写在这一个式子里。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "扫能量看 √s 处产额突增=找新粒子：J/ψ、Λ、Ω⁻ 的命名全部来自不变质量峰。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "狭义相对论运动学；PDG 阈值与运动学手册", "duration_ms": 0}
+    ]
+  },
+  "rydberg-series-hydrogen": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "光谱线是量子化的直接指纹：巴尔末公式背后的 1/n² 能级阶梯。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "里德伯公式 1/λ = R(1/n_f² − 1/n_i²)，R = 1.097×10⁷ m⁻¹——莱曼（紫外）、巴尔末（可见）、帕邢（红外）成族。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "R 组合了 m、e、h、c 四个基本常数——原子物理的基准常数，其精度检验 QED。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "史", "line_index": 0, "line_id": "conditions-1", "text": "1885 年巴尔末凭数字拟出公式，1913 年玻尔用量子化轨道解释 R 的来源——经验走到理论前面。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "进阶", "line_index": 0, "line_id": "impact-1", "text": "精细结构、兰姆位移、超精细：每层修正打开一个新物理——QED 的三级台阶。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Rydberg 1888；Balmer 1885；Bohr 1913", "duration_ms": 0}
+    ]
+  },
+  "uncertainty-ground-state": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "用 ΔxΔp ≥ ℏ/2 直接估出谐振子基态能量——不解方程的量子力学。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "估算三步：E ≈ p²/2m + ½mω²x²，令 Δx~x、Δp~p，对 Δx 求极小——得 E_min = ½ℏω，正是零点能。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "氢原子同理：Δx ~ 玻尔半径 ⇒ E ~ ℏ²/ma₀，量级直接对上——不确定性关系给的是下限。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "理解", "line_index": 0, "line_id": "conditions-1", "text": "Δx→0 需要无限动量：粒子'静止在确定点'被数学禁止——零点能不是测量干扰。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "现实", "line_index": 0, "line_id": "impact-1", "text": "液氦 0K 不冻结、LC 电路噪声、引力波探测器的量子噪声——零点能是真实的物理存在。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Heisenberg 1927；Robertson 不确定关系推广", "duration_ms": 0}
+    ]
+  },
+  "hall-effect-carriers": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "横向电压的直接说出载流子是电子还是空穴——磁场里最诚实的测量。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "洛伦兹力与电场平衡：qE_H = qvB ⇒ V_H = IB/(nqt)——霍尔系数 R_H = 1/(nq) 的符号判类型。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "一次测量同时得：载流子类型（极性）、浓度 n、迁移率 μ = σ|R_H|——半导体表征三件套。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "对比", "line_index": 0, "line_id": "conditions-1", "text": "金属 R_H 小（n 大）、半导体 R_H 大（n 小）——半导体对霍尔信号敏感得多。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "进阶", "line_index": 0, "line_id": "impact-1", "text": "量子霍尔效应：二维电子气 R_H = h/(νe²) 精确量子化——电阻基准与拓扑物态的入口。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Hall 1879；von Klitzing 1980 量子霍尔（1985 诺奖）", "duration_ms": 0}
+    ]
+  },
+  "zeeman-splitting-pattern": {
+    "source": "phy-seed",
+    "lines": [
+      {"section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "磁场把一条谱线拆成几条——塞曼效应是角动量量子化的可见证据。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 0, "line_id": "statement-1", "text": "能级移动 ΔE = g·μ_B·m_J·B（μ_B = 5.79×10⁻⁵ eV/T）：选择定则 Δm = 0, ±1 决定谱线条数。", "duration_ms": 0},
+      {"section_id": "statement", "section_title": "核心陈述", "line_index": 1, "line_id": "statement-2", "text": "正常塞曼（单重线裂三条）只含轨道磁矩；反常塞曼需自旋参与——钠 D 线裂成 4+6 条。", "duration_ms": 0},
+      {"section_id": "conditions", "section_title": "场强分区", "line_index": 0, "line_id": "conditions-1", "text": "弱场反常、强场帕邢-巴克（自旋与轨道各自与 B 耦合）——图案随场强再次简化。", "duration_ms": 0},
+      {"section_id": "impact", "section_title": "应用", "line_index": 0, "line_id": "impact-1", "text": "天文磁场测量（太阳黑子）、STM 单原子谱、EPR/ESR——分裂间距直接读出磁场强度。", "duration_ms": 0},
+      {"section_id": "source", "section_title": "出处", "line_index": 0, "line_id": "source-1", "text": "Zeeman 1896（1902 诺奖）；反常塞曼与 g 因子", "duration_ms": 0}
+    ]
+  }
+}

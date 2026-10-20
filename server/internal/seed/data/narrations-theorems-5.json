@@ -1,0 +1,202 @@
+{
+  "zariski-main-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个把空间「拉过去」的映射，它的纤维会长什么样？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "扎里斯基给出主定理，刻画了双有理映射的整体结构。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "除一个低维的例外集合外，映射都是有限对一的，纤维含固定个数的点。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "几条彩色分支就是不同纤维，红点处它们汇合，那就是「分支点」。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是代数几何中研究双有理变换与奇异点消解的基本工具。", "duration_ms": 0 }
+    ]
+  },
+  "banach-steinhaus": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "如果一族算子在每个点上都有界，它们整体是否也一致有界？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "巴拿赫与斯坦豪斯在一九二七年证明：在完备空间上，答案是肯定的。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "逐点有界蕴含算子范数一致有界——这是泛函分析的奇迹之一。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "柱状图是各算子的范数，红色虚线是它们共同的界。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "关键前提是定义域完备；它与哈恩-巴拿赫、开映射并称泛函分析三大定理。", "duration_ms": 0 }
+    ]
+  },
+  "haar-measure": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在一般的群上，能不能做「积分」？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "哈尔在一九三三年证明：局部紧群上存在唯一的平移不变测度。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "这个测度在群运算下保持不变，因此可以在其上定义积分。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "圆周上的一段弧被平移到别处，长度（测度）不发生任何改变。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "有了它，傅里叶分析就能推广到抽象群——调和分析由此诞生。", "duration_ms": 0 }
+    ]
+  },
+  "turing-halting-problem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "能不能写一个程序，判断任意另一个程序会不会停下来？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "图灵在一九三六年证明：不可能。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "沿对角线取反，可以构造出一个「行为与每个程序都不同」的程序，导出矛盾。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "表格是程序与输入的停机矩阵，橙色为对角线，最后一行是把对角线取反构造出的新程序。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这划定了计算的固有边界，也界定了「什么可以被自动化」的极限。", "duration_ms": 0 }
+    ]
+  },
+  "whitehead-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "要判断两个空间是否「同伦等价」，需要检查多少东西？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "怀特海德证明：只要检查同伦群就足够了。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "CW 复形之间，若映射诱导所有同伦群的同构，则它本身是同伦等价。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "切换圆周、球面与环面，可看到同伦群如何变化，从而区分空间。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这说明同伦群能完全「看穿」CW 复形，是代数拓扑的关键判据。", "duration_ms": 0 }
+    ]
+  },
+  "eilenberg-steenrod": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "同调论有好几种定义，它们会不会互相矛盾？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "艾伦伯格与斯廷罗德在一九四五年用五条公理统一了它们。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "同伦不变、正合、切除、维数、可加——满足这五条的都叫同调论。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "五条公理逐条列出，底部显示各种同调理论被它们统一起来。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "奇异、单纯、胞腔同调都满足公理，因此在 CW 复形上自然同构。", "duration_ms": 0 }
+    ]
+  },
+  "shannon-entropy": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一条消息里到底含有多少「信息」？这件事能度量吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "香农在一九四八年给出公式，信息论从此成为独立学科。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "熵等于概率乘以其对数的负和，单位为比特，衡量平均不确定性。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色点在曲线上移动：概率接近二分之一时熵最大，接近零或一时熵最小。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "香农定理指出：无损压缩的平均码长不可能低于熵——这就是压缩的极限。", "duration_ms": 0 }
+    ]
+  },
+  "atiyah-singer-index": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个微分方程有多少解？这个问题和几何形状有关吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿蒂亚与辛格在一九六三年证明：两者完全相等。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "椭圆算子的解析指标（解的维数差）等于流形的拓扑指标。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左侧是分析侧的指标，右侧是拓扑侧的指标，中间的等号就是定理。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它被誉为二十世纪最宏大的定理之一，也深刻影响了理论物理。", "duration_ms": 0 }
+    ]
+  },
+  "serre-duality": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "高维的上同调，能不能「对折」到低维来计算？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "塞尔在一九六零年把这个对偶推广到代数几何。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "上同调与其对偶层之间存在非退化配对，把高维问题换成低维问题。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左右两列上同调被橙色虚线两两配对，序号之和恰好等于维数。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它使许多困难的高维计算得以降维完成，是层论方法的核心工具。", "duration_ms": 0 }
+    ]
+  },
+  "whitney-embedding": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "抽象定义出来的流形，真的「存在」于某个空间里吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "惠特尼在一九三六与一九四四年分别解决了浸入与嵌入的问题。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "任意 n 维光滑流形都能浸入 2n 维、嵌入 2n+1 维欧氏空间。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "环面在三维空间中必然自交，红点就是那个无法避免的交点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它回答了「抽象流形是否可被看见」的根本疑问，是微分拓扑的基本定理。", "duration_ms": 0 }
+    ]
+  },
+  "lorenz-attractor-discovery": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "三个简单方程，能产生完全无法预测的行为吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "洛伦兹在一九六三年模拟大气对流时偶然发现了它。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "轨迹被吸引到一个蝴蝶形的分形集合上：永不重复，却永不离开。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色与橙色两条曲线初值只差千分之五，很快就彻底分道扬镳。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这就是「蝴蝶效应」：确定性方程也能产生不可长期预测的行为。", "duration_ms": 0 }
+    ]
+  },
+  "thurston-geometrization": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "三维空间有多少种「标准几何」？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "瑟斯顿在一九七四年提出纲领：共有八种。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "任何闭三维流形都可沿本质球面切开，每一块拥有八种几何结构之一。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "右侧列出八种几何，切换参数可以看到不同曲率下的曲面形态。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "佩雷尔曼用里奇流证明了这个纲领，庞加莱猜想只是它的一个特例。", "duration_ms": 0 }
+    ]
+  },
+  "four-color-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "画一张地图，最少需要几种颜色才能让相邻区域不同色？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿佩尔与哈肯在一九七六年证明：四种就够了。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "任何平面地图都可以只用四种颜色着色，使相邻区域颜色不同。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上随机生成的地图被自动配成四色，相邻区域从不同色。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这是首个依赖大规模计算机运算的著名定理，当年引发了「什么算证明」的争论。", "duration_ms": 0 }
+    ]
+  },
+  "green-tao-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在看起来零散随机的素数里，藏着多长的等差数列？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "格林与陶哲轩在二零零四年证明：要有多长就有多长。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "对任意长度 k，都存在 k 个素数构成等差数列。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰色细点是素数，橙色是找到的等差数列，青色线标出公差。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "证明依赖「转移原理」，把稠密集合的结论搬到稀疏的素数上——这是随机性中的必然秩序。", "duration_ms": 0 }
+    ]
+  },
+  "hahn-banach": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "只在一个子空间上定义的泛函，能不能延伸到整个空间？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "哈恩与巴拿赫证明：可以，并且范数保持不变。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "子空间上的有界线性泛函可保范延拓到全空间，从而对偶空间足够丰富。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色直线是子空间，橙色是延拓后泛函的等值线。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是泛函分析三大基本定理之一，也是凸集分离定理的理论基础。", "duration_ms": 0 }
+    ]
+  },
+  "open-mapping-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "算子的逆算子，会自动连续吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "开映射定理给出了肯定的回答，条件是空间完备且算子满射。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "满射的有界线性算子必把开集映成开集，因此可逆时逆算子自动有界。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左边的开球被映成右边仍是开集的区域——「开性」被保留了。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把「可逆」与「有界可逆」等同起来，省去了大量验证工作。", "duration_ms": 0 }
+    ]
+  },
+  "closed-graph-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "验证一个算子连续，有没有比「逐点估计」更省事的办法？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "闭图像定理说明：只要看它的图像是否闭合。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "巴拿赫空间之间线性算子的图像若为闭集，则算子有界。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把「图像断裂量」调大，直线出现断裂、不再闭合，定理的前提就被破坏了。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把「连续性」这一分析性质转化为「图像闭合」这一几何性质。", "duration_ms": 0 }
+    ]
+  },
+  "spectral-theorem-operators": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "无穷维空间里的「对称矩阵」，还能对角化吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "谱定理给出了肯定的答案：可以按正交投影分解。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "自伴算子等于各特征值乘以其投影之和，这就是谱分解。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "单位圆被自伴算子拉成椭圆，半轴长度就是两个特征值。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "量子力学中「可观测量」正是自伴算子，其特征值对应可测量的物理量。", "duration_ms": 0 }
+    ]
+  },
+  "krull-principal-ideal": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个元素「贡献」了多少维数？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "克鲁尔主理想定理给出了精确的答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "诺特环中由非零因子生成的主理想，其极小素理想的高度恰为一。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上是一条逐级包含的素理想链，定理断言它不可能超过两级。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是交换代数维数理论的基本结果，也是「超曲面余维数为一」的代数表述。", "duration_ms": 0 }
+    ]
+  },
+  "noether-normalization": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "复杂的代数簇，能不能「投影」成简单的仿射空间？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "诺特在一九二六年证明：总能做到。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "有限生成代数总可以表示为多项式环的整扩张。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色曲线是代数簇，青色直线是它的投影——维数由投影空间决定。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它让「维数」有了严格定义，是代数几何与交换代数比较维数的标准工具。", "duration_ms": 0 }
+    ]
+  }
+}

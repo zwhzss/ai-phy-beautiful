@@ -1,0 +1,4455 @@
+{
+  "rc-circuit": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "按下快门的瞬间，闪光灯电容在毫秒内充满——RC 电路的指数节拍控制着无数电子设备的时序。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "电容电压不能突变：充电沿 V=V₀(1−e^(−t/τ)) 上升，放电沿 e^(−t/τ) 衰减，时间常数 τ=RC。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "五倍 τ 基本完成——555 定时器、相机闪光与触摸检测都以 τ 为标尺。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "线性元件、恒定激励、开关瞬态；高频下需计入分布参数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "RC 暂态是电路时域分析的入门范式：一阶微分方程的物理直观版。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "数字信号的上升沿本质是寄生 RC 充电——芯片主频的物理瓶颈之一。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "一阶电路暂态理论由亥维赛与斯坦梅茨在 19 世纪末体系化（操作演算）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "rl-circuit": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "切断继电器的刹那迸出电火花——电感在抗议电流的改变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "电感以反电动势 −L·dI/dt 阻碍电流变化：接通时电流按 τ=L/R 缓升，断开时线圈试图维持电流。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "与 RC 完全对偶：磁能扮演电荷的角色，τ=L/R 决定快慢。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "线性电感、无饱和；实际铁芯电感的非线性需分段处理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "续流二极管为感应电流提供通路——保护驱动晶体管的标配。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "开关电源的电感储能与升压降压全靠 RL 暂态——现代电源管理的核心。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "法拉第电磁感应定律（1831）；RL 暂态的电路理论在 19 世纪末成熟",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "lc-resonance": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "电容与电感握手，能量便在电场与磁场之间来回倒手——电磁的钟摆。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "LC 回路以 f₀=1/(2π√LC) 振荡：电荷与电流相位差 90°，能量在 E_C 与 E_L 间周期守恒交换。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "理想无阻尼永振；真实 R 引入衰减，品质因数 Q=ωL/R 描述储能与损耗之比。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "集中参数近似（尺寸远小于波长）；高频需分布参数（谐振腔）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "收音机调谐回路选台、晶振提供时钟、滤波器划分频段——LC 谐振是无线电的选频基石。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "无线充电的磁共振耦合、NMR 探头调谐都在同一原理上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "亥姆霍兹（1860s）的电磁振荡理论；开尔文的振荡电路分析",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ac-impedance": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "交流世界里电阻不再是唯一阻力——电感电容都在参与，而且带相位。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "阻抗 Z=R+j(ωL−1/ωC) 是复数：模决定幅度、辐角决定电压电流的相位差。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "串联 RLC 在 f₀ 处阻抗最小电流最大——收音机、滤波器与天线匹配全靠这条谐振曲线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "正弦稳态、线性时不变；瞬态与非线性需另行分析。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "相量法把微分方程变代数方程——交流电路分析的整个工具箱由此建立。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "功率因数 cosφ 是电网考核指标：无功补偿避免无谓的线路损耗。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "施泰因梅茨 1893 年《交流现象的理论与计算》推广复数法",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "transformer": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "同一根铁芯上绕两组线圈，电压就变了——电网上最安静的机器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "共享磁通的互感使 V₂/V₁=N₂/N₁；理想变压器功率守恒 V₁I₁=V₂I₂。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "直流不感应：恒定磁通没有 dΦ/dt——变压器只认交流。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "低损耗近似（铁损与铜损可忽略）；漏感与饱和在大功率设计中必须计入。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "高压输电把电流降下来，线损按平方缩小——电网经济学的物理地基。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "手机充电器的高频变压器让体积缩小百倍——开关电源革命的关键件。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "法拉第感应实验（1831）；戈布兰变压器专利（1885）与特斯拉交流配电系统",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "three-phase": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "三路相位错开 120° 的正弦叠加，居然得到恒定的总功率——工业的动力标准。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "三相瞬时功率之和恒定不随时间波动——电动机转矩平稳、无振动。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "同样输送功率，三相制比单相节省约 25% 导线材料；线电压是相电压的 √3 倍。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "负载平衡时中线电流为零；不平衡负载需保留中线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "1891 年特斯拉多相制在尼亚加拉战胜直流——输电标准之争的终局。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "三相感应电机结构简单坚固——全球工业电机的绝对主力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "特斯拉多相专利（1888）；多利夫-多布罗沃利斯基三相系统（1891）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dc-motor": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "通电线圈在磁场里转起来——从电钻到电动车，旋转的源头是左手定则。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "安培力 F=BIl 产生力偶；换向器每半圈翻转电流使力矩方向恒定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "反电动势 E=keΦω 随转速升高——负载加重转速下降、电流回升，自调节成立。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "线性磁路、无饱和；弱磁与换向火花在高性能控制中需补偿。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "直流电机的调速平滑性统治了精密驱动一百年——电梯、吊车、电力机车。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "现代 PMSM 与 BLDC 用电子换向取代碳刷——电动车时代的无刷化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "雅可比电动机（1834）；格拉姆环形电枢（1870）；PWM 调速随电力电子成熟（1970s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hysteresis": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把铁芯反复磁化，B-H 图上走出一条滞后的环——面积就是热量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "磁畴壁的不可逆跳跃使磁化落后于外场：矫顽力 H_c 衡量'记忆'的顽固程度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "回线面积正比于每周期磁滞损耗 P∝f·B_max^n——软磁取窄、硬磁取宽。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "对称交变磁化、频率不过高（否则叠加涡流损耗）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "变压器铁芯用硅钢窄回线降耗——电网每年省下的电以百亿度计。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "永磁体的高矫顽力抵抗退磁——钕铁硼支撑了风电与电动车电机。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "瓦里堡发现磁滞（1880）；斯坦梅茨以经验式 P∝B^1.6 定量（1892）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "skin-effect": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "频率越高，电流越往导线表面钻——高频世界的有效截面在缩水。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "趋肤深度 δ=√(2ρ/ωμ) 随频率按 1/√f 缩小：电流密度从表面向内指数衰减。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "有效面积缩小使交流电阻上升——趋肤深度小于半径后，中心部分基本闲置。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "良导体、均匀各向同性；低频趋肤深度大于导线尺寸时效应可忽略。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "高压线用分裂导线抑制电晕与损耗；利兹线用多股细线最大化利用截面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "感应加热与表面淬火正利用趋肤效应把能量精确注入表层。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "开尔文 1880s 预言；亥姆霍兹与瑞利给出经典公式",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "resonant-cavity": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把传输线两端封死，电磁波在金属盒里反复反射形成三维驻波——谐振腔。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "每个腔模（TE/TM）有特征谐振频率与场斑图；品质因数 Q 可达 10⁴~10⁶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "腔的尺寸决定截止与模式序列——波长量级的金属空腔就是频率选择器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "金属壁理想导电近似、壁面损耗计入 Q；模间耦合需抑制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "粒子加速器的射频加速腔把微波能量转成粒子动能——高能物理的发动机。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "微波炉是多模腔：搅拌叶片搅动驻波热点，让加热更均匀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "瑞利腔模理论（1900s）；SLAC 加速腔与超导腔技术（1960s 起）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "waveguide": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "有些频率的电磁波能穿过金属管，有些被挡在外面——波导天生是个高通滤波器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "矩形波导 TE₁₀ 模的截止频率 f_c=c/(2a)：低于它场呈 e^(−αx) 衰减、无功率传输。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "传播时群速小于光速且随频率变化——波导内的波长 λ_g 大于自由空间 λ₀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "单模工作区（f_c<f<2f_c）避免多模色散；壁面损耗随频率上升。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "雷达与微波中继用波导替代同轴线——低损耗、高功率的干道。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "截止特性与相速可调性催生了速调管与行波管——从雷达到卫星通信的放大器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "瑞利（1897）首次求解波导模式；雷达工程使其在二战中实用化",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "antenna-pattern": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "单根天线的波束太胖，把一排天线按波长排开，波束就能被雕刻得又尖又准。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "阵列因子 sin(Nu)/(N·sin u) 决定主瓣与旁瓣：阵元数 N 越多波束越窄。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "间距超过 λ 会出现栅瓣（假主瓣）——阵列设计必须守住的红线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "均匀激励、单元同相；互耦与通道误差会展宽主瓣抬高旁瓣。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "相控阵雷达只调相位就完成空域扫描——反应速度从机械秒级到电子微秒级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "5G Massive MIMO 把波束对准单个用户——频谱效率的数量级提升。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "布劳恩多线天线（1895）；相控阵在二战 SCR-280 中萌芽、1960s 军用成熟",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "relativistic-momentum": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "LHC 里的质子被加速到 0.999999991 倍光速——剩下的路，动量表再也爬不动。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "相对论动量 p=γmv，γ=1/√(1−β²) 在 β→1 时发散——推到光速需要无限能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "动量与能量构成四矢量 p^μ=(E/c,p)——守恒律在所有惯性系形式相同。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "惯性系、无外力时四动量守恒；超相对论粒子常用 E≈pc 近似。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "加速器设计的全部预算都在对抗 γ：能量越高，边际每 GeV 推进的速度增量越小。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "宇宙线极高能质子不受此限的原因是空间本身在帮它们'借速'（相对论不变量 s）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦《物体的惯性与其所含能量有关吗》（1905）；朗道《场论》四动量表述",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "mass-energy-equivalence": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一克物质锁着九亿亿焦耳——太阳每秒烧掉四百万吨，才亮了我们看到的光。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "E=mc²：质量是被束缚的能量，c² 是换算系数（1kg↔9×10¹⁶J）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "反应前后质量亏损 Δm 全部变成能量：聚变 0.7%、裂变 0.09%、湮灭 100%。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "孤立系统质能守恒；动质量与静质量在现代文献中已统一为总能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "恒星核合成、核电站、PET 扫描与正电子湮灭谱学——同一公式的不同功率档。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "原子弹与氢弹是它的极端工程化——人类第一次握住了恒星的钥匙（也打开了潘多拉）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦 1905 年 E=mc²；质能亏损在核物理实验中 1930s 精密验证",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "light-cone": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "每个事件都拖着一个 45° 的锥——锥内是它能影响的未来，锥外与它此生无缘。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "光锥由 cdt=|dx| 定义：锥内类时间隔有因果序，锥外类空事件无先后可言。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "任何有质量粒子的世界线都在锥内；光子恰在锥面上——光速是因果的边界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "局部惯性系中锥形严格成立；强引力场中光锥整体倾斜（视界即锥面翻转处）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "光锥结构把'同时相对性'变成几何事实——闵氏时空的因果骨架。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "黑洞视界是未来光锥全部指向内部的区域——进去即无出路的几何表达。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "闵可夫斯基 1908 年《空间与时间》；因果结构由彭罗斯与霍金在 1960s 系统化",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "simultaneity": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "两道闪电同时击中车头车尾——地面的人说是同时，车上的人却坚持车头先响。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "同时必须靠光信号对表定义：运动参考系的对表信号路程不等，'同时'随之改变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "洛伦兹变换 t′=γ(t−vx/c²) 中的时空混合项就是这一切的数学源头。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "惯性系、标准对表程序；加速或引力场需用广义协变推广。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "同时的相对性推倒绝对时间——以太与以太风的概念随之退场。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "全球定位、分布式系统时钟同步在高精度层面都要考虑参考系效应。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦 1905 年论文第二节思想实验；洛伦兹变换早于相对论被提出",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "twin-paradox": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "孪生兄弟一个守在地球，一个乘 0.9c 飞船往返二十年——回来时他比哥哥年轻了十二岁。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "时钟读数等于各自世界线的固有时间 τ=∫dt/γ：路径越'倾斜'走得越慢。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "不佯谬：飞船经历加速折返（非惯性段），两条世界线根本不对称。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "惯性段匀速、加速段对称；加速大小不影响最终年龄差（只依赖路径）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "1971 年飞机铯钟实验与 GPS 星载钟修正——时间膨胀从思想走向工程公差。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "μ 子寿命延长、粒子加速器中粒子衰变变慢——实验室里每天都在验证。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "朗之万 1911 年首次提出双生子问题；哈费尔-基廷实验（1971）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "relativistic-doppler": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "救护车迎面音调变高是常识——但接近光速时，频移公式里多了个 γ 因子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "纵向 f′/f=√((1+β)/(1−β))（接近）；一般角 θ 下含 (1−βcosθ) 与 γ。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "横向多普勒（θ=90°）纯属相对论效应∝γ——时间膨胀的频移表现。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "惯性系、光源与观测者匀速相对；引力红移需另行叠加。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "星系谱线红移测退行、Ia 超新星揭开暗能量——宇宙学读的就是这条曲线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "1960 年庞德-雷布卡旋转源实验测得横向频移——引力红移与相对论多普勒的精密判决。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "多普勒 1842；爱因斯坦 1905 给出相对论修正；横向效应 1960s 实验验证",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "velocity-addition": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "船上抛球，球速叠加船速——但当两者都接近光速，公式会自动把总和压回光速以下。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "w=(u+v)/(1+uv/c²)：分母保证任何有限速度合成都不超过 c。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "光速是极限的自洽检验：u=v=c 时 w 仍等于 c——所有参考系测光速相同。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "同方向一维变换为基准；任意方向需用四矢量快度合成。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "追光思想实验是爱因斯坦 1905 年论文的引子——从困惑到狭义相对论的最短路径。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "μ 子在地面系寿命没变、大气层却变薄——速度加合与时间膨胀的等价读法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "洛伦兹变换导出（1904）；爱因斯坦 1905 给出直观形式",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "length-contraction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一根 100 米的杆以 0.8c 飞过，在你眼里只有 60 米——不是压扁，是测量的几何。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "运动方向长度 L=L₀/γ；垂直方向不变——收缩只沿相对速度方向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "尺缩是'同时测量两端'在不同参考系中的位置差变化，非物体内部受压。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "惯性系、同时测量的定义依赖参考系；固有长度是唯一不变量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "LHC 粒子看来 27km 环缩到 18m——同一物理的互为镜像描述。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "μ 子的'大气层变薄'与'我寿命变长'是同一事实的两面——相对性原理的示范。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "菲茨杰拉德收缩假说（1889）；洛伦兹变换（1904）；爱因斯坦几何重释（1905）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "colliding-beams": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "固定靶实验把大量动能浪费在整体前进上——迎头对撞，能量才全用来造新粒子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "质心能量 √s 由四动量合成：对撞 ∝E、固定靶 ∝√E——差一个量级的效率。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "发现希格斯（125GeV）、顶夸克（173GeV）都要求 √s 越过产生阈值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "束流品质（亮度）与对撞点聚焦决定事件率；能量与亮度需平衡。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从 COSY 到 LHC：对撞机是粒子物理的标准显微镜——能量越高看得越细。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "重离子对撞再造夸克胶子等离子体——回看宇宙诞生 10⁻⁶ 秒的形态。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "科克罗夫特-瓦尔顿固定靶（1932 首裂原子核）；首台对撞机 ADONE（1969）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "minkowski-spacetime": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把时间当第四个坐标，度规带上一个负号——整个相对论从这一步起飞。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "时空间隔 ds²=−c²dt²+dx²+dy²+dz² 在洛伦兹变换下不变——取代绝对时间的不变量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "类时（ds²<0）有固有时、类空（ds²>0）无因果联系，光锥是二者的分界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "平直时空、惯性坐标；弯曲时空用局域闵氏框架推广。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "四维语言统一了电与磁、能量与动量——场论与相对论的公共地基。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "粒子物理的标准记号 x^μ、p_μ、ds² 全部源自闵氏几何。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "闵可夫斯基 1908 年科尼斯堡演讲：'从此空间与时间本身注定消融为影子'",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "worldline": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把你的生命画在时空图上：出生是起点，此刻是一个正在移动的点，线的长度就是你的年龄。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "世界线是事件的连续序列；固有时 τ=∫√(1−v²/c²)dt 等于世界线长度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "匀速是直线（最短固有时的类时线）、加速是曲线——线越倾斜钟越慢。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "类时曲线（有质量粒子）；类光曲线属于光子且固有时为零。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "双生子佯谬、引力时间膨胀都可以只看'哪条线更长'——几何化的年龄。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "宇宙学中我们的世界线是时间轴；最远类星体的世界线长达 120 亿年。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "闵可夫斯基 1908；世界线语言在彭罗斯与霍金的时空图方法中发扬",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "geodesic": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "行星没有被'拉'着走——它们在弯曲时空中沿最直的路自由滑行。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "测地线是时空中的极值固有时路径，由 d²x^μ/dτ²+Γ^μ_{νρ}(dx^ν/dτ)(dx^ρ/dτ)=0 给出。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "自由落体沿测地线运动——引力被几何吸收，'引力'只是偏离测地线的表观力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "测试粒子（自身引力可忽略）；有限质量双体需后牛顿或数值相对论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "水星近日点进动、光线偏折、引力红移三大经典检验全部由测地线算出。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "GPS 卫星轨道计算必须用测地线——牛顿精度下一天漂十公里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦场方程（1915）与测地线方程同年建立；史瓦西解次年给出",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "equivalence-principle": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "在密闭电梯里，你无法分辨是站在星球上还是被火箭加速——爱因斯坦说，引力与加速本来就是一回事。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "弱等效原理：惯性质量与引力质量在 10⁻¹⁵ 精度内相等（Eöt-Wash 转子实验）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "局域自由落体系中引力效应完全消失——引力是可被局域消除的''惯性力''",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱引力场中局域成立；大尺度潮汐不可消除（正是测地偏离的来源）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "等效原理是广义相对论的入口：引力几何化的第一块跳板。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它也是量子引力的探针——任何 LHC 无法触及的普朗克尺度新物理都可能在等效原理破缺上露头。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦 1907 年'最幸运的思想'；厄缶实验（1890）奠定弱等效精度",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "gravitational-redshift": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "光子从太阳表面爬出来，波长被拉长了一点——引力在半路上抽走了它的能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "频率比 ν_out/ν_in=√(1−2GM/rc²_in)：爬出势阱的光子频率降低、波长变长。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "同一事实的另一面：深势阱中的钟走得慢——时间膨胀与红移是同一几何。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场史瓦西近似；强场（近黑洞）需完整红移因子与多普勒叠加。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "1959 年庞德-雷布卡实验在哈佛塔顶测得 2.25m 高差 2.5×10⁻¹⁵ 频移——等效原理的胜利。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "GPS 星载钟每天快 38μs 的主因就是引力红移——不修正没有导航。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦 1907 预言；庞德-雷布卡实验（1959，1902 型引力红移）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "schwarzschild-orbit": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "水星的椭圆每圈悄悄转一点——牛顿算不平的 43 角秒，被弯曲时空自动给出。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "史瓦西度规 ds²=−(1−r_s/r)c²dt²+dr²/(1−r_s/r)+r²dΩ² 描述球对称真空。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "有效势多出 −r_s·L²/r³ 项使轨道不再闭合：近日点每圈进动 Δφ≈6πGM/(c²a(1−e²))。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "静态球对称、真空、无自旋；旋转天体用克尔解。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "水星进动 43″/世纪的解释是广义相对论第一个实验证据（1915 年 11 月）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "GPS、双星脉冲 PSR 1913+16 与 LIGO 波形都以史瓦西/克尔解为基准。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "史瓦西 1916 年爱因斯坦生日当天的精确解（发表于战壕中）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "isco": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "再靠近黑洞就守不住圆轨道了——ISCO 是稳定旋转的最后一道门槛。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "无自旋黑洞的 ISCO 在 6GM/c²；顺行自旋把它拉近到接近视界（a→M 时→GM/c²）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "吸积盘内缘止于 ISCO：更内的气体螺旋坠落，辐射从这里消失。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "克尔度规、顺行/逆行轨道区分；厚盘与喷流区另论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "ISCO 半径是黑洞自旋的观测标尺——X 射线谱线拟合可称量 a。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "M87* 与 SgrA* 照片的亮环直径与 ISCO/光子环结构直接关联（EHT）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "巴布科克与钱德拉塞卡 1970s 的稳定轨道分析；M87* 照片（2019）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "light-deflection": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "星光掠过太阳边缘会拐弯——爱丁顿的日食照片让全世界记住了爱因斯坦。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "偏折角 α≈4GM/(c²b)：太阳边缘 1.75″，恰为牛顿引力按光子质量算的两倍。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "质量充当天体透镜：背景源成像为弧、环或多重像——引力透镜。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场偏折线性近似；强场（黑洞附近）需完整测地线数值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "1919 年日食队测得 1.61″±0.30——广义相对论的全球亮相。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "微引力透镜巡天已发现上百系外行星；强透镜测绘暗物质分布图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱因斯坦 1911 半值与 1915 全值；爱丁顿 1919 普林西比岛日食观测",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "kerr-black-hole": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "真实黑洞都在旋转——克尔解揭示视界之外还有一层能进去就出不来的'能层'。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "克尔度规含 a=J/Mc 项：外视界 r₊=M+√(M²−a²)，赤道方向外凸的静止界面即能层。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "能层内没有任何观察者能静止——时空被拖着转，这正是彭罗斯过程的舞台。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "真空、稳态、轴对称；天体黑洞自旋测量多在 0.5~0.998 区间。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "克尔解让黑洞天体物理成为可能：吸积盘、喷流、铁 Kα 线展宽都依赖它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "参考系拖曳的直接探测（Gravity Probe B、LIGO 波形）已进入精密时代。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "克尔 1963 年精确解（发现于计算器纸带）；1969 年彭罗斯在皇家学会提出能层提能",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hawking-radiation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "霍金 1974 年算出：黑洞其实会发光——温度与质量成反比，越小越烫。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "视界附近真空涨落的虚粒子对，落入者获负能、逃逸者成为真实热辐射。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "T_H=ħc³/(8πGMk_B)≈6×10⁻⁸K·(M_☉/M)：恒星质量黑洞比宇宙微波背景还冷。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "半经典近似（量子场在经典时空上）；蒸发全过程需量子引力理论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "霍金辐射把热力学、量子与引力焊在一起——黑洞熵与面积律的物理根源。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "微型黑洞若存在（原初黑洞）应正在蒸发并释放 γ 射线——间接搜索持续中。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "霍金《黑洞爆炸？》（1974, Nature 248, 30）；贝肯斯坦熵（1973）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "black-hole-thermo": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "黑洞居然遵守热力学四定律——面积是熵、表面引力是温度，逐条对得上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "第零/一/二/三定律分别对应 κ 恒定、dM=κdA/8G+ΩdJ、A 不减、κ→0 不可达。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "贝肯斯坦-霍金熵 S=k_B·A/(4l_P²)：每 4 个普朗克面积承载一个熵量子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "经典黑洞+半经典修正；信息悖论暗示面积律需要量子引力补全。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "面积律是全息原理的首个实例——三维体的信息编码在二维面上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "黑洞热力学是量子引力理论的试金石：任何候选理论都必须重推四定律。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "贝肯斯坦（1973）熵-面积；卡特与巴丁四定律表述；霍金温度（1974）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "accretion-disk-temp": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "落向黑洞的气体不会直落——它们拧成盘，把引力能一级一级烤成 X 射线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "黏滞角动量输运使物质螺旋内落：T(r)∝(M·Ṁ)^{1/4}·r^(−3/4)——内热外冷。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "盘的积分谱是多色黑体：内圈百万开尔文发出软 X 射线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "薄盘（Shakura-Sunyaev）假设辐射冷却快；厚盘与喷流区几何不同。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "活动星系核的光度可超整个星系总和——超大质量黑洞的吸积效率高达 40%。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "X 射线双星的谱拟合可测黑洞质量与自旋——称量黑洞的天平。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "沙库拉-孙亚耶夫薄盘模型（1973）；X 射线双星观测（1970s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "penrose-process": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "旋转黑洞的能层里藏着负能轨道——把飞船拆成两半，能赚出比进来更多的能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "能层内允许负能量轨道（相对无穷远）：碎片分裂后坠入者带负能，逃逸者能量大于母体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "净增能量来自黑洞转动能——抽取过程使黑洞自旋下降。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "克尔黑洞、能量提取点必须在视界之外；提取上限约为初始转能的 29%。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "彭罗斯过程是黑洞天体物理的能量原型：类星体喷流的 Blandford-Znajek 机制是其磁化版。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它证明黑洞不是只进不出的监狱——几何本身可以被借用。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "彭罗斯 1969 年皇家学会演讲（提出能层提能）；Blandford-Znajek（1977）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "frame-dragging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "地球自转把周围时空拧出微小漩涡——陀螺的指向被悄悄拖偏了几个毫角秒。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "旋转质量的度规交叉项 g_tφ 使惯性系随转动方向旋转——没有绝对静止可言。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "拖曳率 ∝J/r³：越靠近转动源越强，能层内甚至无法抵抗。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场慢转（Lense-Thirring 近似）或完整克尔解；实验需屏蔽地球扁率等干扰。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Gravity Probe B 在 650km 轨道测得 6.6″/年（赤道），2011 年公布确认。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "LIGO 双黑洞波形含拖曳贡献——强场拖曳已可从引力波反演自旋。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "朗瑟与蒂林（1918）预言；Gravity Probe B（1962 提出、2004 发射、2011 确认）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "flrw-cosmology": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "假设宇宙处处均匀——弗里德曼们只用一个度规就把膨胀宇宙写了出来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "ds²=−c²dt²+a(t)²[dr²/(1−kr²)+r²dΩ²]：空间曲率 k∈{+1,0,−1} 由 Ω 总量决定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "尺度因子 a(t) 讲述膨胀史：哈勃定律 v=H₀d 是它的低速线性化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "宇宙学原理（均匀各向同性）；小尺度不均匀由微扰论补足。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "FLRW+ΛCDM 是现代宇宙学的标准模型：11 个参数描述全宇宙演化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "a(t) 的三种命运（开放/平坦/封闭）对应不同的宇宙终局猜想。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "弗里德曼（1922）、勒梅特（1927）、罗伯逊与沃克（1930s）独立建立",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "post-newtonian": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "行星摄动算不准时，就按 (v/c)² 逐阶给牛顿理论打补丁——后牛顿近似。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "PN 展开把爱因斯坦场方程按 1/c² 的幂次逐阶化简：1PN 含 v²/c²、2PN 含 v⁴/c⁴。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "太阳系检验（水星进动、Shapiro 延迟）与引力波形模板都建立在 PN 级数上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场慢速（v≪c）；近光速或强场需数值相对论直接解场方程。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "PSR 1913+16 轨道衰减与 1PN 能量辐射预言吻合——间接发现引力波（1982 诺奖）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "LIGO 搜索用的波形库（TaylorT4/TEOBResum）是 PN+数值的拼接——发现引力波的暗功臣。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱丁顿-德雷特（1920s）开创；后续级数与后帕德方法随计算机成熟",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "geodesic-deviation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "两颗并肩下落的卫星，间隔却在变化——这就是曲率，也是潮汐，也是引力波的抓手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "测地偏离方程 D²ξ^μ/dτ²=−R^μ_{νρσ}u^νξ^ρu^σ：黎曼张量直接度量邻近轨迹的分离加速度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "径向拉伸+横向压缩即面条化；交变模式即引力波的 + 与 × 极化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "小分离近似（线性偏离）；大分离需完整双体数值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "潮汐力是曲率的可观测化身——中子星在黑洞视界外的潮汐半径内被撕碎。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "LIGO 臂长的伸缩本质是测地偏离——4km 臂被拉伸 10⁻²¹（质子直径的千分之一）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "测地偏离方程源自黎曼几何（1850s）；引力波极化由爱丁顿 1922 分类",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hydrogen-wavefunction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "氢原子的电子没有轨道，只有一朵概率云——s 是球、p 是哑铃、d 有花瓣。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "ψ_nlm(r,θ,φ)=R_nl(r)·Y_lm(θ,φ)：径向部分定能层，球谐部分定形状与取向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "能级 E_n=−13.6/n² eV（库仑势的偶然简并）；概率密度 |ψ|² 决定化学成键方向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "单电子近似（类氢）；多电子需屏蔽与自洽场修正——简并解除。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "精确解与实验吻合至 10⁻¹²——量子力学的第一个定量胜利（索末菲 1915）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "s/p/d/f 形状是化学家的通用语言：从共价键方向到过渡金属配位场全由此展开。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "薛定谔氢原子解（1926）；玻尔-索末菲旧量子论（1913-1915）铺路",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fine-structure": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "高分辨镜下，氢的红线其实是三根挤在一起——α=1/137 在其中做手脚。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "三项修正共 ~10⁻⁴ eV：相对论动能、自旋-轨道耦合、达尔文项（QED 补真空极化）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "精细结构常数 α=e²/(4πε₀ħc)≈1/137——耦合强度的无量纲刻度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "Zα≪1 的微扰条件（重元素需全相对论 Dirac 解）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "多重精细结构解释了光谱的精细分裂——从天文谱线证认到激光稳频。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "α 是否随时间变化是基础物理长期检验课题（类星体吸收线给出 10⁻⁶ 精度约束）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "索末菲 1916 精细结构公式；Dirac 方程（1928）自然给出；QED 修正（1940s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "zeeman-effect": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "钠光谱放到磁场里会分裂——1896 年这一发现把磁与光第一次定量连上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "正常塞曼：ΔE=m_L·μ_B·B，三线分裂（洛伦兹电子论）；反常塞曼含 g 因子分裂更多。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "朗德 g 因子由 L、S、J 决定——自旋参与的直接证据（1925）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场（塞曼区）；强场进入帕邢-巴克区，耦合方式改变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "天文磁场测量：恒星与星系的塞曼分裂是唯一常规测磁手段。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "EPR/ESR 与 NMR/MRI 都是塞曼分裂的操控——医学影像与化学分析的物理根。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "塞曼与洛伦兹（1896-1902，1902 诺奖）；乌伦贝克-古兹米特自旋（1925）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "stark-effect": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把氢原子放进强电场，谱线也分裂了——电场与磁场一样能撬开能级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "一级斯塔克分裂正比于电场与 n(n₁−n₂)：简并态因电偶极矩取向而分离。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "二次斯塔克在弱场占优——能级位移∝E²，可用作电场的原子级探针。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "氢等轻元素有线性效应；碱金属主要为二次（无永久电偶极）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "斯塔克调谐让外场成为对齐工具：量子点、里德伯原子的能级随场滑动。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "电场中分子取向与解离的 Stark 实验塑造了分子束物理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "斯塔克 1913 年氢光谱电场分裂实验（1919 诺奖）；量子力学微扰解释（1926）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "lamb-shift": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "两个本该完全一样高的能级，实测差了 1057 兆赫——真空在暗中推了一把。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "电子与真空零点场相互作用抬高 2S₁/₂ 约 1057MHz；QED 二阶微扰精确重算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "同根源的效应还有电子反常磁矩 g−2——理论与实验对到 10⁻¹²。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "QED 微扰展开（逐阶 α/π）；强场需束缚态 QED。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "拉姆位移（1947 实验）直接催生 QED：朝永振一郎、施温格、费曼的重整化（1965 诺奖）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "精密 QED 是物理学最精确的理论——任何偏离都是新粒子的信号。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "拉姆与韦瑟福德（1947, Phys. Rev. 72, 241）；贝特的非相对论估算（1947）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "rydberg-series": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把氢的电子送到 n=100——原子胖成微米级，对电场敏感得像个天然天线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "E_n=−13.6/n²：高 n 时能级密集、轨道半径∝n²、结合能∝n⁻²。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "相邻跃迁频率落进微波/太赫兹——里德伯态是量子传感与单光子探测的利器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱场（高 n 态极易场电离）；环境退相干需超冷与高真空抑制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "里德伯原子钟、里德伯天线与量子开关——量子信息硬件的新分支。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "同一条 13.6eV 公式统摄类氢离子与高激发系列——量子数的秩序。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "里德伯 1888 经验公式；1906 年氢系理论解释；现代冷原子制备（1990s 起）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "selection-rules": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "量子数规定了哪些跃迁被允许——有些谱线看似该亮却暗淡，那是对称性在把关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "电偶极选择定则 Δl=±1、Δm=0,±1、Δj=0,±1（0→0 禁戒）——角动量与宇称守恒。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "违背偶极定则的磁偶极/电四极跃迁弱几个量级，产生长寿命亚稳态与禁线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "电偶极主导；外场或强耦合可部分解除定则（微扰混合）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "禁戒跃迁造就亚稳态——氦氖激光的储能能级就是氖的亚稳态。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "天体物理的禁线 [O III]5007、[N II] 是星云密度温度诊断的标尺。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "选择定则由泡利（1924）以对称性语言提出；宇称论证由 Wigner（1927）完善",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "golden-rule": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "散射、衰变、发光——速率全由同一句话决定：耦合强度平方乘以末态密度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "Γ=(2π/ħ)|⟨f|V|i⟩|²ρ(E)：矩阵元管耦合强弱、密度管去处多少。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "适用于弱耦合、连续末态、能量守恒的黄金窗口（费米因此命名）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "一阶微扰有效（耦合不能太强）；共振区需 Breit-Wigner 替代。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "自发辐射寿命、β 衰变半衰期、光电子产额统一于此——衰变的通用语法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "核物理与粒子物理的截面计算、光谱线强全都以它起步。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "费米 β 衰变理论（1933-1934）；黄金规则的现代形式由狄拉克给出",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "scattering-cross-section": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "'打中'的概率可以换算成面积——散射截面把看不见的相互作用变成可测量的靶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "微分截面 dσ/dΩ 描述各方向分布；总截面 σ=∫dσ/dΩ，单位靶（barn=10⁻²⁴cm²）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "分波展开把截面按角动量通道分解——s 波、p 波各有相移 δ_l。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "渐近自由入射与出射态定义截面；共振区用 Breit-Wigner 峰描述。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "卢瑟福截面（1911）揭示原子核——散射即成像的第一范例。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "LHC 的希格斯产生截面约 50pb：看到一个事件需要 10¹⁵ 次对撞的耐心。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "卢瑟福 α 粒子散射公式（1911）；分波法由贝特与索末菲发展（1930s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "quantum-measurement": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "叠加态在被看的一瞬间变成一个确定结果——概率变成事实，这就是测量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "投影假设：测得本征值 a_n 的概率为 |⟨n|ψ⟩|²，测后态立即投影到 |n⟩。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "测量不可交换（位置 vs 动量）、互补性由对易关系定——非克隆定理的根源。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "理想投影测量；实际装置需退相干与 POVM 框架描述。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "测量问题是量子基础的核心争议：哥本哈根、多世界、退相干各执一词。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "量子计算的每一步门+测量都在利用投影——错误率由退相干时间标定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "玻恩概率诠释（1926）；冯·诺依曼公设（1932《量子力学的数学基础》）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "reciprocal-lattice": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "X 射线打在晶体上弹出规则的斑点阵——那是另一套格子，倒过来的格子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "倒格矢 b_i 满足 a_i·b_j=2πδ_ij：实空间晶胞越长，倒空间格点越密。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "衍射条件 k′−k=G 即劳厄条件——斑点就是倒格子的直接照片。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "理想周期性；缺陷使斑点展宽、非晶给出晕环。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "X 射线与电子衍射解析了从盐到蛋白质的全部晶体结构——结构生物学的根基。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "能带与声子都定义在倒空间——固体物理的'动量空间'实为倒格矢空间。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "劳厄衍射公式（1912）与实验；布拉格定律（1913，父子 1915 诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "brillouin-zone": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把倒格子按最近原点切块，得到的沃罗诺伊元胞就是布里渊区——能带的全部秘密都住在里面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "第一布里渊区是倒空间的最小周期单元：E(k+G)=E(k) 只需区内描述。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "高对称点 Γ、X、M、K 的能级排序决定材料是金属、半导体还是绝缘体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "周期势的布洛赫定理；表面与超晶格重建新的布里渊区。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "所有能带图的横轴就是区内高对称路径——凝聚态的日常地图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "费米面拓扑（穿区、嵌套）决定输运与磁不稳定性——拓扑物态的入口。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "布洛赫定理（1928）；布里渊区概念随能带论同步建立（1930s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "tight-binding": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "孤立原子只有一个能级；一旦排成晶格，电子在原子间跳跃，能级就长成了能带。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "紧束缚色散 E(k)=ε₀−2t·cos(ka)（一维）：跳跃积分 t 越大带宽 4t 越宽。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "从原子极限（t=0 分立）到近自由电子极限（t 大抛物线）是同一模型的两端。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "弱交叠、单带近似；强关联需 Hubbard 模型加 U。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "紧束缚是理解绝缘体/导体分野的最简框架——布洛赫能带论的直观版。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "石墨烯的六角紧束缚模型给出狄拉克锥——二维材料理论的标准起点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "布洛赫波函数（1928）；紧束缚近似由安德森与霍夫斯塔特系统化（1950s-60s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fermi-surface": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "绝对零度下电子从低往高填，填到哪儿算完？那条海岸线就是费米面——金属物性的总开关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "费米能 E_F 以下全满、以上全空（T=0）；费米动量 k_F∝n^(1/3)。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "只有费米面附近 kT 范围的电子参与输运——比热、磁化率、电导都正比于面处态密度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "费米液体框架；强关联体系的费米面可能重整化或消失（赝能隙）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "de Haas-van Alphen 振荡测绘费米面形状——铜的颈部、铋的片层由此确证。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "费米面嵌套催生密度波、超导配对发生在面附近——超导机理的地理前提。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "费米简并统计（1926）；dHvA 实验（1930s）；Pippard 铜费米面（1950s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "crystal-defect": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "完美晶体只在教科书里——现实中的空位、间隙与位错，才是材料性能的真正主角。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "点缺陷（空位、间隙、替位）控制扩散与掺杂；线缺陷（位错）控制塑性变形。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "位错密度决定强度：退火减少、冷加工增殖——加工硬化的微观机理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "缺陷浓度远低于 1；高温下平衡空位浓度按 exp(−E_f/kT) 增长。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "泰勒-奥罗万-波兰尼 1934 位错理论解释了金属为何比理论强度低千倍。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "半导体的全部电学功能来自受控缺陷（掺杂）；超导体中位错可钉扎磁涡旋。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "泰勒、奥罗万、波兰尼（1934）位错理论；弗伦克尔点缺陷（1926）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "doping": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "纯硅几乎是绝缘体——掺进亿分之一的磷或硼，它就变成了另一样东西。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "n 型：五价施主在导带下 0.045eV 处供电子；p 型：三价受主在价带上留空穴。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "p-n 结的内建电场与扩散平衡造就单向导电——整流、放大、开关的起点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "掺杂浓度低于溶解度、电离近似成立；重掺杂进入简并半导体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "离子注入与扩散炉是芯片制造核心工序——摩尔定律的掺杂底座。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "晶体管（1947）取代电子管：小、冷、可靠——信息时代的器件原点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "肖克利掺杂理论（1949）；点接触与结型晶体管（1947-1949，1956 诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "quantum-well": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把两层半导体夹出几纳米的薄层，电子就被关进二维盒子——发光颜色由厚度说了算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "限域使连续能级分立：E_n∝n²/L²，阱越窄能级间距越大、发光波长越短。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "电子空穴在阱内复合发光——异质结界面带阶是阱壁。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "晶格匹配的外延生长（MBE/MOCVD）、界面陡峭至单原子层。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "量子阱激光器阈值低、波长可设计——光纤通信、激光笔、光盘的光源。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "QLED 显示的量子点是三维阱：尺寸调色的物理逻辑与儿童画同构。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "张首晟等与量子阱理论（1970s）；朱棣文等量子阱激光器实用化（1980s，2009 诺奖相关）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "graphene": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一层碳原子的蜂巢，长出了像光子一样没有质量的电子——石墨烯把相对论带进了桌面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "六角晶格的 K 点处色散线性 E=ħv_F|k|：电子以 v_F≈c/300 飞驰且无有效质量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "零带隙半金属：狄拉克锥、赝自旋、可被栅压连续调谐费米面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "单层、高质量、载流子迁移率极高；带隙缺失限制逻辑开关应用。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "2004 年胶带剥离首个稳定二维晶体（盖姆与诺沃肖洛夫 2010 诺奖）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "柔性透明电极、高频晶体管、膜科学（石墨烯窗外漏氦）——从实验室到货架的十五年。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "安德森与默林紧束缚预言（1947）；Novoselov & Geim Science 306, 666（2004）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "anderson-localization": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "无序不一定导电——当散射足够强，量子波会把自己锁死在原地。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "一维任意无序皆局域（安德森定理）；三维存在迁移率边：扩展态与局域态共存。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "局域长度 ξ∝exp(C/W)：无序强度 W 增大，ξ 指数坍缩。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "相干散射、弹性无序；相互作用会改变局域行为（安德森转变）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "安德森 1958 理论获 1977 诺贝尔奖——无序从噪声升格为物理机制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "光子/声子局域化、拓扑保护态与无序的对抗——凝聚态与光子学的前沿交叉。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "安德森《无序中的扩散》（1958, Phys. Rev. 109, 1492）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "nucleon-structure": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "电子打在质子上散射出碎片——质子内部竟是三个更小的点：夸克。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "弹性散射给出形状因子与半径（~0.84fm）；深度非弹性给出部分子分布函数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "价夸克 uud 定量子数，海夸克与胶子贡献约 50% 动量——质量 98% 来自胶子能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "高 Q² 探测分辨更小尺度（深度非弹 Q²>几 GeV²）；禁闭使裸夸克不可分离。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "SLAC 1968 部分子实验（弗里德曼、肯德尔、泰勒 1990 诺奖）奠定标准模型强作用基础。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "质子自旋之谜（胶子与海夸克贡献）仍是活跃研究——全球散射实验持续追问。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "霍夫斯塔特核子形状因子（1956，1961 诺奖）；SLAC 深度非弹性（1968）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "nuclear-force": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "两个核子凑到一飞米内突然被强力胶住——太近又互相推开，核力的脾气很特别。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "中程（1-2fm）强吸引、更短程硬芯排斥，且自旋相关（氘核只在三重态束缚）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "汤川交换介子给出力程 ~1/m_πc≈1.4fm——今天理解为核子间残余色力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "非相对论核力可用唯象势（AV18）；现代从手征有效场论系统展开。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "核力决定核结构、核反应与中子星物态方程——从医疗同位素到千公里直径的天体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "液滴、壳层与少体精确解三条路线互补——核物理的基础架构。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "汤川秀树介子假说（1935，1949 诺奖）；π 介子发现（1947）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "liquid-drop-model": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把原子核看成一滴带电的水：体积拉拢、库仑推开、表面收紧——五项算出结合能。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "半经验质量公式 B=a_V A−a_S A^{2/3}−a_C Z(Z−1)/A^{1/3}−a_A(N−Z)²/A+δ。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "形变时表面能升、库仑能降——两力竞争给出裂变垒高度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "中重核拟合最佳；轻壳效应与幻数需壳层模型补足。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "魏茨泽克公式（1935）让核质量预测精确到 MeV——核数据表的骨架。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "液滴裂变理论（1936-1939）与实验互证——链式反应的理论预案。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "费米与贝特液滴公式（1930s）；魏茨泽克半经验质量公式（1935）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "shell-model": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "有些核素格外稳定——2、8、20、28、50、82、126，核内也有自己的惰性气体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "核子在平均势阱中独立运动形成壳层；强自旋-轨道耦合把能级重排成幻数序列。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "闭壳核的结合能、丰度与激发能都异常——双幻核（O-16、Ca-48、Pb-208）是明星。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "独立粒子近似；开壳核需集体运动（转动、振动）模型补充。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "梅耶与延森因壳层模型（1949）获 1963 诺奖——与光谱学同构的核内秩序。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "超重元素'稳定岛'（预言 Z=114/126 附近）指导着人工合成的路线图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "迈尔（1950）与延森《原子核的基态结构》；自旋-轨道项（1953）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "binding-energy-curve": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "比结合能曲线是核能的地形图：铁坐在峰顶，轻的往上爬、重的往下滑都能放能。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "B/A 在 Fe-56 达峰 8.8MeV：轻核聚变与重核裂变都朝峰顶走、都释放能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "曲线上升段由核力短程饱和主导，下降段由库仑长程排斥主导。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "稳定线附近核素；远离稳定线的滴线核结合能骤降。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "恒星聚变逐级上行到铁——大质量恒星核心坍缩的燃料终点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "铀裂变每核子释放 0.9MeV、氘氚聚变 3.5MeV——核能工程的能量预算表。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "阿斯顿质量亏损（1920，1922 诺奖）；比结合能曲线随核质量精密测量（1930s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "alpha-decay-tunnel": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "α 粒子的能量远低于库仑势垒——它却跑了出来，只因量子力学允许它穿墙。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "盖莫夫穿透概率 P∝exp(−2∫κdr)：势垒内的波函数指数衰减但不为零。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "Geiger-Nuttall 定律：半衰期对衰变能极敏感——Q 微增则寿命骤降几十个量级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "球对称势垒、准稳态（隧穿时间远短于寿命）；WKB 近似定量成立。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "盖莫夫隧穿（1928）是量子力学首个惊人的定量成功——同思想早于量子力学半年。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "α 衰变链是重核素图的骨架——铀矿的放射性平衡与地质定年都靠它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "盖莫夫《原子核的量子力学解释》（1928, Z. Phys. 51, 204）；盖革-努塔尔定律（1911）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "beta-decay": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "β 衰变的能量谱是连续的——这曾是大危机，直到泡利假设了一种抓不住的粒子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "n→p+e⁻+ν̄ₑ：弱作用改变夸克味（d→u+W⁻），W 玻色子是媒介。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "中微子分走连续能量——1930 假设、1956 实验直接探测（Cowan-Reines）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "允许跃迁为主（费米理论）；形状因子与 CKM 矩阵元控制速率。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "连续能谱逼出中微子——幽灵粒子九十年后仍是未解之谜（质量、马约拉纳性）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "吴健雄极化钴-60 实验证明弱作用宇称不守恒（1957）——对称破缺时代的开端。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "泡利中微子假说（1930）；费米 β 衰变理论（1934）；吴健雄实验（1957）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "critical-mass": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "裂变材料多到某个球径，中子增殖恰好收支平衡——k_eff=1 就是生死线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "k_eff<1 次临界熄灭、=1 临界自持、>1 超临界指数增长——链式反应的开关量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "U-235 裸球临界质量约 52kg；反射层与压缩可显著降低。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "材料纯度、几何形状与慢化条件共同决定临界；氙中毒等毒物会漂移 k_eff。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "费米 CP-1 首次自持反应（1942-12-02）——'堆'成为核反应的代名词。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "反应堆靠控制棒把 k_eff 钉在 1.0000；原子弹靠合体瞬间推过 1——同一物理两种用途。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "西拉德链式反应专利（1934）；CP-1 临界实验（1942）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "nuclide-chart": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把所有原子核按中子数、质子数摆开，它们挤在一条窄谷里——谷外都会衰变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "稳定线偏离 Z=N：库仑排斥使重核需要更多中子稀释——至铅铋处终止。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "约 250 种稳定核素、3000+ 已知核素：偏离稳定谷即以 β/α 衰变回归。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "滴线之外无束缚；超重区存在理论预言的稳定岛待验证。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "核素图是核物理与天体物理（r-过程、s-过程）的共同工作地图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "医用同位素、核电池与年代测定都从图上按半衰期与产额挑选。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "塞格雷核素图（1930s 起）；现代版由 IAEA 与 NNDC 维护（NUBASE）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "nuclear-reactor": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "控制棒插一点慢一点，拔一点快一点——把链式反应驯服在 k=1 的钢丝上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "慢化剂（水/石墨）把裂变快中子热化以提高 U-235 截面；控制棒（B/Cd）吸中子调 k_eff。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "热回路把裂变热经蒸汽轮机发电——单机百万千瓦、年耗铀仅数十吨。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "临界安全、余热排出、氙平衡是三大安全约束；废料管理为长期课题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "全球约 440 座机组提供约 10% 电力——无碳基荷电源的主力之一。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "切尔诺贝利与福岛推动了三代+设计：固有安全、非能动冷却成为标准。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "费米 CP-1（1942）；首座发电堆 EBR-I（1951）；商用 AP1000/HPR1000 现役主流",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "cosmic-inflation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "宇宙诞生后 10⁻³⁶ 秒，尺寸在一小段指数膨胀里至少翻了 60 番——暴胀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "暴胀子场在平坦势上慢滚：真空能主导 → a(t)∝e^{Ht}——视界与平坦性问题一并解决。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "原初量子涨落被拉伸出视界，成为星系种子——功率谱已被 Planck 精密测绘。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "慢滚条件 V'/V 小、H 在暴胀期近常数；具体势能模型仍待检验。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "暴胀预言的近标度不变谱、绝热主导与近乎平坦空间全部被观测支持。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "原初引力波（r 参数）是剩余关键预言——B 模偏振搜索是 CMB 实验的圣杯。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "古斯暴胀（1981）；林德、阿尔布雷希特改进（1982）；Planck 2018 谱参数精密验证",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "universe-timeline": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "宇宙 138 亿年可以压进一屏：对数时间轴上，从普朗克时刻到今天只有十来个台阶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "前 3 分钟大爆炸核合成造出 H/He/Li；38 万年复合让光自由飞（CMB）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "其后引力缓慢雕刻结构：暗时代 → 第一代恒星 → 星系 → 太阳系（92 亿年时）→ 今天。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "标准 ΛCDM 时序；每段的观测化石（CMB、丰度、高红移天体）互相咬合。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "对数轴是宇宙学必需品：线性轴上人类史只占一个像素。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "时间线把粒子物理（前 3 分钟）与天文学（其后）焊成一段连续叙事。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "伽莫夫 αβγ 团队核合成计算（1948-1953）；Planck 2018 宇宙学参数",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "cosmological-horizon": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "有些星系的光永远到不了我们这里——因果关系也有围墙，那叫视界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "粒子视界：光从大爆炸至今能走的共动距离（半径 ~465 亿光年）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "事件视界（加速宇宙）：未来也永远联系不上的区域——de Sitter 屏障。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "视界大小依赖宇宙学模型；加速膨胀使事件视界有限且收缩。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "视界墙外的星系正以超光速退行（空间膨胀不违反相对论）——终将失去联系。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "视界内外的因果分割是全息原理与量子纠缠-时空猜想的宇宙学背景。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "爱丁顿-勒梅特视界讨论（1930s）；de Sitter 事件视界（1917）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dark-energy-eos": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "推动宇宙加速的神秘成分到底是什么？答案藏在一个叫状态方程参数 w 的数字里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "w=p/ρ：w=−1 是宇宙学常数（密度不随膨胀变）；w<−1 幻能、w>−1 精质。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "ρ∝a^(−3(1+w))：w=−1 时密度恒定——真空能的定义性行为。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "流体描述有效；动力学场模型需给出 w(z) 演化并受超新星+BAO+CMB 联合约束。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Ia 超新星 1998 发现加速（2011 诺奖）：w≈−1±0.03 至今未偏离。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "DESI 2024 初步结果暗示 w 随时间变化——若成立将改写宇宙终局。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "珀尔穆特与施密特团队超新星巡天（1998）；Planck+BAO 联合约束（2018）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hubble-tension": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "早期宇宙外推的膨胀率与晚期直接测量对不上——差了 5.6，超出所有误差条。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "CMB+ΛCDM 外推 H₀=67.4±0.5；距离阶梯直测 H₀=73.0±1.0 km/s/Mpc。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "两套独立方法各自内部自洽——张力可能指向新物理或未识系统误差。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "距离阶梯的每一级（视差-造父-超新星）都需消除系统差；CMB 解读依赖模型正确性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "若为新物理：早期暗能量、额外中微子种类或修正引力皆在候选之列。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "JWST 确认造父、TRGB/JAGB 新方法与 DESI 暗能量线索——2024-2025 年张力研究白热化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "哈勃 1929 常数；Riess SH0ES（2022）与 Planck（2018）的现代张力",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "matter-antimatter": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "大爆炸应该造出等量的物质与反物质，然后全部抵消成光——可我们为什么还在？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "萨哈罗夫三条件（1967）：重子数破坏、C/CP 破坏、偏离热平衡——缺一不可。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "CMB 测得 η=n_b/n_γ≈6×10⁻¹⁰：十亿分之一的物质在湮灭中幸存。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "标准模型的 CP 破坏（CKM/CPV）强度不足以解释观测——新物理候选。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "实验验证：K/B 介子与中介子系统的 CP 破坏（1980、2008 诺奖）已被精确确认。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "丁肇中 AMS 在空间搜寻反氦——反物质天体至今未见踪影。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "萨哈罗夫《物质的不对称》（1967）；CP 破坏发现（Cronin-Fitch，1964，1980 诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  }
+}

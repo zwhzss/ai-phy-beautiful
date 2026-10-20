@@ -1,0 +1,8 @@
+n_initial,wavelength_nm,series,note
+3,656.28,H-alpha,red
+4,486.13,H-beta,cyan
+5,434.05,H-gamma,violet-blue
+6,410.17,H-delta,violet
+7,397.01,H-epsilon,near-UV
+8,388.91,H-zeta,UV
+9,383.55,H-eta,UV

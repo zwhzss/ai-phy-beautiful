@@ -1,0 +1,162 @@
+{
+  "dedekind-domain": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "有些数环里，一个数会有两种完全不同的分解方式。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "戴德金发现：元素层面不唯一，但理想层面仍然唯一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "诺特、整闭、维数为一的整环，其中每个非零理想都可唯一分解为素理想之积。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左侧列出元素分解（可能不唯一），右侧逐条检验三个判定条件。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是代数数论的基础框架：理想类群正衡量着「唯一分解」失效的程度。", "duration_ms": 0 }
+    ]
+  },
+  "snake-lemma": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两个正合列之间，能「接上」一条新的正合列吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "蛇引理给出了肯定答案，它是同调代数最基本的工具。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "由交换图可推出一条贯穿全图的长正合列，核与余核通过连接同态连起来。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色弧线就是那条「蛇」——它正是连接两个正合列的连接同态。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "几乎所有同调代数的长正合列结论，都由它推出。", "duration_ms": 0 }
+    ]
+  },
+  "five-lemma": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "要判定一个映射是同构，需要检查整条正合列吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "五引理说明：只需检查两侧就足够了。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "长正合列中若两端四处的映射都是同构，则中间那个也必是同构。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "中间橙色列被左右两侧「夹住」，它的性质由两侧决定。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是图表追法中最常用的引理，几乎所有同构传递论证都靠它。", "duration_ms": 0 }
+    ]
+  },
+  "projective-injective-modules": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "什么样的模算是「性质良好」的模？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "投射模与内射模的引入，让同调维数有了统一的语言。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "投射模是自由模的直和项，内射模是对偶概念，映射总能延拓。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "切换三种视图：直和分解、映射延拓、以及分辨链的长度。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它们的存在性决定了环上的同调维数，从而刻画环的复杂程度。", "duration_ms": 0 }
+    ]
+  },
+  "gauss-theorema-egregium": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一张纸卷成圆柱，它的曲率变了吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "高斯称这条结论为「绝妙定理」，他本人认为它是自己最优美的发现。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "高斯曲率是内蕴的，只依赖曲面上的度量，与如何嵌入三维空间无关。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "调整「弯曲程度」，纸面卷起来了，但高斯曲率始终为零。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "所以纸能卷成圆柱，却绝不能在不撕不皱的前提下包住一个球。", "duration_ms": 0 }
+    ]
+  },
+  "chern-gauss-bonnet": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把曲面上各处的弯曲程度加起来，会得到什么？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "高斯与博内发现了它，陈省身后来推广到高维与复流形。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "曲率的积分等于二派乘以欧拉示性数——必然是派的整数倍。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "调整亏格（洞数），可以看到曲率积分随之跳变：球面四派、环面零。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "局部决定整体——这是整体微分几何最动人的结论之一。", "duration_ms": 0 }
+    ]
+  },
+  "frobenius-integrability": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一堆方向场，什么时候能拼成一叠整齐的曲面？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "弗罗贝尼乌斯给出了判据：看李括号是否封闭。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "分布可积，当且仅当任意两个落在其中的向量场，其李括号仍在其中。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把「非完整性」调大，向量场开始扭动，整齐的叶结构就瓦解了。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是微分方程组可解性的几何判据，也是叶状结构与可积系统的起点。", "duration_ms": 0 }
+    ]
+  },
+  "lowenheim-skolem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "如果一个理论有许多模型，最小的模型能有多小？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "勒文海姆与斯科伦给出了答案，并由此引出著名的「斯科伦悖论」。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "一阶理论若有无限模型，则有可数模型；也对任意大基数的模型成立。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "三层嵌套的圆表示：理论、模型、以及它的可数子模型。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "描述「不可数集合」的理论也有可数模型——这说明「可数」是相对的。", "duration_ms": 0 }
+    ]
+  },
+  "godel-completeness": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "凡是「逻辑上恒真」的命题，都能被形式地证明吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "哥德尔在一九三零年证明：对一阶逻辑，答案是肯定的。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "语义有效与形式可证明完全等价——两个集合恰好重合。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "两个圆圈完全重叠，表示「恒真」与「可证」是同一批命题。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "注意区分：这是完备性定理（逻辑系统够强），不是不完备性定理（算术理论不够强）。", "duration_ms": 0 }
+    ]
+  },
+  "church-turing-thesis": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "什么是「可计算」？不同人给出的定义会一致吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一九三六年，丘奇与图灵各自提出形式模型，并证明它们等价。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "图灵机、拉姆达演算、递归函数等模型的「计算能力」完全相同。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "四个圆形代表四种模型，它们全部连接到一个中心：「可计算」。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它不是定理而是论题，却支撑了整个计算机科学——至今无人找到更强的模型。", "duration_ms": 0 }
+    ]
+  },
+  "kolmogorov-strong-law": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "反复掷骰子，平均值真的会稳定到三点五吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "科尔莫戈罗夫在一九三三年用测度论重建概率论，并证明了这个更强的大数律。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "独立同分布随机变量的样本均值，几乎必然收敛到期望。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "三条不同颜色的曲线都在向红线（期望值）靠拢。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "「几乎必然」比伯努利大数律的「依概率」更强——样本路径最终都收敛。", "duration_ms": 0 }
+    ]
+  },
+  "central-limit-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "为什么正态分布无处不在？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "中心极限定理回答了这个问题，它经历了两个世纪的完善。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "大量独立同分布变量之和，标准化后依分布收敛到正态分布。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "选「双峰分布」并把 n 调大，可以亲眼看到双峰逐渐融合成钟形曲线。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "原始分布的形状几乎无关——这是统计推断能普遍成立的根本原因。", "duration_ms": 0 }
+    ]
+  },
+  "kolmogorov-extension": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "只指定了有限维的分布，就能确定一个完整的随机过程吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "科尔莫戈罗夫的相容性定理说明：只要彼此相容，就可以。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "给定一族两两相容的有限维分布，必存在一个随机过程以它们为边际。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "下方是各维度的分布，向上箭头指向完整的随机过程轨道族。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是随机过程理论的第一块基石，布朗运动与马尔可夫过程的构造都依赖它。", "duration_ms": 0 }
+    ]
+  },
+  "martingale-convergence": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一场「公平游戏」长期进行下去，结果会怎样？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "鞅收敛定理给出了答案：有界的公平游戏必然收敛。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "鞅满足每步条件期望等于当前值；有界鞅几乎必然收敛。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "五条轨迹都被限制在上下界之间，来回震荡却不会「逃逸」。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是随机分析的核心工具，也是金融数学中无套利定价的理论基础。", "duration_ms": 0 }
+    ]
+  },
+  "markov-inequality": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "只知道期望，能对「取值很大」的概率说点什么吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "马尔可夫不等式给出了最朴素也最基础的答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "非负随机变量大于某个数的概率，不超过其期望除以那个数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色区域就是尾部概率，它的面积永远不超过界给出的值。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它极其粗糙，但完全不需要分布信息——切比雪夫不等式正是由它推出。", "duration_ms": 0 }
+    ]
+  },
+  "chebyshev-inequality": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个随机变量偏离均值很远的概率有多大？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "切比雪夫不等式用方差给出了普适的界。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "偏离超过 k 倍标准差的概率不超过 k 平方分之一。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色两侧尾部的面积，永远不超过 k 平方分之一这个上界。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它的价值在于普适性：只有均值和方差就能给出保证，也是大数律的证明手段。", "duration_ms": 0 }
+    ]
+  }
+}

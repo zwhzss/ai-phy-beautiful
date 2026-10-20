@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/vendor/
+server/go.sum
+
+# Build outputs
+client/dist/
+client/.angular/
+server/*.exe
+server/bin/
+server/build/
+
+# Desktop (Wails) — 前端产物、构建与安装包均生成物，不入库
+desktop/frontend/dist/
+desktop/build/
+desktop/wailsjs/
+desktop/*.exe
+
+# Database
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+
+# Environment
+.env
+.env.local
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+server/logs/
+
+desktop/assets/*.zip
+desktop/assets/*.7z
+# 归档打包报告由构建生成
+desktop/assets/*.report.json
+
+# Tool caches (regenerable, not code)
+.gocache/
+.reasonix/
+
+# Generated TTS audio (regenerable, ~450MB)
+server/data/audio/
+
+# Playwright output
+client/test-results/
+client/playwright-report/

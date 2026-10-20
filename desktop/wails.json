@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "phy-beauty",
+  "outputfilename": "PhysicsBeauty",
+  "frontend:install": "",
+  "frontend:build": "",
+  "frontend:dev:watcher": "",
+  "frontend:dev:serverUrl": "",
+  "author": {
+    "name": "ai-phy-beautiful",
+    "email": "admin@phy-beauty.local"
+  },
+  "info": {
+    "companyName": "物理之美",
+    "productName": "物理之美",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2026 物理之美",
+    "comments": "物理之美教育软件 — 交互式物理可视化与语音讲解"
+  }
+}

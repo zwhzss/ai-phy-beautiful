@@ -1,0 +1,202 @@
+{
+  "abels-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "幂级数在什么范围内收敛？边界上又会发生什么？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿贝尔在一八二六年回答了这个问题，同年他还证明了一般五次方程无根式解。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "幂级数存在收敛半径：内部绝对收敛，外部发散，端点需单独判定。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "两条红色虚线标出收敛半径，蓝色曲线只在区间内有意义。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "阿贝尔定理进一步断言：若级数在端点收敛，则和函数在该点连续。", "duration_ms": 0 }
+    ]
+  },
+  "sturm-liouville-theory": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一根两端固定的琴弦，能发出哪些音高？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "施图姆与刘维尔在一八二九年把这问题化为本征值问题。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "边界条件迫使本征值取离散值，对应的本征函数族彼此正交。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色曲线是当前本征函数，切换序号可以看到它的「波节」逐渐增多。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这套框架统一了弦振动、热传导与量子力学的「能级」问题。", "duration_ms": 0 }
+    ]
+  },
+  "cayley-hamilton": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把矩阵本身代入它自己的特征多项式，会得到什么？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "凯莱与哈密顿在一八四一年发现这个惊人的结果。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "结果恰是零矩阵——矩阵满足它自己的特征多项式。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "右侧的验证矩阵永远全为零，无论四个元素怎么调。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "由此可把矩阵的高次幂降阶表示，是矩阵计算与线性系统分析的基本手段。", "duration_ms": 0 }
+    ]
+  },
+  "sylow-theorems": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "只凭群的阶，能推断出它内部有什么子群吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "西罗在一八四五年到一八五四年间给出了三条定理，奠定了有限群论。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "阶为 p 的 k 次方的子群一定存在，其个数满足同余与整除两个条件。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "面板上把群的阶分解成素因子幂，并列出所有可行的子群个数。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "个数条件极强，常能直接推出子群正规，从而判断群是否单群或可解。", "duration_ms": 0 }
+    ]
+  },
+  "riemann-zeta-hypothesis": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "素数的分布看似随机，却能由一个复函数的零点精确控制。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一八五九年黎曼在论文中提出猜想：非平凡零点的实部都等于二分之一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "ζ 函数由倒数和定义，经解析延拓铺满复平面，其零点位置决定素数密度。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色虚线是临界线，绿点是目前验证过的零点——它们全都落在这条线上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "已检查前十万亿个零点都符合，但严格的证明至今无人给出——这是数论头号难题。", "duration_ms": 0 }
+    ]
+  },
+  "jordan-holder-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "整数能唯一分解为素数，群是否也有类似的「唯一分解」？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "若尔当与赫尔德在一八六四年证明了这个类比成立。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把群逐步「剥离」正规子群得到合成列，每一步的商都是单群。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上是一条从上到下的链，右侧标注每一步的「商」都是单群。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "无论怎样选取合成列，得到的单群清单都相同——单群正是群论里的「素数」。", "duration_ms": 0 }
+    ]
+  },
+  "green-gauss-stokes": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "边界上的积分，和内部的积分，存在什么关系？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "格林、高斯与斯托克斯在十九世纪先后给出三个版本的答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "平面、体积、曲面三种情形下，边界积分都等于某种内部积分。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色标记出边界方向或外法向，蓝色区域是被积的「内部」。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "三者是同一件事在不同维度下的表述，也是电磁学方程组的数学骨架。", "duration_ms": 0 }
+    ]
+  },
+  "hilbert-nullstellensatz": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一组多项式方程有没有公共解？这件事能纯代数地判定吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "希尔伯特在一八八八年证明的零点定理给出了回答。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "公共零点集为空，等价于常数一属于这些多项式生成的理想。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左边是多项式组成的理想，右边是它们的公共零点集合，两者一一对应。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把「解方程组」的几何问题与「研究理想」的代数问题完全打通，是代数几何的起点。", "duration_ms": 0 }
+    ]
+  },
+  "peano-axioms": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "自然数需要几条公理才能被完整刻画？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "皮亚诺在一八八九年给出了五条公理，成为算术公理化的基础。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "零是自然数；每个数有后继；零不是后继；后继是单射；以及归纳公理。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "下方是后继链条：零、一、二、三，一环扣一环。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "归纳公理是数学归纳法的合法性来源，也是「自然数只有这些」的关键。", "duration_ms": 0 }
+    ]
+  },
+  "hilbert-basis-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在无穷大的多项式环里，理想一定只需要有限个生成元吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "希尔伯特在一八九零年给出了肯定的答案，证明却是纯存在性的。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "若一个环是诺特环，则它上的多项式环也是诺特环，即理想升链必然稳定。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上是一条不断变宽的理想链，但它必在有限步后停止增长。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "当年这个非构造性的证明曾引起激烈质疑，如今它是交换代数的核心工具。", "duration_ms": 0 }
+    ]
+  },
+  "poincare-homology": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "怎样用代数精确描述一个空间有几个「洞」？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "庞加莱在一八九五年创立代数拓扑，引入贝蒂数与挠系数。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把空间剖分成复形，按边界构造链复形，同调群就刻画了洞的个数与类型。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "切换球面、环面与双环面，可看到贝蒂数与欧拉示性数同步变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这是我们第一次能用代数不变量精确描述形状，拓扑学从此成为严密学科。", "duration_ms": 0 }
+    ]
+  },
+  "hilbert-grundlagen": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "欧几里得的几何，真的严格吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "希尔伯特在一八九九年出版《几何基础》，重建了整个体系。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "他用关联、顺序、合同、平行、连续五组公理约束点线面的关系。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "五组公理逐条列出，可切换查看每一组的条数与作用。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "他还讨论了公理的相容性、独立性与完备性——这成为现代公理化数学的范式。", "duration_ms": 0 }
+    ]
+  },
+  "riesz-representation": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个抽象的函数，能否用最简单的内积来表示？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "里斯在一九零一年证明：希尔伯特空间上的连续线性泛函都可以这样表示。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "存在唯一的向量 y，使泛函在任意 x 处的值等于 x 与 y 的内积。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙线是表示向量，它的垂直方向画出一族等值线——泛函的值只取决于投影长度。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把抽象的泛函与具体向量对应起来，是量子力学中「态」与「可观测量」对偶的基础。", "duration_ms": 0 }
+    ]
+  },
+  "minkowski-spacetime": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "时间和空间能不能放在同一个几何框架里？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "闵可夫斯基在一九零五年给出了肯定的答案，为狭义相对论提供了几何语言。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "时空间隔由时间项取负、空间项取正的二次型定义，它在洛伦兹变换下不变。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "黄色虚线是光锥，蓝色直线是以固定速度运动的粒子的世界线。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "光锥把时空分为类时、类光、类空三部分——只有前两者之间存在因果联系。", "duration_ms": 0 }
+    ]
+  },
+  "invariance-of-dimension": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一条线能否连续变形铺满整个平面？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "皮亚诺曲线曾让这个问题变得可疑，布劳威尔在一九零五年证明了维数不变。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "不同维数的欧氏空间之间不存在同胚映射，维数是拓扑不变量。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左右两个空间分别以线、网格、立方体示意，中间的「不等于」符号点明结论。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "看似显然，但证明需要代数拓扑工具——它是整个拓扑学的基本前提。", "duration_ms": 0 }
+    ]
+  },
+  "brouwer-fixed-point": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把一杯咖啡搅匀，有没有一点回到了原来的位置？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "布劳威尔在一九一二年证明：一定有。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把闭圆盘连续映射到自身，必然存在至少一个不动点。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰线表示每个点被映射到什么方向，红点是近似的不动点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "拓扑学最优美的结论之一，也是博弈论纳什均衡与经济均衡存在性的基础。", "duration_ms": 0 }
+    ]
+  },
+  "stone-weierstrass": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "多么「怪异」的连续函数，都能用多项式逼近吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "魏尔斯特拉斯在一八八五年证明了一维情形，施坦在一九三七年推广到一般情形。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "紧集上的连续函数，可以用多项式（或满足分离条件的函数族）任意精确地一致逼近。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰虚线是目标函数，蓝线是拟合出的多项式，面板实时显示最大误差。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "注意目标函数可以不可导（如绝对值），逼近只要求「连续」即可。", "duration_ms": 0 }
+    ]
+  },
+  "banach-fixed-point": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "有没有一种映射，能把「存在不动点」变成可以执行的算法？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "巴拿赫在一九二二年给出了答案：压缩映射。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "完备度量空间上的压缩映射有且仅有一个不动点，从任意点迭代都会收敛到它。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色蛛网图记录每次迭代的跳跃，一次比一次更靠近不动点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "微分方程解的存在唯一性、隐函数定理与各种迭代算法都以它为基础。", "duration_ms": 0 }
+    ]
+  },
+  "wedderburn-little-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "有限的「非交换域」存在吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "韦德伯恩在一九零五年证明：不存在。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "有限除环一定是域，也就是说乘法必然满足交换律。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "乘法表关于对角线完全对称，这就是交换性的直观体现。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "对比：四元数确实是非交换除环，但它有无限多个元素——有限性才是关键。", "duration_ms": 0 }
+    ]
+  },
+  "de-rham-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "用微积分算出的量，和用拓扑数出的洞，会不会是同一回事？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "德拉姆在一九三一年证明了它们完全一致。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "流形上的微分形式上同调，与奇异上同调同构。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色闭路无法收缩为点，它正对应一个非零的上同调类。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它让「用积分探测洞」成为严格的数学方法，是微分拓扑的核心桥梁。", "duration_ms": 0 }
+    ]
+  }
+}

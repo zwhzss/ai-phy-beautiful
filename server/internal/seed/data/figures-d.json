@@ -1,0 +1,20 @@
+{
+  "figures": [
+    { "slug": "kirchhoff", "name": "古斯塔夫·基尔霍夫", "name_en": "Gustav Kirchhoff", "born": 1824, "died": 1887, "nationality": "德国", "contribution": "建立电路定律与光谱分析定律，'看到'元素光谱指纹。", "nobel": "", "bio": "1859 年与本生发现每种元素有专属谱线——分析化学与天体物理成分分析由此诞生（'我们怎么知道太阳是氢做的'）。" },
+    { "slug": "millikan", "name": "罗伯特·密立根", "name_en": "Robert A. Millikan", "born": 1868, "died": 1953, "nationality": "美国", "contribution": "油滴实验测出基本电荷 e，验证光电效应线性关系。", "nobel": "1923 年诺贝尔物理学奖", "bio": "十年磨一油滴：单个电子电荷被精确称量；光电效应实验曲线与爱因斯坦方程严丝合缝。" },
+    { "slug": "chandrasekhar", "name": "苏布拉马尼安·钱德拉塞卡", "name_en": "Subrahmanyan Chandrasekhar", "born": 1910, "died": 1995, "nationality": "印度/美国", "contribution": "钱德拉塞卡极限：白矮星的质量上限（约 1.44 太阳质量）。", "nobel": "1983 年诺贝尔物理学奖", "bio": "赴英船上 19 岁写下简并电子气体极限——超此极限恒星坍缩为中子星或黑洞；与导师爱丁顿的论战持续二十年。" },
+    { "slug": "bell-alexander", "name": "亚历山大·格雷厄姆·贝尔", "name_en": "Alexander Graham Bell", "born": 1847, "died": 1922, "nationality": "苏格兰/加拿大/美国", "contribution": "发明实用电话，开启电信时代。", "nobel": "", "bio": "1876 年'沃森先生，快来这里！'——声波第一次被变成电流再变回声音；电话原理的核心正是电磁感应。" },
+    { "slug": "marconi", "name": "古列尔莫·马可尼", "name_en": "Guglielmo Marconi", "born": 1874, "died": 1937, "nationality": "意大利", "contribution": "实现无线电远距离通信，开创广播与无线时代。", "nobel": "1909 年诺贝尔物理学奖（与布劳恩）", "bio": "1895 年在自家花园发送无线电信号，1901 年跨大西洋收报——赫兹的火花变成了全球网络。" },
+    { "slug": "kilby", "name": "杰克·基尔比", "name_en": "Jack Kilby", "born": 1923, "died": 2005, "nationality": "美国", "contribution": "发明集成电路（1958），把整个电路做在一块半导体上。", "nobel": "2000 年诺贝尔物理学奖", "bio": "入职德州仪器第一个夏天的'孤注一掷'：锗片上的完整电路只有 5 个元件——摩尔定律由此起步。" },
+    { "slug": "bloch-felix", "name": "费利克斯·布洛赫", "name_en": "Felix Bloch", "born": 1905, "died": 1983, "nationality": "瑞士/美国", "contribution": "核磁共振（NMR）的共同发现者，凝聚态磁性理论奠基人。", "nobel": "1952 年诺贝尔物理学奖", "bio": "1946 年与珀塞耳各自实现核磁共振——原子核在磁场中的进动被精确读出，MRI 的物理源头。" },
+    { "slug": "purcell", "name": "爱德华·珀塞耳", "name_en": "Edward M. Purcell", "born": 1912, "died": 1997, "nationality": "美国", "contribution": "核磁共振的共同发现者，感应法的发明者。", "nobel": "1952 年诺贝尔物理学奖", "bio": "哈佛小组用感应线圈读出自旋进动信号；其《电磁学》（费曼讲义前身风格）影响几代物理学生。" },
+    { "slug": "reines", "name": "弗雷德里克·莱因斯", "name_en": "Frederick Reines", "born": 1918, "died": 1998, "nationality": "美国", "contribution": "首次直接探测到中微子（1956），'幽灵粒子'的见证者。", "nobel": "1995 年诺贝尔物理学奖", "bio": "萨凡纳河反应堆旁守株待兔：中微子打中质子的信号终于被捕获——费米 1930 年为'不存在的粒子'所设的处方被证实。" },
+    { "slug": "cronin", "name": "詹姆斯·克罗宁", "name_en": "James W. Cronin", "born": 1931, "died": 2016, "nationality": "美国", "contribution": "发现 CP 对称性破坏（1964），解释物质为何多于反物质。", "nobel": "1980 年诺贝尔物理学奖", "bio": "布鲁克海文 K 介子衰变中千分之几的不对称——宇宙中物质几乎全部胜出的线索或许就藏在这里。" },
+    { "slug": "smoot", "name": "乔治·斯穆特", "name_en": "George F. Smoot", "born": 1945, "died": 0, "nationality": "美国", "contribution": "COBE 卫星发现 CMB 微小各向异性（1992），宇宙结构的种子被'拍照'。", "nobel": "2006 年诺贝尔物理学奖（与马瑟）", "bio": "十万分之一的温度起伏——原初密度涨落的直接证据，星系、恒星与我们都源于这微小的不平整。" },
+    { "slug": "bednorz", "name": "约翰内斯·贝德诺尔茨", "name_en": "J. Georg Bednorz", "born": 1950, "died": 0, "nationality": "德国", "contribution": "发现铜氧化物高温超导（1986），突破 BCS 低温极限。", "nobel": "1987 年诺贝尔物理学奖（与米勒）", "bio": "IBM 苏黎世实验室的'冷门'材料尝试：35K 的电阻消失让超导界沸腾——液氮温区超导从此可能。" },
+    { "slug": "nakamura", "name": "中村修二", "name_en": "Shuji Nakamura", "born": 1954, "died": 0, "nationality": "日本/美国", "contribution": "发明高亮度蓝光 LED，白光照明革命的钥匙。", "nobel": "2014 年诺贝尔物理学奖（与赤崎、天野）", "bio": "在日亚化学以'不可能的任务'攻克氮化镓——没有蓝光就没有白光 LED，全球照明用电因此大幅节省。" },
+    { "slug": "pan-jianwei", "name": "潘建伟", "name_en": "Jian-Wei Pan", "born": 1970, "died": 0, "nationality": "中国", "contribution": "量子隐形传态与'墨子号'量子科学实验卫星（2016）。", "nobel": "未获奖（国际公认候选）", "bio": "师承塞林格完成 14 公里纠缠分发，2016 年墨子号升空实现千公里级量子密钥分发——中国在量子信息领域领跑。" },
+    { "slug": "nan-longdong", "name": "南仁东", "name_en": "Ren-Dong Nan", "born": 1945, "died": 2017, "nationality": "中国", "contribution": "主持建造 500 米口径球面射电望远镜 FAST（2016）。", "nobel": "", "bio": "二十二年选址、论证与建设，'中国天眼'在贵州喀斯特洼地睁眼——快速射电暴与脉冲星巡天不断刷新发现纪录。" },
+    { "slug": "chu", "name": "朱棣文", "name_en": "Steven Chu", "born": 1948, "died": 0, "nationality": "美国", "contribution": "激光冷却与捕获原子（1985），超冷原子物理的开创者之一。", "nobel": "1997 年诺贝尔物理学奖（与科恩-塔诺季、菲利普斯）", "bio": "用激光'黏住'原子降到微开尔文——原子钟、玻色-爱因斯坦凝聚与量子模拟的先声；后任美国能源部长。" }
+  ]
+}

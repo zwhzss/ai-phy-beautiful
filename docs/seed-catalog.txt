@@ -1,0 +1,680 @@
+# 种子展项完整目录
+总计 600 个展项、38 个分类
+
+
+## classical-mechanics (30)
+P01	projectile-motion	[中学] / intro	抛体运动
+P02	simple-pendulum	[通识·小学] / basic	单摆
+P03	spring-oscillator	[中学] / intro	弹簧振子与相图
+P04	elastic-collision	[中学] / intro	动量守恒与弹性碰撞
+P05	damped-oscillation	[本科基础] / intermediate	阻尼振动
+P06	catenary	[本科基础] / intermediate	悬链线
+P07	brachistochrone	[本科高年级] / advanced	最速降线
+P295	air-track	[中学] / intro	气垫导轨实验
+P296	foucault-pendulum	[通识·小学] / basic	傅科摆
+P297	kater-pendulum	[本科高年级] / advanced	可逆摆测重力加速度
+P298	ballistic-pendulum	[本科基础] / intermediate	弹道摆
+P299	young-modulus	[本科基础] / intermediate	杨氏模量测量
+P300	angular-momentum-chair	[通识·小学] / basic	转椅与角动量守恒
+P301	compound-pendulum	[本科高年级] / advanced	复摆与振动中心
+P433	particle-system-dynamics	[本科基础] / intermediate	质点系与质心运动定理
+P434	rigid-plane-motion	[本科基础] / intermediate	刚体平面运动
+P435	gravitational-potential	[通识·小学] / basic	引力势与逃逸速度
+P436	composed-motion	[本科基础] / intermediate	点的复合运动
+P46	inclined-plane	[通识·小学] / basic	斜面与摩擦力
+P47	circular-motion	[中学] / intro	圆周运动与向心力
+P48	coriolis	[本科高年级] / advanced	科里奥利力
+P49	angular-momentum	[本科基础] / intermediate	角动量守恒
+P50	rigid-rotation	[本科基础] / intermediate	刚体转动与转动惯量
+P51	gyroscopic	[本科高年级] / advanced	陀螺进动与章动
+P52	tidal-force	[本科基础] / intermediate	潮汐力
+P53	gravity-assist	[本科高年级] / advanced	引力弹弓
+P54	hohmann	[本科高年级] / advanced	霍曼转移轨道
+P55	weightlessness	[中学] / intro	完全失重与轨道运动
+P56	pendulum-chaos	[本科高年级] / advanced	混沌双摆
+P57	rolling-friction	[通识·小学] / basic	滚动与滑动摩擦
+
+## relativistic-motion (11)
+P08	time-dilation	[本科高年级] / advanced	时间膨胀与钟慢效应
+P125	relativistic-momentum	[本科高年级] / advanced	相对论动量
+P126	mass-energy-equivalence	[中学] / intro	质能等价
+P127	light-cone	[本科高年级] / advanced	光锥与因果结构
+P128	simultaneity	[本科高年级] / advanced	同时性的相对论
+P129	twin-paradox	[本科高年级] / advanced	双生子佯谬
+P130	relativistic-doppler	[本科高年级] / advanced	相对论多普勒
+P131	velocity-addition	[本科高年级] / advanced	相对论速度加合
+P132	length-contraction	[本科高年级] / advanced	长度收缩
+P133	colliding-beams	[本科高年级] / advanced	对撞机与质心能量
+P456	relativistic-energy-momentum	[本科基础] / intermediate	相对论能量动量与阈能
+
+## wave-optics (20)
+P09	wave-superposition	[本科基础] / intermediate	波的叠加与双源干涉
+P10	double-slit	[本科基础] / intermediate	双缝干涉
+P11	vibrating-string	[本科基础] / intermediate	振动弦与驻波
+P202	fabry-perot	[研究生] / professional	法布里-珀罗干涉仪
+P203	fresnel-biprism	[本科基础] / intermediate	菲涅耳双棱镜
+P204	zone-plate	[本科高年级] / advanced	菲涅耳波带片
+P205	coherence-length	[本科高年级] / advanced	相干长度
+P445	fresnel-diffraction	[本科基础] / intermediate	菲涅耳衍射与半波带
+P446	abbe-imaging	[本科高年级] / advanced	阿贝成像与空间频率
+P447	grating-resolving-power	[本科基础] / intermediate	光栅分辨本领与缺级
+P74	single-slit	[本科基础] / intermediate	单缝衍射
+P75	airy-disk	[本科高年级] / advanced	艾里斑与分辨极限
+P76	grating	[本科基础] / intermediate	衍射光栅
+P77	newton-rings	[本科高年级] / advanced	牛顿环
+P78	thin-film	[本科基础] / intermediate	薄膜干涉
+P79	malus	[本科高年级] / advanced	马吕斯定律与偏振
+P80	birefringence	[本科高年级] / advanced	双折射
+P81	michelson-interferometer	[本科高年级] / advanced	迈克尔逊干涉仪
+P82	poisson-spot	[本科高年级] / advanced	泊松亮斑
+P83	evanescent	[研究生] / professional	倏逝波
+
+## thermodynamics (13)
+P100	otto	[本科基础] / intermediate	奥托循环
+P101	joule-thomson	[研究生] / professional	焦耳-汤姆孙膨胀
+P102	heat-conduction-rod	[本科基础] / intermediate	一维热传导
+P103	ts-diagram	[本科高年级] / advanced	温熵图
+P104	refrigeration	[本科基础] / intermediate	制冷循环
+P105	partition-function	[研究生] / professional	配分函数与自由能
+P106	debye-specific-heat	[研究生] / professional	德拜比热
+P15	carnot-cycle	[本科高年级] / advanced	卡诺循环与热机效率
+P16	maxwell-boltzmann	[本科高年级] / advanced	麦克斯韦速率分布
+P442	maxwell-relations	[本科基础] / intermediate	麦克斯韦关系
+P443	entropy-calculation	[本科基础] / intermediate	熵变计算
+P444	clapeyron-equation	[本科基础] / intermediate	克拉佩龙方程
+P99	stirling	[本科高年级] / advanced	斯特林循环
+
+## quantum-foundations (31)
+P107	infinite-well	[本科基础] / intermediate	无限深势阱
+P108	quantum-oscillator	[本科高年级] / advanced	量子谐振子
+P109	tunneling	[本科基础] / intermediate	量子隧穿
+P110	angular-momentum-qm	[本科高年级] / advanced	角动量量子化
+P111	spin-precession	[本科高年级] / advanced	自旋进动
+P112	wavepacket	[本科高年级] / advanced	波包扩散
+P151	hydrogen-wavefunction	[本科高年级] / advanced	氢原子波函数
+P152	fine-structure	[科研·学术级] / research	精细结构
+P153	zeeman-effect	[本科高年级] / advanced	塞曼效应
+P154	stark-effect	[本科高年级] / advanced	斯塔克效应
+P155	lamb-shift	[科研·学术级] / research	拉姆位移
+P156	rydberg-series	[本科高年级] / advanced	里德伯原子
+P157	selection-rules	[本科高年级] / advanced	跃迁选择定则
+P158	golden-rule	[科研·学术级] / research	费米黄金规则
+P159	scattering-cross-section	[科研·学术级] / research	散射截面
+P160	quantum-measurement	[本科高年级] / advanced	量子测量与坍缩
+P20	atomic-levels	[本科基础] / intermediate	氢原子能级与跃迁
+P21	de-broglie-wave	[本科高年级] / advanced	物质波与驻波条件
+P317	photoelectric-law	[本科基础] / intermediate	光电效应实验
+P318	franck-hertz	[本科高年级] / advanced	夫兰克-赫兹实验
+P319	stern-gerlach	[本科高年级] / advanced	斯特恩-格拉赫实验
+P320	compton-scattering	[本科高年级] / advanced	康普顿散射实验
+P321	electron-diffraction	[本科基础] / intermediate	电子衍射实验
+P322	millikan-oil-drop	[本科基础] / intermediate	密立根油滴实验
+P323	jj-thomson-em	[本科基础] / intermediate	阴极射线荷质比
+P450	qm-postulates	[本科基础] / intermediate	量子力学公设与算符
+P451	dirac-notation-braket	[本科基础] / intermediate	狄拉克符号与矩阵表示
+P452	perturbation-first-order	[本科高年级] / advanced	一阶微扰论
+P453	variational-method	[本科高年级] / advanced	变分法与近似基态
+P454	identical-particles	[本科高年级] / advanced	全同粒子与交换对称
+P455	density-matrix	[研究生] / professional	密度矩阵与混合态
+
+## electrodynamics-advanced (21)
+P113	rc-circuit	[本科基础] / intermediate	RC 电路暂态
+P114	rl-circuit	[本科基础] / intermediate	RL 电路暂态
+P115	lc-resonance	[本科基础] / intermediate	LC 谐振
+P116	ac-impedance	[本科高年级] / advanced	交流阻抗与相位
+P117	transformer	[本科基础] / intermediate	变压器
+P118	three-phase	[本科高年级] / advanced	三相电
+P119	dc-motor	[本科基础] / intermediate	直流电动机
+P120	hysteresis	[本科高年级] / advanced	磁滞回线
+P121	skin-effect	[本科高年级] / advanced	趋肤效应
+P122	resonant-cavity	[研究生] / professional	谐振腔与驻波模式
+P123	waveguide	[研究生] / professional	矩形波导与截止频率
+P124	antenna-pattern	[研究生] / professional	天线阵列方向图
+P210	maxwell-equations	[本科高年级] / advanced	麦克斯韦方程组
+P211	poynting-vector	[本科高年级] / advanced	坡印廷矢量与能流
+P212	displacement-current	[本科高年级] / advanced	位移电流
+P213	retarded-potential	[研究生] / professional	推迟势与电磁因果
+P214	multipole-radiation	[研究生] / professional	多极辐射
+P324	hertz-electromagnetic-wave	[本科高年级] / advanced	赫兹电磁波实验
+P38	em-wave	[本科高年级] / advanced	电磁波的产生与传播
+P440	ampere-circuital-law	[本科基础] / intermediate	安培环路定理的应用
+P441	magnetic-dipole	[本科高年级] / advanced	磁偶极与磁矩
+
+## geometric-optics (15)
+P12	lens-refraction	[中学] / intro	折射与透镜成像
+P206	eye-optics	[中学] / intro	人眼与调焦
+P207	lensmaker	[本科基础] / intermediate	透镜制作者公式
+P208	thick-lens	[本科高年级] / advanced	厚透镜与主面
+P209	optical-aberration	[本科高年级] / advanced	像差与校正
+P448	microscope-resolution	[中学] / intro	显微镜与分辨极限
+P449	optical-path-length	[中学] / intro	光程与费马原理
+P84	mirror-concave	[通识·小学] / basic	球面镜成像
+P85	prism-dispersion	[中学] / intro	棱镜色散
+P86	rainbow	[本科基础] / intermediate	彩虹的形成
+P87	fiber	[本科基础] / intermediate	光纤传输
+P88	depth-of-field	[本科基础] / intermediate	景深
+P89	telescope-resolution	[本科高年级] / advanced	望远镜的分辨极限
+P90	magnifier	[通识·小学] / basic	放大镜与视角
+P91	camera-aperture	[中学] / intro	光圈与快门
+
+## electrostatics (11)
+P13	electric-field	[本科基础] / intermediate	电场线与电势
+P14	magnetic-field	[本科基础] / intermediate	电流的磁场
+P438	dielectric-polarization	[本科基础] / intermediate	电介质的极化
+P439	capacitor-energy	[本科基础] / intermediate	电容器的能量
+P92	gauss-law	[本科基础] / intermediate	高斯定律
+P93	electric-potential	[本科基础] / intermediate	电势与等势面
+P94	capacitor	[中学] / intro	平行板电容器
+P95	image-charge	[研究生] / professional	镜像电荷
+P96	quadrupole	[研究生] / professional	四极场
+P97	conductor-electrostat	[本科基础] / intermediate	静电平衡与尖端放电
+P98	charge-distribution	[通识·小学] / basic	电荷分布与库仑扭秤
+
+## curved-spacetime (12)
+P134	minkowski-spacetime	[本科基础] / intermediate	闵可夫斯基时空
+P135	worldline	[本科基础] / intermediate	世界线与固有时
+P136	geodesic	[本科高年级] / advanced	测地线与惯性运动
+P137	equivalence-principle	[本科高年级] / advanced	等效原理
+P138	gravitational-redshift	[本科高年级] / advanced	引力红移
+P139	schwarzschild-orbit	[科研·学术级] / research	史瓦西轨道与进动
+P140	isco	[科研·学术级] / research	最内稳定圆轨道
+P141	light-deflection	[本科高年级] / advanced	光线偏折
+P17	kepler-orbit	[本科基础] / intermediate	开普勒轨道
+P18	three-body	[本科高年级] / advanced	三体问题
+P19	nbody-simulation	[研究生] / professional	N 体模拟与星系并合
+P23	spacetime-bending	[本科高年级] / advanced	时空弯曲与测地线
+
+## black-hole (6)
+P142	kerr-black-hole	[科研·学术级] / research	克尔黑洞与能层
+P143	hawking-radiation	[科研·学术级] / research	霍金辐射
+P144	black-hole-thermo	[科研·学术级] / research	黑洞热力学四定律
+P145	accretion-disk-temp	[科研·学术级] / research	吸积盘温度分布
+P146	penrose-process	[科研·学术级] / research	彭罗斯过程
+P24	blackhole-accretion	[本科高年级] / advanced	黑洞与吸积盘
+
+## gr-advanced (5)
+P147	frame-dragging	[科研·学术级] / research	参考系拖曳
+P148	flrw-cosmology	[科研·学术级] / research	FLRW 宇宙与尺度因子
+P149	post-newtonian	[科研·学术级] / research	后牛顿近似
+P150	geodesic-deviation	[科研·学术级] / research	测地偏离与潮汐
+P41	gravitational-lensing	[本科高年级] / advanced	爱因斯坦环与引力透镜
+
+## solid-state (17)
+P161	reciprocal-lattice	[本科高年级] / advanced	晶格与倒格子
+P162	brillouin-zone	[本科高年级] / advanced	布里渊区
+P163	tight-binding	[本科高年级] / advanced	紧束缚与能带
+P164	fermi-surface	[科研·学术级] / research	费米面
+P165	crystal-defect	[本科基础] / intermediate	晶体缺陷
+P166	doping	[本科基础] / intermediate	掺杂与半导体
+P167	quantum-well	[本科高年级] / advanced	量子阱
+P168	graphene	[科研·学术级] / research	石墨烯与狄拉克锥
+P169	anderson-localization	[科研·学术级] / research	安德森局域化
+P31	lattice-vibration	[研究生] / professional	晶格振动与声子
+P32	band-structure	[研究生] / professional	能带的形成
+P33	hall-effect	[本科高年级] / advanced	霍尔效应
+P461	fermi-dirac-statistics	[本科基础] / intermediate	费米-狄拉克统计
+P462	bose-einstein-distribution	[本科基础] / intermediate	玻色-爱因斯坦分布
+P463	crystal-binding	[本科基础] / intermediate	晶体结合与内聚能
+P464	pn-junction	[本科基础] / intermediate	半导体 PN 结
+P465	semiconductor-fermi-level	[本科高年级] / advanced	费米能级与载流子
+
+## nuclear-physics (15)
+P170	nucleon-structure	[科研·学术级] / research	核子结构与夸克
+P171	nuclear-force	[本科高年级] / advanced	核力与介子交换
+P172	liquid-drop-model	[本科高年级] / advanced	液滴模型与裂变垒
+P173	shell-model	[本科高年级] / advanced	壳层模型与幻数
+P174	binding-energy-curve	[中学] / intro	比结合能曲线
+P175	alpha-decay-tunnel	[本科高年级] / advanced	α 衰变与量子隧穿
+P176	beta-decay	[本科高年级] / advanced	β 衰变与弱作用
+P177	critical-mass	[本科基础] / intermediate	临界质量
+P178	nuclide-chart	[本科基础] / intermediate	核素图
+P179	nuclear-reactor	[本科基础] / intermediate	核反应堆
+P22	radioactive-decay	[本科基础] / intermediate	放射性衰变与半衰期
+P457	decay-chain	[本科基础] / intermediate	放射系与级联衰变
+P458	xray-characteristic	[本科基础] / intermediate	特征 X 射线与莫塞莱
+P459	pair-production	[本科基础] / intermediate	对产生与吸收
+P460	hyperfine-structure	[本科高年级] / advanced	超精细结构与同位素位移
+
+## cosmology (8)
+P180	cosmic-inflation	[科研·学术级] / research	宇宙暴胀
+P181	universe-timeline	[中学] / intro	宇宙演化时间线
+P182	cosmological-horizon	[科研·学术级] / research	宇宙视界
+P183	dark-energy-eos	[科研·学术级] / research	暗能量状态方程
+P184	hubble-tension	[科研·学术级] / research	哈勃张力
+P185	matter-antimatter	[科研·学术级] / research	重子不对称
+P26	cosmic-web	[本科高年级] / advanced	宇宙网与大尺度结构
+P34	hubble-diagram	[本科基础] / intermediate	哈勃图与宇宙膨胀
+
+## fluid (18)
+P186	navier-stokes	[科研·学术级] / research	纳维-斯托克斯方程
+P187	reynolds-transition	[本科高年级] / advanced	雷诺转捩
+P188	kolmogorov-cascade	[科研·学术级] / research	湍流级串
+P189	stokes-drag	[本科基础] / intermediate	斯托克斯阻力
+P190	taylor-couette	[研究生] / professional	泰勒-库埃特流
+P191	capillary-wave	[本科基础] / intermediate	毛细波与表面张力
+P192	marangoni	[研究生] / professional	马兰戈尼效应
+P193	droplet-surface-tension	[本科高年级] / advanced	液滴与表面张力测量
+P37	vortex-street	[本科基础] / intermediate	卡门涡街
+P437	bernoulli-equation	[中学] / intro	伯努利方程
+P66	venturi	[本科基础] / intermediate	文丘里管
+P67	poiseuille	[本科高年级] / advanced	泊肃叶流
+P68	magnus	[本科基础] / intermediate	马格努斯效应
+P69	lift-curve	[本科基础] / intermediate	升力曲线与攻角
+P70	boundary-layer	[本科高年级] / advanced	边界层
+P71	rayleigh-taylor	[研究生] / professional	瑞利-泰勒不稳定性
+P72	convection-cell	[研究生] / professional	瑞利-贝纳德对流胞
+P73	cavitation	[本科高年级] / advanced	空化
+
+## analytical-mechanics (9)
+P194	lagrange-equation	[本科高年级] / advanced	拉格朗日方程
+P195	hamiltonian-mechanics	[本科高年级] / advanced	哈密顿力学
+P196	least-action	[本科高年级] / advanced	最小作用量原理
+P197	generalized-coordinates	[本科基础] / intermediate	广义坐标与自由度
+P198	constrained-dof	[本科高年级] / advanced	约束、虚功与达朗贝尔
+P199	poisson-bracket	[科研·学术级] / research	泊松括号
+P200	canonical-transform	[科研·学术级] / research	正则变换
+P201	virial-theorem	[本科高年级] / advanced	维里定理
+P36	lagrange-points	[本科高年级] / advanced	拉格朗日点
+
+## phase-transitions (11)
+P215	critical-exponent	[研究生] / professional	临界指数与普适性
+P216	order-parameter	[本科高年级] / advanced	序参量
+P217	renormalization-group	[研究生] / professional	重正化群
+P218	mean-field-approx	[本科高年级] / advanced	平均场近似
+P219	curie-weiss	[本科基础] / intermediate	居里-外斯定律
+P220	fluctuation-dissipation	[研究生] / professional	涨落耗散定理
+P221	boltzmann-distribution	[中学] / intro	玻尔兹曼分布
+P222	ergodic-hypothesis	[研究生] / professional	遍历假说与系综
+P330	bec-1995	[科研·学术级] / research	玻色-爱因斯坦凝聚实现
+P39	ising-model	[研究生] / professional	伊辛模型与相变
+P40	superfluid-helium	[研究生] / professional	超流与量子流体
+
+## quantum-optics-laser (8)
+P223	four-level-laser	[本科高年级] / advanced	四能级激光
+P224	population-inversion	[本科高年级] / advanced	粒子数反转
+P225	laser-cavity	[本科高年级] / advanced	激光谐振腔与纵模
+P226	coherent-state	[研究生] / professional	相干态
+P227	squeezed-state	[研究生] / professional	压缩态
+P228	photon-antibunching	[研究生] / professional	光子反聚束
+P229	shot-noise	[本科高年级] / advanced	散粒噪声
+P43	stimulated-emission	[本科高年级] / advanced	受激辐射与激光原理
+
+## gravitational-wave (7)
+P230	gw-chirp	[科研·学术级] / research	引力波旋进信号
+P231	gw-strain	[科研·学术级] / research	引力波应变与灵敏度
+P232	binary-inspiral	[科研·学术级] / research	双致密天体旋进
+P233	quadrupole-formula	[科研·学术级] / research	引力波四极公式
+P234	stochastic-gw	[科研·学术级] / research	随机引力波背景
+P235	gw-detector	[科研·学术级] / research	激光干涉引力波探测器
+P25	gw-ripple	[本科基础] / intermediate	引力波与应变波形
+
+## quantum-information (7)
+P236	no-cloning	[本科高年级] / advanced	量子不可克隆
+P237	entanglement-swapping	[研究生] / professional	纠缠交换
+P238	superdense-coding	[本科高年级] / advanced	超密编码
+P239	quantum-error-correct	[研究生] / professional	量子纠错码
+P240	decoherence	[本科高年级] / advanced	退相干
+P29	bloch-sphere	[研究生] / professional	量子比特与布洛赫球
+P30	bell-chsh	[科研·学术级] / research	贝尔不等式与量子关联
+
+## topological-phases (5)
+P241	chern-insulator	[科研·学术级] / research	陈绝缘体与陈数
+P242	anyon	[科研·学术级] / research	任意子与统计
+P243	topological-invariant	[科研·学术级] / research	拓扑不变量
+P244	edge-state	[科研·学术级] / research	边缘态与体边对应
+P45	quantum-hall	[科研·学术级] / research	量子霍尔效应与拓扑序
+
+## plasma-fusion (7)
+P245	debye-shielding	[本科高年级] / advanced	德拜屏蔽
+P246	plasma-frequency	[本科高年级] / advanced	等离子体频率
+P247	magnetohydrodynamic	[研究生] / professional	磁流体动力学
+P248	ion-acoustic	[研究生] / professional	离子声波
+P249	magnetic-reconnection	[科研·学术级] / research	磁重联
+P250	icf-inertial-confinement	[科研·学术级] / research	惯性约束聚变
+P44	plasma-confinement	[研究生] / professional	托卡马克与磁约束聚变
+
+## qft-intro (6)
+P251	vacuum-fluctuation	[本科高年级] / advanced	真空涨落
+P252	renormalization	[研究生] / professional	重整化
+P253	symmetry-breaking	[研究生] / professional	自发对称破缺
+P254	gauge-theory	[研究生] / professional	规范场论
+P255	virtual-particle	[本科高年级] / advanced	虚粒子与费曼图
+P42	feynman-diagram	[研究生] / professional	费曼图与粒子散射
+
+## scale-overview (7)
+P256	fermi-population	[通识·小学] / basic	费米估算：世界人口
+P257	fermi-sand	[通识·小学] / basic	费米估算：沙粒与光年
+P258	fermi-seawater	[通识·小学] / basic	费米估算：海水分子数
+P259	fermi-library	[通识·小学] / basic	费米估算：图书馆字节
+P260	fermi-lightning	[通识·小学] / basic	费米估算：闪电能量
+P27	order-of-magnitude	[通识·小学] / basic	宇宙数量级阶梯
+P28	scaling-law	[中学] / intro	平方-立方律
+
+## cosmic-observation (34)
+P261	refracting-telescope	[中学] / intro	折射望远镜
+P262	reflecting-telescope	[中学] / intro	反射望远镜
+P263	atmospheric-window	[中学] / intro	大气窗口与台址选择
+P264	space-telescope	[本科基础] / intermediate	空间望远镜
+P265	radio-telescope	[本科基础] / intermediate	射电望远镜
+P266	interferometer-array	[科研·学术级] / research	干涉阵与综合孔径
+P267	adaptive-optics	[科研·学术级] / research	自适应光学
+P268	photometric-observation	[本科基础] / intermediate	天体测光观测
+P269	stellar-spectroscopy	[本科高年级] / advanced	恒星光谱观测
+P270	stellar-parallax	[本科基础] / intermediate	三角视差测距
+P271	distance-ladder	[本科高年级] / advanced	宇宙距离阶梯
+P272	redshift-survey	[本科高年级] / advanced	星系红移巡天
+P273	cmb-discovery	[科研·学术级] / research	微波背景辐射观测
+P274	pulsar-discovery	[科研·学术级] / research	脉冲星观测
+P275	gw150914	[科研·学术级] / research	首次引力波观测
+P276	neutrino-observation	[科研·学术级] / research	中微子天文学
+P277	cosmic-ray-observation	[本科高年级] / advanced	宇宙线观测
+P278	xray-astronomy	[研究生] / professional	X 射线天文观测
+P279	infrared-astronomy	[本科高年级] / advanced	红外天文观测
+P280	gamma-astronomy	[研究生] / professional	伽马射线天文观测
+P281	exoplanet-transit	[本科高年级] / advanced	凌星法搜寻系外行星
+P282	exoplanet-rv	[本科高年级] / advanced	视向速度法搜寻系外行星
+P283	solar-observation	[本科基础] / intermediate	太阳观测
+P284	coronagraphy	[本科基础] / intermediate	日冕观测
+P285	stellar-occultation	[本科基础] / intermediate	掩星观测
+P286	astrometry	[研究生] / professional	天体测量观测
+P287	lensing-time-delay	[科研·学术级] / research	引力透镜时间延迟
+P288	supernova-cosmology	[科研·学术级] / research	Ia 超新星宇宙学
+P289	polarimetry	[科研·学术级] / research	天体偏振观测
+P290	time-domain-astronomy	[本科高年级] / advanced	时域巡天
+P291	spectrograph	[本科基础] / intermediate	观测光谱仪
+P292	seti-signal-search	[科研·学术级] / research	SETI 信号搜索
+P293	dark-energy-survey	[科研·学术级] / research	暗能量巡天
+P294	eclipsing-binary	[本科高年级] / advanced	食双星测质量
+
+## electromagnetic-induction (5)
+P302	faraday-disk	[本科基础] / intermediate	法拉第圆盘发电机
+P303	lenz-law	[通识·小学] / basic	楞次定律与跳环实验
+P304	eddy-current	[中学] / intro	涡流与电磁阻尼
+P305	induction-coil	[本科基础] / intermediate	感应圈与高压火花
+P306	tesla-coil	[本科高年级] / advanced	共振特斯拉线圈
+
+## statistical-physics (5)
+P307	perrin-experiment	[本科基础] / intermediate	佩兰布朗运动实验
+P308	energy-equipartition	[本科高年级] / advanced	能量均分验证
+P309	gas-thermometry	[本科基础] / intermediate	气体温度计与绝对温标
+P310	three-phase-point	[本科基础] / intermediate	三相点与相平衡
+P311	blackbody-lab	[本科高年级] / advanced	黑体辐射测量
+
+## interference-diffraction (5)
+P312	lloyd-mirror	[本科基础] / intermediate	劳埃德镜实验
+P313	fresnel-mirror	[本科基础] / intermediate	菲涅耳双面镜
+P314	optical-rotation	[本科基础] / intermediate	旋光与偏振面旋转
+P315	moire-fringe	[本科基础] / intermediate	莫尔条纹与微位移
+P316	phase-contrast	[本科高年级] / advanced	相位衬度显微
+
+## vibration-wave (11)
+P325	doppler-effect	[中学] / intro	多普勒效应
+P35	normal-modes	[本科基础] / intermediate	简正模式与耦合摆
+P466	sound-intensity	[中学] / intro	声强与声压级
+P58	standing-pipe	[本科基础] / intermediate	驻波与管乐器
+P59	beats	[中学] / intro	拍频
+P60	sound-speed	[中学] / intro	声速与温度
+P61	doppler-wave	[中学] / intro	声波多普勒效应
+P62	shock-wave	[本科高年级] / advanced	激波与马赫锥
+P63	soliton	[研究生] / professional	孤子
+P64	resonance-forced	[本科基础] / intermediate	受迫振动与共振
+P65	dispersion	[本科高年级] / advanced	波的色散
+
+## atomic-levels (1)
+P326	atomic-clock	[研究生] / professional	原子钟
+
+## particle-sm (2)
+P327	jpsi-discovery	[科研·学术级] / research	J/ψ 粒子发现实验
+P328	higgs-discovery	[科研·学术级] / research	希格斯粒子发现实验
+
+## superconductivity-magnetism (1)
+P329	superconductivity-discovery	[本科基础] / intermediate	迈斯纳效应实验
+
+## biophysics (17)
+P331	dna-diffraction	[本科高年级] / advanced	DNA 双螺旋与 X 射线衍射
+P332	protein-folding	[研究生] / professional	蛋白质折叠与能量景观
+P333	molecular-motor	[本科高年级] / advanced	分子马达
+P334	cell-membrane	[中学] / intro	细胞膜与脂双层
+P335	membrane-potential	[本科高年级] / advanced	膜电位与离子通道
+P336	action-potential	[本科高年级] / advanced	神经动作电位
+P337	blood-rheology	[中学] / intro	血液流变与法-朗效应
+P338	hemoglobin	[本科高年级] / advanced	协同结合与血红蛋白
+P339	photosynthesis	[本科高年级] / advanced	光合作用与光系统
+P340	enzyme-kinetics	[本科基础] / intermediate	酶与米氏方程
+P341	bacterial-flagellum	[本科高年级] / advanced	细菌鞭毛马达
+P342	muscle-contraction	[通识·小学] / basic	肌肉收缩的横桥周期
+P343	collagen-bone	[本科基础] / intermediate	骨骼与胶原复合力学
+P344	fret-fluorescence	[本科高年级] / advanced	荧光共振能量转移 FRET
+P345	dna-replication	[中学] / intro	DNA 复制与半保留
+P346	neural-oscillations	[研究生] / professional	脑电与神经振荡
+P347	protein-structure	[本科基础] / intermediate	蛋白质结构层次
+
+## medical-imaging (17)
+P348	xray-attenuation	[本科基础] / intermediate	X 射线衰减成像
+P349	ct-reconstruction	[本科高年级] / advanced	CT 反投影重建
+P350	mri-k-space	[研究生] / professional	MRI 与 k 空间
+P351	fmri-bold	[本科高年级] / advanced	功能磁共振成像 fMRI
+P352	pet-imaging	[本科高年级] / advanced	PET 正电子发射断层
+P353	spect-imaging	[本科基础] / intermediate	SPECT 单光子成像
+P354	ultrasound-echo	[通识·小学] / basic	超声回波成像
+P355	doppler-ultrasound	[中学] / intro	多普勒超声
+P356	hifu	[本科高年级] / advanced	高强度聚焦超声 HIFU
+P357	oct-imaging	[本科高年级] / advanced	光学相干断层 OCT
+P358	radiotherapy-dose	[本科高年级] / advanced	放射治疗与剂量
+P359	radiopharmaceutical	[本科基础] / intermediate	放射性核素选择
+P360	dual-energy-ct	[研究生] / professional	双能 CT 与能谱成像
+P361	magnetic-particle-imaging	[科研·学术级] / research	磁粒子成像 MPI
+P362	thermal-imaging	[通识·小学] / basic	红外热成像
+P363	contrast-agent	[本科高年级] / advanced	造影剂与弛豫
+P364	imaging-dose-alara	[本科基础] / intermediate	影像剂量与 ALARA
+
+## materials-science (34)
+P365	phase-diagram	[本科高年级] / advanced	二元相图与吉布斯自由能
+P366	iron-carbon-diagram	[本科基础] / intermediate	铁碳相图与珠光体
+P367	constitutional-supercooling	[研究生] / professional	成分过冷与凝固
+P368	czochralski	[本科高年级] / advanced	晶体生长与区域提纯
+P369	dislocation-slip	[本科高年级] / advanced	位错与塑性滑移
+P370	peierls-nabarro	[科研·学术级] / research	佩尔斯-纳巴罗应力
+P371	hall-petch	[本科高年级] / advanced	霍尔-佩奇强化
+P372	solid-solution-strengthening	[本科高年级] / advanced	固溶与沉淀强化
+P373	fick-diffusion	[本科基础] / intermediate	扩散与菲克定律
+P374	vacancy-diffusion	[本科基础] / intermediate	空位与间隙扩散
+P375	annealing-recrystallization	[本科基础] / intermediate	退火与再结晶
+P376	martensitic-transformation	[本科高年级] / advanced	马氏体相变
+P377	shape-memory-alloy	[本科高年级] / advanced	形状记忆合金
+P378	creep	[本科高年级] / advanced	高温蠕变
+P379	fatigue-crack	[本科高年级] / advanced	疲劳与裂纹扩展
+P380	fracture-toughness	[本科高年级] / advanced	断裂韧性
+P381	fiber-composite	[中学] / intro	纤维增强复合材料
+P382	polymer-glass-transition	[本科高年级] / advanced	高分子玻璃化转变
+P383	rubber-elasticity	[本科高年级] / advanced	橡胶弹性与熵弹簧
+P384	ceramic-solid	[中学] / intro	陶瓷与共价网络固体
+P385	type-ii-superconductor	[科研·学术级] / research	第二类超导与磁通涡旋
+P386	quasicrystal	[本科高年级] / advanced	准晶与五重对称
+P387	metallic-glass	[本科高年级] / advanced	金属玻璃
+P388	thin-film-deposition	[本科高年级] / advanced	薄膜沉积与外延
+P389	thin-film-stress	[本科高年级] / advanced	薄膜应力与界面
+P390	surface-plasmon	[本科高年级] / advanced	纳米颗粒与等离激元
+P391	surface-catalysis	[本科高年级] / advanced	表面催化与吸附
+P392	corrosion-electrochemistry	[通识·小学] / basic	腐蚀与钝化
+P393	striebeck-lubrication	[本科基础] / intermediate	摩擦磨损与润滑
+P394	carrier-mobility	[本科高年级] / advanced	载流子迁移率与散射
+P395	piezoelectric-ferrcelectric	[本科高年级] / advanced	压电与铁电材料
+P396	dielectric-aging	[本科基础] / intermediate	介电老化与绝缘击穿
+P397	high-entropy-alloy	[科研·学术级] / research	高熵合金
+P398	materials-genome	[科研·学术级] / research	材料基因组与高通量筛选
+
+## open-problems (34)
+P399	quantum-gravity	[研究生] / professional	量子引力与时空量子化
+P400	dark-matter-particles	[科研·学术级] / research	暗物质粒子候选
+P401	cosmological-constant	[研究生] / professional	宇宙学常数与真空灾难
+P402	hierarchy-problem	[研究生] / professional	自然性与层级问题
+P403	times-arrow	[本科高年级] / advanced	时间之箭与过去假说
+P404	high-tc-mechanism	[研究生] / professional	高温超导机理
+P405	confinement-mass	[研究生] / professional	色禁闭与质子质量之谜
+P406	neutrino-mass-ordering	[本科高年级] / advanced	中微子绝对质量与顺序
+P407	higgs-vacuum-stability	[研究生] / professional	希格斯真空亚稳态
+P408	magnetic-monopole	[本科高年级] / advanced	磁单极子之谜
+P409	axion-strongcp	[研究生] / professional	轴子与强 CP 问题
+P410	fermi-paradox	[本科高年级] / advanced	费米悖论与大过滤器
+P411	consciousness-hard-problem	[科研·学术级] / research	意识的难问题
+P412	origin-of-life-physics	[科研·学术级] / research	生命起源的物理约束
+P413	quantum-classical-boundary	[本科高年级] / advanced	量子-经典边界
+P414	supersymmetry-status	[科研·学术级] / research	超对称的实验处境
+P415	inflation-testability	[科研·学术级] / research	暴胀的可检验性
+P416	neutron-star-eos	[研究生] / professional	中子星状态方程
+P417	turbulence-intermittency	[研究生] / professional	湍流间歇性
+P418	proton-spin-crisis	[本科高年级] / advanced	质子自旋危机
+P419	fifth-force	[研究生] / professional	第五种力与等效原理
+P420	time-crystal	[科研·学术级] / research	时间晶体
+P421	room-temperature-superconductor	[本科高年级] / advanced	常温超导的追寻
+P422	ml-discovery	[科研·学术级] / research	机器学习能否发现新物理
+P423	ether-decline	[中学] / intro	以太的兴衰
+P424	wave-particle-debate	[中学] / intro	波粒之争
+P425	quantum-interpretation-history	[本科高年级] / advanced	量子诠释之争
+P426	static-to-expanding-universe	[中学] / intro	宇宙从静到动
+P427	cloud-chamber-to-collider	[通识·小学] / basic	从云室到对撞机
+P428	precision-measurement-history	[本科高年级] / advanced	精密测量与基本常数
+P429	paradigm-shift-kuhn	[本科高年级] / advanced	科学范式与科学革命
+P430	falsifiability	[本科高年级] / advanced	可证伪性与科学划界
+P431	nobel-misjudgments	[通识·小学] / basic	诺贝尔的错失与迟来
+P432	women-in-physics	[中学] / intro	被低估的女性物理学家
+
+## graduate-exam-core (67)
+P467	shm-phase-circle	[本科基础] / intermediate	简谐振动的相位圆表示
+P468	lissajous-figures	[本科基础] / intermediate	振动合成与李萨如图形
+P469	forced-resonance-peak	[本科基础] / intermediate	受迫振动与共振峰
+P470	damped-q-factor	[本科基础] / intermediate	阻尼振动的能量衰减
+P471	inertia-parallel-axis	[本科基础] / intermediate	转动惯量与平行轴定理
+P472	angular-momentum-scenarios	[本科高年级] / advanced	角动量守恒的综合应用
+P473	collision-restitution	[本科基础] / intermediate	碰撞与恢复系数
+P474	orbital-transfer-speeds	[本科基础] / intermediate	变轨与宇宙速度
+P475	dalembert-inertial-force	[本科高年级] / advanced	达朗贝尔原理与惯性力
+P476	virtual-work-principle	[本科高年级] / advanced	虚功原理
+P477	double-pendulum-lagrange	[研究生] / professional	拉格朗日方程解双摆
+P478	hamilton-phase-space	[研究生] / professional	哈密顿方程与相空间
+P479	coupled-beats-energy	[本科高年级] / advanced	耦合振子的能量拍
+P480	gyroscopic-nutation	[研究生] / professional	陀螺进动与章动
+P481	cylindrical-gauss-law	[本科基础] / intermediate	柱对称高斯定理
+P482	faraday-lenz-law	[本科基础] / intermediate	法拉第定律与楞次方向
+P483	electric-dipole-field	[本科高年级] / intermediate	电偶极子的电场与势
+P484	potential-multipole-expansion	[研究生] / professional	电势的多极展开
+P485	rl-circuit-transient	[本科基础] / intermediate	RL 电路的暂态过程
+P486	rlc-impedance-resonance	[本科高年级] / advanced	RLC 串联谐振与复阻抗
+P487	ac-power-factor	[本科基础] / intermediate	交流功率与功率因数
+P488	transformer-mutual-inductance	[本科高年级] / advanced	互感与理想变压器
+P489	maxwell-displacement-current	[本科高年级] / advanced	位移电流与全电流定律
+P490	poynting-energy-flow	[本科高年级] / advanced	坡印廷矢量与电磁能流
+P491	transmission-line-matching	[研究生] / professional	传输线与阻抗匹配
+P492	hysteresis-loop	[本科高年级] / intermediate	磁滞回线与磁化曲线
+P493	minimal-coupling-momentum	[研究生] / professional	最小耦合与正则动量
+P494	speed-distribution-derivation	[本科基础] / intermediate	麦克斯韦速率分布
+P495	equipartition-freeze	[本科高年级] / intermediate	能量均分定理与自由度冻结
+P496	partition-function-z	[研究生] / professional	配分函数与热力学量
+P497	boltzmann-entropy-formula	[本科高年级] / intermediate	玻尔兹曼熵公式
+P498	heat-engine-efficiency	[本科基础] / intermediate	热机效率与卡诺上限
+P499	refrigeration-cop	[本科基础] / intermediate	制冷循环与制冷系数
+P500	adiabatic-polytropic	[本科基础] / intermediate	绝热过程与多方过程
+P501	clausius-inequality	[本科高年级] / advanced	克劳修斯不等式与熵产
+P502	maxwell-demon-statistical	[研究生] / advanced	麦克斯韦妖与第二定律统计义
+P503	joule-thomson-throttle	[本科高年级] / advanced	焦耳-汤姆孙效应
+P504	critical-exponents	[研究生] / professional	临界现象与临界指数
+P505	quantum-statistics-limit	[研究生] / advanced	量子统计的经典极限
+P506	finite-square-well	[本科高年级] / advanced	有限深方势阱
+P507	delta-potential	[本科高年级] / advanced	δ 势的束缚与散射
+P508	rectangular-barrier	[本科高年级] / advanced	方势垒透射系数
+P509	coherent-state-oscillator	[研究生] / professional	谐振子的相干态
+P510	ladder-operators-angular	[本科高年级] / advanced	角动量升降算符
+P511	pauli-matrices-spin	[本科高年级] / advanced	泡利矩阵与自旋 1/2
+P512	heisenberg-picture	[研究生] / professional	海森堡绘景
+P513	second-quantization	[研究生] / professional	二次量子化与产生湮灭算符
+P514	degenerate-perturbation	[本科高年级] / advanced	简并微扰与能级交叉
+P515	wkb-approximation	[研究生] / professional	WKB 近似
+P516	fermi-golden-rule	[研究生] / advanced	费米黄金规则
+P517	phase-shift-scattering	[研究生] / professional	分波法与相移
+P518	hartree-fock-mean-field	[研究生] / professional	平均场与哈特里-福克
+P519	rabi-oscillation	[研究生] / advanced	拉比振荡与两能级系统
+P520	single-slit-fraunhofer	[本科基础] / intermediate	单缝夫琅禾费衍射
+P521	brewsters-angle	[本科基础] / intermediate	布儒斯特角与偏振
+P522	quarter-wave-plate	[本科高年级] / advanced	四分之一波片与椭圆偏振
+P523	telescope-diffraction-limit	[本科高年级] / intermediate	望远镜的衍射极限
+P524	bragg-diffraction	[本科高年级] / intermediate	布拉格衍射与晶格分析
+P525	raman-scattering	[本科高年级] / advanced	拉曼散射
+P526	spatial-coherence	[本科高年级] / advanced	空间相干性与缝宽
+P527	laser-threshold	[本科高年级] / advanced	激光原理与振荡阈值
+P528	relativity-simultaneity	[本科基础] / basic	同时的相对性
+P529	invariant-mass-collision	[本科高年级] / advanced	相对论碰撞与不变质量
+P530	rydberg-series-hydrogen	[本科基础] / intermediate	氢原子光谱与里德伯系
+P531	uncertainty-ground-state	[本科高年级] / intermediate	不确定性关系与基态能量
+P532	hall-effect-carriers	[本科高年级] / intermediate	霍尔效应与载流子判型
+P533	zeeman-splitting-pattern	[本科高年级] / advanced	塞曼效应与能级分裂
+
+## mathematical-physics-methods (67)
+P534	picard-uniqueness	[本科高年级] / advanced	皮卡存在唯一性定理
+P535	frobenius-series	[本科高年级] / advanced	Frobenius 幂级数解法
+P536	sturm-liouville	[本科高年级] / advanced	施特姆-刘维尔本征值问题
+P537	legendre-spherical-harmonics	[本科高年级] / advanced	勒让德多项式与球谐函数
+P538	bessel-cylindrical	[本科高年级] / advanced	贝塞尔函数与圆柱问题
+P539	laguerre-hydrogen-radial	[本科高年级] / advanced	拉盖尔多项式与氢原子径向方程
+P540	hypergeometric-function	[研究生] / professional	超几何函数与合流型
+P541	phase-plane-stability	[本科高年级] / advanced	相平面与稳定性分析
+P542	limit-cycle-bifurcation	[研究生] / professional	极限环与分岔
+P543	symmetry-lie-group	[研究生] / professional	微分方程的对称性与诺特
+P544	separation-cartesian	[本科高年级] / intermediate	分离变量法（直角坐标）
+P545	separation-spherical	[本科高年级] / advanced	球坐标分离与角动量
+P546	poisson-green-function	[本科高年级] / advanced	泊松方程与格林函数
+P547	green-mirror-image	[本科高年级] / advanced	格林函数的镜像法构造
+P548	helmholtz-modes	[本科高年级] / advanced	亥姆霍兹方程与本征模
+P549	heat-kernel-solution	[研究生] / professional	热核与基本解
+P550	wave-dalembert-solution	[本科高年级] / intermediate	波动方程的达朗贝尔解
+P551	laplace-uniqueness	[本科高年级] / intermediate	拉普拉斯方程的唯一性
+P552	conformal-mapping	[研究生] / professional	保角映射与二维问题
+P553	boundary-integral	[研究生] / professional	边界积分与边界元思想
+P554	well-posedness	[本科高年级] / intermediate	适定性与三类边界条件
+P555	maximum-principle	[本科高年级] / advanced	极值原理与调和函数
+P556	cauchy-riemann	[本科高年级] / intermediate	解析函数与柯西-黎曼条件
+P557	cauchy-integral-formula	[本科高年级] / advanced	柯西积分公式与高阶导数
+P558	residue-theorem	[本科高年级] / advanced	留数定理与定积分计算
+P559	laurent-series	[本科高年级] / advanced	洛朗级数与奇点分类
+P560	schwartz-christoffel	[研究生] / professional	施瓦茨-克里斯托费尔映射
+P561	analytic-continuation	[研究生] / professional	解析延拓与黎曼面
+P562	branch-cuts	[本科高年级] / advanced	分支点与多值函数
+P563	saddle-point-method	[研究生] / professional	鞍点法与最速下降
+P564	contour-deformation	[研究生] / professional	围道变形的物理应用
+P565	mobius-transform	[本科高年级] / advanced	莫比乌斯变换与映射
+P566	fourier-series-convergence	[本科基础] / intermediate	傅里叶级数与收敛性
+P567	fourier-convolution	[本科高年级] / intermediate	傅里叶变换与卷积定理
+P568	dirac-delta-generalized	[本科高年级] / intermediate	δ 函数与广义函数
+P569	laplace-transform-solve	[本科高年级] / intermediate	拉普拉斯变换与求解器
+P570	multidim-fourier-diffraction	[本科高年级] / advanced	多维傅里叶变换与衍射
+P571	transform-evolution-equation	[本科高年级] / advanced	积分变换解演化方程
+P572	cartesian-tensor	[本科高年级] / advanced	笛卡尔张量与变换律
+P573	christoffel-symbols	[研究生] / professional	度规与克里斯托费尔符号
+P574	covariant-derivative	[研究生] / professional	协变导数与平行输运
+P575	riemann-curvature	[研究生] / professional	黎曼曲率张量
+P576	einstein-field-equations	[研究生] / professional	爱因斯坦场方程的推导脉络
+P577	differential-forms	[研究生] / professional	微分形式与广义斯托克斯
+P578	geodesic-variation	[研究生] / professional	测地线方程与变分
+P579	euler-lagrange-functional	[本科高年级] / advanced	泛函与欧拉-拉格朗日方程
+P580	isoperimetric-problem	[本科高年级] / advanced	等周问题与约束变分
+P581	hamilton-principle-action	[本科高年级] / advanced	哈密顿原理与最小作用量
+P582	rayleigh-ritz	[研究生] / advanced	瑞利-里兹数值变分
+P583	variational-inequalities	[研究生] / professional	变分不等式与詹森界
+P584	spectral-decomposition	[本科高年级] / advanced	谱定理与对角化
+P585	matrix-exponential	[本科高年级] / advanced	矩阵指数与时间演化
+P586	projector-subspace	[本科高年级] / advanced	投影算符与子空间分解
+P587	tensor-product-space	[研究生] / professional	张量积与多体态空间
+P588	eigenvalue-perturbation	[研究生] / advanced	本征值扰动理论
+P589	least-squares-fitting	[本科高年级] / intermediate	最小二乘与曲线拟合
+P590	linear-systems-pseudoinverse	[研究生] / advanced	线性方程组与伪逆
+P591	moment-generating	[本科高年级] / intermediate	矩生成函数与分布族
+P592	gaussian-convolution-limit	[本科高年级] / intermediate	中心极限定理
+P593	wiener-brownian-path	[研究生] / advanced	布朗运动与随机路径
+P594	langevin-fokkerplanck	[研究生] / professional	朗之万方程与福克-普朗克
+P595	master-equation-markov	[研究生] / advanced	主方程与马尔可夫链
+P596	monte-carlo-sampling	[研究生] / advanced	蒙特卡洛方法与重要性抽样
+P597	group-character-table	[研究生] / professional	群表示与特征标表
+P598	so3-su2-representation	[研究生] / professional	SO(3) 与 SU(2) 表示
+P599	group-selection-rules	[研究生] / advanced	不可约表示与选择定则
+P600	symmetry-breaking-order	[研究生] / professional	对称性破缺与序参量
+

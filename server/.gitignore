@@ -1,0 +1,5 @@
+﻿# Build
+server/*.exe
+server/bin/
+server/data/
+*.log

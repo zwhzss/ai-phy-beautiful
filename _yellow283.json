@@ -1,0 +1,2266 @@
+[
+ {
+  "id": "P194",
+  "slug": "lagrange-equation",
+  "cat": "analytical-mechanics",
+  "title": "拉格朗日方程",
+  "desc": "用能量写运动：d/dt(∂L/∂q̇)−∂L/∂q=0——分析力学的总纲。",
+  "concept": "拉格朗日量、广义力、约束消除"
+ },
+ {
+  "id": "P195",
+  "slug": "hamiltonian-mechanics",
+  "cat": "analytical-mechanics",
+  "title": "哈密顿力学",
+  "desc": "相空间中的流动：正则方程与刘维尔定理——统计与量子的桥头堡。",
+  "concept": "相空间、正则方程、刘维尔定理"
+ },
+ {
+  "id": "P196",
+  "slug": "least-action",
+  "cat": "analytical-mechanics",
+  "title": "最小作用量原理",
+  "desc": "自然界只走驻值路线——牛顿与爱因斯坦共同的地基。",
+  "concept": "作用量变分、费马原理、路径积分"
+ },
+ {
+  "id": "P197",
+  "slug": "generalized-coordinates",
+  "cat": "analytical-mechanics",
+  "title": "广义坐标与自由度",
+  "desc": "选对变量方程就简单——角度也能当坐标，约束自动消去自由度。",
+  "concept": "独立坐标、完整约束、自由度计数"
+ },
+ {
+  "id": "P198",
+  "slug": "constrained-dof",
+  "cat": "analytical-mechanics",
+  "title": "约束、虚功与达朗贝尔",
+  "desc": "理想约束的虚功为零——看不见的力从不出现在方程里。",
+  "concept": "虚位移、完整/非完整、达朗贝尔原理"
+ },
+ {
+  "id": "P199",
+  "slug": "poisson-bracket",
+  "cat": "analytical-mechanics",
+  "title": "泊松括号",
+  "desc": "守恒律写成与 H 对易——从经典通往量子的运算桥。",
+  "concept": "正则结构、守恒判据、量子对应"
+ },
+ {
+  "id": "P200",
+  "slug": "canonical-transform",
+  "cat": "analytical-mechanics",
+  "title": "正则变换",
+  "desc": "换坐标不换物理：相面积不变的辛变换——让方程变顺手的艺术。",
+  "concept": "生成函数、辛条件、作用量-角变量"
+ },
+ {
+  "id": "P201",
+  "slug": "virial-theorem",
+  "cat": "analytical-mechanics",
+  "title": "维里定理",
+  "desc": "束缚系统的动能与势能被锁死比例——恒星质光关系的出处。",
+  "concept": "时间平均、位力、能量均分"
+ },
+ {
+  "id": "P326",
+  "slug": "atomic-clock",
+  "cat": "atomic-levels",
+  "title": "原子钟",
+  "desc": "用铯原子跃迁定义一秒——时间的量子化。",
+  "concept": "铯-133、微波激射、光钟"
+ },
+ {
+  "id": "P335",
+  "slug": "membrane-potential",
+  "cat": "biophysics",
+  "title": "膜电位与离子通道",
+  "desc": "静息 −70 mV 由浓度差与选择性通透撑起。",
+  "concept": "能斯特电位、钠钾泵、通透性"
+ },
+ {
+  "id": "P336",
+  "slug": "action-potential",
+  "cat": "biophysics",
+  "title": "神经动作电位",
+  "desc": "全或无的钠浪——Hodgkin-Huxley 方程的 1952。",
+  "concept": "阈值、不应期、跳跃传导"
+ },
+ {
+  "id": "P337",
+  "slug": "blood-rheology",
+  "cat": "biophysics",
+  "title": "血液流变与法-朗效应",
+  "desc": "红细胞叠钱让血液变非牛顿——剪切越快越稀。",
+  "concept": "表观黏度、剪切变稀、Fåhræus"
+ },
+ {
+  "id": "P340",
+  "slug": "enzyme-kinetics",
+  "cat": "biophysics",
+  "title": "酶与米氏方程",
+  "desc": "底物浓度饱和出 K_m——催化提速一百万倍。",
+  "concept": "活性位点、饱和、转换数"
+ },
+ {
+  "id": "P343",
+  "slug": "collagen-bone",
+  "cat": "biophysics",
+  "title": "骨骼与胶原复合力学",
+  "desc": "有机胶原加无机磷灰石——刚柔并济的 Wolff 定律。",
+  "concept": "复合强化、骨小梁、应力适配"
+ },
+ {
+  "id": "P344",
+  "slug": "fret-fluorescence",
+  "cat": "biophysics",
+  "title": "荧光共振能量转移 FRET",
+  "desc": "十纳米内能量跳给邻居——量分子距离的光学卡尺。",
+  "concept": "Förster 半径、供受体、无辐射转移"
+ },
+ {
+  "id": "P346",
+  "slug": "neural-oscillations",
+  "cat": "biophysics",
+  "title": "脑电与神经振荡",
+  "desc": "千百万神经元同步放电——EEG 节律的相位耦合。",
+  "concept": "α/γ 节律、相位同步、功率谱"
+ },
+ {
+  "id": "P144",
+  "slug": "black-hole-thermo",
+  "cat": "black-hole",
+  "title": "黑洞热力学四定律",
+  "desc": "面积即熵、表面引力即温度——几何与热力的逐条对译。",
+  "concept": "贝肯斯坦-霍金熵、面积律"
+ },
+ {
+  "id": "P295",
+  "slug": "air-track",
+  "cat": "classical-mechanics",
+  "title": "气垫导轨实验",
+  "desc": "近无摩擦的一维世界——碰撞与动量的直接验证。",
+  "concept": "准直、光电门、弹性系数"
+ },
+ {
+  "id": "P297",
+  "slug": "kater-pendulum",
+  "cat": "classical-mechanics",
+  "title": "可逆摆测重力加速度",
+  "desc": "正反挂同一刀口——周期相等即得 g。",
+  "concept": "可逆摆、等效摆长、测 g"
+ },
+ {
+  "id": "P299",
+  "slug": "young-modulus",
+  "cat": "classical-mechanics",
+  "title": "杨氏模量测量",
+  "desc": "拉伸钢丝读出材料刚度——胡克区与颈缩。",
+  "concept": "应力应变、比例极限、伸长计"
+ },
+ {
+  "id": "P301",
+  "slug": "compound-pendulum",
+  "cat": "classical-mechanics",
+  "title": "复摆与振动中心",
+  "desc": "物理摆的等效单摆——摆动中心互易定理。",
+  "concept": "摆动中心、等效长、周期"
+ },
+ {
+  "id": "P434",
+  "slug": "rigid-plane-motion",
+  "cat": "classical-mechanics",
+  "title": "刚体平面运动",
+  "desc": "平动加转动的叠加——滚轮问题的一套方程。",
+  "concept": "瞬心、平面运动、动能分解"
+ },
+ {
+  "id": "P436",
+  "slug": "composed-motion",
+  "cat": "classical-mechanics",
+  "title": "点的复合运动",
+  "desc": "牵连、相对与绝对——科里奥利的运动学前身。",
+  "concept": "牵连速度、科氏加速度、速度投影"
+ },
+ {
+  "id": "P57",
+  "slug": "rolling-friction",
+  "cat": "classical-mechanics",
+  "title": "滚动与滑动摩擦",
+  "desc": "为什么车轮要滚不要滑：滚动摩擦比滑动摩擦小一到两个数量级。",
+  "concept": "滚动摩擦、力矩平衡、打滑条件"
+ },
+ {
+  "id": "P261",
+  "slug": "refracting-telescope",
+  "cat": "cosmic-observation",
+  "title": "折射望远镜",
+  "desc": "物镜聚光、目镜放大——四百年光学观测的起点方案。",
+  "concept": "焦距比、放大率、色差"
+ },
+ {
+  "id": "P262",
+  "slug": "reflecting-telescope",
+  "cat": "cosmic-observation",
+  "title": "反射望远镜",
+  "desc": "反射面不吃色差——牛顿镜与卡塞格林焦点的口径之路。",
+  "concept": "口径、集光力、焦点布局"
+ },
+ {
+  "id": "P263",
+  "slug": "atmospheric-window",
+  "cat": "cosmic-observation",
+  "title": "大气窗口与台址选择",
+  "desc": "大气吸收划定地面观测谱段——为什么望远镜要上山或上天。",
+  "concept": "视宁度、消光、海拔"
+ },
+ {
+  "id": "P264",
+  "slug": "space-telescope",
+  "cat": "cosmic-observation",
+  "title": "空间望远镜",
+  "desc": "把望远镜送出大气——哈勃与韦伯的轨道优势与代价。",
+  "concept": "热控、微重力、深空低温"
+ },
+ {
+  "id": "P265",
+  "slug": "radio-telescope",
+  "cat": "cosmic-observation",
+  "title": "射电望远镜",
+  "desc": "接收不可见的电波——抛物面天线与射电宁静区。",
+  "concept": "方向图、灵敏度、射电干扰"
+ },
+ {
+  "id": "P268",
+  "slug": "photometric-observation",
+  "cat": "cosmic-observation",
+  "title": "天体测光观测",
+  "desc": "给星光称重——星等、光变曲线与测光系统。",
+  "concept": "流量定标、颜色、曝光"
+ },
+ {
+  "id": "P269",
+  "slug": "stellar-spectroscopy",
+  "cat": "cosmic-observation",
+  "title": "恒星光谱观测",
+  "desc": "拆开星光读元素与速度——谱线的多普勒位移。",
+  "concept": "色散、径向速度、等值宽度"
+ },
+ {
+  "id": "P270",
+  "slug": "stellar-parallax",
+  "cat": "cosmic-observation",
+  "title": "三角视差测距",
+  "desc": "地球公转画出基线——1 角秒即 1 秒差距。",
+  "concept": "视差、秒差距、盖亚"
+ },
+ {
+  "id": "P271",
+  "slug": "distance-ladder",
+  "cat": "cosmic-observation",
+  "title": "宇宙距离阶梯",
+  "desc": "一级标定一级——从月球量到宇宙边缘的量天尺。",
+  "concept": "标准烛光、造父、Ia 超新星"
+ },
+ {
+  "id": "P272",
+  "slug": "redshift-survey",
+  "cat": "cosmic-observation",
+  "title": "星系红移巡天",
+  "desc": "百万星系的红移普查——宇宙大尺度结构的地图。",
+  "concept": "巡天选源、统计、重子声波"
+ },
+ {
+  "id": "P274",
+  "slug": "pulsar-discovery",
+  "cat": "cosmic-observation",
+  "title": "脉冲星观测",
+  "desc": "毫秒脉冲的宇宙灯塔——射电计时发现中子星。",
+  "concept": "色散、计时、磁层"
+ },
+ {
+  "id": "P276",
+  "slug": "neutrino-observation",
+  "cat": "cosmic-observation",
+  "title": "中微子天文学",
+  "desc": "从太阳中微子到超新星——看不见的信使。",
+  "concept": "味转换、切伦科夫、地下探测"
+ },
+ {
+  "id": "P277",
+  "slug": "cosmic-ray-observation",
+  "cat": "cosmic-observation",
+  "title": "宇宙线观测",
+  "desc": "一个原初粒子炸出百万粒子阵雨——广延大气簇射。",
+  "concept": "能量定标、缪子、空气荧光"
+ },
+ {
+  "id": "P278",
+  "slug": "xray-astronomy",
+  "cat": "cosmic-observation",
+  "title": "X 射线天文观测",
+  "desc": "高能宇宙只能上天看——掠射镜与能量分辨。",
+  "concept": "掠射反射、钱德拉、吸积"
+ },
+ {
+  "id": "P279",
+  "slug": "infrared-astronomy",
+  "cat": "cosmic-observation",
+  "title": "红外天文观测",
+  "desc": "冷却探测器穿透尘埃——恒星育婴室的窗口。",
+  "concept": "热背景、JWST、分子谱线"
+ },
+ {
+  "id": "P280",
+  "slug": "gamma-astronomy",
+  "cat": "cosmic-observation",
+  "title": "伽马射线天文观测",
+  "desc": "最高能光子的暴与星——对产生探测。",
+  "concept": "量能器、符合、暴发"
+ },
+ {
+  "id": "P282",
+  "slug": "exoplanet-rv",
+  "cat": "cosmic-observation",
+  "title": "视向速度法搜寻系外行星",
+  "desc": "恒星被看不见的伴星拽着摆——多普勒测质量下限。",
+  "concept": "速度半幅、轨道周期、仪器稳定"
+ },
+ {
+  "id": "P285",
+  "slug": "stellar-occultation",
+  "cat": "cosmic-observation",
+  "title": "掩星观测",
+  "desc": "星光一闪即灭——小天体的影子量出大小。",
+  "concept": "掩星时标、切向速度、大气"
+ },
+ {
+  "id": "P286",
+  "slug": "astrometry",
+  "cat": "cosmic-observation",
+  "title": "天体测量观测",
+  "desc": "盖亚给十亿颗星记位置账——自行与三维运动。",
+  "concept": "参考架、视差、自行"
+ },
+ {
+  "id": "P287",
+  "slug": "lensing-time-delay",
+  "cat": "cosmic-observation",
+  "title": "引力透镜时间延迟",
+  "desc": "同一个类星体的多重视像不同步——几何测哈勃常数。",
+  "concept": "时延、透镜模型、哈勃张力"
+ },
+ {
+  "id": "P288",
+  "slug": "supernova-cosmology",
+  "cat": "cosmic-observation",
+  "title": "Ia 超新星宇宙学",
+  "desc": "标准爆炸照亮加速膨胀——1998 年的发现。",
+  "concept": "光变定标、红移、暗能量"
+ },
+ {
+  "id": "P289",
+  "slug": "polarimetry",
+  "cat": "cosmic-observation",
+  "title": "天体偏振观测",
+  "desc": "偏振方向记录磁场与散射——看不见的几何。",
+  "concept": "偏振度、法拉第旋转、尘埃"
+ },
+ {
+  "id": "P290",
+  "slug": "time-domain-astronomy",
+  "cat": "cosmic-observation",
+  "title": "时域巡天",
+  "desc": "反复扫同片天区——暂现源与电磁对应体警报。",
+  "concept": "巡天节奏、暂现、告警网络"
+ },
+ {
+  "id": "P291",
+  "slug": "spectrograph",
+  "cat": "cosmic-observation",
+  "title": "观测光谱仪",
+  "desc": "棱镜与光栅把光摊平——观测端的分光核心。",
+  "concept": "色散、分辨率、自由光谱范围"
+ },
+ {
+  "id": "P292",
+  "slug": "seti-signal-search",
+  "cat": "cosmic-observation",
+  "title": "SETI 信号搜索",
+  "desc": "在噪声里找窄带信号——地外文明的观测尝试。",
+  "concept": "带宽、信噪、费米悖论"
+ },
+ {
+  "id": "P293",
+  "slug": "dark-energy-survey",
+  "cat": "cosmic-observation",
+  "title": "暗能量巡天",
+  "desc": "弱透镜与声波指纹的统计宇宙学。",
+  "concept": "弱透镜、BAO、状态方程"
+ },
+ {
+  "id": "P181",
+  "slug": "universe-timeline",
+  "cat": "cosmology",
+  "title": "宇宙演化时间线",
+  "desc": "从 10⁻⁴³ 秒到 138 亿年——十一个台阶走完宇宙史。",
+  "concept": "太初核合成、复合、结构形成"
+ },
+ {
+  "id": "P183",
+  "slug": "dark-energy-eos",
+  "cat": "cosmology",
+  "title": "暗能量状态方程",
+  "desc": "w=−1 的身份判定——宇宙加速的密码与命运。",
+  "concept": "状态方程、宇宙学常数、幻能"
+ },
+ {
+  "id": "P184",
+  "slug": "hubble-tension",
+  "cat": "cosmology",
+  "title": "哈勃张力",
+  "desc": "两种测法差 5.6——教科书可能正在改写的裂缝。",
+  "concept": "距离阶梯、CMB 外推、系统误差"
+ },
+ {
+  "id": "P113",
+  "slug": "rc-circuit",
+  "cat": "electrodynamics-advanced",
+  "title": "RC 电路暂态",
+  "desc": "电容充放电的指数曲线与时间常数——数字电路上升沿的物理。",
+  "concept": "暂态、时间常数、指数响应"
+ },
+ {
+  "id": "P114",
+  "slug": "rl-circuit",
+  "cat": "electrodynamics-advanced",
+  "title": "RL 电路暂态",
+  "desc": "电感抗拒电流变化——断电火花与续流二极管的来源。",
+  "concept": "自感、反电动势、磁能"
+ },
+ {
+  "id": "P115",
+  "slug": "lc-resonance",
+  "cat": "electrodynamics-advanced",
+  "title": "LC 谐振",
+  "desc": "电场能与磁能的永动交换——无线电选频的振荡原型。",
+  "concept": "电磁振荡、固有频率、Q 值"
+ },
+ {
+  "id": "P116",
+  "slug": "ac-impedance",
+  "cat": "electrodynamics-advanced",
+  "title": "交流阻抗与相位",
+  "desc": "复数阻抗管幅度与相位——谐振、滤波与功率因数的统一语言。",
+  "concept": "阻抗、相位差、谐振曲线"
+ },
+ {
+  "id": "P117",
+  "slug": "transformer",
+  "cat": "electrodynamics-advanced",
+  "title": "变压器",
+  "desc": "匝数比决定电压比——高压输电与万物插头的幕后功臣。",
+  "concept": "互感、变比、理想变压器"
+ },
+ {
+  "id": "P118",
+  "slug": "three-phase",
+  "cat": "electrodynamics-advanced",
+  "title": "三相电",
+  "desc": "三路相差 120° 的正弦叠加出恒定功率——工业动力的标准制式。",
+  "concept": "三相制、星形/三角形、恒定功率"
+ },
+ {
+  "id": "P119",
+  "slug": "dc-motor",
+  "cat": "electrodynamics-advanced",
+  "title": "直流电动机",
+  "desc": "安培力偶驱动转子，换向器每半圈翻转电流——旋转的最简原理。",
+  "concept": "安培力、换向器、反电动势"
+ },
+ {
+  "id": "P120",
+  "slug": "hysteresis",
+  "cat": "electrodynamics-advanced",
+  "title": "磁滞回线",
+  "desc": "磁化永远落后于外场——回线面积就是每周期的能量代价。",
+  "concept": "磁滞、矫顽力、磁畴"
+ },
+ {
+  "id": "P440",
+  "slug": "ampere-circuital-law",
+  "cat": "electrodynamics-advanced",
+  "title": "安培环路定理的应用",
+  "desc": "对称性选积分路径——磁场计算的捷径。",
+  "concept": "环路选取、螺绕环、位移电流修正"
+ },
+ {
+  "id": "P305",
+  "slug": "induction-coil",
+  "cat": "electromagnetic-induction",
+  "title": "感应圈与高压火花",
+  "desc": "断电自感打出火花——实验室里的早期高压源。",
+  "concept": "自感、匝数比、火花隙"
+ },
+ {
+  "id": "P439",
+  "slug": "capacitor-energy",
+  "cat": "electrostatics",
+  "title": "电容器的能量",
+  "desc": "能量存在场里不是电荷里——½CV² 的场论读法。",
+  "concept": "储能、能量密度、充电过程"
+ },
+ {
+  "id": "P94",
+  "slug": "capacitor",
+  "cat": "electrostatics",
+  "title": "平行板电容器",
+  "desc": "两块板存住电荷——面积越大、间距越小、介质越好，容量越大。",
+  "concept": "电容、介电常数、储能"
+ },
+ {
+  "id": "P186",
+  "slug": "navier-stokes",
+  "cat": "fluid",
+  "title": "纳维-斯托克斯方程",
+  "desc": "流体运动的总方程——非线性对流项孕育一切湍流，也是千禧年难题之一。",
+  "concept": "动量守恒、非线性、湍流"
+ },
+ {
+  "id": "P192",
+  "slug": "marangoni",
+  "cat": "fluid",
+  "title": "马兰戈尼效应",
+  "desc": "温度梯度变成表面张力梯度，液体自己流动起来——挂杯泪与焊接工艺。",
+  "concept": "热毛细流、Marangoni 数"
+ },
+ {
+  "id": "P207",
+  "slug": "lensmaker",
+  "cat": "geometric-optics",
+  "title": "透镜制作者公式",
+  "desc": "焦距=材料×形状——光学设计第一课，消色差的出发点。",
+  "concept": "曲率半径、折射率、消色差"
+ },
+ {
+  "id": "P448",
+  "slug": "microscope-resolution",
+  "cat": "geometric-optics",
+  "title": "显微镜与分辨极限",
+  "desc": "放大不等于看清——阿贝判据给分辨率封顶。",
+  "concept": "数值孔径、瑞利判据、油浸"
+ },
+ {
+  "id": "P449",
+  "slug": "optical-path-length",
+  "cat": "geometric-optics",
+  "title": "光程与费马原理",
+  "desc": "光永远走最省时的路——折射定律的另一种写法。",
+  "concept": "光程、等光程、费马原理"
+ },
+ {
+  "id": "P88",
+  "slug": "depth-of-field",
+  "cat": "geometric-optics",
+  "title": "景深",
+  "desc": "光圈越小景深越大——为什么风景照要用小光圈、人像要开大光圈。",
+  "concept": "弥散圆、光圈、焦距关系"
+ },
+ {
+  "id": "P90",
+  "slug": "magnifier",
+  "cat": "geometric-optics",
+  "title": "放大镜与视角",
+  "desc": "把物体'放大'其实是放大了它对眼睛张开的视角——最近对焦在哪里。",
+  "concept": "视角、焦距、放大倍率"
+ },
+ {
+  "id": "P91",
+  "slug": "camera-aperture",
+  "cat": "geometric-optics",
+  "title": "光圈与快门",
+  "desc": "进光量的两个阀门：光圈管景深、快门管动感——曝光三角的第一课。",
+  "concept": "曝光、互易律、运动模糊"
+ },
+ {
+  "id": "P149",
+  "slug": "post-newtonian",
+  "cat": "gr-advanced",
+  "title": "后牛顿近似",
+  "desc": "按 (v/c)² 逐阶修正牛顿——引力波形的计算基石。",
+  "concept": "PN 展开、弱场慢速、波形模板"
+ },
+ {
+  "id": "P467",
+  "slug": "shm-phase-circle",
+  "cat": "graduate-exam-core",
+  "title": "简谐振动的相位圆表示",
+  "desc": "一个旋转矢量把 x、v、a 三者相位差一次看清——考研振动题的第一件工具。",
+  "concept": "相位圆、旋转矢量、90° 相位差"
+ },
+ {
+  "id": "P470",
+  "slug": "damped-q-factor",
+  "cat": "graduate-exam-core",
+  "title": "阻尼振动的能量衰减",
+  "desc": "振幅按 e^(−βt) 衰减，能量按 e^(−2βt)——Q = π/ζ 为什么是共振锐度的标尺。",
+  "concept": "包络衰减、对数减缩、Q 与阻尼比"
+ },
+ {
+  "id": "P475",
+  "slug": "dalembert-inertial-force",
+  "cat": "graduate-exam-core",
+  "title": "达朗贝尔原理与惯性力",
+  "desc": "把动力学改写成静力学：非惯性系里的虚拟惯性力让斜面问题一步到位。",
+  "concept": "惯性力、刹车参考系、动静法"
+ },
+ {
+  "id": "P476",
+  "slug": "virtual-work-principle",
+  "cat": "graduate-exam-core",
+  "title": "虚功原理",
+  "desc": "不列方程、只看位移：理想约束下平衡的充要条件是一切虚功之和为零。",
+  "concept": "虚位移、理想约束、广义坐标"
+ },
+ {
+  "id": "P485",
+  "slug": "rl-circuit-transient",
+  "cat": "graduate-exam-core",
+  "title": "RL 电路的暂态过程",
+  "desc": "电感不让电流突变：τ = L/R 的指数爬升是开关三问（稳态/初始/时间常数）的答案。",
+  "concept": "时间常数、三要素法、磁场储能"
+ },
+ {
+  "id": "P487",
+  "slug": "ac-power-factor",
+  "cat": "graduate-exam-core",
+  "title": "交流功率与功率因数",
+  "desc": "视在功率、有功、无功的三角形：为什么电网要挂电容补偿。",
+  "concept": "P = UIcosφ、无功补偿、功率三角"
+ },
+ {
+  "id": "P492",
+  "slug": "hysteresis-loop",
+  "cat": "graduate-exam-core",
+  "title": "磁滞回线与磁化曲线",
+  "desc": "B 落后 H 一拍，回线面积即铁损：软磁与硬磁被这条曲线分了家。",
+  "concept": "矫顽力、剩磁、磁滞损耗"
+ },
+ {
+  "id": "P493",
+  "slug": "minimal-coupling-momentum",
+  "cat": "graduate-exam-core",
+  "title": "最小耦合与正则动量",
+  "desc": "p = mv − qA：机械动量与正则动量分家，磁场里连哈密顿量都要改写。",
+  "concept": "规范势、正则动量、朗道能级前奏"
+ },
+ {
+  "id": "P495",
+  "slug": "equipartition-freeze",
+  "cat": "graduate-exam-core",
+  "title": "能量均分定理与自由度冻结",
+  "desc": "每个二次自由度 kT/2——但量子把高温自由度一个个冻住（H₂、Cl₂ 的比热课）。",
+  "concept": "自由度、均分定理、量子冻结"
+ },
+ {
+  "id": "P496",
+  "slug": "partition-function-z",
+  "cat": "graduate-exam-core",
+  "title": "配分函数与热力学量",
+  "desc": "一个 Z 装下全部热力学：对 lnZ 求导就能领出 U、S、F 三份工资。",
+  "concept": "正则系综、lnZ 求导、自由能公式"
+ },
+ {
+  "id": "P497",
+  "slug": "boltzmann-entropy-formula",
+  "cat": "graduate-exam-core",
+  "title": "玻尔兹曼熵公式",
+  "desc": "S = k lnW：一个墓志铭式公式把微观计数变成宏观温度的刻度。",
+  "concept": "微观态数、等概率假设、熵的统计义"
+ },
+ {
+  "id": "P498",
+  "slug": "heat-engine-efficiency",
+  "cat": "graduate-exam-core",
+  "title": "热机效率与卡诺上限",
+  "desc": "两热源之间的一切机器都跨不过 1−T_L/T_H：效率竞赛的终点线。",
+  "concept": "热机循环、卡诺定理、效率上界"
+ },
+ {
+  "id": "P499",
+  "slug": "refrigeration-cop",
+  "cat": "graduate-exam-core",
+  "title": "制冷循环与制冷系数",
+  "desc": "逆向热机搬热量：COP 可以大于 1，但它与热机效率不是一回事。",
+  "concept": "逆卡诺、COP、制冷与热泵"
+ },
+ {
+  "id": "P500",
+  "slug": "adiabatic-polytropic",
+  "cat": "graduate-exam-core",
+  "title": "绝热过程与多方过程",
+  "desc": "PV^γ = 常数与 PV^n = 常数：把四种过程画进同一张 P-V 图比大小。",
+  "concept": "绝热指数、多方指数、过程曲线斜率"
+ },
+ {
+  "id": "P501",
+  "slug": "clausius-inequality",
+  "cat": "graduate-exam-core",
+  "title": "克劳修斯不等式与熵产",
+  "desc": "∮δQ/T ≤ 0：可逆得等号，不可逆差出来的就是这笔'熵债'。",
+  "concept": "循环积分、不可逆性、熵产计算"
+ },
+ {
+  "id": "P502",
+  "slug": "maxwell-demon-statistical",
+  "cat": "graduate-exam-core",
+  "title": "麦克斯韦妖与第二定律统计义",
+  "desc": "妖精测量分子速度就要记信息——兰道尔原理把熵与比特焊在一起。",
+  "concept": "信息熵、兰道尔原理、Szilard 引擎"
+ },
+ {
+  "id": "P503",
+  "slug": "joule-thomson-throttle",
+  "cat": "graduate-exam-core",
+  "title": "焦耳-汤姆孙效应",
+  "desc": "节流前后焓不变，却能降温：转折温度决定空调用什么工质。",
+  "concept": "焦耳-汤姆孙系数、反转曲线、气体液化"
+ },
+ {
+  "id": "P504",
+  "slug": "critical-exponents",
+  "cat": "graduate-exam-core",
+  "title": "临界现象与临界指数",
+  "desc": "气液界面在临界点消失：β、γ、ν 一组指数竟然与物质身份无关。",
+  "concept": "临界点、序参量、普适性与标度律"
+ },
+ {
+  "id": "P505",
+  "slug": "quantum-statistics-limit",
+  "cat": "graduate-exam-core",
+  "title": "量子统计的经典极限",
+  "desc": "e^(μ/kT) ≪ 1 时费米与玻色都退化成玻尔兹曼——量子统计何时可以忘。",
+  "concept": "非简并条件、化学势、退化温度"
+ },
+ {
+  "id": "P509",
+  "slug": "coherent-state-oscillator",
+  "cat": "graduate-exam-core",
+  "title": "谐振子的相干态",
+  "desc": "最像经典的量子态：波包不展宽、中心沿经典轨道蹦跳——激光的微观肖像。",
+  "concept": "湮灭算符本征态、期望值轨迹、压缩态"
+ },
+ {
+  "id": "P510",
+  "slug": "ladder-operators-angular",
+  "cat": "graduate-exam-core",
+  "title": "角动量升降算符",
+  "desc": "J± 把本征值一级一级抬上去：最高权态一找，整个表就搭出来了。",
+  "concept": "对易关系、Casimir、磁量子数阶梯"
+ },
+ {
+  "id": "P512",
+  "slug": "heisenberg-picture",
+  "cat": "graduate-exam-core",
+  "title": "海森堡绘景",
+  "desc": "态不动算符动：与经典泊松括号的对照让量子-经典对应一目了然。",
+  "concept": "算符运动方程、RW 括号对应、幺演化"
+ },
+ {
+  "id": "P513",
+  "slug": "second-quantization",
+  "cat": "graduate-exam-core",
+  "title": "二次量子化与产生湮灭算符",
+  "desc": "粒子数不再守恒：a†、a 把多体问题从'排列组合'变成'代数运算'。",
+  "concept": "产生湮灭、对易关系、Fock 空间"
+ },
+ {
+  "id": "P514",
+  "slug": "degenerate-perturbation",
+  "cat": "graduate-exam-core",
+  "title": "简并微扰与能级交叉",
+  "desc": "简并子空间先对角化：氢 n=2 在电场里分裂，一级简并微扰的教科书战例。",
+  "concept": "久期方程、Stark 分裂、解除简并"
+ },
+ {
+  "id": "P516",
+  "slug": "fermi-golden-rule",
+  "cat": "graduate-exam-core",
+  "title": "费米黄金规则",
+  "desc": "跃迁率 = 矩阵元² × 末态密度：含时微扰论交出的通用速率公式。",
+  "concept": "一阶含时微扰、态密度、狄拉克梳"
+ },
+ {
+  "id": "P517",
+  "slug": "phase-shift-scattering",
+  "cat": "graduate-exam-core",
+  "title": "分波法与相移",
+  "desc": "散射是各分波相位的叠加：相移一确定，截面与共振全部到手。",
+  "concept": "分波展开、相移 δ_l、共振散射"
+ },
+ {
+  "id": "P518",
+  "slug": "hartree-fock-mean-field",
+  "cat": "graduate-exam-core",
+  "title": "平均场与哈特里-福克",
+  "desc": "每个粒子在'平均势场'里单体运动：多体问题的第一近似与自洽循环。",
+  "concept": "平均场、自洽方程、交换项"
+ },
+ {
+  "id": "P521",
+  "slug": "brewsters-angle",
+  "cat": "graduate-exam-core",
+  "title": "布儒斯特角与偏振",
+  "desc": "反射光在此角完全线偏振：折射与反射光恰好垂直的几何馈赠。",
+  "concept": "布儒斯特定律、偏振片、折射率测定"
+ },
+ {
+  "id": "P528",
+  "slug": "relativity-simultaneity",
+  "cat": "graduate-exam-core",
+  "title": "同时的相对性",
+  "desc": "同一列火车的两端闪光在站台上不再同时——狭义相对论的第一块多米诺。",
+  "concept": "同时性、光钟思想实验、参考系依赖"
+ },
+ {
+  "id": "P530",
+  "slug": "rydberg-series-hydrogen",
+  "cat": "graduate-exam-core",
+  "title": "氢原子光谱与里德伯系",
+  "desc": "巴尔末公式背后的 1/n² 能级阶梯：光谱线是量子化的直接指纹。",
+  "concept": "里德伯常量、能级跃迁系、里兹组合原则"
+ },
+ {
+  "id": "P531",
+  "slug": "uncertainty-ground-state",
+  "cat": "graduate-exam-core",
+  "title": "不确定性关系与基态能量",
+  "desc": "位置越确定动量越乱：用 ΔxΔp ≥ ℏ/2 直接估出谐振子基态能量。",
+  "concept": "不确定关系、零点能估算、波包展宽"
+ },
+ {
+  "id": "P231",
+  "slug": "gw-strain",
+  "cat": "gravitational-wave",
+  "title": "引力波应变与灵敏度",
+  "desc": "4km 臂被拉伸 10⁻²¹——噪声地板 U 形曲线划定探测边界。",
+  "concept": "应变 h、噪声源、全频谱"
+ },
+ {
+  "id": "P233",
+  "slug": "quadrupole-formula",
+  "cat": "gravitational-wave",
+  "title": "引力波四极公式",
+  "desc": "引力没有偶极辐射——c⁵ 在分母解释了为何极难探测。",
+  "concept": "四极矩、偏振模式、辐射功率"
+ },
+ {
+  "id": "P234",
+  "slug": "stochastic-gw",
+  "cat": "gravitational-wave",
+  "title": "随机引力波背景",
+  "desc": "不可分辨源的集体底噪——暴胀与相变的宇宙学指纹。",
+  "concept": "Ω_gw、PTA、原初背景"
+ },
+ {
+  "id": "P314",
+  "slug": "optical-rotation",
+  "cat": "interference-diffraction",
+  "title": "旋光与偏振面旋转",
+  "desc": "糖液把偏振面拧过一个角——浓度计的原理。",
+  "concept": "旋光率、法拉第效应、糖量计"
+ },
+ {
+  "id": "P315",
+  "slug": "moire-fringe",
+  "cat": "interference-diffraction",
+  "title": "莫尔条纹与微位移",
+  "desc": "两片光栅叠出粗条纹——把纳米读成毫米。",
+  "concept": "光栅常数、放大、编码器"
+ },
+ {
+  "id": "P366",
+  "slug": "iron-carbon-diagram",
+  "cat": "materials-science",
+  "title": "铁碳相图与珠光体",
+  "desc": "钢与铸铁的分野写在铁碳图上——工业的骨架图。",
+  "concept": "奥氏体、渗碳体、共析转变"
+ },
+ {
+  "id": "P367",
+  "slug": "constitutional-supercooling",
+  "cat": "materials-science",
+  "title": "成分过冷与凝固",
+  "desc": "溶质再分配让界面前沿失稳——平界面长出枝晶。",
+  "concept": "溶质堆积、形态因子、枝晶臂"
+ },
+ {
+  "id": "P370",
+  "slug": "peierls-nabarro",
+  "cat": "materials-science",
+  "title": "佩尔斯-纳巴罗应力",
+  "desc": "让位错在晶格里挪一步要多大应力——晶格摩擦的量子账。",
+  "concept": "点阵阻力、位错宽度、各向异性"
+ },
+ {
+  "id": "P371",
+  "slug": "hall-petch",
+  "cat": "materials-science",
+  "title": "霍尔-佩奇强化",
+  "desc": "晶粒越细强度越高——界堂数量即强度来源。",
+  "concept": "晶界阻碍、Hall-Petch 斜率、纳米晶反常"
+ },
+ {
+  "id": "P372",
+  "slug": "solid-solution-strengthening",
+  "cat": "materials-science",
+  "title": "固溶与沉淀强化",
+  "desc": "溶质原子与析出相都是位错的路障——铝合金的时效术。",
+  "concept": "晶格畸变、Orowan 绕过、时效"
+ },
+ {
+  "id": "P378",
+  "slug": "creep",
+  "cat": "materials-science",
+  "title": "高温蠕变",
+  "desc": "叶片在应力下缓慢流变——涡轮寿命的三段曲线。",
+  "concept": "稳态蠕变、蠕变断裂、激活能"
+ },
+ {
+  "id": "P380",
+  "slug": "fracture-toughness",
+  "cat": "materials-science",
+  "title": "断裂韧性",
+  "desc": "带裂纹还能扛多大应力——K_IC 是设计的底线。",
+  "concept": "应力强度因子、脆韧转变、Griffith"
+ },
+ {
+  "id": "P382",
+  "slug": "polymer-glass-transition",
+  "cat": "materials-science",
+  "title": "高分子玻璃化转变",
+  "desc": "链段被冻结的温度——塑料在 Tg 上下是两种物质。",
+  "concept": "自由体积、Tg、脆韧"
+ },
+ {
+  "id": "P384",
+  "slug": "ceramic-solid",
+  "cat": "materials-science",
+  "title": "陶瓷与共价网络固体",
+  "desc": "强键各向同性——硬而脆的离子共价世界。",
+  "concept": "离子键、共价网络、脆性"
+ },
+ {
+  "id": "P387",
+  "slug": "metallic-glass",
+  "cat": "materials-science",
+  "title": "金属玻璃",
+  "desc": "快冷到原子来不及排队——非晶金属又硬又弹。",
+  "concept": "玻璃化转变、冷却速率、自由体积"
+ },
+ {
+  "id": "P389",
+  "slug": "thin-film-stress",
+  "cat": "materials-science",
+  "title": "薄膜应力与界面",
+  "desc": "热失配让薄膜绷着——剥落与翘曲的力学账。",
+  "concept": "本征应力、热应力、黏附功"
+ },
+ {
+  "id": "P391",
+  "slug": "surface-catalysis",
+  "cat": "materials-science",
+  "title": "表面催化与吸附",
+  "desc": "反应物在表面被按住再松手——催化剂改写路径。",
+  "concept": "Langmuir 吸附、活化能、脱附"
+ },
+ {
+  "id": "P392",
+  "slug": "corrosion-electrochemistry",
+  "cat": "materials-science",
+  "title": "腐蚀与钝化",
+  "desc": "生锈是金属自发的回归——钝化膜是最后防线。",
+  "concept": "阳极溶解、钝化膜、阴极保护"
+ },
+ {
+  "id": "P393",
+  "slug": "striebeck-lubrication",
+  "cat": "materials-science",
+  "title": "摩擦磨损与润滑",
+  "desc": "Stribeck 曲线分出三段润滑——从干磨到油膜浮起。",
+  "concept": "黏性润滑、边界润滑、Stribeck"
+ },
+ {
+  "id": "P394",
+  "slug": "carrier-mobility",
+  "cat": "materials-science",
+  "title": "载流子迁移率与散射",
+  "desc": "声学声子、杂质、晶界——迁移率被三种散射轮流管。",
+  "concept": "弛豫时间、温度依赖、沟道工程"
+ },
+ {
+  "id": "P396",
+  "slug": "dielectric-aging",
+  "cat": "materials-science",
+  "title": "介电老化与绝缘击穿",
+  "desc": "电场一步步放电直到击穿——绝缘设计的天花板。",
+  "concept": "电导机制、树状击穿、介电常数"
+ },
+ {
+  "id": "P397",
+  "slug": "high-entropy-alloy",
+  "cat": "materials-science",
+  "title": "高熵合金",
+  "desc": "五种主元等比混熔——高构型熵稳定单相固溶体。",
+  "concept": "构型熵、严重晶格畸变、鸡尾酒效应"
+ },
+ {
+  "id": "P398",
+  "slug": "materials-genome",
+  "cat": "materials-science",
+  "title": "材料基因组与高通量筛选",
+  "desc": "计算先算、实验后证——候选材料从十年缩到几年。",
+  "concept": "DFT 高通量、相图计算、数据驱动"
+ },
+ {
+  "id": "P535",
+  "slug": "frobenius-series",
+  "cat": "mathematical-physics-methods",
+  "title": "Frobenius 幂级数解法",
+  "desc": "正则奇点处不硬解：指标方程先定指数，级数随后跟上——特殊函数的统一出生证。",
+  "concept": "正则奇点、指标方程、递推关系"
+ },
+ {
+  "id": "P536",
+  "slug": "sturm-liouville",
+  "cat": "mathematical-physics-methods",
+  "title": "施特姆-刘维尔本征值问题",
+  "desc": "什么方程的本征函数能展开一切——正交性、完备性与谱定理的微分版本。",
+  "concept": "正交权重、本征值谱、展开定理"
+ },
+ {
+  "id": "P538",
+  "slug": "bessel-cylindrical",
+  "cat": "mathematical-physics-methods",
+  "title": "贝塞尔函数与圆柱问题",
+  "desc": "鼓面振动、圆盘散热、光纤模式——圆柱对称一出现，贝塞尔函数就登场。",
+  "concept": "J_n/N_n、零点表、渐近行为"
+ },
+ {
+  "id": "P539",
+  "slug": "laguerre-hydrogen-radial",
+  "cat": "mathematical-physics-methods",
+  "title": "拉盖尔多项式与氢原子径向方程",
+  "desc": "氢原子能级不是猜出来的：连合拉盖尔多项式解出来的自然结果。",
+  "concept": "连合拉盖尔、量子数 n、归一因子"
+ },
+ {
+  "id": "P543",
+  "slug": "symmetry-lie-group",
+  "cat": "mathematical-physics-methods",
+  "title": "微分方程的对称性与诺特",
+  "desc": "能约化方程的对称=守恒律的源头：李群方法把诺特定理变成可操作算法。",
+  "concept": "无穷小生成元、不变解、守恒律"
+ },
+ {
+  "id": "P544",
+  "slug": "separation-cartesian",
+  "cat": "mathematical-physics-methods",
+  "title": "分离变量法（直角坐标）",
+  "desc": "设 u=X(x)Y(y)T(t) 一步拆开：热传导与波动方程的标准起手式。",
+  "concept": "乘积试探、本征值链、叠加原理"
+ },
+ {
+  "id": "P545",
+  "slug": "separation-spherical",
+  "cat": "mathematical-physics-methods",
+  "title": "球坐标分离与角动量",
+  "desc": "拉普拉斯方程在球坐标里一拆，量子力学的角动量量子化就掉出来了。",
+  "concept": "角向方程、球谐、自然边界条件"
+ },
+ {
+  "id": "P546",
+  "slug": "poisson-green-function",
+  "cat": "mathematical-physics-methods",
+  "title": "泊松方程与格林函数",
+  "desc": "知道了点源的响应，任意源的解就是叠加——线性方程的核心思想。",
+  "concept": "点源响应、叠加积分、对称性"
+ },
+ {
+  "id": "P547",
+  "slug": "green-mirror-image",
+  "cat": "mathematical-physics-methods",
+  "title": "格林函数的镜像法构造",
+  "desc": "接地导体旁的电场=真电荷+镜像电荷：造格林函数最优雅的技巧。",
+  "concept": "镜像电荷、边界满足、适用范围"
+ },
+ {
+  "id": "P549",
+  "slug": "heat-kernel-solution",
+  "cat": "mathematical-physics-methods",
+  "title": "热核与基本解",
+  "desc": "瞬时点热源的高斯扩散核：从热传导到路径积分与配分函数都用它。",
+  "concept": "高斯核、s-参数化、热核展开"
+ },
+ {
+  "id": "P552",
+  "slug": "conformal-mapping",
+  "cat": "mathematical-physics-methods",
+  "title": "保角映射与二维问题",
+  "desc": "把难看的边界映成圆：二维拉氏方程在共形变换下保持形式不变。",
+  "concept": "共形不变、施瓦茨映射、流场设计"
+ },
+ {
+  "id": "P553",
+  "slug": "boundary-integral",
+  "cat": "mathematical-physics-methods",
+  "title": "边界积分与边界元思想",
+  "desc": "三维问题降到边界上算：格林第二恒等式是边界元方法的数学内核。",
+  "concept": "格林恒等式、面积分方程、降维"
+ },
+ {
+  "id": "P562",
+  "slug": "branch-cuts",
+  "cat": "mathematical-physics-methods",
+  "title": "分支点与多值函数",
+  "desc": "√z 转两圈回起点：割线不是病是选择——多值函数的正确打开方式。",
+  "concept": "分支点、割线约定、黎曼面叶"
+ },
+ {
+  "id": "P563",
+  "slug": "saddle-point-method",
+  "cat": "mathematical-physics-methods",
+  "title": "鞍点法与最速下降",
+  "desc": "大参数积分只在鞍点贡献：统计物理与量子场论渐近展开的主力。",
+  "concept": "最速下降路径、鞍点近似、斯特林公式"
+ },
+ {
+  "id": "P564",
+  "slug": "contour-deformation",
+  "cat": "mathematical-physics-methods",
+  "title": "围道变形的物理应用",
+  "desc": "极点绕不绕、支割穿不穿：松原/费曼围道决定有限温度场论的全部符号。",
+  "concept": "松原频率、绕行约定、极点贡献"
+ },
+ {
+  "id": "P566",
+  "slug": "fourier-series-convergence",
+  "cat": "mathematical-physics-methods",
+  "title": "傅里叶级数与收敛性",
+  "desc": "任何周期信号都是正弦的合唱：吉布斯现象提醒你间断处的掌声会过冲。",
+  "concept": "系数公式、吉布斯现象、收敛判据"
+ },
+ {
+  "id": "P567",
+  "slug": "fourier-convolution",
+  "cat": "mathematical-physics-methods",
+  "title": "傅里叶变换与卷积定理",
+  "desc": "时域卷积=频域相乘：滤波、成像、信号处理的万能换轨。",
+  "concept": "频谱、卷积定理、窗函数"
+ },
+ {
+  "id": "P568",
+  "slug": "dirac-delta-generalized",
+  "cat": "mathematical-physics-methods",
+  "title": "δ 函数与广义函数",
+  "desc": "把不合法的函数请进严格框架：施瓦茨分布论让物理学家的直觉合法化。",
+  "concept": "测试函数、分布导数、δ 的严格化"
+ },
+ {
+  "id": "P569",
+  "slug": "laplace-transform-solve",
+  "cat": "mathematical-physics-methods",
+  "title": "拉普拉斯变换与求解器",
+  "desc": "微分变乘法：电路暂态与积分方程的代数化捷径。",
+  "concept": "变换对、初终值定理、卷积核"
+ },
+ {
+  "id": "P571",
+  "slug": "transform-evolution-equation",
+  "cat": "mathematical-physics-methods",
+  "title": "积分变换解演化方程",
+  "desc": "对时间做拉氏变换、对空间做傅里叶变换：热传导方程三行出解。",
+  "concept": "变换求解流程、色散关系、逆变换"
+ },
+ {
+  "id": "P572",
+  "slug": "cartesian-tensor",
+  "cat": "mathematical-physics-methods",
+  "title": "笛卡尔张量与变换律",
+  "desc": "写成带指标的形式才与坐标系无关：张量方程=物理定律的入场券。",
+  "concept": "指标记法、缩并、变换协变性"
+ },
+ {
+  "id": "P573",
+  "slug": "christoffel-symbols",
+  "cat": "mathematical-physics-methods",
+  "title": "度规与克里斯托费尔符号",
+  "desc": "度规张量量出时空的尺：克氏符号是从它算出来的联络系数。",
+  "concept": "度规、逆度规、联络系数公式"
+ },
+ {
+  "id": "P574",
+  "slug": "covariant-derivative",
+  "cat": "mathematical-physics-methods",
+  "title": "协变导数与平行输运",
+  "desc": "弯曲空间里求导要减去克氏项：矢量沿曲线搬移不失方向的数学。",
+  "concept": "协变导数、平行输运、联络"
+ },
+ {
+  "id": "P576",
+  "slug": "einstein-field-equations",
+  "cat": "mathematical-physics-methods",
+  "title": "爱因斯坦场方程的推导脉络",
+  "desc": "G_μν = 8πT_μν：从等效原理+守恒律+最小作用出发的唯一二阶方程。",
+  "concept": "爱因斯坦作用量、变分、宇宙常数项"
+ },
+ {
+  "id": "P578",
+  "slug": "geodesic-variation",
+  "cat": "mathematical-physics-methods",
+  "title": "测地线方程与变分",
+  "desc": "自由粒子走直线的弯曲空间版：对固有时变分就得到测地线方程。",
+  "concept": "固有时、变分、克里斯托费尔项"
+ },
+ {
+  "id": "P579",
+  "slug": "euler-lagrange-functional",
+  "cat": "mathematical-physics-methods",
+  "title": "泛函与欧拉-拉格朗日方程",
+  "desc": "求泛函极值=解微分方程：变分法把极值概念从函数推广到函数的函数。",
+  "concept": "变分、横截条件、自然边界条件"
+ },
+ {
+  "id": "P580",
+  "slug": "isoperimetric-problem",
+  "cat": "mathematical-physics-methods",
+  "title": "等周问题与约束变分",
+  "desc": "周长固定围最大面积：拉格朗日乘子进入变分法的最古老战例。",
+  "concept": "等周约束、乘子法、悬链线"
+ },
+ {
+  "id": "P581",
+  "slug": "hamilton-principle-action",
+  "cat": "mathematical-physics-methods",
+  "title": "哈密顿原理与最小作用量",
+  "desc": "δS=0：从费马到莫佩尔蒂到哈密顿，一条原理统治全部经典动力学。",
+  "concept": "作用量泛函、正则方程、诺特流"
+ },
+ {
+  "id": "P582",
+  "slug": "rayleigh-ritz",
+  "cat": "mathematical-physics-methods",
+  "title": "瑞利-里兹数值变分",
+  "desc": "用有限基逼近泛函极小：有限元方法的变分血统。",
+  "concept": "试探函数族、能量上界、收敛性"
+ },
+ {
+  "id": "P584",
+  "slug": "spectral-decomposition",
+  "cat": "mathematical-physics-methods",
+  "title": "谱定理与对角化",
+  "desc": "厄米矩阵一定能被“最好的基”对角化——量子力学可测性的数学担保。",
+  "concept": "本征基、谱分解、酉等价"
+ },
+ {
+  "id": "P585",
+  "slug": "matrix-exponential",
+  "cat": "mathematical-physics-methods",
+  "title": "矩阵指数与时间演化",
+  "desc": "ê^(−iHt/ℏ) 把初值问题变成指数幂：幺演化算符的矩阵实现。",
+  "concept": "指数映射、对角化求幂、幺正性"
+ },
+ {
+  "id": "P586",
+  "slug": "projector-subspace",
+  "cat": "mathematical-physics-methods",
+  "title": "投影算符与子空间分解",
+  "desc": "P²=P、P†=P：把态拆进对称与反对称两半的代数剪刀。",
+  "concept": "正交投影、对称化子空间、密度矩阵分块"
+ },
+ {
+  "id": "P587",
+  "slug": "tensor-product-space",
+  "cat": "mathematical-physics-methods",
+  "title": "张量积与多体态空间",
+  "desc": "两个粒子的态空间不是相加而是相乘：纠缠从张量积的非分解态诞生。",
+  "concept": "希尔伯特空间积、纠缠态、直和对比"
+ },
+ {
+  "id": "P588",
+  "slug": "eigenvalue-perturbation",
+  "cat": "mathematical-physics-methods",
+  "title": "本征值扰动理论",
+  "desc": "矩阵加小量，特征值挪多少——量子化学与模态分析的日常算法。",
+  "concept": "一阶修正、简并扰动、灵敏度"
+ },
+ {
+  "id": "P591",
+  "slug": "moment-generating",
+  "cat": "mathematical-physics-methods",
+  "title": "矩生成函数与分布族",
+  "desc": "一个生成函数吐出全部矩：分布的“身份证”从指数变换里领。",
+  "concept": "MGF、累积量展开、分布卷积"
+ },
+ {
+  "id": "P595",
+  "slug": "master-equation-markov",
+  "cat": "mathematical-physics-methods",
+  "title": "主方程与马尔可夫链",
+  "desc": "只看当下不问过去的概率账本：从化学反应到排队论的统一语言。",
+  "concept": "转移率、细致平衡、稳态解"
+ },
+ {
+  "id": "P599",
+  "slug": "group-selection-rules",
+  "cat": "mathematical-physics-methods",
+  "title": "不可约表示与选择定则",
+  "desc": "矩阵元为零不是巧合：直积表示里不含恒等表示则跃迁禁戒。",
+  "concept": "群论选择定则、跃迁强度、对称性禁戒"
+ },
+ {
+  "id": "P600",
+  "slug": "symmetry-breaking-order",
+  "cat": "mathematical-physics-methods",
+  "title": "对称性破缺与序参量",
+  "desc": "真空选了不对称的答案：从朗道范式到希格斯机制的群论语言。",
+  "concept": "朗道序参量、金石玻色、墨菲定律"
+ },
+ {
+  "id": "P351",
+  "slug": "fmri-bold",
+  "cat": "medical-imaging",
+  "title": "功能磁共振成像 fMRI",
+  "desc": "血氧水平依赖——神经活动的间接显影。",
+  "concept": "BOLD 信号、血流响应、去氧血红蛋白"
+ },
+ {
+  "id": "P358",
+  "slug": "radiotherapy-dose",
+  "cat": "medical-imaging",
+  "title": "放射治疗与剂量",
+  "desc": "深度剂量曲线瞄准肿瘤——布拉格峰式的取舍。",
+  "concept": "百分深度剂量、调强、组织权重"
+ },
+ {
+  "id": "P359",
+  "slug": "radiopharmaceutical",
+  "cat": "medical-imaging",
+  "title": "放射性核素选择",
+  "desc": "半衰期匹配检查时长——Tc-99m 的九小时黄金窗。",
+  "concept": "示踪、半衰期、剂量窗"
+ },
+ {
+  "id": "P361",
+  "slug": "magnetic-particle-imaging",
+  "cat": "medical-imaging",
+  "title": "磁粒子成像 MPI",
+  "desc": "直接测纳米磁粉的非线性响应——不看背景的新模态。",
+  "concept": "驱动场、选择场、无创示踪"
+ },
+ {
+  "id": "P362",
+  "slug": "thermal-imaging",
+  "cat": "medical-imaging",
+  "title": "红外热成像",
+  "desc": "发射率与温度——皮下血流的红外签名。",
+  "concept": "斯特藩定律、发射率、温度分辨"
+ },
+ {
+  "id": "P363",
+  "slug": "contrast-agent",
+  "cat": "medical-imaging",
+  "title": "造影剂与弛豫",
+  "desc": "钆缩短 T1——让血管在图上发亮的顺磁哨兵。",
+  "concept": "弛豫时间、浓度、安全性"
+ },
+ {
+  "id": "P364",
+  "slug": "imaging-dose-alara",
+  "cat": "medical-imaging",
+  "title": "影像剂量与 ALARA",
+  "desc": "辐射风险与图像质量的权衡——尽可能低的伦理线。",
+  "concept": "有效剂量、ALARA、等效剂量"
+ },
+ {
+  "id": "P170",
+  "slug": "nucleon-structure",
+  "cat": "nuclear-physics",
+  "title": "核子结构与夸克",
+  "desc": "质子内部是点状部分子——深度非弹性的发现。",
+  "concept": "价夸克、海夸克、喷注"
+ },
+ {
+  "id": "P174",
+  "slug": "binding-energy-curve",
+  "cat": "nuclear-physics",
+  "title": "比结合能曲线",
+  "desc": "核能的地形图：两侧向铁峰顶走都放能。",
+  "concept": "比结合能、铁峰、聚变裂变"
+ },
+ {
+  "id": "P176",
+  "slug": "beta-decay",
+  "cat": "nuclear-physics",
+  "title": "β 衰变与弱作用",
+  "desc": "中微子诞生的地方——连续能谱逼出的幽灵粒子。",
+  "concept": "味变、弱作用、宇称破坏"
+ },
+ {
+  "id": "P178",
+  "slug": "nuclide-chart",
+  "cat": "nuclear-physics",
+  "title": "核素图",
+  "desc": "3000 种原子核的稳定谷地图。",
+  "concept": "N/Z 比、β 稳定线、幻数"
+ },
+ {
+  "id": "P22",
+  "slug": "radioactive-decay",
+  "cat": "nuclear-physics",
+  "title": "放射性衰变与半衰期",
+  "desc": "蒙特卡洛模拟单个核的随机衰变，统计系综如何精确呈现指数规律。",
+  "concept": "指数衰减、半衰期、量子随机性"
+ },
+ {
+  "id": "P457",
+  "slug": "decay-chain",
+  "cat": "nuclear-physics",
+  "title": "放射系与级联衰变",
+  "desc": "母子衰变排队走——放射系的半衰期接力。",
+  "concept": "衰变链、久期平衡、三大放射系"
+ },
+ {
+  "id": "P458",
+  "slug": "xray-characteristic",
+  "cat": "nuclear-physics",
+  "title": "特征 X 射线与莫塞莱",
+  "desc": "谱线频率随原子序数开方——原子序数的实验判定。",
+  "concept": "特征谱、莫塞莱定律、靶材料"
+ },
+ {
+  "id": "P460",
+  "slug": "hyperfine-structure",
+  "cat": "nuclear-physics",
+  "title": "超精细结构与同位素位移",
+  "desc": "核自旋给能级再裂一道——氢 21 厘米线的出处。",
+  "concept": "核自旋、超精细跃迁、同位素位移"
+ },
+ {
+  "id": "P399",
+  "slug": "quantum-gravity",
+  "cat": "open-problems",
+  "title": "量子引力与时空量子化",
+  "desc": "广义相对论与量子力学的婚事未成——普朗克尺度的时空是离散的吗？",
+  "concept": "重整化失败、圈量子自旋网络、全息原理"
+ },
+ {
+  "id": "P400",
+  "slug": "dark-matter-particles",
+  "cat": "open-problems",
+  "title": "暗物质粒子候选",
+  "desc": "占宇宙物质八成的东西只在引力里现身——WIMP、轴子还是别的？",
+  "concept": "丰度巧合、地下探测、三路围猎"
+ },
+ {
+  "id": "P401",
+  "slug": "cosmological-constant",
+  "cat": "open-problems",
+  "title": "宇宙学常数与真空灾难",
+  "desc": "量子真空零点能与观测值差 120 个数量级——理论物理最大的尴尬。",
+  "concept": "真空涨落、精细调节、暗能量"
+ },
+ {
+  "id": "P402",
+  "slug": "hierarchy-problem",
+  "cat": "open-problems",
+  "title": "自然性与层级问题",
+  "desc": "希格斯质量为何这么轻——量子修正不该把它推到普朗克尺度。",
+  "concept": "二次发散、自然性、新对称"
+ },
+ {
+  "id": "P403",
+  "slug": "times-arrow",
+  "cat": "open-problems",
+  "title": "时间之箭与过去假说",
+  "desc": "微观方程可逆、宇宙初始却低熵——时间为什么只往一边走。",
+  "concept": "低熵初态、Past Hypothesis、引力熵"
+ },
+ {
+  "id": "P404",
+  "slug": "high-tc-mechanism",
+  "cat": "open-problems",
+  "title": "高温超导机理",
+  "desc": "铜基超导三十年未闭合——赝能隙、条纹相与配对对称性之争。",
+  "concept": "电流密度、赝能隙、非常规配对"
+ },
+ {
+  "id": "P405",
+  "slug": "confinement-mass",
+  "cat": "open-problems",
+  "title": "色禁闭与质子质量之谜",
+  "desc": "质子质量的九成九来自胶子场能量——希格斯只给了夸克百分之一。",
+  "concept": "禁闭、手征破缺、格点 QCD"
+ },
+ {
+  "id": "P406",
+  "slug": "neutrino-mass-ordering",
+  "cat": "open-problems",
+  "title": "中微子绝对质量与顺序",
+  "desc": "振荡只给质量差——绝对质量与正负质量序仍未定。",
+  "concept": "质量顺序、β 衰变端点、宇宙学上限"
+ },
+ {
+  "id": "P407",
+  "slug": "higgs-vacuum-stability",
+  "cat": "open-problems",
+  "title": "希格斯真空亚稳态",
+  "desc": "按当前参数我们的真空可能只是亚稳——终极灾难还是遥遥无期。",
+  "concept": "势能曲线、假真空衰变、隧穿概率"
+ },
+ {
+  "id": "P408",
+  "slug": "magnetic-monopole",
+  "cat": "open-problems",
+  "title": "磁单极子之谜",
+  "desc": "磁荷对称上更优雅，实验却始终空手——大统一的预言去哪了。",
+  "concept": "狄拉克量子化、GUT 单极子、宇宙弦"
+ },
+ {
+  "id": "P409",
+  "slug": "axion-strongcp",
+  "cat": "open-problems",
+  "title": "轴子与强 CP 问题",
+  "desc": "量子色动力学为何不破坏 CP——一个几乎零质量的新粒子正在被围猎。",
+  "concept": "强 CP、轴子、微波腔探测"
+ },
+ {
+  "id": "P412",
+  "slug": "origin-of-life-physics",
+  "cat": "open-problems",
+  "title": "生命起源的物理约束",
+  "desc": "耗散结构与自复制——生命是不是非平衡热力学的必然。",
+  "concept": "涨落成序、自催化、熵流"
+ },
+ {
+  "id": "P413",
+  "slug": "quantum-classical-boundary",
+  "cat": "open-problems",
+  "title": "量子-经典边界",
+  "desc": "叠加能撑多大多久——退相干画出的边界究竟在哪。",
+  "concept": "介观叠加、C60 干涉、自发坍缩模型"
+ },
+ {
+  "id": "P414",
+  "slug": "supersymmetry-status",
+  "cat": "open-problems",
+  "title": "超对称的实验处境",
+  "desc": "LHC 扫过参数空间却空手而归——超对称还在躲猫猫吗。",
+  "concept": "里程碑图、自然性、隐藏参数区"
+ },
+ {
+  "id": "P415",
+  "slug": "inflation-testability",
+  "cat": "open-problems",
+  "title": "暴胀的可检验性",
+  "desc": "暴胀解释了平坦与均匀，可它自己能被观测证伪吗。",
+  "concept": "原初引力波、B 模、多重宇宙争议"
+ },
+ {
+  "id": "P417",
+  "slug": "turbulence-intermittency",
+  "cat": "open-problems",
+  "title": "湍流间歇性",
+  "desc": "K41 的自相似被间歇性打破——高维概率分布的尾巴从哪来。",
+  "concept": "结构函数、间歇修正、奇异测度"
+ },
+ {
+  "id": "P418",
+  "slug": "proton-spin-crisis",
+  "cat": "open-problems",
+  "title": "质子自旋危机",
+  "desc": "1988 年发现夸克只扛三成自旋——胶子与轨道角动量藏在哪。",
+  "concept": "自旋分解、海夸克、格点计算"
+ },
+ {
+  "id": "P419",
+  "slug": "fifth-force",
+  "cat": "open-problems",
+  "title": "第五种力与等效原理",
+  "desc": "等效原理检验到 10⁻¹⁵——亚毫米尺度的偏离仍在搜索。",
+  "concept": "等效原理、扭秤、Yukawa 势"
+ },
+ {
+  "id": "P420",
+  "slug": "time-crystal",
+  "cat": "open-problems",
+  "title": "时间晶体",
+  "desc": "打破时间平移对称的物态——被质疑又被扶正的新序参量。",
+  "concept": "离散时间平移、多体局域、驱动系统"
+ },
+ {
+  "id": "P421",
+  "slug": "room-temperature-superconductor",
+  "cat": "open-problems",
+  "title": "常温超导的追寻",
+  "desc": "LK99 的复现闹剧之后——室温超导究竟卡在哪。",
+  "concept": "能隙、声子机制、复现门槛"
+ },
+ {
+  "id": "P327",
+  "slug": "jpsi-discovery",
+  "cat": "particle-sm",
+  "title": "J/ψ 粒子发现实验",
+  "desc": "窄峰落在三倍标准偏差处——粲夸克的证据。",
+  "concept": "双轻子道、窄共振、SLAC-BNL"
+ },
+ {
+  "id": "P328",
+  "slug": "higgs-discovery",
+  "cat": "particle-sm",
+  "title": "希格斯粒子发现实验",
+  "desc": "双光子与四轻子峰同时出现——标准模型收官。",
+  "concept": "125 GeV、ATLAS/CMS、联合显著性"
+ },
+ {
+  "id": "P215",
+  "slug": "critical-exponent",
+  "cat": "phase-transitions",
+  "title": "临界指数与普适性",
+  "desc": "相变的幂律指纹只分维度与序参量——微观细节无关的普适。",
+  "concept": "幂律标度、普适类、标度律"
+ },
+ {
+  "id": "P216",
+  "slug": "order-parameter",
+  "cat": "phase-transitions",
+  "title": "序参量",
+  "desc": "区分相的那一个数——磁化、能隙与超导凝聚的共同语言。",
+  "concept": "对称破缺、朗道理论、相变分类"
+ },
+ {
+  "id": "P217",
+  "slug": "renormalization-group",
+  "cat": "phase-transitions",
+  "title": "重正化群",
+  "desc": "逐级粗粒化走到不动点——临界现象变成几何问题。",
+  "concept": "块自旋、不动点、标度不变性"
+ },
+ {
+  "id": "P218",
+  "slug": "mean-field-approx",
+  "cat": "phase-transitions",
+  "title": "平均场近似",
+  "desc": "用一个平均代替全部邻居——高效但有系统偏差的近似。",
+  "concept": "分子场、自洽方程、涨落修正"
+ },
+ {
+  "id": "P219",
+  "slug": "curie-weiss",
+  "cat": "phase-transitions",
+  "title": "居里-外斯定律",
+  "desc": "磁性在居里点消失——χ=C/(T−Tc) 的线性外推是经典测量法。",
+  "concept": "顺磁、外斯分子场、相变温度"
+ },
+ {
+  "id": "P220",
+  "slug": "fluctuation-dissipation",
+  "cat": "phase-transitions",
+  "title": "涨落耗散定理",
+  "desc": "怎么耗散就怎么涨落——噪声与摩擦同源的统一律。",
+  "concept": "响应函数、Johnson 噪声、测量极限"
+ },
+ {
+  "id": "P222",
+  "slug": "ergodic-hypothesis",
+  "cat": "phase-transitions",
+  "title": "遍历假说与系综",
+  "desc": "用时间换集合——统计力学合法性的公理级假设。",
+  "concept": "微正则系综、时间平均、遍历破缺"
+ },
+ {
+  "id": "P330",
+  "slug": "bec-1995",
+  "cat": "phase-transitions",
+  "title": "玻色-爱因斯坦凝聚实现",
+  "desc": "原子冷到几十纳开——宏观数目粒子占据同一量子态。",
+  "concept": "简并温度、激光冷却、凝聚体"
+ },
+ {
+  "id": "P246",
+  "slug": "plasma-frequency",
+  "cat": "plasma-fusion",
+  "title": "等离子体频率",
+  "desc": "电子集体振荡的天然节拍——低于它电磁波被反射。",
+  "concept": "截止频率、色散关系、电离层"
+ },
+ {
+  "id": "P248",
+  "slug": "ion-acoustic",
+  "cat": "plasma-fusion",
+  "title": "离子声波",
+  "desc": "电子出压强、离子出惯性——无碰撞的等离子体声波。",
+  "concept": "两流体模型、声速、朗道阻尼"
+ },
+ {
+  "id": "P252",
+  "slug": "renormalization",
+  "cat": "qft-intro",
+  "title": "重整化",
+  "desc": "把无穷大吸进参数重定义——留下有限且可测的物理。",
+  "concept": "紫外发散、跑动耦合、RG 流"
+ },
+ {
+  "id": "P254",
+  "slug": "gauge-theory",
+  "cat": "qft-intro",
+  "title": "规范场论",
+  "desc": "保持对称的代价就是相互作用——标准模型由此搭建。",
+  "concept": "规范原理、杨-米尔斯、色荷"
+ },
+ {
+  "id": "P255",
+  "slug": "virtual-particle",
+  "cat": "qft-intro",
+  "title": "虚粒子与费曼图",
+  "desc": "内部线不守恒质壳——画图数线的微扰记账法。",
+  "concept": "传播子、圈图、微扰展开"
+ },
+ {
+  "id": "P42",
+  "slug": "feynman-diagram",
+  "cat": "qft-intro",
+  "title": "费曼图与粒子散射",
+  "desc": "用几张线条图系统计算粒子散射截面——电子-电子散射的树图与顶点规则。",
+  "concept": "费曼规则、传播子、散射截面"
+ },
+ {
+  "id": "P152",
+  "slug": "fine-structure",
+  "cat": "quantum-foundations",
+  "title": "精细结构",
+  "desc": "α=1/137 把能级劈成多重线——量子电动力学的门槛。",
+  "concept": "自旋-轨道耦合、相对论修正"
+ },
+ {
+  "id": "P155",
+  "slug": "lamb-shift",
+  "cat": "quantum-foundations",
+  "title": "拉姆位移",
+  "desc": "本该简并的能级分开了——QED 的出生证明。",
+  "concept": "真空极化、电子自能"
+ },
+ {
+  "id": "P156",
+  "slug": "rydberg-series",
+  "cat": "quantum-foundations",
+  "title": "里德伯原子",
+  "desc": "电子跑到 n=100 的巨型原子——微波量子技术的宠儿。",
+  "concept": "高激发态、电离极限、标度律"
+ },
+ {
+  "id": "P157",
+  "slug": "selection-rules",
+  "cat": "quantum-foundations",
+  "title": "跃迁选择定则",
+  "desc": "对称性决定哪些谱线亮——'禁戒'只是极弱。",
+  "concept": "角动量守恒、宇称、电偶极"
+ },
+ {
+  "id": "P158",
+  "slug": "golden-rule",
+  "cat": "quantum-foundations",
+  "title": "费米黄金规则",
+  "desc": "跃迁率=矩阵元²×末态密度——衰变的统一公式。",
+  "concept": "一阶微扰、连续末态、跃迁率"
+ },
+ {
+  "id": "P159",
+  "slug": "scattering-cross-section",
+  "cat": "quantum-foundations",
+  "title": "散射截面",
+  "desc": "把概率换算成靶面积——从卢瑟福到 LHC 的通用量。",
+  "concept": "微分截面、分波展开"
+ },
+ {
+  "id": "P160",
+  "slug": "quantum-measurement",
+  "cat": "quantum-foundations",
+  "title": "量子测量与坍缩",
+  "desc": "叠加态在测量瞬间变成事实——玻恩定则的核心仪式。",
+  "concept": "投影测量、概率幅、退相干"
+ },
+ {
+  "id": "P317",
+  "slug": "photoelectric-law",
+  "cat": "quantum-foundations",
+  "title": "光电效应实验",
+  "desc": "截止电压只看频率不看亮度——光量子的判决。",
+  "concept": "逸出功、截止电压、h/e"
+ },
+ {
+  "id": "P318",
+  "slug": "franck-hertz",
+  "cat": "quantum-foundations",
+  "title": "夫兰克-赫兹实验",
+  "desc": "电子能量一格一格丢——能级量子化的电学证据。",
+  "concept": "激发电位、汞谱、平台结构"
+ },
+ {
+  "id": "P322",
+  "slug": "millikan-oil-drop",
+  "cat": "quantum-foundations",
+  "title": "密立根油滴实验",
+  "desc": "数油滴的净电荷——e 是电荷的最小单位。",
+  "concept": "平衡法、黏滞、电荷量子化"
+ },
+ {
+  "id": "P323",
+  "slug": "jj-thomson-em",
+  "cat": "quantum-foundations",
+  "title": "阴极射线荷质比",
+  "desc": "电场磁场里让射线走直线——称出电子有多轻。",
+  "concept": "偏转、汤姆孙、同位素"
+ },
+ {
+  "id": "P450",
+  "slug": "qm-postulates",
+  "cat": "quantum-foundations",
+  "title": "量子力学公设与算符",
+  "desc": "五条公设撑起整个理论——态、算符、测量与演化。",
+  "concept": "态空间、可观测量、投影测量"
+ },
+ {
+  "id": "P451",
+  "slug": "dirac-notation-braket",
+  "cat": "quantum-foundations",
+  "title": "狄拉克符号与矩阵表示",
+  "desc": "左矢右矢一夹就是内积——抽象空间的记账法。",
+  "concept": "内积、外积、表象变换"
+ },
+ {
+  "id": "P452",
+  "slug": "perturbation-first-order",
+  "cat": "quantum-foundations",
+  "title": "一阶微扰论",
+  "desc": "小扰动让能级挪一点——可解部分加微调的拆账术。",
+  "concept": "非简并微扰、能级移动、久期方程"
+ },
+ {
+  "id": "P453",
+  "slug": "variational-method",
+  "cat": "quantum-foundations",
+  "title": "变分法与近似基态",
+  "desc": "试波函数算出的能量永远偏高——变分原理给上界。",
+  "concept": "变分参数、瑞利商、基态近似"
+ },
+ {
+  "id": "P454",
+  "slug": "identical-particles",
+  "cat": "quantum-foundations",
+  "title": "全同粒子与交换对称",
+  "desc": "交换两个电子什么都不发生——费米与玻色的分水岭。",
+  "concept": "交换算符、对称态、泡利原理"
+ },
+ {
+  "id": "P455",
+  "slug": "density-matrix",
+  "cat": "quantum-foundations",
+  "title": "密度矩阵与混合态",
+  "desc": "纯态用波函数、混合态用矩阵——统计系综的量子表述。",
+  "concept": "纯态混合、部分迹、冯诺依曼熵"
+ },
+ {
+  "id": "P236",
+  "slug": "no-cloning",
+  "cat": "quantum-information",
+  "title": "量子不可克隆",
+  "desc": "未知量子态不可复制——量子密钥分发的安全根基。",
+  "concept": "幺正性、线性性、量子保密"
+ },
+ {
+  "id": "P238",
+  "slug": "superdense-coding",
+  "cat": "quantum-information",
+  "title": "超密编码",
+  "desc": "1 个量子比特带回 2 个经典比特——纠缠的预付费通信。",
+  "concept": "Bell 基幺正操作、信道容量"
+ },
+ {
+  "id": "P239",
+  "slug": "quantum-error-correct",
+  "cat": "quantum-information",
+  "title": "量子纠错码",
+  "desc": "综合征测量诊断错误而不坍缩——表面码的容错之路。",
+  "concept": "稳定子、综合征、阈值定理"
+ },
+ {
+  "id": "P240",
+  "slug": "decoherence",
+  "cat": "quantum-information",
+  "title": "退相干",
+  "desc": "环境不断'测量'系统——量子性在微秒级蒸发的机制。",
+  "concept": "T₁/T₂、约化密度矩阵、动态解耦"
+ },
+ {
+  "id": "P30",
+  "slug": "bell-chsh",
+  "cat": "quantum-information",
+  "title": "贝尔不等式与量子关联",
+  "desc": "CHSH 关联值：经典隐变量界限为 2，量子力学可达 2√2——爱因斯坦-玻尔之争的实验裁判。",
+  "concept": "贝尔不等式、量子纠缠、定域实在论"
+ },
+ {
+  "id": "P223",
+  "slug": "four-level-laser",
+  "cat": "quantum-optics-laser",
+  "title": "四能级激光",
+  "desc": "快速抽空下能级维持反转——现代激光器的标准能级结构。",
+  "concept": "泵浦、亚稳态、受激辐射"
+ },
+ {
+  "id": "P224",
+  "slug": "population-inversion",
+  "cat": "quantum-optics-laser",
+  "title": "粒子数反转",
+  "desc": "热平衡下高能级永远人少——激光必须先打破玻尔兹曼。",
+  "concept": "爱因斯坦系数、增益介质"
+ },
+ {
+  "id": "P226",
+  "slug": "coherent-state",
+  "cat": "quantum-optics-laser",
+  "title": "相干态",
+  "desc": "最像经典波的量子态——光子数服从泊松分布。",
+  "concept": "最小不确定、a 本征态、散粒噪声"
+ },
+ {
+  "id": "P227",
+  "slug": "squeezed-state",
+  "cat": "quantum-optics-laser",
+  "title": "压缩态",
+  "desc": "把噪声从一个分量挪到另一个——LIGO 的量子降噪利器。",
+  "concept": "正交压缩、不确定椭圆、SQL"
+ },
+ {
+  "id": "P228",
+  "slug": "photon-antibunching",
+  "cat": "quantum-optics-laser",
+  "title": "光子反聚束",
+  "desc": "g²(0)=0：单光子一个一个来——HBT 实验的量子判决。",
+  "concept": "关联函数、单光子源、HBT"
+ },
+ {
+  "id": "P229",
+  "slug": "shot-noise",
+  "cat": "quantum-optics-laser",
+  "title": "散粒噪声",
+  "desc": "离散性交的税：噪声∝√N——信噪比无法白嫖。",
+  "concept": "泊松统计、量子底噪、压缩突破"
+ },
+ {
+  "id": "P125",
+  "slug": "relativistic-momentum",
+  "cat": "relativistic-motion",
+  "title": "相对论动量",
+  "desc": "γ 因子让动量在近光速陡增——推不倒的光速墙。",
+  "concept": "洛伦兹因子、四动量、极限能量"
+ },
+ {
+  "id": "P126",
+  "slug": "mass-energy-equivalence",
+  "cat": "relativistic-motion",
+  "title": "质能等价",
+  "desc": "一克物质含 9×10¹³ 焦耳——质量是被束缚的能量。",
+  "concept": "E=mc²、质量亏损、湮灭"
+ },
+ {
+  "id": "P128",
+  "slug": "simultaneity",
+  "cat": "relativistic-motion",
+  "title": "同时性的相对论",
+  "desc": "同时是相对的——绝对时间的破产从这里开始。",
+  "concept": "洛伦兹变换、时钟对准"
+ },
+ {
+  "id": "P130",
+  "slug": "relativistic-doppler",
+  "cat": "relativistic-motion",
+  "title": "相对论多普勒",
+  "desc": "纵向趋光发散、横向也有频移——星系红移的理论底座。",
+  "concept": "红移/蓝移、γ 因子、横向频移"
+ },
+ {
+  "id": "P131",
+  "slug": "velocity-addition",
+  "cat": "relativistic-motion",
+  "title": "相对论速度加合",
+  "desc": "再快的速度加起来也超不过 c——公式自带天花板。",
+  "concept": "速度变换、光速不变"
+ },
+ {
+  "id": "P456",
+  "slug": "relativistic-energy-momentum",
+  "cat": "relativistic-motion",
+  "title": "相对论能量动量与阈能",
+  "desc": "能量动量守恒的四维写法——对撞阈值为什么总差一点。",
+  "concept": "四动量不变量、静止质量、阈能"
+ },
+ {
+  "id": "P27",
+  "slug": "order-of-magnitude",
+  "cat": "scale-overview",
+  "title": "宇宙数量级阶梯",
+  "desc": "从夸克到可观测宇宙的 50 个数量级对数阶梯——物理学家用数量级思考世界。",
+  "concept": "数量级估计、对数尺度、费米问题"
+ },
+ {
+  "id": "P169",
+  "slug": "anderson-localization",
+  "cat": "solid-state",
+  "title": "安德森局域化",
+  "desc": "无序足以冻住电子——金属绝缘体转变的量子解释。",
+  "concept": "相干散射、迁移率边"
+ },
+ {
+  "id": "P461",
+  "slug": "fermi-dirac-statistics",
+  "cat": "solid-state",
+  "title": "费米-狄拉克统计",
+  "desc": "同费米子绝不挤同一格——电子比热的指数冻结。",
+  "concept": "分布函数、费米能、简并压"
+ },
+ {
+  "id": "P462",
+  "slug": "bose-einstein-distribution",
+  "cat": "solid-state",
+  "title": "玻色-爱因斯坦分布",
+  "desc": "光子爱挤同态——黑体与激光的统计根。",
+  "concept": "玻色分布、聚束、化学势"
+ },
+ {
+  "id": "P463",
+  "slug": "crystal-binding",
+  "cat": "solid-state",
+  "title": "晶体结合与内聚能",
+  "desc": "离子、共价、金属、范德华——四种黏法定性质。",
+  "concept": "内聚能、马德隆常数、晶格能"
+ },
+ {
+  "id": "P465",
+  "slug": "semiconductor-fermi-level",
+  "cat": "solid-state",
+  "title": "费米能级与载流子",
+  "desc": "费米能级随掺杂上下移动——半导体一切特性的仪表盘。",
+  "concept": "载流子浓度、费米钉扎、接触电位"
+ },
+ {
+  "id": "P308",
+  "slug": "energy-equipartition",
+  "cat": "statistical-physics",
+  "title": "能量均分验证",
+  "desc": "双原子气体的热容台阶——自由度被冻结。",
+  "concept": "自由度、振动激发、比热"
+ },
+ {
+  "id": "P309",
+  "slug": "gas-thermometry",
+  "cat": "statistical-physics",
+  "title": "气体温度计与绝对温标",
+  "desc": "查理定律外推到零下 273 度——温标这样定。",
+  "concept": "等容线、截距、开尔文"
+ },
+ {
+  "id": "P310",
+  "slug": "three-phase-point",
+  "cat": "statistical-physics",
+  "title": "三相点与相平衡",
+  "desc": "三相共存的唯一温度——温标的固定点。",
+  "concept": "三相点、蒸气压、ITS-90"
+ },
+ {
+  "id": "P100",
+  "slug": "otto",
+  "cat": "thermodynamics",
+  "title": "奥托循环",
+  "desc": "汽油机的四冲程：吸气、压缩、做功、排气——压缩比决定效率上限。",
+  "concept": "定容加热、压缩比、爆震"
+ },
+ {
+  "id": "P101",
+  "slug": "joule-thomson",
+  "cat": "thermodynamics",
+  "title": "焦耳-汤姆孙膨胀",
+  "desc": "气体穿过多孔塞节流降温——冰箱与空气液化的物理内核。",
+  "concept": "节流、焦耳-汤姆孙系数、逆转温度"
+ },
+ {
+  "id": "P103",
+  "slug": "ts-diagram",
+  "cat": "thermodynamics",
+  "title": "温熵图",
+  "desc": "把循环画在温熵平面：等温是水平线，卡诺循环变成长方形。",
+  "concept": "可逆过程、熵变、循环面积"
+ },
+ {
+  "id": "P104",
+  "slug": "refrigeration",
+  "cat": "thermodynamics",
+  "title": "制冷循环",
+  "desc": "热机倒过来跑：花功把热量从冷处搬到热处——冰箱的逆卡诺。",
+  "concept": "制冷系数、节流阀、蒸发冷凝"
+ },
+ {
+  "id": "P105",
+  "slug": "partition-function",
+  "cat": "thermodynamics",
+  "title": "配分函数与自由能",
+  "desc": "把所有微观状态求和取对数——统计力学的生成函数，一切热力学量由此导出。",
+  "concept": "正则系综、自由能、期望值"
+ },
+ {
+  "id": "P106",
+  "slug": "debye-specific-heat",
+  "cat": "thermodynamics",
+  "title": "德拜比热",
+  "desc": "固体比热在低温按 T 三次方下降——声子态密度的胜利。",
+  "concept": "德拜模型、低温极限、声子"
+ },
+ {
+  "id": "P15",
+  "slug": "carnot-cycle",
+  "cat": "thermodynamics",
+  "title": "卡诺循环与热机效率",
+  "desc": "P-V 图上的等温/绝热四冲程与效率上限 η=1−T冷/T热。",
+  "concept": "卡诺循环、热机效率、熵"
+ },
+ {
+  "id": "P442",
+  "slug": "maxwell-relations",
+  "cat": "thermodynamics",
+  "title": "麦克斯韦关系",
+  "desc": "四个偏导的交叉换位——热力学量互相翻译的字典。",
+  "concept": "吉布斯关系、势函数、循环关系"
+ },
+ {
+  "id": "P443",
+  "slug": "entropy-calculation",
+  "cat": "thermodynamics",
+  "title": "熵变计算",
+  "desc": "不可逆过程怎么算熵——找可逆路径当替身。",
+  "concept": "状态函数、克劳修斯等式、熵产"
+ },
+ {
+  "id": "P444",
+  "slug": "clapeyron-equation",
+  "cat": "thermodynamics",
+  "title": "克拉佩龙方程",
+  "desc": "相图上一条线的斜率——压力如何抬高熔沸点。",
+  "concept": "相平衡、潜热、斜率 dP/dT"
+ },
+ {
+  "id": "P99",
+  "slug": "stirling",
+  "cat": "thermodynamics",
+  "title": "斯特林循环",
+  "desc": "等温回热的理想循环——太阳能热机与斯特林发动机的理论原型。",
+  "concept": "等温过程、回热、效率"
+ },
+ {
+  "id": "P243",
+  "slug": "topological-invariant",
+  "cat": "topological-phases",
+  "title": "拓扑不变量",
+  "desc": "怎么揉都不变的整数——从亏格到陈数的量化保护。",
+  "concept": "亏格、欧拉示性数、曲率积分"
+ },
+ {
+  "id": "P466",
+  "slug": "sound-intensity",
+  "cat": "vibration-wave",
+  "title": "声强与声压级",
+  "desc": "分贝是对数的耳朵——从听阈到痛阈的两百亿倍。",
+  "concept": "分贝标度、听阈痛阈、声强计算"
+ },
+ {
+  "id": "P59",
+  "slug": "beats",
+  "cat": "vibration-wave",
+  "title": "拍频",
+  "desc": "两个音叉差几赫兹，就能听到嗡—嗡—的强弱起伏。",
+  "concept": "频率叠加、包络、拍频=频差"
+ },
+ {
+  "id": "P60",
+  "slug": "sound-speed",
+  "cat": "vibration-wave",
+  "title": "声速与温度",
+  "desc": "十五度空气每秒三百四十三米——温度越高传得越快。",
+  "concept": "绝热声速、理想气体、马赫数"
+ },
+ {
+  "id": "P202",
+  "slug": "fabry-perot",
+  "cat": "wave-optics",
+  "title": "法布里-珀罗干涉仪",
+  "desc": "多光束干涉把透射峰磨尖——激光腔与高分辨光谱的核心。",
+  "concept": "精细度、Airy 函数、共振"
+ },
+ {
+  "id": "P203",
+  "slug": "fresnel-biprism",
+  "cat": "wave-optics",
+  "title": "菲涅耳双棱镜",
+  "desc": "一个点源劈成两个相干虚源——分波前干涉的教科书方案。",
+  "concept": "虚光源、条纹间距、半波损失"
+ },
+ {
+  "id": "P204",
+  "slug": "zone-plate",
+  "cat": "wave-optics",
+  "title": "菲涅耳波带片",
+  "desc": "用衍射聚焦：X 射线显微镜的物镜——把限制变成工具。",
+  "concept": "半波带、衍射聚焦、相位波带片"
+ },
+ {
+  "id": "P205",
+  "slug": "coherence-length",
+  "cat": "wave-optics",
+  "title": "相干长度",
+  "desc": "谱宽决定条纹能走多远——白光几微米、激光数百米。",
+  "concept": "时间相干、可见度包络、OCT"
+ },
+ {
+  "id": "P446",
+  "slug": "abbe-imaging",
+  "cat": "wave-optics",
+  "title": "阿贝成像与空间频率",
+  "desc": "成像分两步：衍射再干涉——频谱面上做文章。",
+  "concept": "空间频率、频谱面、滤波成像"
+ },
+ {
+  "id": "P77",
+  "slug": "newton-rings",
+  "cat": "wave-optics",
+  "title": "牛顿环",
+  "desc": "平凸透镜压在平板玻璃上，同心明暗圆环——等厚干涉的教科书图像。",
+  "concept": "等厚干涉、光程差、半波损失"
+ },
+ {
+  "id": "P79",
+  "slug": "malus",
+  "cat": "wave-optics",
+  "title": "马吕斯定律与偏振",
+  "desc": "两片偏振片夹角九十度几乎全暗——透光率按余弦平方衰减。",
+  "concept": "偏振、马吕斯定律、布儒斯特角"
+ },
+ {
+  "id": "P80",
+  "slug": "birefringence",
+  "cat": "wave-optics",
+  "title": "双折射",
+  "desc": "方解石把一束光劈成两束——寻常光与非寻常光各走各的折射率。",
+  "concept": "双折射、o光e光、液晶显示原理"
+ }
+]

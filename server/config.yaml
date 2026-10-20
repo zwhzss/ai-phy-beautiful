@@ -1,0 +1,28 @@
+# 物理之美教育软件 — 后端配置
+# 优先级：环境变量 > 本文件 > 内置默认值
+# 可用环境变量覆盖：SERVER_PORT / APP_ENV / STATIC_DIR / DB_PATH / JWT_SECRET /
+#                  JWT_EXPIRATION / AUDIO_DIR / AI_REQUEST_TIMEOUT /
+#                  ADMIN_USERNAME / ADMIN_PASSWORD / ADMIN_EMAIL
+
+server:
+  port: "8080"
+  env: development            # development | production
+  # 前端构建产物目录；配置后后端可直接托管 SPA（Wails 桌面端 / 单进程部署）
+  static_dir: ""
+
+database:
+  path: "data/phy_beauty.db" # SQLite 单文件数据库（相对 server 工作目录）
+
+jwt:
+  secret: "phy-beauty-dev-secret-change-in-production"
+  expiration: "720h"
+
+ai:
+  audio_dir: "data/audio"     # 讲解音频目录，通过 /audio 静态路由访问
+  request_timeout: 300        # 单次大模型调用超时（秒）
+  auto_generate_on_seed: false
+
+admin:
+  username: "admin"
+  password: "admin123"        # 首次启动自动创建的管理员，请登录后立即修改
+  email: "admin@phy-beauty.local"

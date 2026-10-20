@@ -1,0 +1,247 @@
+{
+  "categories": [],
+  "experiments": [
+    {
+      "number": "T81",
+      "title": "里斯表示定理",
+      "slug": "riesz-representation",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "里斯表示定理：希尔伯特空间上的连续线性泛函都可以用内积表示。它把抽象的泛函与具体的向量对应起来，是泛函分析的核心工具，也解释了量子力学中「态」与「可观测量」的对偶关系。",
+      "concept": "线性泛函的内积表示",
+      "viz_component": "RieszRepresentationViz"
+    },
+    {
+      "number": "T82",
+      "title": "闵可夫斯基时空度量",
+      "slug": "minkowski-spacetime",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "闵可夫斯基把时间与空间合并为四维时空，用 ds² = −c²dt² + dx² + dy² + dz² 定义「间隔」。在这个几何里，光速不变不再奇怪——它只是时空结构的必然结果。",
+      "concept": "四维时空的伪欧几里得度量",
+      "viz_component": "MinkowskiSpacetimeViz"
+    },
+    {
+      "number": "T83",
+      "title": "维数不变性定理",
+      "slug": "invariance-of-dimension",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "布劳威尔的维数不变性定理：不同维数的欧氏空间不可能同胚。这条看似显然的结论其实并不平凡——它让「维数」第一次成为严格定义的拓扑不变量。",
+      "concept": "拓扑维数的良定义",
+      "viz_component": "InvarianceOfDimensionViz"
+    },
+    {
+      "number": "T84",
+      "title": "布劳威尔不动点定理",
+      "slug": "brouwer-fixed-point",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "布劳威尔不动点定理：把闭圆盘连续映射到自身，一定存在不动点。搅动一杯咖啡，总有一点回到原处。它是拓扑学最优美的结论之一，也是博弈论与经济均衡存在性的基础。",
+      "concept": "连续自映射必有不动点",
+      "viz_component": "BrouwerFixedPointViz"
+    },
+    {
+      "number": "T85",
+      "title": "施坦-魏尔斯特拉斯逼近定理",
+      "slug": "stone-weierstrass",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "施坦-魏尔斯特拉斯逼近定理：紧集上的连续函数可以用多项式（或满足分离条件的函数族）一致逼近。它说明「连续」与「多项式」在逼近意义下几乎一样，是分析学的基本工具。",
+      "concept": "连续函数的一致多项式逼近",
+      "viz_component": "StoneWeierstrassViz"
+    },
+    {
+      "number": "T86",
+      "title": "巴拿赫不动点定理",
+      "slug": "banach-fixed-point",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "巴拿赫不动点定理：完备度量空间上的压缩映射有且仅有一个不动点，且迭代必收敛到它。它把「存在性」变成了可执行的算法——迭代求解、微分方程解的存在唯一性都靠它。",
+      "concept": "压缩映射的唯一不动点与迭代收敛",
+      "viz_component": "BanachFixedPointViz"
+    },
+    {
+      "number": "T87",
+      "title": "韦德伯恩小定理",
+      "slug": "wedderburn-little-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "韦德伯恩小定理：有限除环一定是有限域，即有限的「非交换域」不存在。它是非交换代数的经典结论，巧妙地把群论与有限域的性质结合起来。",
+      "concept": "有限除环的交换性",
+      "viz_component": "WedderburnLittleViz"
+    },
+    {
+      "number": "T88",
+      "title": "德拉姆定理",
+      "slug": "de-rham-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "德拉姆定理：光滑流形上的微分形式上同调，与奇异上同调同构。它把「用微积分能算出的东西」与「用拓扑能看出的洞」等同起来，是微分拓扑的核心桥梁。",
+      "concept": "微分形式与上同调的对应",
+      "viz_component": "DeRhamTheoremViz"
+    },
+    {
+      "number": "T89",
+      "title": "扎里斯基主定理",
+      "slug": "zariski-main-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "扎里斯基主定理刻画双有理映射的纤维结构，指出它除一个例外集合外都是有限映射。它是代数几何中研究双有理变换的基本工具，也是扎里斯基拓扑的来源之一。",
+      "concept": "双有理映射的纤维结构",
+      "viz_component": "ZariskiMainTheoremViz"
+    },
+    {
+      "number": "T90",
+      "title": "巴拿赫-斯坦豪斯一致有界原理",
+      "slug": "banach-steinhaus",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "一致有界原理：完备赋范空间上的一族算子若逐点有界，则一致有界。它与哈恩-巴拿赫定理、开映射定理并称泛函分析三大基本定理，是算子理论的支柱。",
+      "concept": "逐点有界蕴含一致有界",
+      "viz_component": "BanachSteinhausViz"
+    },
+    {
+      "number": "T91",
+      "title": "哈尔测度",
+      "slug": "haar-measure",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "哈尔测度：局部紧拓扑群上存在唯一的（在平移下不变的）测度。它让「在群上积分」成为可能，是调和分析与表示论的基础，也是傅里叶分析在抽象群上的推广。",
+      "concept": "局部紧群上的不变测度",
+      "viz_component": "HaarMeasureViz"
+    },
+    {
+      "number": "T92",
+      "title": "图灵停机问题",
+      "slug": "turing-halting-problem",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "图灵用对角线法证明：不存在一个通用算法，能判定任意程序在任意输入上是否停机。这是可计算理论的里程碑——它划定了机器的能力边界，也奠定了计算机科学的理论基础。",
+      "concept": "不可判定性与计算的极限",
+      "viz_component": "TuringHaltingViz"
+    },
+    {
+      "number": "T93",
+      "title": "怀特海德定理",
+      "slug": "whitehead-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "怀特海德定理：CW 复形之间诱导所有同伦群同构的映射，一定是同伦等价。它说明同伦群能够完全「看穿」CW 复形，是代数拓扑中判断同伦等价的关键工具。",
+      "concept": "同伦群同构蕴含同伦等价",
+      "viz_component": "WhiteheadTheoremViz"
+    },
+    {
+      "number": "T94",
+      "title": "艾伦伯格-斯廷罗德公理",
+      "slug": "eilenberg-steenrod",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "艾伦伯格与斯廷罗德用五条公理刻画同调论，使奇异同调、单纯同调、胞腔同调等种种定义被统一为同一套结构的不同实现。公理化方法由此进入代数拓扑。",
+      "concept": "同调论的公理化",
+      "viz_component": "EilenbergSteenrodViz"
+    },
+    {
+      "number": "T95",
+      "title": "香农信息熵公式",
+      "slug": "shannon-entropy",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "香农用 H = −Σ pᵢ log pᵢ 度量信息的不确定性，并证明它决定了一个信道的极限压缩率。一个物理学的概念（熵）就此进入通信领域，信息论作为独立学科诞生。",
+      "concept": "信息量与不确定性的度量",
+      "viz_component": "ShannonEntropyViz"
+    },
+    {
+      "number": "T96",
+      "title": "阿蒂亚-辛格指标定理",
+      "slug": "atiyah-singer-index",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "阿蒂亚-辛格指标定理：椭圆算子的解析指标等于其拓扑指标。它把偏微分方程的解空间维数与流形的拓扑不变量等同起来，被誉为 20 世纪最宏大的数学定理之一，深刻影响了理论物理。",
+      "concept": "解析指标等于拓扑指标",
+      "viz_component": "AtiyahSingerViz"
+    },
+    {
+      "number": "T97",
+      "title": "塞尔对偶定理",
+      "slug": "serre-duality",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "塞尔对偶定理：射影代数簇上凝聚层上同调与其对偶层之间存在配对，把高维上同调转化为低维。它把微分几何中的庞加莱对偶推广到代数几何，是层论方法的核心工具。",
+      "concept": "凝聚层上同调的对偶配对",
+      "viz_component": "SerreDualityViz"
+    },
+    {
+      "number": "T98",
+      "title": "惠特尼嵌入定理",
+      "slug": "whitney-embedding",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "惠特尼嵌入定理：任意 n 维光滑流形都可浸入 2n 维欧氏空间、嵌入 2n+1 维欧氏空间。它回答了一个根本问题——抽象流形总能「放进」足够高维的空间里被看见。",
+      "concept": "抽象流形的欧氏空间嵌入",
+      "viz_component": "WhitneyEmbeddingViz"
+    },
+    {
+      "number": "T99",
+      "title": "洛伦兹发现混沌吸引子",
+      "slug": "lorenz-attractor-discovery",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "洛伦兹用三个方程描述大气对流，发现轨迹会被吸引到一个「蝴蝶形」的分形集合上：轨道永不重复，却始终不会离开。确定性系统的可预测性由此被彻底改写，混沌理论诞生。",
+      "concept": "确定性系统的初值敏感与奇异吸引子",
+      "viz_component": "LorenzAttractorViz"
+    },
+    {
+      "number": "T100",
+      "title": "瑟斯顿几何化纲领",
+      "slug": "thurston-geometrization",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "瑟斯顿提出：任何闭三维流形都可沿本质球面切开，每一块都拥有八种标准几何结构之一。这个纲领统一了三维拓扑的研究框架，庞加莱猜想正是它的一个特例。",
+      "concept": "三维流形的八种几何结构",
+      "viz_component": "ThurstonGeometrizationViz"
+    },
+    {
+      "number": "T101",
+      "title": "四色定理",
+      "slug": "four-color-theorem",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "四色定理：任何平面地图都可以只用四种颜色着色，使相邻区域颜色不同。阿佩尔与哈肯在 1976 年借助计算机验证了上千种构形，这是首个依赖大规模计算的著名定理，当时引发了对「什么是证明」的激烈讨论。",
+      "concept": "平面图的四着色",
+      "viz_component": "FourColorTheoremViz"
+    },
+    {
+      "number": "T102",
+      "title": "格林-陶定理",
+      "slug": "green-tao-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "格林-陶定理：素数列中存在任意长的等差数列。素数看似随机稀疏，却蕴含着无限的规律结构。它用「转移原理」把稠密集合的组合结论搬到素数上，是 21 世纪解析数论的里程碑。",
+      "concept": "素数中的任意长等差数列",
+      "viz_component": "GreenTaoViz"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "spring-oscillator": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "弹簧挂着重物来回颤动，钟摆左右摇摆，声带振动发出声音——世界充满了振动。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "弹簧振子是所有振动的最小模型：一个回复力，一个惯性，仅此而已。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "胡克定律告诉我们，弹簧的拉力与伸长量成正比，方向总是指向平衡位置。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "质量越大越懒得动，弹簧越硬越急切，两者的比值决定振动的快慢。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "固有角频率等于根号下劲度系数除以质量，周期则是二派除以这个频率。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "位移随时间按余弦规律变化，右侧曲线画的就是它的脚步。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "把阻尼调大，振幅会像包络线那样指数收缩，最终安静下来。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "从汽车减震到电路振荡，同一个方程换着衣服反复登场。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "调一调质量和劲度系数，感受周期如何随之呼吸。", "duration_ms": 0 }
+    ]
+  },
+  "elastic-collision": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "台球相撞、汽车追尾、粒子对撞——碰撞是物理学家最爱的实验。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "碰撞前后，有两个量像定海神针一样绝不改变。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "第一个是总动量：质量乘速度的总和，在碰撞前后分毫不差。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "第二个是总动能——只有完全弹性碰撞才守恒，日常生活中的碰撞多半会把一部分动能变成热。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "弹性碰撞后，两球速度由质量组合决定：等质量时恰好交换速度。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "把两球质量调成相等再碰撞，轻球停下、重球走开——台球桌上的物理。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "质量悬殊时，小球撞大球几乎原速反弹，大球纹丝不动。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "动量永远守恒，能量看碰撞的脾气——这就是碰撞的两条底线。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "画面下方的读数会替你验证这两条守恒律。", "duration_ms": 0 }
+    ]
+  },
+  "time-dilation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "如果你坐上接近光速的飞船，回来时会比留在地球的双胞胎更年轻——这不是科幻，是物理。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "狭义相对论的两条公设：光速对所有惯性系相同，物理规律不因运动而改变。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "由此推出洛伦兹因子：速度越接近光速，它越大，时间膨胀越明显。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "洛伦兹因子等于一除以根号下一减去速度比的平方，速度为零时它等于一。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "速度达到光速的百分之八十七，因子约为二：飞船上过一天，地球上过了两天。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "宇宙射线产生的缪子，因时间膨胀延长了寿命，才能穿过大气层到达地面。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "GPS 卫星的原子钟每天要修正三十八微秒，否则定位一天漂移十公里。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "时间不是绝对的舞台，而是与运动状态有关的物理量。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "拖动速度滑块，看两个钟的步调如何越走越远。", "duration_ms": 0 }
+    ]
+  },
+  "wave-superposition": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两颗石子投入池塘，水面出现交错的波纹——有的地方叠加变高，有的地方相互抵消。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "这就是波的叠加原理，干涉现象的全部秘密。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "两列波相遇时，各走各的，位移相加；分开后互不留下痕迹。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "波程差是波长整数倍的地方加强，是半整数倍的地方抵消，明暗条纹由此而生。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "双源干涉的强度随角度按余弦平方变化，右边的曲线画的就是它。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动源距参数，看干涉图样如何变密；加入初相位差，条纹整体平移。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "主动降噪耳机正是反相波抵消噪声的工程应用。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "干涉是波的指纹：看到明暗相间的条纹，就知道有两列波在对话。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "声波、水波、光波甚至物质波，都遵守同一套叠加规则。", "duration_ms": 0 }
+    ]
+  },
+  "lens-refraction": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "筷子插进水里看起来折断了，池底看起来变浅了——光在进入水中时拐了弯。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "折射的根源是光在不同介质中速度不同：水中光速约为空气的四分之三。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "光疏到光密，折射光线靠近法线；反过来则远离法线，角度足够大时发生全反射。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "斯涅尔定律：入射角正弦乘折射率，等于折射角正弦乘另一侧折射率。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "临界角等于两折射率之比的反正弦，超过它光线就回不去了。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "钻石折射率高达二点四二，临界角只有二十四度，大量光线被全反射困在里面，所以闪闪发亮。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "光纤正是全反射的管道：光在玻璃芯里弹反射前进，跨越大洋。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "折射定律一条正弦等式，撑起了透镜、光纤与整个几何光学。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "改变介质与入射角，观察光路与临界角如何随之变化。", "duration_ms": 0 }
+    ]
+  },
+  "electric-field": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "电荷周围存在一种看不见的物质，放进去的试探电荷会立刻感到力——这就是电场。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "电场线从正电荷出发、终止于负电荷，线的疏密代表场的强弱。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "场线永远不相交——空间每一点的电场方向只有一个。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "点电荷的场强与距离平方成反比，方向沿径向，正电荷向外、负电荷向内。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "偶极子的场在远处衰减更快，按距离的三次方下降。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换三种电荷配置，观察场线如何重新编织——同号相斥、异号相吸的几何图景。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "高斯定律告诉我们：穿过任意闭合面的通量，只由面内的电荷决定。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "场是力的媒介：电荷不直接伸手，而是通过场与世界握手。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "画面中的每条线都是数值积分追踪出来的库仑场。", "duration_ms": 0 }
+    ]
+  },
+  "magnetic-field": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "指南针总是指向南北，奥斯特发现通电导线旁的指南针也会偏转——电流周围有磁场。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "直线电流的磁感线是以导线为圆心的同心圆，永远闭合。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "右手定则：拇指指向电流，四指弯曲的方向就是磁场方向。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "安培环路定律：磁场沿闭合回路的积分，等于穿过回路的电流乘以真空磁导率。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "由此得到直导线外的场强与距离成反比，线圈内部则是匀强磁场。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换直导线与螺线管：同心圆与平行线，两种几何对应两种磁场形态。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "电磁铁、继电器与磁悬浮列车，都是把电流变成磁场再变成力的工程。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "磁场线是闭合的涡旋——至今没有人找到磁单极子。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "把电流反向，看所有磁感线如何掉头。", "duration_ms": 0 }
+    ]
+  },
+  "maxwell-boltzmann": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一箱气体分子，速度各不相同：有的慢吞吞，有的飞快——但它们的统计规律异常漂亮。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "麦克斯韦速率分布告诉我们：中等速度的分子最多，极快和极慢的都少。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "分布形状来自两种竞争：速度高的状态多，但高动能的分子指数稀少。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "分布函数正比于速度平方乘以指数衰减因子，指数里是动能除以热能。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "最概然速率等于根号下二倍气体常数乘温度除以摩尔质量。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "升高温度，曲线峰值右移变矮——分子跑得更快更分散；换更重的气体，峰值左移。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "地球引力没能留住氢气，正是因为轻分子的高速尾巴逃逸率更高。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "单个分子完全随机，亿万个分子却精确服从一条曲线——这就是统计物理。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "温度的微观含义，就藏在这条曲线的宽度里。", "duration_ms": 0 }
+    ]
+  },
+  "de-broglie-wave": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "光既是波又是粒子，那么电子呢？一九二四年，一个大胆的猜想扭转了乾坤。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "德布罗意提出：一切物质都有波长，等于普朗克常数除以动量。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "玻尔轨道上的电子若要稳定，绕行一周必须恰好容纳整数个波——驻波条件给出量子化。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "圆轨道上周长等于波长的整数倍，由此自然推出角动量是约化普朗克常数的整数倍。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "轨道半径按主量子数的平方增长，波长也随之伸长。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "一九二七年电子衍射实验证实了物质波——粒子与波不再对立。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "电子显微镜正是用电子的短波长来看清原子，分辨率远超光学显微镜。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "量子化不是硬性规定，而是波动的自然结果。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "调整量子数与核电荷，观察轨道与波长如何同步改变。", "duration_ms": 0 }
+    ]
+  },
+  "radioactive-decay": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "铀矿石亿万年不变，碳十四却能告诉我们木乃伊的年龄——放射性衰变是原子核的时钟。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "单个原子核何时衰变完全随机，你永远猜不到下一个是谁。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "但大量核子的集体行为精确得惊人：每过一个半衰期，剩下一半。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "剩余核数等于初始数乘以指数衰减因子，衰变常数与半衰期相差一个对数二。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "三个半衰期剩八分之一，十个半衰期剩约千分之一——指数尾巴永不真正归零。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "右侧绿点是未衰变的核，灰点是衰变产物——拖动时间滑块看随机如何汇聚成确定。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "碳十四半衰期五千七百三十年，测出体内碳十四比例就测出了死亡年代。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "微观的偶然，造就宏观的必然——这是量子随机性最直观的样子。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "核电站、核医学与地质定年，都建立在这条指数曲线上。", "duration_ms": 0 }
+    ]
+  },
+  "gw-ripple": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "二零一五年九月十四日，两台探测器同时记录到一声时空的啾啾——人类第一次听见黑洞并合。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "引力波是时空曲率的涟漪，以光速向外传播，拉伸与压缩垂直于传播方向。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "双致密星互相绕转，波带走能量，轨道越来越小、越来越快——这就是旋进。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "应变随距离按反比衰减，探测器要测的是臂长十的负二十一次方的相对变化。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "并合前频率与振幅同步攀升，形成标志性的啁啾波形。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "画面上方是理论模板波形，下方网格正随双星旋进荡开同心涟漪。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "双星脉冲星的轨道衰减与广义相对论预言逐年吻合，早已为引力波的存在作证。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "引力波让天文学从看扩展到听——多信使宇宙学时代由此开启。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "二零一七年的诺贝尔奖，就奖给了这两次伟大的聆听。", "duration_ms": 0 }
+    ]
+  },
+  "cosmic-web": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把宇宙放大到最大尺度，星系不是随机撒开的，而是织成了一张网。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "亮的地方是纤维与节点，暗的地方是空洞——这就是宇宙网。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "原初密度涨落在引力作用下放大：密的地方更密，稀的地方更稀。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "暗物质提供了看不见的骨架，普通物质沿着它聚集发光。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "结构增长由物质密度扰动的线性与非线性演化描述，尺度越大形成越晚。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "左侧点云是模拟的三维投影，纤维上的亮点是星系团，空白处是直径上亿光年的空洞。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "斯隆数字巡天的三维星系分布，与数值模拟的宇宙网惊人一致。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "宇宙网是原初涨落、引力与暗物质共同完成的巨幅作品。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "而我们所在的银河系，就挂在其中一条不起眼的纤维上。", "duration_ms": 0 }
+    ]
+  },
+  "order-of-magnitude": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "夸克到宇宙，横跨五十个数量级——线性尺子根本画不下，物理学家换了一把对数尺。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "对数尺每上一格，尺度乘以十的幂；台阶之间，藏着完全不同的物理定律。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "普朗克长度以下是量子引力的领地，可观测宇宙之外尚无物理可言。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "数量级估计只需两步：先把问题拆成十的幂，再心算乘除。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "试试费米问题：全世界有多少架钢琴？先估每城几台、再乘城市数——量级对了就成功了一半。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "切换微观与宏观视野，看代表物体如何在阶梯上各就各位。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "先想清楚是十的几次方，再去追求小数点后的精确——这是物理学家的思维方式。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "五十个数量级之内，人类已经建立起统一的物理图景。", "duration_ms": 0 }
+    ]
+  },
+  "scaling-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "蚂蚁能举起自重五十倍的面包屑，大象却举不动自己——不是意志问题，是几何问题。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "物体放大时，截面积按平方增长，体积按立方增长——重量长得比力气快。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "所以承力比与长度成反比：个头越大，相对越虚弱。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "截面正比于长度的平方，体积正比于长度的立方，两者之比反比于长度。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动体长滑块，看两条曲线如何迅速拉开差距。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "这解释了老鼠心跳每分钟六百次而蓝鲸只有两次，也解释了恐龙不能长得无限大。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "平方-立方律是标度思维的入门：许多自然之谜，先问尺度就能猜到答案。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "从昆虫机器人到摩天大楼，工程师每天都在和这条定律打交道。", "duration_ms": 0 }
+    ]
+  },
+  "bloch-sphere": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个量子比特的所有状态，都画在一颗球上——这就是布洛赫球。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "北极是零、南极是一，球面上任意一点是零与一的某种叠加。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "极角决定测量得到一的概率，方位角记录量子相位。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "量子门就是绕球面三个轴的旋转：非门转一百八十度，相位门转九十度。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动角度参数看矢量移动，或切换进动模式欣赏矢量绕轴画圆。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "单比特能画出来，多比特的纠缠却无法用球面表示——这正是量子计算的资源所在。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "布洛赫球把抽象的量子态变成可以转动的几何对象。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "量子信息的每一步操作，都能在这颗球上找到自己的转角。", "duration_ms": 0 }
+    ]
+  },
+  "bell-chsh": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦认为量子力学不完备，一定有隐藏变量；贝尔说：做个实验就知道。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "任何定域隐变量理论，关联值都不能超过二——这就是贝尔不等式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "量子力学却预言可以达到二倍根号二，约等于二点八三。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "画面上的水平红线是经典上限二，绿色虚线是量子上限二倍根号二。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换两种模型对比曲线；拖动基夹角，看关联值何时越过经典红线。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "阿斯佩一九八二年的实验判决量子力学胜出，二零二二年诺贝尔奖因此授予三位实验家。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "纠缠不是通信，却证明世界不是定域实在的——哲学变成了数据。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "量子信息科技，正是把这种非定域性变成了资源。", "duration_ms": 0 }
+    ]
+  },
+  "lattice-vibration": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "固体不是死寂的：原子在平衡位置附近不停颤动，这些集体颤动就是晶格振动。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "一维双原子链有两种振动模式：同向摆动叫声学支，反向摆动叫光学支。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "声学支在长波极限就是声波——声音的本质是晶格的集体呼吸。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "色散关系给出频率随波矢的变化：布里渊区边界处出现声子禁带。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "把振动能量量子化，就得到声子——固体里的一种准粒子。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换声学支与光学支，右侧色散曲线会高亮对应的那一条。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "德拜用它解释了固体比热，高温超导的配对机制也与它密切相关。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "声子虽不是真正的粒子，却承载了固体的热、声与超导。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "改变质量比，观察禁带如何张开。", "duration_ms": 0 }
+    ]
+  },
+  "band-structure": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "同样是碳原子，松软的石墨与坚硬的金刚石差别巨大——秘密藏在能带里。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "孤立原子的分立能级，一旦排成晶格就相互交叠，展宽成连续的能带。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "能带之间可能存在禁带：电子不能拥有的能量区间。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "周期势在布里渊边界把抛物线撕开，间隙大小约正比于势强度。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "满带加小带隙是半导体，满带加大带隙是绝缘体，带未满则是金属。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动晶格常数，看能带靠拢或分开；增大势强度，带隙随之张开。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "硅的带隙一点一电子伏——正好适合做开关，这就是半导体的缘分。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "能带理论是晶体管、二极管与所有芯片的第一性原理。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "一块芯片里的几十亿个开关，都在这张图里找到依据。", "duration_ms": 0 }
+    ]
+  },
+  "hall-effect": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一八七九年，研究生霍尔给导体加上磁场，测到了一个横向的小电压。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "电流中的载流子受洛伦兹力偏转，撞向一侧积累电荷，直到电场力与磁场力平衡。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "霍尔电压的极性直接告诉你载流子是电子还是空穴——判别半导体类型的标尺。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "霍尔电压等于电流乘磁感应强度除以载流子浓度与厚度。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "霍尔系数的符号翻转，就是载流子类型翻转的铁证。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换电子与空穴，看载流子偏转方向与电压极性同时翻转。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "一九八零年量子极限下霍尔电阻量子化，成为电阻基准——霍尔效应两度站上诺奖台。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "一个横向电压，串起半导体工业与拓扑物理两个时代。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "手机里的霍尔传感器，正在为折叠屏检测磁铁位置。", "duration_ms": 0 }
+    ]
+  },
+  "hubble-diagram": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一九二九年，哈勃画出一张图：星系越远，退行越快——宇宙在膨胀。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "横轴是距离，纵轴是退行速度，散点沿一条过原点的直线分布。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "直线的斜率就是哈勃常数，倒数约等于宇宙的年龄。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "退行速度等于哈勃常数乘距离，单位是每秒每兆秒差距多少公里。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "今天测得的哈勃常数约六十七到七十三，两者的差异称为哈勃张力。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动哈勃常数滑块，看拟合线如何变陡变缓；增大弥散模拟真实观测误差。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "一九九八年，高红移超新星让这张图出现转折——宇宙在减速五十亿年后开始加速。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "一张简单的直线图，改写了人类对宇宙命运的判断。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "距离阶梯上的每一级标尺，都在为这条直线校准。", "duration_ms": 0 }
+    ]
+  },
+  "normal-modes": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两个相连的摆来回晃动，动作看起来复杂无比——但拆开看，其实只有两种简单动作。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "简正模式是耦合系统的本征振动：所有质点以同一频率、固定相位关系运动。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "双摆只有两个模式：同相摆动与反相摆动，其余花样都是它们的叠加。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "求解耦合方程组的本征值问题，得到每个模式的频率与振幅比。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "叠加态下能量以拍频在两摆之间来回搬运，画面下方的曲线清晰可见。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换三种模式：同相、反相与叠加拍频，观察曲线与摆动的对应。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "分子振动、桥梁模态、电路谐振——同一套本征分析无处不在。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "复杂运动的背后，总是若干简单模式的线性组合。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "增大耦合强度，看两个模式的频率如何分开。", "duration_ms": 0 }
+    ]
+  },
+  "lagrange-points": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在太阳与地球的引力舞台上，有五个特殊的位置，航天器可以长期停留。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "拉格朗日点是限制性三体问题的五个平动平衡点：引力、离心力与科氏力恰好抵消。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "四号与五号点与地球成六十度夹角，天然稳定；一二三号是鞍点，需要轨道维持。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "在旋转坐标系里写出有效势，求它的五个驻点，就是这五个位置。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "韦布望远镜就在日地二号点绕行，遮阳板永远挡住太阳、地球与月球的热。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "四号五号点聚集着特洛伊小行星，与地球共舞数十亿年。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "三体问题虽不可积，却留下了五个可利用的平衡点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "分析力学的价值，在深空探测的轨道设计里兑现。", "duration_ms": 0 }
+    ]
+  },
+  "vortex-street": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "风吹过电线发出呜呜声，旗帜猎猎作响——背后是流体失稳产生的涡旋脱落。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "水流过圆柱，超过临界雷诺数后，尾迹不再对称，涡旋交替脱落。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "上下交替的涡旋施加周期性横向力，频率由斯特劳哈尔数决定。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "脱落频率等于斯特劳哈尔数乘流速除以柱径，工程上约等于零点二一。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "当涡频撞上结构固有频率，就会共振——塔科马大桥的教训写进了每一本桥梁教材。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "反过来，涡街流量计靠数涡旋个数来计量流量，不稳定成了仪表。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "流动的不稳定性，既会摧毁桥梁，也能被做成传感器。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "拖动雷诺数滑块，看尾迹从平稳到周期脱落的转变。", "duration_ms": 0 }
+    ]
+  },
+  "em-wave": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "电场变化产生磁场，磁场变化又产生电场——两者手拉手，向外奔跑。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "电磁波不需要介质：电场、磁场与传播方向三者互相垂直。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "它的速度由真空介电常数和磁导率决定——恰好等于光速，光就是电磁波。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "麦克斯韦方程组取旋度再合并，直接导出波动方程，波速等于一除以根号下两个常数之积。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "能流方向由坡印廷矢量给出，是电场叉乘磁场的方向。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "画面里红线是电场、蓝线是磁场，它们锁相同行，频率越高能量越大。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "从收音机到五G，只是同一段波换了个频率。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "赫兹的火花实验证实了这组预言，无线电时代随之开启。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "四个方程，统一了电、磁与光。", "duration_ms": 0 }
+    ]
+  },
+  "ising-model": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "磁铁加热到一定温度会突然失去磁性——居里点上发生了什么？伊辛模型给出答案。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "把磁性简化成格点上的自旋箭头，只允许上下翻转，规则简单到可以手算。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "相邻自旋同向能量低、反向能量高，系统总想让箭头排排坐。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "温度是捣乱者：热涨落不断随机翻转，与有序倾向拔河。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "二维伊辛模型的临界温度约等于二点二六九倍的相互作用强度除以玻尔兹曼常数。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "低温时大片同向成畴，高温时杂乱无章；把温度滑过临界点，相变发生。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "临界点上关联长度发散，涨落跨遍全系统——重正化群由此诞生，威尔逊因此获诺奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "相变不是渐变：序参量在临界点突然归零，这是连续相变的特征。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "从磁铁到合金到夸克胶子等离子体，同一套语言反复使用。", "duration_ms": 0 }
+    ]
+  },
+  "superfluid-helium": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把液氦冷到两开尔文以下，它会做出疯狂的事：沿着杯壁自己爬出来。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "越过兰姆达点，液氦进入超流相：黏度为零，可以无摩擦地流动。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "氦四是玻色子，低温下大量粒子占据同一量子态——宏观量子现象。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "超流速度的环量被量子化，只能取普朗克常数除以粒子质量的整数倍。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "黏度在兰姆达点骤降为零，左侧曲线的断崖就是相变的标志。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动温度滑块越过两点一七开尔文，右侧容器中的液膜开始沿壁爬升。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "超流氦用于冷却超导磁体与太空望远镜探测器，是低温工程的血液。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "量子力学不只住在原子里，它也能大到肉眼看见。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "爬壁、喷泉、第二声——超流体的每个怪举动都是量子的签名。", "duration_ms": 0 }
+    ]
+  },
+  "gravitational-lensing": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦预言：大质量天体会把身后的星光掰弯，像透镜一样聚焦。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "当地球、透镜星系与背景光源恰好共线，背景光被弯成一个完整的环——爱因斯坦环。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "稍有偏离就成了弧或多重像，偏得越多像越分散。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "爱因斯坦环半径正比于透镜质量的平方根，量出环就称出了质量。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "光线偏折角等于四倍引力常数乘质量除以光速平方乘碰撞参数。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动质量与对准程度参数，看环如何张开、又如何退化成弧。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "弱透镜剪切统计给暗物质称重，微透镜则帮我们寻找系外行星。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "时空弯曲让宇宙自带望远镜——引力透镜是天文学最优雅的工具。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "一九一九年日食验证光线偏折，二零一九年黑洞照片都是它的注脚。", "duration_ms": 0 }
+    ]
+  },
+  "feynman-diagram": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两个电子靠近，互相推开——中间发生了什么？费曼用几张线条图给出答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "费曼图里，每条线是一个粒子的旅程，每个顶点是一次相互作用。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "电子之间交换一个虚光子，就像两人互抛皮球——电磁力由此传递。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "每条线贡献传播子，每个顶点乘一个耦合常数，整张图对应一个明确的数学表达式。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "散射截面等于振幅模平方乘以相空间因子，最低阶的树图给出主要贡献。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "动量转移越大，交换的虚光子越硬，偏转越明显——参数滑块控制它。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "量子电动力学用这套图算出的电子磁矩，与实验吻合到小数点后十位。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "费曼图不是插画，是把无穷级数变成可计算步骤的记账系统。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "会画图，就会算粒子物理——这是二十世纪物理最强大的工具之一。", "duration_ms": 0 }
+    ]
+  },
+  "stimulated-emission": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一束光照到高能级的电子上，电子不等自己跳，反而被催着再放出一个一模一样的光子。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "这就是受激辐射：出射光子与入射光子同方向、同频率、同相位——复制粘贴般的光。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "爱因斯坦一九一七年就从理论上指出它，比激光问世早了四十年。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "要让光放大而不是吸收，必须实现粒子数反转：高能级的粒子比低能级多。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "再加一个光学谐振腔提供反馈，超过阈值就起振——这就是激光器。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "把泵浦滑块拉过阈值，看能级上的粒子数反转、输出光子成倍增加。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "激光的单色、相干与方向性，让光纤通信、激光手术与引力波探测成为可能。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "从爱因斯坦的纸面推演到梅曼的第一束红宝石激光，用了四十三年。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "受激辐射是量子力学送给人类最亮的一份礼物。", "duration_ms": 0 }
+    ]
+  },
+  "plasma-confinement": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "太阳靠引力点燃核聚变，人类想在地球上复制它——第一道难关是温度上亿度没有容器装。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "答案是不用容器：用磁场把等离子体悬在环形真空室中央。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "托卡马克用环向磁场加等离子体电流，磁力线螺旋缠绕，抑制带电粒子的逃逸。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "嵌套的磁面像洋葱层层包住等离子体，画面中的同心闭合线就是它们。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "聚变三重积要求密度、温度与约束时间三者之积超过劳森判据。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "贝塔是等离子体压强与磁压之比，越大越省磁铁，但过大触发破裂。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "拖动电流与贝塔参数，观察磁面形状与粒子流速的变化。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "中国的东方超环、欧洲的联合环与在建的国际热核聚变实验堆，都在这条路上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "把一亿度关进磁场，是人类工程史上最狂野的挑战之一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "若聚变商用成功，海水中的氘将提供近乎无限的清洁能源。", "duration_ms": 0 }
+    ]
+  },
+  "quantum-hall": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一九八零年，一个德国工程师发现：霍尔电阻在强磁场下不连续变化，而是踩着精确的台阶跳。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "强磁场把二维电子气的能级压成朗道能级，电子填满整数个能级时出现平台。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "平台的高度只由普朗克常数和电子电荷决定，与材料杂质完全无关。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "霍尔电阻等于 von Klitzing 常数除以填充因子，常数约两万五千八百一十二点八欧姆。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "体态被杂质钉扎不导电，边缘态却畅通无阻——拓扑保护的导电通道。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "左侧扇形是朗道能级随磁场劈裂，右侧台阶就是实验测到的霍尔平台。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "温度升高平台变坡——量子化需要低温的呵护，拖动温度滑块试试。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "量子霍尔效应把电阻变成了基本常数，也把拓扑变成了物理。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "整数、分数量子霍尔效应三度站上诺贝尔奖台。", "duration_ms": 0 }
+    ]
+  }
+}

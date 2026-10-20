@@ -1,0 +1,3606 @@
+{
+  "quantum-gravity": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "广义相对论说时空会弯曲，量子力学说一切皆是量子——两套各自辉煌的理论，却在普朗克尺度上互相拒绝合作。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "普朗克长度约 1.6×10⁻³⁵ 米：在这个尺度，时空本身的量子涨落达到 10⁴² 量级，微扰展开必然发散。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "主流候选：圈量子引力主张面积与体积量子化，弦论引入额外维度，全息原理认为边界编码了体内全部自由度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "现状",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "尚无决定性实验判据：普朗克能标比 LHC 高 15 个数量级，只能寻找间接信号。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "黑洞熵、早期宇宙奇点、信息悖论——所有需要量子引力的场合，都是这套理论的考场。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Planck 1899 基本单位；Rovelli《量子引力》（2004）；Maldacena AdS/CFT（1997）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dark-matter-particles": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "宇宙里看得见的一切——星系、恒星、我们——只占物质总量的 15%。剩下 85% 只在引力里现身。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "三路围猎：地下探测器等 WIMP 撞核、对撞机找丢失横能量、望远镜搜湮灭伽马射线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "候选者名单：WIMP、轴子、惰性中微子——丰度巧合暗示它们曾在早期宇宙热平衡中留下痕迹。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "现状",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "XENONnT、PandaX-4T 已把 WIMP 截面压到预言以下，简单模型生存空间越来越小。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "找出暗物质粒子，等于给宇宙 85% 的成分填上名字——也是新物理最确定的入口。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Zwicky 1933 星系团速度；Rubin 星系旋转曲线（1980s）；XENONnT 2023 结果",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "cosmological-constant": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "量子场论算出的真空能量，与天文观测到的暗能量，相差 120 个数量级——理论物理最大的尴尬。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "按 QFT，100 GeV 尺度的真空零点能应为 ρ～(100 GeV)⁴；观测值只有 ρ_Λ～(2.2×10⁻³ eV)⁴。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "更麻烦的是精细调节：势能曲线稍被拨动，宇宙要么暴涨撕裂、要么大撕裂终结。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "候选解释",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "人择与弦景观、真空相变历史、幻能动力学——目前没有一个能被实验证实。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "1998 年超新星观测确认宇宙在加速，暗能量占 68%——尴尬从纯理论变成了必答题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Weinberg《引力与宇宙学》（1972）；Riess et al. AJ 116（1998）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hierarchy-problem": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "希格斯玻色子 125 GeV，电弱尺度与普朗克尺度差 10¹⁶ 倍——它为什么这么轻？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "顶夸克圈对希格斯质量的修正 δm² 与截断能标 Λ² 成正比：Λ 推到普朗克尺度，修正高达 10³² 倍。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "自然性判据：新物理贡献应与 m_H² 同量级，否则需要抵消到不可思议的精度——这不自然。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "候选解",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "超对称让费米-玻色圈相消，复合希格斯、额外维度各有方案——LHC 至今未发现任何一种。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "层级问题是自然性论证的核心：它决定了 LHC 该看到什么，也决定了没看到意味着什么。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Gildener 1976；'t Hooft 自然性概念；ATLAS/CMS 希格斯质量 125.25 GeV（2023）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "times-arrow": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "微观方程对时间反演几乎对称，宇宙却固执地只往一边走——时间之箭从哪里来？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "玻尔兹曼把箭头归于熵增：S = k lnW，孤立系趋向最概然状态——但初始为何是低熵？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "过去假说（Past Hypothesis）：宇宙大爆炸的初始条件是极低熵的——箭头是边界条件的遗产。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "争论",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "引力熵的归属是关键：均匀气体熵最大，但引力下均匀态才是低熵——黑洞才是引力的熵极大态。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从热力学第二定律到记忆、因果、量子测量，时间之箭把物理与心智问题连成一条线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Boltzmann 1877；Penrose《皇帝新脑》；Albert《Time and Chance》（2000）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "high-tc-mechanism": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "1986 年铜氧化物冲进液氮温区，近四十年过去——机理仍未闭合，这是凝聚态最大的悬案。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "相图特征：母体是反铁磁 Mott 绝缘体，掺空穴出现超导 dome，上方罩着赝能隙。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "三种竞争解释：赝能隙是超导前驱还是竞争序？条纹相与电荷密度波扮演什么角色？序参量是不是 d 波？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "现状",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "常规 BCS 声子机制给不出 130 K——强关联电子的 Hubbard 模型算得动却难与实验定量对照。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "谁闭合铜基超导，谁就握住了室温超导的钥匙——这也是高温超导机理成为 RMP 常客的原因。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Bednorz & Müller Z. Phys. B 64（1986）；RMP 75（2003）能带与相图综述",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "confinement-mass": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "夸克的质量只占质子的 1%——剩下 99% 是胶子场的能量，质量在某种意义上是纯能量的错觉。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "色禁闭：夸克间强力随距离线性增长，V(r) = σr，永远拽不出单个夸克——只能造出新的夸克对。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "格点 QCD 定量确认：质子质量约 938 MeV 中，u/d 夸克裸质量仅约 1%，其余来自胶子与夸克动能。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "分工",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "手征对称性自发破缺给出夸克约 300 MeV 的组分质量，希格斯机制只提供微小裸质量——两套机制各管一段。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "渐近自由让短程可微扰计算，禁闭只能靠格点硬算——这组对立塑造了 QCD 的全部方法论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Wilson 1974 格点规范；Yang-Mills 1954；DWQG 质子质量综述（2016）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "neutrino-mass-ordering": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "中微子会振荡，说明它有质量——但振荡只告诉你质量差，不告诉你质量本身。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "三个质量本征态 m₁m₂m₃：太阳实验定 Δm²₂₁，大气实验定 |Δm²₃₂|——谁重谁轻（质量顺序）仍无定论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "绝对质量三条线：KATRIN β 衰变端点给 m_β < 0.45 eV，宇宙学给总和 Σm_ν < 0.072 eV，无中微子双β衰变找马约拉纳本质。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "现状",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "JUNO、DUNE、NOvA 与 T2K 联合拟合正逼近 3σ——顺序问题可能在本十年内被敲定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "质量顺序影响宇宙学轻子生成、超新星中微子传播，也是下一代中微子实验的首要标靶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Super-K 1998 大气振荡；KATRIN 2024 上限；Planck Σm_ν 约束",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "higgs-vacuum-stability": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "按当前参数外推，我们的真空可能只是亚稳态——希格斯势的远方藏着一个更低的坑。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "顶夸克 Yukawa 耦合在高能跑动中把希格斯自耦合 λ 拉向负值：势能在大场强处下坠，形成假真空。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "判决依赖两个精度：顶夸克质量与强耦合常数——世界平均值恰好落在亚稳边界附近。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "前景",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "若真真空存在，气泡以光速膨胀改写物理常数——但隧穿寿命远超宇宙年龄，属可忽略风险。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "真空稳定性把粒子物理与宇宙命运焊在一起：测量 m_t 就是在称量宇宙的长久性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Degrassi et al. Phys. Rev. D 86（2012）；Buttapavada et al. 真空衰变综述（2023）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "magnetic-monopole": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "磁荷在方程里更对称、更优雅——但一百年的实验搜索，始终空手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "狄拉克 1931 证明：只要宇宙里存在一个磁单极子，电荷就必须量子化——用美学换来了电荷整数化的解释。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "大统一理论预言质量约 10¹⁶ GeV 的重单极子，宇宙学遗迹丰度却高得离谱——暴涨把它们稀释掉了。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "搜寻",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "MoEDAL 在 LHC 直接搜寻，月岩分析与宇宙线探测均未确认——信号始终缺席。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "单极子若被找到，将同时验证电荷量子化与大统一——空手本身也在约束新物理的能标。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Dirac Proc. Roy. Soc. A 133（1931）；'t Hooft-Polyakov 1974；MoEDAL LHC 结果",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "axion-strongcp": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "量子色动力学本可以破坏 CP 对称，实验却说它没破——理论里一个几乎零质量的新粒子正在被围猎。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "强 CP 问题：拉氏量允许 θ(F·F̃) 项，θ 可取 O(1)；中子电偶极矩实验却给出 |θ̄| < 10⁻¹⁰。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "Peccei-Quinn 机制把 θ 变成动力学场，真空自动选 θ = 0——代价是一个新粒子：轴子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "搜寻",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "轴子也是冷暗物质候选：ADMX 微波腔在 1–100 μeV 窗口扫描，HAYSTAC、CAPP 多腔并进。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "一个粒子同时补上 CP 安全与暗物质两块拼图——任何一块被证实都是双重胜利。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Peccei & Quinn Phys. Rev. Lett. 38（1977）；Wilczek 1978 命名轴子",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fermi-paradox": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "宇宙 138 亿年、千亿星系——他们都（1950 年费米的一句午饭闲谈，成了天文学难题）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "德雷克方程把问题量化：恒星数、行星比例、文明寿命逐项相乘——每个因子都可能把 N 压到接近零。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "大过滤器框架：从生命到星际殖民的九步中，必有一步概率极低——在我们前面是希望，在我们后面是危险。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "假说",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "稀有地球认为复杂生命条件苛刻；射电静默假说认为文明不广播；另有模拟与黑暗森林等猜想（均非定论）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "SETI 的每一次沉默都在改写先验——费米悖论是唯一能被'没有发现'推动的科学问题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Drake Icarus 1（1961）；Bostrom 精神分析（2002）；Wright et al. 行星普查（2018）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "consciousness-hard-problem": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "神经活动可以测量，红色的'红感'从何而来——物理描述到底缺了什么？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "Chalmers 1995 区分：功能与行为是'简单问题'，主观体验的存在本身是'难问题'——解释鸿沟横在中间。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "立场光谱：物理主义、泛心论、二元论、幻觉主义各执一词——尚无实验能裁决任何一方。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "纲领",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "IIT 用 Φ 定量意识，全局工作空间理论解释通达——均为可检验但未决的科学纲领。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "这个问题标出了物理学的边界：它可能需要新概念，也可能只是尚未被理解的老物理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Chalmers J. Consciousness 2（1995）；Tononi IIT（2004）；Dehaene 全局工作空间",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "origin-of-life-physics": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "生命对抗熵增却毫不惭愧——因为它把熵排给了环境：非平衡热力学给出的第一条线索。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "耗散结构：远离平衡 + 非线性 + 涨落，系统会自发长出有序——贝纳德对流胞是最小演示。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "自催化闭合：化学反应环让 A 产出 B、B 反过来维持 A——自复制的物理原型。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "约束",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "能量流必须持续；聚合物复制存在误差阈（Eigen 约 10³ 碱基）；手性均一是必修课。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "若非平衡热力学的必然，生命应在宇宙中普遍存在——这是可被天文观测证伪的强命题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Prigogine 耗散结构（1977 诺奖）；Schrödinger《生命以负熵为食》（1944）；Eigen 超循环",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "quantum-classical-boundary": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "电子能干涉，网球不能——叠加到底能撑多大多久？退相干画出了这条边界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "环境纠缠使约化密度矩阵的非对角消失：退相干时间 τ 随环境粒子数急剧缩短，无需'坍缩'假设。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "实验标尺：C60 分子 1999 年实现干涉（τ～皮秒量级）；更大的病毒、尘埃仍在向宏观推进。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "替代理论",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "自发坍缩模型（GRW/CSL）修改薛定谔方程——干涉实验正持续收紧其自由参数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "退相干解释了'为什么看不到宏观叠加'，但'唯一结果从何而来'仍是测量问题的深水区。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Zurek Rev. Mod. Phys. 75（2003）；Arndt et al. Nature 401（1999）C60 干涉",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "supersymmetry-status": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "超对称给每个玻色子配一个费米子伴子——恰好让希格斯的二次发散相消。理论很美，探测器却空手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "LHC 结果：胶子主导产生下 gluino 排除到 2.3 TeV、squark 到 1.8 TeV——自然的轻超对称已无处藏身。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "未发现不等于排除：压缩谱、分层谱、R 宇称破缺、隐藏谷——参数空间可以退守到 5–10 TeV。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "代价",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "但退守的代价是重新引入精细调节——'拯救自然性'的动机随每次零结果而流失。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "超对称的处境是当代粒子物理的缩影：参数空间每收窄一格，自然性论证就虚弱一分。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Golfand-Likhtman 1971；Wess-Zumino 1974；ATLAS/SUSY 联合搜索（Run2）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "inflation-testability": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "暴胀解释了宇宙为什么平坦而均匀，也生成了星系的种子——但它自己能被观测证伪吗？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "三条检验路线：原初引力波的 B 模偏振（读出张标比 r 与能标）、非高斯性 f_NL、预存视界与宇宙弦。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "BICEP/Keck 给出 r < 0.036：能标被压到 10¹⁶ GeV 以下，大量暴胀模型已被划掉。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "争议",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "BICEP2 的'发现'被 Planck 星际尘埃抹去——前景去除决定成败；多重宇宙版本则面临可检验性质疑。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "B 模是暴胀留给宇宙的签名：下一代 CMB 实验（CMB-S4）将把这场审判进行到底。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Guth 1981 暴胀；BICEP/Keck 2021 r 上限；Planck 2018 f_NL 约束",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "neutron-star-eos": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "两个太阳质量压进 12 公里——中子星内部的物态，是唯一能用天文望远镜'摸'到的超高密度实验室。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "状态方程 P(ρ) 代入 TOV 方程给出质量-半径关系：NICER 的 X 射线脉冲轮廓把 1.4 M_⊙ 半径钉在约 12 公里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "2.0 M_⊙（PSR J0740）是硬约束：物态必须够硬，才能在自身引力下撑住不塌成黑洞。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "未解",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "核心可能是超子、K 介子凝聚或夸克物质——相变潜热决定快速冷却，是可观测的判据。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "GW170817 的潮汐形变 Λ 与 NICER 半径联合，把核物理与相对论天体焊在同一张图上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "TOV 1939；NICER J0740 结果（2021）；LIGO-Virgo GW170817 潮汐分析",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "turbulence-intermittency": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "湍流是经典物理最后的未解难题——而 K41 的自相似图景，早在 1949 年就被实验悄悄打破。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "K41 预言结构函数 S_p(r)～r^{p/3}：标度律是直线——实验却发现高阶矩越来越陡，曲线弯曲。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "间歇性：耗散集中在稀疏涡丝上，梯度概率分布出现幂律尾——极端事件比高斯预期多得多。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "理论",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "修正模型（如 She-Leveque 对数律）用奇异测度刻画多标度——与高雷诺数实验吻合。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "飞机抖振载荷、燃烧混合、大气扩散——工程上最危险的正是间歇性造出的那些极端梯度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Kolmogorov C. R. Acad. Sci. USSR 30（1941）；She & Leveque PRL 72（1994）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "proton-spin-crisis": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "1988 年，EMC 实验组发现：夸克只扛了质子自旋的三成——教科书里的简单图像一夜崩塌。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "自旋分解 J = ½ΔΣ + ΔG/2 + L：极化深非弹性散射给出 ΔΣ≈0.3，其余藏在胶子与轨道角动量里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "此即'质子自旋危机'：原本以为质子自旋来自三个价夸克的自旋组合，结果只有约 30%。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "进展",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "RHIC 自旋计划与格点计算逐步拆账：胶子贡献 ΔG≈0.1，轨道项 L≈0.4——EIC 将继续称量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "危机把质子从'三个夸克的口袋'逼成'全体组分的集体舞蹈'——强子结构研究因此转向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "EMC Collaboration Nucl. Phys. B 328（1989）；EIC 白皮书（2021）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fifth-force": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "引力、电磁、强、弱——四种力已成教科书。第五种力若存在，会藏在等效原理的微小偏离里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "描述参数只有两个：耦合强度 α 与力程 λ（汤川型势）——实验不断压缩这张二维参数平面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "MICROSCOPE 卫星 2022 给出弱等效原理 Δa/a < 10⁻¹⁵——不同材料同速下落至今未见偏离。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "实验",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "实验室扭秤在亚毫米尺度搜索（Yukawa 力程 ~μm），天体端用白矮星冷却与月球激光测距补网。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "弦景观的多重真空预期极轻的新作用力——等效原理破缺是许多新物理的共同低能信号。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Yukawa 1935 汤川势；MICROSCOPE PRL（2022）；Adelberger Eöt-Wash 综述",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "time-crystal": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "晶体在空间里周期排列——如果某种物态在时间里自发周期呢？Wilczek 2012 年提出了这个挑衅性的问题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "离散时间晶体：受驱系统的响应周期是驱动周期的整数倍——基态自发破缺时间平移对称。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "原案违反热力学第三定律；存活版本需要多体局域化或驱动稳定——否则加热会抹平一切。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "实现",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "2017 年离子阱自旋链实现次谐波响应（响应周期 2T）——被质疑后又扶正的新序参量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "时间晶体展示了'物态'概念可以延伸到时间维度——驱动系统与量子信息的新平台。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Wilczek PRL 108（2012）；Zhang et al. Nature 543（2017）离子阱时间晶体",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "room-temperature-superconductor": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "室温超导是材料物理的圣杯——LK99 的复现闹剧之后，人们更关心：它究竟卡在哪？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "常规 BCS 超导受电声耦合限制，McMillan 公式给出 Tc 天花板约 30–40 K——高温超导必须另辟蹊径。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "高压氢化物已把 Tc 推过室温（LaH₁₀ 约 250 K、争议样品 288 K）——代价是两百万大气压。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "复现门槛",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "判据必须齐：零电阻（四点测量）、完全抗磁（迈斯纳效应）、临界场——单凭磁悬浮不算数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "常压室温超导若实现，输电、磁悬浮、核聚变磁体全部改写——这也是骗局总比真发现多的原因。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "BCS 1957；H₃S 2015 203 K；Lee et al. LK-99（2023，未复现）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ml-discovery": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "AI 找到了一个拟合完美的公式——这算'发现'吗？问题直指可解释性与可证伪性的边界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "两条路线：符号回归搜公式（AI Feynman、PySR），代理模型加速蒙特卡洛与格点计算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "高自由度模型训练误差更低，却可能只是过拟合——外推失败就只是记账，不是发现。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "准则",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "把物理先验（守恒律、对称性）塞进先验里，再用新实验做外推检验——可证伪是最后一关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "AI 的正确角色是加速假设生成，判决权仍在实验——科学方法的关卡一个都不能少。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Udrescu & Tegmark AI Feynman Sci. Adv. 6（2020）；Cranmer ML for Physics 综述（2023）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ether-decline": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "以太曾是光的必需介质，承载了波动说的全部成功——然后被相对论判了死刑。一个概念的两百年。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "17 世纪笛卡尔以太漩涡传力，19 世纪菲涅尔给它横波刚度——但弹性系数越修越怪，自洽性逐渐崩塌。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "1887 年迈克尔逊-莫雷实验：地球相对以太风的速度为零——洛伦兹收缩来救场，相对论来终结论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "遗产",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "爱因斯坦 1905：以太的假设是多余的——场自己振动，不需要舞台。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "量子场论的真空有涨落与极化——'以太'以场的结构部分回归，但已不再是机械介质。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Michelson & Morley Am. J. Sci. 34（1887）；Einstein Ann. Phys. 17（1905）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "wave-particle-debate": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "牛顿与惠更斯开战，爱因斯坦与玻尔收场——光的身份，经历了三百年的拉锯。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "微粒说凭棱镜色散统治百年，1801 年杨的双缝与 1819 年泊松亮斑让波动说翻盘。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "1905 年爱因斯坦用光量子解释光电效应，1923 年康普顿散射坐实粒子性——两边各赢一半。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "收场",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "玻尔互补原理（1928）：波动与粒子是同一实在的两面，测量决定呈现哪一面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "单电子双缝实验：条纹逐颗积累——二象性不是'两者都是'，而是超越两者的量子描述。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Young 1801 双缝；Poisson 1819 亮斑；Einstein 1905 光量子；Tonomura 1989 单电子双缝",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "quantum-interpretation-history": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "测量问题至今没有共识：哥本哈根、隐变量与多世界——九十多年来，物理学家仍在打这场内战。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "EPR（1935）质疑量子完备性，Bell（1964）把争论变成可测不等式——定域隐变量被判出局。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "无漏洞贝尔实验（2015）同时满足探测效率与空间分离；2022 年诺奖为此加冕。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "现状",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "诠释之争仍在：概率从哪来、塌缩是否物理——诠释暂不改实验预言，但影响量子基础与量子引力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "多世界支撑量子计算的并行直觉，退相干历史接管宇宙学——哲学争论正长出技术分支。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "EPR Phys. Rev. 47（1935）；Bell Physics 1（1964）；Nobel Prize 2022",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "static-to-expanding-universe": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "爱因斯坦为求静态宇宙加了宇宙常数，哈勃的星系又把它推走——宇宙学的第一次转身。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "1917 年爱因斯坦用含 Λ 的场方程算出静态解；1920 年代斯里弗已测到星系谱线红移。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "1929 年哈勃给出速度-距离线性关系 v = H₀d——退行发现让静态宇宙退场，Λ 一度被视为多余。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "修正",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "1998 年超新星显示加速膨胀——Λ 复活为暗能量；今天的哈勃张力（SH0ES 73 vs CMB 67）又是新问题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从静态到加速只用八十年：宇宙模型的两次改写，都由观测数据亲手完成。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Einstein 1917；Hubble PNAS 15（1929）；Riess 1998 加速膨胀",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "cloud-chamber-to-collider": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "从云室里几条雾珠径迹，到对撞机每秒百万级事例——实验工具的百年升级，就是粒子物理的编年史。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "云室（1911）让径迹可见：正电子（1932）、Λ/V 粒子（1947）都靠人工扫描底片认出。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "泡室（1952）+ 磁铁：曲率给动量，电影扫描让 1960 年代迎来粒子大爆发；对撞机则把亮度推到每秒 10⁸ 事例。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "今天",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "LHC 四大探测器在线触发 + GPU 农场重建，希格斯从 10¹⁴ 个事例里被筛出来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "能标即发现力：100 TeV 的 FCC 与电子对撞机 CEPC，是下一代工具竞赛的两个候选。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Wilson 1911 云室；Glaser 1952 泡室（1960 诺奖）；ATLAS/CMS 希格斯（2012）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "precision-measurement-history": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "卡文迪许扭秤称出地球质量，约瑟夫森效应把电压变成频率计数——常数的历史，就是测准的历史。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "精细结构常数 α 的测量从干涉法（10⁻⁵）到电子反常磁矩（10⁻¹²）——三百年提升七个数量级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "1990 年起电压与电阻由约瑟夫森与冯·克利青量子基准定义——2019 年 SI 重定义后，单位反过来由常数固定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "短板",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "引力常数 G 至今只有约 5×10⁻⁶ 精度——基本常数里最不准的一个，卡在机械测量的老大难上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "α 的理论值与测量值互为检验——任何偏差都可能是新粒子在圈图里留下的脚印。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Cavendish 1798；Josephson 1962；CODATA 2022 推荐值",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "paradigm-shift-kuhn": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "库恩说科学不是累积的直线进步——范式更替凭什么算进步？这个问题搅动了科学哲学半世纪。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "结构：常规科学（范式内解谜）→ 异例累积 → 危机 → 革命（新范式取胜）→ 新常规科学。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "不可通约性：牛顿的'质量'与马赫的'质量'含义不同——范式转换像换了一副眼镜。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "争议",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "进步之争：Laudan《进步及其问题》回应——问题消解率能否度量科学更接近真理？",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "科学社会学强纲领、费耶阿本德'怎么都行'都从库恩出发——但过度解读被科学哲学界持续批评。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Kuhn《科学革命的结构》（1962）；Laudan《Progress and its Problems》（1977）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "falsifiability": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "波普尔的一把尺：能被什么打倒，才算科学——划界问题由此换了个问法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "可证伪性：命题必须逻辑上存在被观测否定的可能——爱因斯坦预言光线弯曲，敢被 1919 年日食推翻。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "划界难题：占星术也会给出'可检验'说法；迪昂-蒯因指出检验的其实是整束假设。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "实践",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "科学实践里可证伪性是必要不充分——同行评审、可重复、贝叶斯更新共同把关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "作为哲学标准它有漏洞，作为工作纪律它无价：先想清楚什么观测会杀死这个假说。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Popper《研究的逻辑》（1934）；Lakatos 研究纲领；Feyerabend《反对方法》",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "nobel-misjudgments": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "从迈克尔逊的漫长等待到 Zwicky 的终身遗憾——诺奖也有人情与盲区。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "结构性原因：最多三人、只授已成定型的工作——泡利等了 20 年，吴健雄的宇称实验没进 1957 年的名单。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "错失名单：Zwicky（暗物质与中子星）、勒维特（周光关系）、Hubble（膨胀宇宙，当时无天文奖）、Jocelyn Bell（脉冲星）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "偏见",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "1903–1963 年间仅居里夫人一位女性得主；已故者不授规则又制造了迈特纳式遗憾。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "启示",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "诺奖是优秀的滞后指标，不是前沿的实时雷达——读科学史时把它当参考而非裁判。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Nobel 官方档案；Stern《命运的九位女性》（2020）；McGrayne 诺奖女性史",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "women-in-physics": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "勒维特、迈特纳、吴健雄——名字不该只在括号里出现：她们本应写进教科书的正文。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "勒维特（1908）发现周光关系，造出第一级距离尺；哈佛'计算员'的身份让功劳归了哈佛诺奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "迈特纳解释核裂变（1939），1944 年化学奖只给了哈恩；吴健雄六周验证宇称不守恒（1957），诺奖给了理论学家。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "背景",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "系统性因素：早期女性无学位、无教职、无署名权——贡献常记在导师、丈夫或男性同事名下。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "追赶",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Strickland（2018）、Ghez（2020）、L'Huillier（2023）正在改写名单——1901–2023 年 225 人次中女性 5 人。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Rossiter《隐藏的女性》（1993）；Nobel 奖项档案（1901–2023）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "particle-system-dynamics": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "鞭梢能甩出超音速，鞭身内部打得不可开交——但质心纹丝不动：内力不改质心动量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "质心运动定理：M·R̈ = ΣF_ext——内力成对抵消，复杂系统的整体平动只看外力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "柯尼希定理把动能拆成两笔：T = ½Mv_cm² + T_相对——质心系与实验室系各算各的。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "爆炸、开链、碰撞类问题先求质心轨迹，再处理相对运动——这是质点组力学的标准起手式。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从火箭喷气到分子碰撞，'把内力关掉'的视角让守恒律成为解题的主刀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "理论力学通用教材；Goldstein《经典力学》第 1 章质点组",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "rigid-plane-motion": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "滚轮一边平动一边转动——刚体平面运动的钥匙，是瞬时速度为零的那个'瞬心'。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "纯滚动时接触点瞬时静止：整个刚体绕它转动，v = ω×r 立刻给出速度分布。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "动能同样两笔账：T = ½Mv² + ½I_cm·ω²——平动与转动各自贡献。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "注意",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "滑动时无瞬心（或瞬心在无穷远）；纬线上的点并不绕接触点画圆——瞬心轨迹是摆线类曲线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "齿轮系、车辆动力学、保龄球旋转——滚与滑的分界决定了能量进不进热。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "理论力学刚体运动章节；瞬心（instantaneous center）运动学标准内容",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "gravitational-potential": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "挖一口井从地球逃出去要多快？势能井里的三个宇宙速度，把引力变成了可计算的账本。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "U(r) = −GMm/r：无穷远为零，引力势处处为负——越深越'束缚'，逃逸即把能量补到零。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "三宇宙速度：环绕 7.9 km/s、逃逸 11.2、出太阳系 16.7——逃逸速度 √(2GM/R) 与探测器质量无关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "轨道",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "介于环绕与逃逸之间：椭圆轨道，近地点点火抬远地点——能量守恒给出全部答案。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "等效原理的味道藏在这里：引力质量与惯性质量相消，让'多重'与'质量'彻底无关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "牛顿《原理》引力势理论；开普勒轨道问题通用教材",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "composed-motion": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "站在转动的转台上沿半径走路——你的实际轨迹是螺旋，而科里奥利让你总往侧边偏。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "速度合成恒等式：v_a = v_e + v_r（绝对 = 牵连 + 相对）——在转动系里还需补科氏项。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "加速度合成：a_a = a_e + a_r + 2ω×v_r——科氏加速度只在旋转参考系出现，方向垂直于相对速度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "地转偏向力是它的地球版：北半球右偏——河岸侵蚀、炮弹修正、傅科摆都靠它解释。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "复合运动是'参考系变换'的入门：同一事件在不同系里拆法不同，物理却只有一个。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "科里奥利 1835 论文；理论力学运动学章节",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "bernoulli-equation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "沿流线的能账本：定常无黏流动中，流速高处压强低——升力的全部依据从这里开始。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "P + ½ρv² + ρgh = 常数：压强能、动能、势能三种密度在同一流线上互换，总和不变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "连续性方程 A₁v₁ = A₂v₂ 配合它：管子一细，流速上去，压强必然下来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "局限",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "黏性（文丘里损耗）、分离流、非定长流动要回到纳维-斯托克斯——伯努利只管理想段。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "机翼升力（配合环量）、文丘里管、皮托管测速——工程流体的第一块基石。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Bernoulli《流体动力学》（1738）；环量升理由 Kutta-Joukowski（1906）补完",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dielectric-polarization": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "电场让电介质里的束缚电荷挪位——介电常数这个宏观参数，微观出处就在这一次微小位移里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "极化强度 P = Σp/V：单位体积电偶极矩。体内的'头尾相消'只剩表面束缚电荷 σ_b = P·n。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "E_内 = E₀ − P/ε₀ = E₀/ε_r：束缚电荷产生的反场削弱外场——电容因此变大。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "机制",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "三种极化：电子位移（快）、离子位移（中）、偶极转向（慢，随频率掉队——介电弛豫的来源）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "方法",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "有介质时用 D 场最省事：D_⊥ 连续、E_∥ 连续——边界条件一列，题目就解了一半。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "电动力学通用教材；介电谱标准（Debye弛豫 1913）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "capacitor-energy": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "充电的电容能把人放倒——能量存在'场'里而不是电荷上，这是 ½CV² 的场论读法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "W = ∫(q/C)dq = ½CV² = Q²/2C：三种记账口径等价；电压翻倍，储能四倍。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "能量密度 u = ½ε₀E²：能量分布在板间体积里——击穿场强决定这台电容器的天花板。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "代价",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "充电过程中电源一半能量变热（损耗 ½CV² 与电阻无关）——经典结论，也是快充发热的账。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从相机闪光灯到超级电容储能，电容家族的全部工程都在这份能量账本上做文章。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "电动力学与电路教材标准内容；能量密度形式由坡印廷定理印证",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ampere-circuital-law": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "对称性选积分路径：安培环路定理把磁场计算从积分变成除法——捷径的全部前提是几何。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "∮B·dl = μ₀I：无限长直线得 B = μ₀I/(2πr)，螺绕环内得 B = μ₀NI/(2πR)，环外为零。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "三步法：找对称性、猜 B 的方向与恒定域、选积分路径——路径一选对，答案就是除法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "漏洞",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "电容充电时'导线有流、间隙无流'暴露矛盾——麦克斯韦补上位移电流才修复。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "修复后的安培-麦克斯韦定律预言了电磁波——实验室的线圈从此连着整个无线通信。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Ampère 1826；Maxwell 1865 位移电流修正",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "magnetic-dipole": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "条形磁铁是一块电流回路的集合：磁矩 μ = I·A·n̂——宏观小磁铁的全部微观出处。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "磁场中的力矩 τ = μ×B，势能 U = −μ·B：磁矩像指南针一样转向对齐磁场。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "力矩垂直于 μ 只改方位不改夹角——于是绕 B 进动，频率 ω_L = γB（拉莫尔频率）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "尺度",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "微观版以玻尔磁子 μ_B = eℏ/2m_e 为单位——原子磁矩、核磁矩各差几个量级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "NMR/MRI 靠共振吸收拉莫尔频率，塞曼效应按 μ_B 拆谱线——磁矩是磁学的通用货币。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Larmor 1897 进动；Einstein-de Haas 1915 磁矩实验",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "maxwell-relations": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "四个偏导的交叉换位——热力学量互相翻译的字典，全靠全微分的对易性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "四个势 U、H、F、G 通过勒让德变换互换变量：dU = TdS − PdV 出发，dS 与 dV 的系数对易即得四式。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "关键价值：实验只能测 T、P、V——麦克斯韦关系把测不到的 S 换成可测偏导。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "直接战果",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "(∂S/∂P)_T = −(∂V/∂T)_P：绝热去磁制冷、焦耳-汤姆孙系数、磁热效应都从这类式子来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "热力学四页纸的全部力量在此汇聚：不问微观机制，只靠逻辑一致性就能翻译一切。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Maxwell 1871《热的理论》；热力学标准教材",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "entropy-calculation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "不可逆过程怎么算熵？答案狡猾而有效：状态函数只看首末——找一条可逆路径当替身。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "气体熵变公式：ΔS = nC_v ln(T₂/T₁) + nR ln(V₂/V₁)——热项与体积项各记一笔。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "自由膨胀最典型：Q = 0、W = 0、ΔU = 0，但 ΔS = nR ln(V₂/V₁) ≠ 0——过程不可逆而熵照涨。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "一般式",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "熵产 σ ≥ 0：孤立系熵增，非孤立系看系统加环境的总账——克劳修斯不等式的局域版本。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "方法",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "替身法让所有教科书难题归一：无论过程多粗暴，首末状态一确定，熵就有值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Clausius 1865 熵命名；热力学第二定律标准教材",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "clapeyron-equation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "相图上一条线的斜率：压力如何抬高熔沸点——高压锅与行星大气都归它管。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "dP/dT = L/(T·Δv)：一阶相变通用式，由潜热与体积差决定——无需知道微观机制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "气相近似（Clausius-Clapeyron）：d lnP/dT = L/(RT²)——水的沸点 100°C 处斜率约 3.6 kPa/K。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "冰的固液线斜率为负（融化时体积缩小）——高压下冰反而更低熔点，滑冰刀刃争议也与此相关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "天气（气压降沸点降）、火星 CO₂ 冰盖升华、低温工程——相图斜率的日常足迹随处可见。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Clapeyron 1834；Clausius 1850 改写",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fresnel-diffraction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "近场衍射怎么算？菲涅耳把波前切成半波带，让'硬积分'变成'加法'——泊松亮斑的定量版。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "半波带：相邻环带程差 λ/2、贡献反相——奇偶带交替抵消，暗纹条件由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "遮住奇数带，剩余带同相叠加——轴上亮度反升；1818 年泊松以此发难，阿拉戈实验却证实了波动说。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "装置",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "波带片只保留奇数带即可聚焦——X 射线显微镜没有好透镜，全靠这套环带衍射。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "菲涅耳理论让波动说在发难者的实验里获胜——科学史上最著名的'搬起石头'事件。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fresnel 1818 泊松亮斑之争；Goodman《傅里叶光学》衍射章节",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "abbe-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "成像分两步走：衍射把物变成频谱，干涉把频谱变回像——频谱面上做文章，就是光学信息处理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "阿贝成像（1873）：物面→（透镜傅里叶变换）→频谱面→（透镜再变换）→像面，缺一不成像。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "挡零频只剩轮廓，挡高频糊掉细节：相衬显微镜靠相位板改频谱，把透明细胞变可见。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "极限",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "分辨率 d = λ/(2·NA)：透镜截断了多少高频，分辨率就封顶在哪——光学显微镜的天花板由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "4f 系统、光信息处理、全息术都是这套 19 世纪理论的后代——成像即傅里叶运算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Abbe 1873 成像理论；Zernike 相衬（1953 诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "grating-resolving-power": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "分得开与数得清是两件事：色散管'散开'，分辨本领管'分开'，缺级则让某些谱线凭空消失。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "光栅方程 d sinθ = kλ 定位置；分辨本领 R = kN 定极限——峰宽 ∝ 1/N，线越多峰越尖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "缺级：当光栅缝宽 a 与周期 d 成整数比，某些级次的单缝因子恰为零——d/a = 2 时偶数级全灭。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "判据",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "瑞利判据：一峰极大落在另一峰极小上——双线可分辨的临界点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "闪耀光栅把能量从零级搬走提高效率——光谱仪、天文分光镜的心脏就是这块刻线玻璃。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fraunhofer 1821 光栅；Hecht《光学》光栅章节",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "microscope-resolution": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "放大不等于看清：光学显微镜的分辨率被阿贝判据封顶，再倍的目镜也只是空放大。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "d ≈ λ/(2NA)：550 nm 绿光配 NA 1.4 油浸，极限约 0.2 μm——可见光显微镜的物理墙。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "NA = n·sinθ：油浸同时提高折射率与收集角，把 NA 推过 1.0——油的折射率 1.515 是关键。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "突破",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "超分辨（2014 诺奖）用荧光开关绕过衍射极限：STED、PALM 把分辨率推到约 20 nm。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "细胞生物学的每一次跃进几乎都跟在光学分辨之后——从油浸到共聚焦再到超分辨。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Abbe 1873；Hell & Betzig STED（2014 诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "optical-path-length": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "光永远走最省时的路——折射定律的另一种写法：费马原理把几何光学统一成一条变分原理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "光程 OPL = ∫n ds：介质中 1 米等于真空 n 米所花的时间——等光程即等时。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "对光程变分 δ∫n ds = 0，立刻导出 n₁ sinθ₁ = n₂ sinθ₂——折射定律不是公理，是最值的推论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "广义",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "反射、透镜聚焦、梯度折射率折射——全部是同一变分原理的特例。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "与最小作用量同源：几何光学是经典力学的 WKB 极限——光学与力学在变分法里握手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fermat 1662 最短时间原理；Born & Wolf《光学原理》",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "qm-postulates": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "五条公设撑起整个量子力学：态、算符、测量、演化、全同——其余全是推论。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "态是希尔伯特空间矢量，可观测量是厄米算符，测量得本征值且概率为 |⟨aᵢ|ψ⟩|²。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "演化由 iℏ ∂|ψ⟩/∂t = Ĥ|ψ⟩ 给出；全同粒子的交换对称性单独列为第五公设。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "推论",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "[x̂, p̂] = iℏ 直接导出不确定性关系——不是实验遗憾，而是公设的结构性后果。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "备注",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "公设可换成路径积分、矩阵力学等价表述——但测量与概率的来源仍是哲学深水区。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Dirac《量子力学原理》（1930）；von Neumann《量子力学的数学基础》（1932）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dirac-notation-braket": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "左矢右矢一夹就是内积——狄拉克 1930 年发明的记号，让矩阵力学从此会算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "⟨φ|ψ⟩ = Σφᵢ*ψᵢ 是数；|ψ⟩⟨φ| 是算符（投影）——括号开合方向决定结果的'形状'。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "完备性 Σ|eᵢ⟩⟨eᵢ| = 1̂ 是'没有漏网方向'的陈述：插入单位算符再求和，是全部技巧的来源。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "表象",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "换基即换矩阵：A′ = U†AU——对角化就是选到本征基，观测预言在任何基下相同。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "傅里叶级数、量子测量、主成分分析都是'投影到正交基'同一幅图——记号统一了语言。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Dirac《量子力学原理》第 1 章",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "perturbation-first-order": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "小扰动让能级挪一点：可解部分加微调的拆账术——量子化学与原子物理的日常算法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "非简并一阶修正 Eₙ⁽¹⁾ = ⟨n|V|n⟩：微扰矩阵元的对角项直接给出能级移动。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "二阶修正 Σ_{m≠n} |⟨m|V|n⟩|²/(Eₙ−Eₘ) 恒为负——基态被拉低，与变分法互相印证。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "警告",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "简并时必须先在简并子空间解久期方程；|V| ≪ 能级差是可靠性的前提。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Stark 与 Zeeman 分裂、晶格缺陷对声子谱的扰动——能级移动的每一处观测都在用它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Schiff《量子力学》微扰章节；Rayleigh-Schröngeder 公式",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "variational-method": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "试波函数算出的能量永远偏高——变分原理不给精确解，却给一条可靠的安全边界。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "⟨E⟩ = Σ|cₙ|²Eₙ ≥ E₀：任何试探态的能量都是本征值的加权平均，必然不低于真基态。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "操作流程：选参数化波函数 → 算瑞利商 → 对参数求极小——氦原子、分子轨道都这样起步。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "互补",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "微扰论给修正方向，变分法给可靠上界——一个管精度，一个管保底。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "量子化学的 Hartree-Fock 本质就是变分法：能量越低的试探行列式越接近真相。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Rayleigh 1894 声学变分法；量子力学变分原理标准教材",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "identical-particles": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "交换两个电子，什么都不发生——'什么都不发生'恰恰是量子力学最强硬的规定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "全同粒子不可区分：交换算符 P₁₂ 的本征值只能是 ±1——对称态归玻色子，反对称态归费米子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "反对称即泡利不相容：Slater 行列式让同态不能同占——元素周期表、白矮星简并压由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "深意",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "全同性是严格的量子事实（经典世界'可区分'）——自旋-统计定理把自旋与统计绑在一起。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "玻色-爱因斯坦凝聚、超导库珀对、半导体能带——都是'交换对称'这条规定长出的果实。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Pauli 1925 不相容原理；Pauli 定理与自旋-统计关系",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "density-matrix": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "纯态用波函数，混合态用矩阵——密度矩阵是统计系综的量子表述，也是纠缠的照妖镜。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "ρ = Σpᵢ|ψᵢ⟩⟨ψᵢ|：Tr ρ = 1 归一，Tr ρ² = 1 是纯态，小于 1 即混合。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "部分迹 ρ_A = Tr_B ρ：丢掉子系统的记录——纠缠全局纯态的子系统必然是混合态。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "期望值统一为 Tr(ρA)；冯诺依曼熵 S = −Tr ρ lnρ 量化纠缠程度——黑洞熵与面积定律也用它数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "量子信息的全部语言——量子态、通道、测量——都建立在这块矩阵之上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "von Neumann 1927 量子统计力学；Nielsen & Chuang 量子计算教材第 2 章",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "relativistic-energy-momentum": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "能量动量守恒的四维写法，是算对撞阈值的万能钥匙——为什么总'差一点'，答案在不变量里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "四动量 pᵘ = (E/c, p⃗)，不变量 pᵘp_μ = m²c²——换参考系不换物理，这就是'相对论能量动量'的核心。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "阈值 √s_min = Σm_末态：对撞机 E_thr = Σm/2，固定靶却要 (Σm)²/2m_靶——差距全被'带着跑'的动能浪费了。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "例证",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "产生 125 GeV 希格斯：固定靶需约 10⁴ TeV，对撞 125 GeV 起步——LHC 选择对撞的全部理由。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "粒子物理的命名法——J/ψ、Λ、Ω⁻——全部来自不变质量峰的测量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "狭义相对论标准教材；PDG 阈值计算手册",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "decay-chain": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "母子衰变排队走：α 走质量数减四，β 走质量数不变——放射系的半衰期接力赛。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "四大放射系（4n、4n+1、4n+2、4n+3）交替 α/β 衰变，终点全是稳定的铅或铋同位素。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "久期平衡：子核产率 = 母核衰变率——半衰期悬殊时，子核被母核'拴着'达到动态稳定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "数据",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "半衰期跨度从 10¹⁰ 年（²³⁸U）到微秒——单个核随机，大样本指数精确。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "U-Pb 定年：²³⁸U→²⁰⁶PB 的 4.47 Ga 串联——地球年龄 4.54 Ga 的定盘星。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Soddy 放射系位移定律（1913）；PDG 半衰期表",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "xray-characteristic": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "谱线频率随原子序数开方——莫塞莱定律把元素周期表从原子量序改成了核电荷序。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "特征谱机制：高能电子敲出 K 层电子，L→K 跃迁释放固定能量光子——Kα、Kβ 谱线家族。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "莫塞莱 1913：√ν = a(Z−b)——一条直线给元素排序，填补空位并预言新元素。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "对比",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "连续轫致辐射谱由靶与管电压决定，特征峰由靶材料决定——截止能量 e·kV 与靶无关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "XRF 元素分析、CT 管电压选择、牙片低剂量滤过——特征 X 射线是材料的指纹。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Moseley Phil. Mag. 26（1913）；Kramers 1923 量子论解释",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "pair-production": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "光子变正负电子——能量物质化的门槛只有 1.022 MeV，E = mc² 最直接的实验室演示。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "阈值 2m_ec² = 1.022 MeV：低于它光子直接穿过；高于它，动能按 (E−1.022)/2 分给两个粒子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "必须有核参与（动量守恒）：真空中单光子变不了对——核电荷 Z² 加速过程，重靶更好用。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "角度",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "cosθ ≈ m/E：光子能量越高，正负电子越贴着入射方向前冲。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "逆过程",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "湮灭给两枚背对背光子（各 ≥0.511 MeV）——PET 正是它：注入示踪剂，等湮灭成像。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Dirac 1932 预言；Blackett & Occhialini 1933 湮灭观测；PET 医学物理",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hyperfine-structure": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "核自旋给能级再裂一道：氢 21 厘米线的出处，是电子与质子磁矩的微弱私语。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "超精细分裂：电子与核磁矩的偶极耦合，能标约 10⁻⁶ eV——1s 态裂成 F=1 与 F=0。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "1420.406 MHz、波长 21.1 cm——中性氢最丰富的谱线，荷兰 1945 年用它画出银河旋臂。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "同位素",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "质量差与核半径差带来同位素位移——一条谱线里藏着核结构信息。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "氢钟以超精细跃迁定义秒（铯标准同理）；21 cm 功率谱是再电离时代探针（HERA 项目）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Ewen & Purcell 1951 21cm 观测；Einstein-de Haas 系数与超精细理论",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fermi-dirac-statistics": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "同费米子绝不挤同一格——分布函数的那一个'+1'，决定了金属、白矮星与整张周期表。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "f(ε) = 1/(e^{(ε−μ)/kT} + 1)：分母的 +1 来自泡利不相容——高能态被'顶'着不让占满。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "T→0 时分布变阶梯：ε_F 以下全满以上全空——'指数冻结'解释了金属电子比热只有经典值一半。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "环境",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "白矮星靠电子简并压抵抗引力——钱德拉塞卡极限 1.4 M_⊙ 就是这套统计的天体后果。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "简并压是费米子'无处可坐'的压力：从金属导电到中子星支撑，一脉相承。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fermi 1926 统计；Sommerfeld 金属电子气（1928）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "bose-einstein-distribution": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "光子爱挤同一个态——分母的'−1'造就聚束，黑体谱与激光的统计根都在这一行里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "n(ε) = 1/(e^{(ε−μ)/kT} − 1)：低能发散倾向——粒子数不守恒的光子必须取 μ = 0。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "μ 趋近 0⁻ 时基态占据发散——玻色-爱因斯坦凝聚由此定义（2001 诺奖：碱金属原子气体）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "对照",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "聚束 vs 费米的反聚束：激光受激辐射要求'同态增强'——量子统计直接决定光的相干性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "黑体辐射谱、声子气体、超流 ⁴He——三朵经典云彩都飘在这条分布上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Bose 1924；Einstein 1925 BE 统计；BEC 实验 Cornell & Wieman 2001",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "crystal-binding": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "离子、共价、金属、范德华——四种黏法决定晶体的一切性质：硬度、熔点、导电性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "离子晶体靠库仑求和（马德隆常数修正边缘效应），NaCl 内聚能约 7.9 eV；金刚石共价键 3.6 eV × 4。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "金属是电子海加离子实（Na 约 1.1 eV），惰性气体只靠瞬时偶极的 London 色散（Ar 0.08 eV）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "共存",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "真实材料常混合成键：石墨层内共价、层间范德华、金属电子导电——分类是理想化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "工具",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "势能曲线的通用形状：排斥芯（泡利）+ 吸引尾 ⇒ 平衡间距 r₀——四类键殊途同归。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Pauling《化学键的本质》（1939）；Ashcroft 固体物理第 4 章",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "pn-junction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "P 与 N 相遇形成耗尽层——整流、LED、太阳能电池，整个电子工业从这个结开始。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "扩散与漂移在结处动态平衡：内建电势拉平费米能级，硅中约 0.7 V——耗尽层由此定宽。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "正向偏压降低势垒，电流指数上升：I = I_s(e^{V/V_T} − 1)——肖克利方程就是二极管的身份证。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "反向",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "反偏时耗尽层加宽、只剩微小饱和电流——截止直到击穿（齐纳或雪崩）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "认识了这个结，就认识了晶体管、光耦与一切半导体器件的母体结构。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Shockley 1949 PN 结理论；Sze《半导体器件物理》",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "semiconductor-fermi-level": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "费米能级随掺杂上下移动——半导体一切特性的仪表盘，读它就知道材料是 n 型还是 p 型。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "n 型：施主能级贴近导带底，E_F 上移；p 型：受主贴近价带顶，E_F 下移——掺杂就是在搬动这根线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "载流子浓度 n·p = n_i²（质量作用定律）：一个动，另一个跟着让位——300K 硅 n_i ≈ 1.5×10¹⁰ cm⁻³。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "工程",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "接触电势、电导率 σ = q(nμ_n + pμ_p) 都从 E_F 读出；表面态会'钉扎'它——欧姆接触的设计难点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "意义",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "从二极管到 MOSFET，能带图的核心就是画 E_F 的位置——一张图看懂器件物理。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Sze《半导体器件物理》；Hall 1879 载流子判型",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "sound-intensity": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "分贝是对数的耳朵：从听阈到痛阈，声强跨了两百亿倍——线性刻度根本画不下。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "L_I = 10 lg(I/I₀) dB，I₀ = 10⁻¹² W/m²（1 kHz 听阈）——每 +10 dB 强度乘十。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心陈述",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "声压级 L_p = 20 lg(p/p₀)，p₀ = 20 μPa——空气中与 L_I 数值相同，工程上混用。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "健康",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "职业红线 85 dB/8 小时；MP3 满音量约 105 dB，持续半小时即超安全剂量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "应用",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "主观响度大致每 +10 dB 翻倍——声学工程、噪声控制、音响调试共用这把对数尺。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Weber-Fechner 对数律；ISO 226 等响度曲线",
+        "duration_ms": 0
+      }
+    ]
+  }
+}

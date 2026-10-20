@@ -1,0 +1,302 @@
+{
+  "categories": [],
+  "experiments": [
+    {
+      "number": "T54",
+      "title": "欧几里得完全数定理",
+      "slug": "euclid-perfect-numbers",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "欧几里得完全数定理：若 2^p − 1 是素数，则 2^(p−1)·(2^p − 1) 是完全数。它把「等于自身所有真因子之和」的性质与素数联系起来，开启了延续两千多年的完全数研究。",
+      "concept": "梅森素数与偶完全数的一一对应",
+      "viz_component": "EuclidPerfectNumbersViz"
+    },
+    {
+      "number": "T55",
+      "title": "阿基米德螺线",
+      "slug": "archimedean-spiral",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "阿基米德螺线：极坐标下 r = aθ 的曲线，相邻圈之间的间距恒定。阿基米德用它解决化圆为方与三等分角，也用它描述匀速旋转与匀速直线运动的合成。",
+      "concept": "极坐标下半径与角度成正比",
+      "viz_component": "ArchimedeanSpiralViz"
+    },
+    {
+      "number": "T56",
+      "title": "托勒密定理",
+      "slug": "ptolemys-theorem",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "托勒密定理：圆内接四边形的两条对角线之积，等于两组对边乘积之和。托勒密用它制作弦表，是古代三角学的核心工具，也等价于复数的乘法法则。",
+      "concept": "圆内接四边形的对角线关系",
+      "viz_component": "PtolemysTheoremViz"
+    },
+    {
+      "number": "T57",
+      "title": "刘徽割圆术与刘徽原理",
+      "slug": "liu-hui-cyclotomy",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "刘徽用割圆术「割之弥细，所失弥少」，从正六边形出发逐次倍边逼近圆，求得圆周率 3.1416；他提出的阳马鳖臑体积关系，则是中国古代无穷分割思想的代表。",
+      "concept": "倍边逼近与体积分割原理",
+      "viz_component": "LiuHuiCyclotomyViz"
+    },
+    {
+      "number": "T58",
+      "title": "秦九韶三斜求积公式",
+      "slug": "qin-jiushao-area",
+      "category_slug": "math-history",
+      "difficulty": "intro",
+      "level": "初中",
+      "description": "秦九韶在《数书九章》中给出「三斜求积术」：已知三角形三边求面积，形式与小斜、大斜、中斜有关，与海伦公式等价——中国独立得到的结果。",
+      "concept": "由三边求面积的独立推导",
+      "viz_component": "QinJiushaoAreaViz"
+    },
+    {
+      "number": "T59",
+      "title": "邦贝利虚数运算",
+      "slug": "bombelli-imaginary",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "邦贝利在《代数学》中系统给出虚数的四则运算法则，并用它解开了三次方程的「不可约情形」——实根竟要通过虚数才能算出。复数从此成为可运算的对象。",
+      "concept": "虚数的运算法则与不可约情形",
+      "viz_component": "BombelliImaginaryViz"
+    },
+    {
+      "number": "T60",
+      "title": "笛卡尔符号法则",
+      "slug": "descartes-rule-of-signs",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "笛卡尔符号法则：实系数多项式的正根个数不超过其系数符号变化的次数，且相差偶数个。不解方程就能估计根的分布，这是代数学早期的定性方法。",
+      "concept": "系数变号次数与正根个数",
+      "viz_component": "DescartesRuleOfSignsViz"
+    },
+    {
+      "number": "T61",
+      "title": "费马引理（极值定理）",
+      "slug": "fermats-theorem-extrema",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "费马引理：可导函数在极值点处的导数为零。这条看似简单的观察第一次把「极值」与「导数」联系起来，成为微分学的先导，也是今天求极值的第一步。",
+      "concept": "极值点导数为零",
+      "viz_component": "FermatsTheoremExtremaViz"
+    },
+    {
+      "number": "T62",
+      "title": "卡瓦列里不可分量原理",
+      "slug": "cavalieri-principle",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "卡瓦列里把图形看作无穷多条「不可分量」（线段或截面）的堆积，通过比较截面积求面积与体积。这是祖暅原理在西方的重新发现，也是积分学的直接先驱。",
+      "concept": "不可分量累加求积",
+      "viz_component": "CavalieriPrincipleViz"
+    },
+    {
+      "number": "T63",
+      "title": "帕斯卡六边形定理",
+      "slug": "pascal-hexagon-theorem",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "帕斯卡六边形定理：圆锥曲线内接六边形的三组对边交点共线（帕斯卡线）。帕斯卡十六岁时发现它，这是射影几何最早的奠基性定理之一。",
+      "concept": "圆锥曲线内接六边形的共线性质",
+      "viz_component": "PascalHexagonViz"
+    },
+    {
+      "number": "T64",
+      "title": "罗尔定理",
+      "slug": "rolles-theorem",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "罗尔定理：若函数在闭区间连续、开区间可导且两端点函数值相等，则区间内至少存在一点导数为零。它是拉格朗日中值定理的特例，也是微分中值定理家族的开端。",
+      "concept": "两点等高必有水平切线",
+      "viz_component": "RollesTheoremViz"
+    },
+    {
+      "number": "T65",
+      "title": "哥德巴赫猜想",
+      "slug": "goldbach-conjecture",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "哥德巴赫猜想：任何大于 2 的偶数都可以写成两个素数之和。1742 年提出至今仍未解决，是数论中最著名的未解难题，也是「简单陈述、极难证明」的典型。",
+      "concept": "偶数分解为两素数之和",
+      "viz_component": "GoldbachConjectureViz"
+    },
+    {
+      "number": "T66",
+      "title": "欧拉-拉格朗日方程",
+      "slug": "euler-lagrange-equation",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "欧拉-拉格朗日方程：泛函取极值的必要条件，写成对拉格朗日量的微分形式。它把变分法浓缩成一个方程，成为分析力学、场论与最优控制的基本语言。",
+      "concept": "泛函极值的微分方程",
+      "viz_component": "EulerLagrangeEquationViz"
+    },
+    {
+      "number": "T67",
+      "title": "拉格朗日中值定理",
+      "slug": "lagrange-mean-value-theorem",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "拉格朗日中值定理：连续可导函数在某区间内的平均变化率，必等于区间内某点的瞬时变化率。它把「整体增量」与「局部导数」精确连接，是微分学最重要的定理。",
+      "concept": "平均变化率等于某点导数",
+      "viz_component": "LagrangeMeanValueViz"
+    },
+    {
+      "number": "T68",
+      "title": "泊松分布",
+      "slug": "poisson-distribution",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "泊松分布：描述单位时间或空间内稀有事件发生次数的离散分布，参数 λ 既是均值也是方差。它从二项分布的极限中导出，是排队论、放射性与通信建模的基本工具。",
+      "concept": "稀有事件计数的概率分布",
+      "viz_component": "PoissonDistributionViz"
+    },
+    {
+      "number": "T69",
+      "title": "阿贝尔定理（幂级数）",
+      "slug": "abels-theorem",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "阿贝尔定理刻画幂级数在收敛区间端点的行为；同一时期他还证明了一般五次方程不可能有根式解，终结了两百多年的探索，为伽罗瓦理论铺路。",
+      "concept": "幂级数的收敛性与端点行为",
+      "viz_component": "AbelsTheoremViz"
+    },
+    {
+      "number": "T70",
+      "title": "施图姆-刘维尔理论",
+      "slug": "sturm-liouville-theory",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "施图姆-刘维尔理论：二阶线性常微分方程的边值问题可化为本征值问题，本征函数族彼此正交。它是弦振动、热传导的研究产物，也是量子力学与特殊函数理论的基础。",
+      "concept": "微分算子的本征值与正交函数族",
+      "viz_component": "SturmLiouvilleViz"
+    },
+    {
+      "number": "T71",
+      "title": "凯莱-哈密顿定理",
+      "slug": "cayley-hamilton",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "凯莱-哈密顿定理：方阵满足它自己的特征多项式。这条结论把矩阵的幂次关系压缩为一个代数恒等式，是矩阵代数、线性系统与不变量理论的核心工具。",
+      "concept": "矩阵满足自身特征多项式",
+      "viz_component": "CayleyHamiltonViz"
+    },
+    {
+      "number": "T72",
+      "title": "西罗定理",
+      "slug": "sylow-theorems",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "西罗定理：有限群的 p 阶子群存在性、数量与共轭关系的一组结论。它让有限群的结构分析成为可能，是有限群论的基石，也常用于证明群的非单性与可解性。",
+      "concept": "有限群的 p 子群存在与计数",
+      "viz_component": "SylowTheoremsViz"
+    },
+    {
+      "number": "T73",
+      "title": "黎曼ζ函数与黎曼猜想",
+      "slug": "riemann-zeta-hypothesis",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "黎曼ζ函数把这些倒数和解析延拓到复平面，其非平凡零点的分布精确控制了素数的分布。黎曼猜想「所有非平凡零点实部均为 1/2」至今未决，是当代数论头号难题。",
+      "concept": "ζ 函数零点与素数分布",
+      "viz_component": "RiemannZetaViz"
+    },
+    {
+      "number": "T74",
+      "title": "若尔当-赫尔德定理",
+      "slug": "jordan-holder-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "若尔当-赫尔德定理：群的合成列长度与合成因子（单群）在不计次序与同构的意义下唯一。它把任意有限群「分解」为单群，使单群分类成为群论的中心任务。",
+      "concept": "群分解为单群的唯一性",
+      "viz_component": "JordanHolderViz"
+    },
+    {
+      "number": "T75",
+      "title": "格林公式、高斯散度定理与斯托克斯公式",
+      "slug": "green-gauss-stokes",
+      "category_slug": "math-history",
+      "difficulty": "advanced",
+      "level": "大学",
+      "description": "向量分析的三大积分公式：格林公式联系平面上的线积分与二重积分，高斯散度定理联系曲面积分与三重积分，斯托克斯公式联系空间曲线积分与曲面积分。三者共同把「边界」与「内部」联系起来，是电磁学的数学骨架。",
+      "concept": "边界积分与内部积分的关系",
+      "viz_component": "GreenGaussStokesViz"
+    },
+    {
+      "number": "T76",
+      "title": "希尔伯特零点定理",
+      "slug": "hilbert-nullstellensatz",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "希尔伯特零点定理：多项式在代数闭域上无公共零点，当且仅当它属于由这些多项式生成的理想（的根）。它建立了多项式理想与代数簇的严格对应，是代数几何的基石。",
+      "concept": "理想与代数簇的对应",
+      "viz_component": "HilbertNullstellensatzViz"
+    },
+    {
+      "number": "T77",
+      "title": "皮亚诺公理",
+      "slug": "peano-axioms",
+      "category_slug": "math-history",
+      "difficulty": "intermediate",
+      "level": "高中",
+      "description": "皮亚诺公理用五条公理刻画自然数：零是自然数、每个数有后继、零不是任何数的后继、后继映射单射、归纳公理。算术由此获得公理基础，也示范了现代公理化方法。",
+      "concept": "自然数的公理化刻画",
+      "viz_component": "PeanoAxiomsViz"
+    },
+    {
+      "number": "T78",
+      "title": "希尔伯特基定理",
+      "slug": "hilbert-basis-theorem",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "希尔伯特基定理：诺特环上的多项式环仍是诺特环，即任何理想都有限生成。它的证明是存在性的、非构造的，当年曾引起争议，如今是交换代数的核心工具。",
+      "concept": "多项式环的诺特性",
+      "viz_component": "HilbertBasisViz"
+    },
+    {
+      "number": "T79",
+      "title": "庞加莱同调理论基础",
+      "slug": "poincare-homology",
+      "category_slug": "math-history",
+      "difficulty": "academic",
+      "level": "学术级",
+      "description": "庞加莱创立代数拓扑：把空间剖分成复形，用贝蒂数与挠系数刻画「洞」的个数与类型。这是我们第一次能用代数不变量精确描述形状，拓扑学从此成为严密学科。",
+      "concept": "复形与同调不变量",
+      "viz_component": "PoincareHomologyViz"
+    },
+    {
+      "number": "T80",
+      "title": "希尔伯特《几何基础》",
+      "slug": "hilbert-grundlagen",
+      "category_slug": "math-history",
+      "difficulty": "professional",
+      "level": "研究生",
+      "description": "希尔伯特《几何基础》用五组公理重建欧氏几何，并首次系统讨论公理的独立性、相容性与完备性。它成为现代公理化数学的范式，也重塑了整个数学的方法论。",
+      "concept": "几何的公理化与公理系统的性质",
+      "viz_component": "HilbertGrundlagenViz"
+    }
+  ]
+}

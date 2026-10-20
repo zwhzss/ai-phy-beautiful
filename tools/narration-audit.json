@@ -1,0 +1,47 @@
+﻿{
+    "zip":  "E:\\go-project\\src\\ai-phy-beautiful\\desktop\\assets\\narrations-audio.zip",
+    "archive_entries":  9962,
+    "on_disk_targets":  9962,
+    "experiment_dirs":  600,
+    "milestone_dirs":  120,
+    "manifest_entries":  9962,
+    "seed_exp_slugs":  1087,
+    "seed_ms_slugs":  120,
+    "archive_slugs":  1207,
+    "undeclared":  [
+
+                   ],
+    "bad_target_dirs":  [
+
+                        ],
+    "duplicate_targets":  [
+
+                          ],
+    "unknown_slugs":  [
+
+                      ],
+    "slug_collisions":  [
+                            "atomic-clock",
+                            "bec-1995",
+                            "cmb-discovery",
+                            "cosmic-inflation",
+                            "doppler-effect",
+                            "einstein-field-equations",
+                            "electron-diffraction",
+                            "gw150914",
+                            "hall-effect",
+                            "hawking-radiation",
+                            "hertz-electromagnetic-wave",
+                            "higgs-discovery",
+                            "jpsi-discovery",
+                            "mass-energy-equivalence",
+                            "maxwell-equations",
+                            "nuclear-reactor",
+                            "photoelectric-law",
+                            "pulsar-discovery",
+                            "stern-gerlach",
+                            "superconductivity-discovery",
+                            "superfluid-helium"
+                        ],
+    "passed":  true
+}

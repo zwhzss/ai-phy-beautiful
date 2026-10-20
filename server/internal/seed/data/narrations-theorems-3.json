@@ -1,0 +1,167 @@
+{
+  "euclid-perfect-numbers": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "有些数格外「完美」：它恰好等于自己所有真因子之和。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧几里得在《几何原本》第九卷给出了它们的构造方法。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "若 2 的 p 次方减一是素数，那么 2 的 p 减一次方乘上它，就是完全数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "柱状图是各个真因子，它们的高度加起来，正好等于这个数本身。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换参数可以看到六、二十八、四百九十六、八千一百二十八——前四个完全数。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "欧拉的后续工作表明，偶完全数只有这一种来源；而奇数情形，至今无人找到。", "duration_ms": 0 }
+    ]
+  },
+  "archimedean-spiral": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "边匀速旋转、边匀速向外移动，画出的曲线是什么样子？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "阿基米德研究并利用了这条曲线，它因此以他命名。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "在极坐标下，半径与角度成正比：r 等于 a 乘以 θ。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "正因为成正比，相邻两圈之间的间距完全相同。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整参数 a 和圈数，看螺线怎样一圈圈舒展开来。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "阿基米德用它解决化圆为方与三等分角，把「转动」与「移动」联系在了一起。", "duration_ms": 0 }
+    ]
+  },
+  "ptolemys-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "圆内接四边形里，四条边与两条对角线之间存在一个精确的关系。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "托勒密用它编制古代三角函数表，是当时天文计算的核心工具。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "两条对角线之积，等于两组对边乘积之和。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上实时显示等式两边的数值，拖动顶点时它们始终相等。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "移动 A 点与 C 点的位置，观察这个恒等式怎样保持不变。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "取矩形时它退化为勾股定理；它本质上等价于复数乘法的模长关系。", "duration_ms": 0 }
+    ]
+  },
+  "liu-hui-cyclotomy": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "怎样用直边图形去逼近圆？刘徽的答案只有四个字：不断加边。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "他从正六边形出发逐次倍增边数，最后算到正三千零七十二边形。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "正多边形的边数越多，它的周长就越接近圆的周长。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上显示半周长与圆周率的误差，随着边数增加迅速缩小。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动边数滑块，看多边形怎样一点点「变成」圆。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "割之弥细，所失弥少。这是中国古代极限思想的代表作。", "duration_ms": 0 }
+    ]
+  },
+  "qin-jiushao-area": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "知道三角形的三条边，能不能直接算出面积？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "秦九韶在《数书九章》中给出了「三斜求积术」，与海伦公式等价。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "面积可以写成一个只含三条边的对称表达式，不依赖高和角。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "面板上同时显示秦九韶式与海伦式的结果，两者始终完全一致。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整三条边长，看两种公式的数值怎样同步变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "同一结论被东西方各自独立发现，这正是数学普遍性的体现。", "duration_ms": 0 }
+    ]
+  },
+  "bombelli-imaginary": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "解一个有三个实根的方程，中间过程却必须经过负数的平方根。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "十六世纪的三次方程求解中，这种「不可约情形」让数学家陷入困惑。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "邦贝利制定了虚数的四则运算法则，发现含虚数的项会自行抵消。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "当判别式为负时，曲线上三个红点都是实根，可公式里偏偏出现了虚数。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整系数让判别式由正变负，观察实根个数与虚数出现的关系。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "复数从此不再是「不可能的数」，而是可以计算的工具。", "duration_ms": 0 }
+    ]
+  },
+  "descartes-rule-of-signs": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "不解方程，也能估计它有几个正根吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "笛卡尔在《几何学》中给出了这条只看系数的判据。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "正根的个数不超过系数符号变化的次数，并且两者相差偶数个。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "屏幕上把系数按正负染成绿红两色，同时统计变号的次数。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "逐个调整四个系数，看符号变化次数与曲线上的正根个数怎样联动。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "把 x 换成负 x 再做一次，就得到负根个数的上界。", "duration_ms": 0 }
+    ]
+  },
+  "fermats-theorem-extrema": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "函数在最高点或最低点处，有一个容易被忽略的性质。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "费马在十七世纪二十年代注意到了它，这成为微分学的直接先导。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "若函数在极值点处可导，那么该点的导数必为零，切线是水平的。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色横线就是极值点处的切线，它完全水平。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变二次项系数，看极值点翻转方向，但切线永远水平。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "注意逆命题不成立：导数为零的点未必是极值点。", "duration_ms": 0 }
+    ]
+  },
+  "cavalieri-principle": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个歪斜的图形，面积会和方正的图形一样吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "卡瓦列里在一六三六年给出原理，这是祖暅原理在西方的重新发现。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把图形看作无穷多条线段的堆积；若每一高度处线段等长，则面积相等。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "青色截线在左右两个图形上长度始终相同。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "上下移动截面、加大错切量，看等长关系始终成立。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "立体情形同理：每一高度处截面积相等，则体积相等。", "duration_ms": 0 }
+    ]
+  },
+  "pascal-hexagon-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在圆锥曲线上任取六个点，连成一个六边形，会有什么规律？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "帕斯卡十六岁时发现了它，这是射影几何最早的奠基性定理。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "三组对边的交点，一定落在同一条直线上——称为帕斯卡线。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "三种颜色的虚线是三组对边的延长线，它们的交点共线。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动参数移动六个顶点，共线性始终保持。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "无论圆锥曲线是圆、椭圆还是双曲线，结论都不变——这正是射影几何的思想。", "duration_ms": 0 }
+    ]
+  },
+  "rolles-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一段旅程的起点和终点高度相同，中间会发生什么？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "罗尔在一六九一年提出它，成为微分中值定理家族的开端。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "若函数在闭区间连续、开区间可导且两端函数值相等，则区间内必有一点导数为零。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "两个红点等高，绿色点处画出了水平切线。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变曲线形状，看水平切线的位置如何移动，但它始终存在。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "直觉上：既然两端一样高，曲线总得在中间某个地方「平一下」。", "duration_ms": 0 }
+    ]
+  },
+  "goldbach-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "任何一个大于二的偶数，都能写成两个素数之和吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一七四二年哥德巴赫在给欧拉的信中提出，欧拉认为显然正确却无法证明。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把偶数拆成两素数之和，这样的配对是否总是存在？", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "数轴上蓝点是素数，下方列出所有的配对组合。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变偶数，看配对数量怎样变化——它似乎从不减少到零。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "已验证到极大范围都成立，但至今无人能证明——这是数论最著名的未解难题。", "duration_ms": 0 }
+    ]
+  },
+  "euler-lagrange-equation": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "求一个数的极值用微分，那么求一条曲线的极值用什么？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧拉在一七四四年把它发展成独立分支，拉格朗日后来给出了更简洁的形式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把「函数值」换成「整条曲线的某个积分」，求它的极值，得到的就是欧拉-拉格朗日方程。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰色曲线是一族候选路径，橙色直线是作用量最小的那条。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "弯曲当前曲线，看作用量如何随之增大。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它成为分析力学、场论与最优控制的基本方程，是理论物理的通用语言。", "duration_ms": 0 }
+    ]
+  },
+  "lagrange-mean-value-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一段行程的平均速度，一定在某一瞬间被精确达到。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "拉格朗日在一七九七年给出这个定理，它是微分学最重要的结论。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "连续可导函数在区间内的平均变化率，等于区间内某点的瞬时变化率。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色虚线是两端点的连线，绿色是与之平行的切线。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变曲线形状，看切线怎样自动找到平行的位置。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "泰勒公式、单调性判定与误差估计，都要以它为基础。", "duration_ms": 0 }
+    ]
+  },
+  "poisson-distribution": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一段时间内接到了几通电话、发生了几次放射性衰变——这类计数有规律吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "泊松在一八零七年提出了这个分布，用来描述稀有的随机事件。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "发生 k 次的概率由参数 λ 决定，而 λ 同时就是均值和方差。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色柱是众数所在的位置，λ 越大，分布越对称、越接近正态。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动参数 λ，看分布高峰怎样向右移动并逐渐变平。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是二项分布在「次数多、概率小」情形下的极限，广泛用于排队论与通信建模。", "duration_ms": 0 }
+    ]
+  }
+}

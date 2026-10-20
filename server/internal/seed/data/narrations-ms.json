@@ -1,0 +1,374 @@
+{
+  "newton-laws": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一六八七年，一本《自然哲学的数学原理》改变了人类理解世界的方式。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "牛顿运动三定律：惯性定律、加速度定律与作用反作用定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "核心公式一句话：力等于质量乘加速度——力不是维持运动的原因，而是改变运动的原因。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "适用于宏观、低速、弱引力场中的惯性参考系；接近光速时需换用相对论。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它第一次用统一的数学法则同时描述天上与地上的运动，从炮弹到行星无一例外。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "工程时代随之到来：桥梁、机械、弹道与航天，全部建立在这套定律之上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：牛顿《自然哲学的数学原理》，一六八七年。", "duration_ms": 0 }
+    ]
+  },
+  "law-of-gravitation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "苹果落地与月球绕地，是不是同一种力？牛顿给出了肯定的回答。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "万有引力定律：任意两个质点相互吸引，与质量乘积成正比，与距离平方成反比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "引力常数虽小，乘上天体质量便成为驾驭行星的巨力。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "质点或球对称质量分布；强场高速情形由广义相对论接管。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它预言了海王星的存在，一八四六年按计算位置果然找到。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "一百多年后，卡文迪许用扭秤在实验室称出地球质量，一七九八年。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：牛顿《自然哲学的数学原理》，一六八七年。", "duration_ms": 0 }
+    ]
+  },
+  "maxwell-equations": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "四个方程，统一电、磁与光——物理学史上最伟大的综合。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "麦克斯韦方程组描述电荷如何产生电场、电流如何产生磁场，以及变化的场如何互相激发。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "把位移电流补进安培定律，方程组便导出以光速传播的电磁波——光被证明是电磁波。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "经典介质与真空均成立；高速微观领域由量子电动力学接手。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "一八八七年赫兹用火花隙实验证实电磁波，无线电、电视、雷达与移动通信由此诞生。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "没有这组方程，就没有现代信息社会——每一部手机里都住着麦克斯韦。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：麦克斯韦《电磁场的动力学理论》，一八六五年。", "duration_ms": 0 }
+    ]
+  },
+  "second-law-thermodynamics": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "为什么打碎的杯子不会自动复原？热力学第二定律给时间定了方向。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "热量不能自发地从低温物体转向高温物体；孤立系统的熵永不减少。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "熵是无序度的量度，玻尔兹曼把它写成微观状态数的对数，刻在墓碑上。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "宏观热力学系统，涨落可忽略；开放系统可通过排出熵维持局部秩序。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它规定了一切热机效率上限，指引能源工业近两百年。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "熵的概念延伸到信息论、宇宙学与生命——为什么生命能维持秩序，也源于此。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：克劳修斯《论热的推动力》，一八五〇年。", "duration_ms": 0 }
+    ]
+  },
+  "lorentz-transformation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "以太困境中，洛伦兹变换拯救了麦克斯韦方程，也为相对论铺好台阶。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "不同惯性系之间的时空坐标变换包含洛伦兹因子：高速运动时时间膨胀、长度收缩。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "变换保证真空光速对所有观察者相同——这正是实验测到的事实。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "惯性参考系之间的变换；低速下退化为伽利略变换。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "GPS 卫星钟每天需修正三十八微秒，否则定位一天漂移约十公里。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "粒子加速器的设计、宇宙线缪子的寿命，处处用到它——相对论活在日常技术里。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：洛伦兹《电子论》，一九〇四年。", "duration_ms": 0 }
+    ]
+  },
+  "einstein-field-equations": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "引力不是力，而是几何——广义相对论把时空本身变成了主角。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "爱因斯坦场方程：物质与能量告诉时空如何弯曲，时空告诉物质如何运动。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "方程左边是时空曲率，右边是能量动量分布，一个美丽的张量等式。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "宏观引力场；弱场近似下退化为牛顿引力。史瓦西一九一六年求得第一个精确解。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "预言光线偏折、引力红移、黑洞与引力波；一九一九年日食验证轰动世界。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "二〇一五年探测到引力波、二〇一九年拍到黑洞影子——百年前的方程逐一兑现。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦《广义相对论的基础》，一九一五年。", "duration_ms": 0 }
+    ]
+  },
+  "schrodinger-equation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "量子世界的牛顿定律——薛定谔方程决定波函数如何随时间演化。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "含时薛定谔方程：波函数的时间变化率由哈密顿算符给出，虚数单位保证概率守恒。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "波函数的模平方给出粒子出现的概率；定态解直接给出原子的分立能级。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "非相对论量子力学；高速情形需用狄拉克方程。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "原子结构、化学键、半导体、激光、核磁共振全部建立在其求解之上。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "它被称为现代技术文明的微观操作系统——薛定谔一九三三年获诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：薛定谔《物理学年鉴》，一九二六年。", "duration_ms": 0 }
+    ]
+  },
+  "uncertainty-principle": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "同时精确测准位置和动量？海森堡说：自然不允许。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "不确定性关系：位置与动量的误差之积不小于约化普朗克常数的一半。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "这不是测量笨拙，而是自然的内禀性质——量子涨落在真空中永不寂静。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "适用于所有共轭变量对；能量与时间也有类似关系。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它终结了拉普拉斯式的决定论宇宙观，划出经典与量子的边界。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "量子隧穿、零点能与激光测不准极限，都是它的直接推论。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：海森堡《物理学杂志》，一九二七年。", "duration_ms": 0 }
+    ]
+  },
+  "hubble-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "宇宙不是静止的舞台，它在膨胀——哈勃定律给出了第一份观测证据。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "星系的退行速度与距离成正比，比例常数就是哈勃常数。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "越远的星系跑得越快——这不是星系在空间中逃跑，而是空间本身在伸展。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "大尺度、各向同性均匀宇宙；近邻星系团运动需另行修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "把膨胀反推回去，宇宙有一个开端——大爆炸宇宙学由此确立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "今天的哈勃常数测定仍是宇宙学焦点，其差异被称为哈勃张力。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：哈勃《美国国家科学院会刊》，一九二九年。", "duration_ms": 0 }
+    ]
+  },
+  "mass-energy-equivalence": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一个公式，五个字母加一个平方——二十世纪最具标志性的物理符号。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "质能方程：质量与能量是同一事物的两种表现，微小质量对应巨大能量。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "光速平方是巨大的换算系数：一克物质完全转化，约等于两万吨 TNT。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "孤立系统的质能守恒；核反应中的质量亏损正是它的体现。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它解释了太阳为何能燃烧百亿年，也预言了核能。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "核电站与原子弹共享同一个源头——这个公式既推动文明，也警醒文明。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦《物理学年鉴》，一九〇五年。", "duration_ms": 0 }
+    ]
+  },
+  "entropy-formula": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一块碑上刻着一个公式，它属于统计力学之父玻尔兹曼。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "熵等于玻尔兹曼常数乘以微观状态数的自然对数。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "它把宏观的无序翻译成微观的可能状态数目——热力学与统计力学由此连通。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "平衡态统计；微观状态等概率假设是它的前提。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "统一热与概率，成为信息论、黑洞热力学与复杂性科学的共同语言。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "香农借用了熵来度量信息，比特与焦耳在深处握手。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：玻尔兹曼《维也纳科学院通报》，一八七七年。", "duration_ms": 0 }
+    ]
+  },
+  "schwarzschild-radius": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一战战壕中，史瓦西解出了爱因斯坦场方程的第一个精确解。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "史瓦西半径：任何质量都对应一个临界半径，落入其中的光也无法逃逸。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "地球的史瓦西半径只有约九毫米，太阳的约三公里——把物质压进这个半径就成了黑洞。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "球对称、不带电、不旋转的真空解；旋转黑洞由克尔解描述。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从方程中掉出黑洞概念，比观测早了半个世纪。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "二〇一九年事件视界望远镜拍到的阴影，直径正是它的二点六倍。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：史瓦西《普鲁士科学院通报》，一九一六年。", "duration_ms": 0 }
+    ]
+  },
+  "de-broglie-relation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "博士论文只有几页，却提出了二十世纪最大胆的猜想之一。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "德布罗意关系：一切物质都有波动性，波长等于普朗克常数除以动量。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "电子也是波——爱因斯坦将其推广到原子，两年后实验证实。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "自由粒子；相对论推广为能量与频率、动量与波矢的对应。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "一九二七年电子衍射实验直接验证，波动力学由此诞生。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "电子显微镜用它看清原子——物质波成了工具。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：德布罗意《量子理论研究报告》，一九二四年。", "duration_ms": 0 }
+    ]
+  },
+  "planck-blackbody-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "世纪之交的物理学有两朵乌云，普朗克用一个迫不得已的假设拨开了第一朵。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "普朗克黑体辐射公式：能量是一份一份的，每份等于普朗克常数乘频率。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "公式同时化解了紫外灾变，与实验曲线严丝合缝。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "热平衡黑体辐射；普朗克常数是自然界的最小作用量尺度。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "量子时代由此开始；普朗克常数如今是重新定义千克的基准之一。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "他本人称之为一个不得已的数学技巧，世界却因此换了模样。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：普朗克《德国物理学会通报》，一九〇〇年。", "duration_ms": 0 }
+    ]
+  },
+  "drake-equation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "银河系里有多少能和我们通话的文明？德雷克把这个问题拆成了七个因子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "德雷克方程：文明数量等于恒星形成率、行星比例、宜居比例、生命与智慧概率、技术寿命之积。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "它的价值不在给出答案，而在把神话变成可以逐项讨论的科学问题。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "稳态银河系假设；后几个因子的取值至今高度不确定。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "开启地外文明搜索的理论框架，费米悖论由此获得定量表达。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "至今仍是天体生物学课堂的开篇——我们孤独吗？先写下七个因子。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：德雷克《国际天文学联合会汇刊》，一九六一年。", "duration_ms": 0 }
+    ]
+  },
+  "telescope": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一六〇九年，伽利略把望远镜指向天空，人类的视野从此多了一个维度。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "望远镜用大口径物镜聚光、用目镜放大——聚光面积决定看多暗，口径决定看多清。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "衍射极限给出了分辨率的天花板：角度约等于波长除以口径。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "地面观测受大气视宁度限制，空间望远镜可摆脱大气抖动。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "伽利略看到木星的四颗卫星与月球山脉，直接支持日心说。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "从哈勃到韦布，每一次口径跃升都改写宇宙观——望远镜是人类伸向宇宙的眼睛。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：利伯希一六〇八年专利；伽利略一六〇九年观测记录。", "duration_ms": 0 }
+    ]
+  },
+  "steam-engine": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "瓦特给蒸汽机加上分离冷凝器，热能第一次大规模变成生产力。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "蒸汽机把热能转化为机械功：锅炉产生高压蒸汽，气缸推动活塞，冷凝器维持温差。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "卡诺后来证明，效率只由两个热源的温度决定——温差越大越高效。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "受材料耐温与密封限制，实际效率远低于同温差的卡诺极限。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "工厂摆脱水力选址限制，城市化与工业革命由此点火。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "效率从此成为工程的核心指标，热力学第二定律为所有热机划下天花板。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：瓦特一七六九年专利；卡诺《关于火的动力的思考》，一八二四年。", "duration_ms": 0 }
+    ]
+  },
+  "transistor": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九四七年，贝尔实验室的三个人用一片锗做出了世界上第一个晶体管。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "晶体管用半导体的 p-n 结实现电流放大与开关：微弱的基极电流控制集电极。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "掺杂让本征半导体中电子与空穴各司其职，能带理论解释了它为何工作。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "工作温度影响载流子浓度；超过极限温度器件失效。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "从助听器到集成电路、CPU 与智能手机——没有晶体管就没有信息时代。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "巴丁因此两获诺贝尔物理学奖，晶体管成为二十世纪最伟大的发明之一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：巴丁、布拉顿与肖克利，贝尔实验室，一九四七年。", "duration_ms": 0 }
+    ]
+  },
+  "laser": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦一九一七年预言受激辐射，四十三年后，第一束激光诞生。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "激光的原理：粒子数反转让受激辐射占上风，光学谐振腔提供反馈，超过阈值即起振。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "输出的光具有三大特性：单色性、相干性与方向性。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需要合适的增益介质、泵浦源与腔镜；不同介质给出不同波长。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "光纤通信承载了全球百分之九十九以上的互联网流量。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "激光手术、精密制造、激光测距与条形码——它点亮了日常生活的许多角落。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：爱因斯坦一九一七年受激辐射理论；梅曼首台激光器，一九六〇年。", "duration_ms": 0 }
+    ]
+  },
+  "cavendish-torsion": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "引力常数小到什么程度？卡文迪许在一间隔振房间里把它称了出来。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "扭秤实验：铅球间的微弱引力使石英丝扭转，由偏转角读出引力常数。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "测得引力常数，就能由地表重力加速度反算地球质量——称量地球。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需屏蔽气流与振动；引力在实验室尺度极其微弱，测量精度维持近百年。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "牛顿定律从定性正确变为可定量预言。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "地球密度、天体质量与后续引力实验，全部由此起步。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：卡文迪许《哲学汇刊》，一七九八年。", "duration_ms": 0 }
+    ]
+  },
+  "michelson-morley": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "物理学史上最著名的失败实验——它测的东西不存在，却改变了世界。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "迈克尔逊与莫雷用干涉仪精密测量以太风，预期的条纹移动没有出现：结果为零。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "零结果证明以太不存在，光速在各方向完全相同。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "精度受限于仪器稳定性；后续精密实验不断收紧上限。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "它直接催生狭义相对论——一九〇五年光速不变成为公设。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "负结果如何推动科学的教科书案例：没有它，相对论会晚很多年。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：迈克尔逊与莫雷，《美国科学杂志》，一八八七年。", "duration_ms": 0 }
+    ]
+  },
+  "wu-experiment": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九五六年底，吴健雄用一个低温实验让全世界重新思考对称性。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "极化的钴六十在弱相互作用下贝塔衰变，左右方向的电子数不对称——宇称不守恒。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "杨振宁与李政道同年提出理论预言，吴健雄的实验一年内即予证实。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需约零点零一开尔文的极低温取向核自旋，实验难度极高。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "自然在弱作用中区分左右，对称美并非处处成立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "理论与实验的黄金配合载入史册，也成为华人物理学界的骄傲。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：吴健雄等，《物理评论》，一九五七年。", "duration_ms": 0 }
+    ]
+  },
+  "gw150914": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "二〇一五年九月十四日，人类第一次听见两个黑洞并合的声音。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "LIGO 两台相距四公里的干涉臂同时记录到一阵时空涟漪，信号与广义相对论模板精确匹配。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "应变精度达到十的负二十一次方——臂长变化不到质子直径的千分之一。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需极端隔振、激光稳频与全球同步原子钟；信号经数值相对论模板比对确认。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "引力波天文学开篇，二〇一七年诺贝尔物理学奖授予三位先驱。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "多信使宇宙学时代开始：光与引力波共同讲述同一个宇宙故事。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：LIGO 合作组，《物理评论快报》，二〇一六年。", "duration_ms": 0 }
+    ]
+  },
+  "photoelectric-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "光越亮，逸出的电子就越多——但电子的能量只由频率决定，与亮度无关。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "光电效应定律：光电子最大初能等于光子能量减去逸出功，存在截止频率。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "光是一份一份的能量量子，一个光子把全部能量交给一个电子。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "金属表面、单色光；低于截止频率，再强的光也点不出电子。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "爱因斯坦因此获一九二一年诺贝尔奖——不是因为相对论。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "光电探测器、CCD、太阳能电池与光通信接收机，都是它的工程后代。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦，《物理学年鉴》，一九〇五年。", "duration_ms": 0 }
+    ]
+  },
+  "noether-theorem": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "为什么能量守恒？诺特用一个定理给出了最深刻的回答。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "诺特定理：每一种连续对称性都对应一个守恒律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "时间平移对称给出能量守恒，空间平移给出动量，旋转给出角动量。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "经典场论与量子理论均成立；粒子物理的标准模型整个建立在规范对称之上。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "守恒律不再是巧合，而是几何的必然——把为什么守恒变成对称性是什么。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "爱因斯坦称她为数学史上最重要的女性，她的名字属于整个理论物理。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：诺特，《哥廷根科学院通报》，一九一八年。", "duration_ms": 0 }
+    ]
+  },
+  "standard-model": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "除了引力，自然界其余三种基本力被装进了同一个理论——粒子物理标准模型。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "电磁力与弱力统一为电弱理论，强力由量子色动力学描述，基本粒子按对称性分类。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "对称性自发破缺赋予 W 与 Z 玻色子质量，而光子保持无质量。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "实验验证至万分之一精度；中微子质量需要最小扩展，与引力的统一仍是未竟事业。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "人类对物质基本规律的最高成就：十七个参数拼出除引力外的全部已知相互作用。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "希格斯玻色子二〇一二年在欧洲核子研究中心被找到，最后一块拼图落位。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：格拉肖一九六一年；温伯格与萨拉姆一九六七年；后续完善至七十年代。", "duration_ms": 0 }
+    ]
+  },
+  "china-two-bombs-satellite": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九六四年十月十六日，罗布泊的蘑菇云宣告中国进入核时代。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "此后三年内氢弹试验成功，一九七〇年东方红一号卫星升空——两弹一星全部落定。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "于敏构型等自主创新路线，让中国成为从原子弹到氢弹用时最短的国家。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "条件", "line_index": 0, "line_id": "cond-1", "text": "在极端保密与计算条件匮乏的环境下，理论设计与试验物理紧密结合完成。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "钱学森、邓稼先、于敏等科学家隐姓埋名，奠定大国地位与和平利用核能的基础。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "两弹一星精神成为民族科技自立的象征，深远影响至今。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：中国核试验与东方红一号卫星史料，一九六四至一九七〇年。", "duration_ms": 0 }
+    ]
+  },
+  "kepler-laws": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "第谷二十年的观测数据，开普勒用十年磨出三行定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "行星沿椭圆轨道运行，面积速度恒定，周期平方与半长轴立方成正比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "完美的圆形天球被击碎，宇宙第一次以椭圆的姿态呈现。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "二体问题、中心天体质量占主导；行星间摄动需后续修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "为牛顿发现万有引力提供关键证据链，是观测到定律再到理论的完整范例。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "海王星的发现正是第三定律与万有引力联手计算的成果。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：开普勒《新天文学》，一六〇九年。", "duration_ms": 0 }
+    ]
+  },
+  "fast-telescope": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "在贵州的喀斯特洼地里，躺着一口五百米口径的'锅'——中国天眼 FAST。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "六面米级馈源舱由六根钢索悬吊，配合主动变形的反射面，把球面实时修成抛物面。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "集光面积约二十五万平方米，灵敏度在分米波段位居单口径射电望远镜之首。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "条件", "line_index": 0, "line_id": "cond-1", "text": "依赖天然喀斯特洼地支撑索网，毫米级形变控制与超静基馈源平台协同工作。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "脉冲星巡天已发现数百颗新脉冲星，并捕捉到快速射电暴——宇宙深处的未知信号。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "南仁东用二十二年主导选址与建设；FAST 也为纳赫兹引力波探测铺平道路。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "出处：FAST 工程，二〇一六年九月落成启用。", "duration_ms": 0 }
+    ]
+  },
+  "pauli-exclusion": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "为什么物质会『占地方』？为什么原子壳层一层层分开？答案是一个年轻的禁止令。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "泡利不相容原理：两个全同费米子不能占据完全相同的量子态。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "电子自旋只有上下两态，同一轨道最多住两个电子——元素周期表由此排定。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "适用于自旋半整数的费米子；玻色子则毫无限制地集体占据。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "解释元素周期表、化学键与固体硬度；白矮星与中子星靠它的简并压支撑。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "泡利二十五岁写下的原理，撑起了整个物质世界——一九四五年获诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：泡利，《物理学杂志》，一九二五年。", "duration_ms": 0 }
+    ]
+  },
+  "superconductivity-discovery": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九一一年，荷兰莱顿实验室里，汞的电阻在四点二开尔文突然消失。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "超导现象：临界温度以下电阻精确为零，电流可以无损耗地永久流动。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "一九三三年迈斯纳效应补充了另一半图景：超导体内部磁场被完全排出。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "同时存在临界温度、临界磁场与临界电流三个上限；常规超导由 BCS 理论解释。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "核磁共振超导磁体、粒子探测器、约瑟夫森结与量子比特——现代精密物理的硬件基础。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "一九八六年高温超导突破液氮温区，室温超导至今仍是凝聚态的圣杯。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处与总结", "line_index": 0, "line_id": "sum-1", "text": "文献出处：卡末林·昂内斯，莱顿实验室通讯，一九一一年。", "duration_ms": 0 }
+    ]
+  }
+}

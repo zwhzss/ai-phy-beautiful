@@ -1,0 +1,122 @@
+{
+  "hall-marriage-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一群人要分别配对，什么时候能保证人人都有对象？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "霍尔在一九三五年给出了完美匹配的充要条件。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "左侧任意 k 个点，至少邻接右侧 k 个点——这是存在完美匹配的充要条件。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙线是已匹配成功的边，切换图结构可以看到条件被破坏时的情形。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把「能否配对」化为可逐一检验的计数不等式，是组合数学最实用的存在性定理。", "duration_ms": 0 }
+    ]
+  },
+  "ramsey-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "六个人当中，是否一定有三人互相认识或互相不认识？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "拉姆齐在一九三零年证明：一定有。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "足够大的完全图做二色染色，必然包含一个单色三角形。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "加粗的红线或蓝线就是被找到的那个单色三角形。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它说明「完全无序」在足够大的尺度上不可能存在——这是组合数学的基石之一。", "duration_ms": 0 }
+    ]
+  },
+  "p-vs-np": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "验证一个答案很容易的问题，求出答案也一定容易吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "这个问题在一九七一年被明确提出，后来成为千禧年七大难题之一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "P 是能快速求解的问题，NP 是能快速验证的问题，问题是两者是否相等。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "切换两种假设可以看到不同图景：若 P 不等于 NP，NP 完全问题会落在 P 之外。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "多数人相信 P 不等于 NP，但至今无人证明——这也是现代密码学安全性的前提。", "duration_ms": 0 }
+    ]
+  },
+  "hodge-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "用拓扑手段看到的形状，是否一定来自某个代数方程？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "霍奇在一九五零年提出这个猜想，它是代数几何最深刻的未解问题之一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "每个霍奇类都是代数闭链类的有理线性组合。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红点是由方程定义的代数闭链，橙线是来自调和形式的霍奇类。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它断言分析与拓扑层面的对象必能由多项式方程写出，目前仅在低维有部分进展。", "duration_ms": 0 }
+    ]
+  },
+  "yang-mills-mass-gap": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "为什么核力只在极短距离内起作用？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "杨振宁与米尔斯提出的规范场论给出了物理解释，但数学基础至今未严格建立。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "需要证明四维非阿贝尔规范场论存在，且能谱与真空之间有正的间隙。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左侧能级图中，真空态与第一激发态之间存在一个明显的能量间隙。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它是千禧年难题中「最物理」的一个，难点在于连续场论缺乏严格定义。", "duration_ms": 0 }
+    ]
+  },
+  "navier-stokes-existence": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "描述流体的方程，它的解会永远光滑存在吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "纳维与斯托克斯建立的方程，至今三维情形的解的存在性仍未解决。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "惯性项带来非线性，黏性项带来耗散，两者的竞争决定解的命运。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "把黏性调小，能量曲线变得更容易失控——物理上对应湍流的出现。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "二维情形已被证明光滑解永存，三维情形要么证明永存、要么构造出爆破反例。", "duration_ms": 0 }
+    ]
+  },
+  "birch-swinnerton-dyer": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一条曲线上有多少个有理点？这件事和分析有关吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "贝赫与斯维讷通-戴尔在一九六五年提出猜想，把两者精确对应起来。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "椭圆曲线有理点的秩，等于其 L 函数在 s 等于一处的零点阶。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红点是曲线上的有理点，右上角的小图是 L 函数在 s 等于一附近的行为。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把「算术」与「分析」精确联系起来，是千禧年难题中与数论联系最紧密的一个。", "duration_ms": 0 }
+    ]
+  },
+  "twin-prime-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "像十一和十三这样的素数对，到底有多少对？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "猜想它们有无穷多对，但两千年来无人能证。二零一三年张益唐取得了突破。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "相差固定间隔的素数对，是否存在无穷多组？", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰色细点是素数，红点是符合条件的配对起点，可以看到它们一直延续下去。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "张益唐证明了「有界间隔」存在无穷多对，间隔被优化到二百四十六，但压到二仍未成功。", "duration_ms": 0 }
+    ]
+  },
+  "collatz-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "偶数折半、奇数乘三加一，反复做下去会怎样？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "考拉兹在一九三七年提出：最终一定会落到一。这个问题至今无人证明。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "所有已知的初始值都会收敛到一，但证明对所有正整数成立仍是空白。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "以二十七为例：它会冲到九千二百三十二的高峰，再剧烈震荡，用一百一十一步才回到一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "陈述只需小学算术，却难倒了所有数学家——埃尔德什说「数学还没准备好」。", "duration_ms": 0 }
+    ]
+  },
+  "odd-perfect-number": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "完全数六、二十八、四百九十六，会不会存在一个奇数的完全数？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧几里得与欧拉给出了全部偶完全数，奇数情形两千年来一无所获。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "猜想不存在奇完全数；若存在，它必须极大且满足极其苛刻的条件。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "随手检验一个奇数，它的真因子之和总比自身少——这叫「亏数」。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "若奇完全数真的存在，它必须大于十的一千五百次方，且至少有九个不同的素因子。", "duration_ms": 0 }
+    ]
+  },
+  "continuum-hypothesis": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "自然数的无穷与实数的无穷之间，还有别的无穷吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "康托尔猜想没有，希尔伯特把它列为二十三个问题的第一个。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "连续统假设断言：不存在基数严格介于两者之间的集合。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "基数层级从上到下排列，中间那个带问号的层级就是争论的焦点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "哥德尔与科恩证明它在 ZFC 中既不可证也不可否证——这是希尔伯特第一问题的最终答案。", "duration_ms": 0 }
+    ]
+  },
+  "abc-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "两个互素的数加起来得到第三个数，这三者之间有约束吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一九八五年由奥斯特莱与马塞提出；望月新一在二零一二年宣布证明，至今仍有争议。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "c 不能比三者不同素因子之积大太多——对任意正数 epsilon，只有有限个例外。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色虚线是临界值，红点是与它「不相称」的少数例外三元组。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它看似技术性，却能一举推出大量丢番图方程的结论，包括费马大定理的部分情形。", "duration_ms": 0 }
+    ]
+  }
+}

@@ -1,0 +1,4150 @@
+{
+  "dna-diffraction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "富兰克林那张 Photo 51 上的交叉斑纹，把看不见的分子螺旋钉在了底片上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "X 射线打在规则排列的分子上，衍射斑的对称性直接暴露了螺旋的螺距与直径。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "螺距 3.4 nm／每圈 10 碱基对；直径 2 nm",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要高度取向的 DNA 纤维与单色 X 射线；含水量决定 B 型还是 A 型构象。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "沃森与克里克 1953 年据此搭出双螺旋模型——碱基配对立刻暗示了复制机制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "衍射加建模的组合成为结构生物学的范式，核磁与冷冻电镜都是它的后辈。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Franklin & Gosling Photo 51（1952）；Watson & Crick, Nature（1953-04-25）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "protein-folding": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一条链要在百万种可能里选中唯一的天然态——蛋白质折叠快得让穷举成为笑话。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "能量景观像漏斗：链在粗糙的坡面上边降能边收拢，最终滑进天然态的窄井。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "折叠速率是扩散与摩擦的竞赛；错折叠滑进错误的深井，就长成淀粉样纤维。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "分子伴侣帮助新生链折叠；温度、pH 与拥挤环境都会改写漏斗的形状。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "安芬森法则（序列决定结构）奠定了分子生物学的中心信条。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "错误折叠与疯牛病、阿尔茨海默相关——折叠病是凝聚态物理闯进医学的课题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Anfinsen 热力学假说（1973 年诺奖）；Levinthal 悖论（1969）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "molecular-motor": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "驱动蛋白抱着货物沿微管走路，一步 8 纳米——比任何机器都小、却比任何机器都省。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "ATP 水解改变头部构象，化学能转成机械步进——两头交替迈步像人走路。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "马达在热噪声里定向前进，靠的是棘轮式的不对称势能面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要恒温水相与持续 ATP 供给；负载超过 stall force 马达就会倒走。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "分子马达证明纳米尺度的机器可行，催生了分子机器的诺贝尔奖（2016）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它把统计力学的涨落定理变成可测量的实验——能量均分定理的活体课堂。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "驱动蛋白步进观测（1993，Histidine 队列实验）；ATP 合酶旋转（1997）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "cell-membrane": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "细胞的国境线只有一张纸厚——却把水、离子和生命内外分开。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "磷脂双层疏水尾相对、亲水头朝外，自组装成 5 nm 厚的二维液体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "膜蛋白像冰山漂在脂海里，侧向扩散极快——流动镶嵌模型的核心图像。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "温度低于相变点脂双层会凝胶化；胆固醇像缓冲剂调节流动性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "辛格与尼科尔森的流动镶嵌模型（1972）终结了膜结构的静态之争。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "囊泡融合、病毒入侵、神经递质释放——生命的物流全靠这层软界面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Singer & Nicolson 流动镶嵌模型（1972）；Gorter 与 Grendel 双层实验（1925）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "membrane-potential": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "静息的神经细胞也带着 −70 毫伏的电压——细胞随时揣着一节充电电池。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "钾离子顺着浓度差外漏，把膜内电位拉负——能斯特平衡给出理论值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "E_K = (RT/zF)·ln([K⁺]out/[K⁺]in)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "通透性决定电位靠近哪种离子的能斯特值；泵漏平衡才叫静息。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "静息电位的发现把电生理从观测推进到定量——生物电不再是玄学。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "心电、脑电与肌电全是膜电位的宏观投影，临床电生理由此起步。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Bernstein 膜学说（1902）；Hodgkin & Katz 离子学说（1949）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "action-potential": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "刺激再强，神经的响声也一样大——动作电位只发一种号炮，全或无。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "钠通道爆发式开启让电位冲到 +40 mV，随即失活、钾外流复极并过冲。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "电位沿轴突不衰减地自我再生传导，髓鞘让它跳跃前进十倍提速。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "必须超过阈值才触发；不应期内无论多强刺激都无效。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Hodgkin 与 Huxley 的四维方程（1952）把兴奋性写成微分方程——1963 年诺奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "电缆理论解释了神经传导速度与直径的关系——从乌贼巨轴突到今天的脑机接口。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hodgkin & Huxley, J. Physiol.（1952）；乌贼巨轴突电压钳实验",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "blood-rheology": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "血液在大血管里像稀水、在毛细管里变黏粥——剪切越快它越顺从。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "红细胞在低剪切下叠成钱串（缗钱），有效黏度升高；剪切加快则散开变稀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "Fåhræus-Lindqvist 效应让细管里的表观黏度反而下降——微循环因此顺畅。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "血细胞比容、血浆蛋白与血管直径共同决定流变行为；病理态下钱串加剧。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "血液的非牛顿性解释了为什么心脏做功远低于按牛顿流体估算的值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "人工心脏、透析机与微流控血检的设计都以这条流变曲线为准。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fåhræus & Lindqvist 微管黏度实验（1931）；现代血液流变学",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hemoglobin": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "血红蛋白装氧气不是一件件来——第一个装上后，其余三个位置会主动张开。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "四个亚基协同变构：结合氧后构象从 T 态转 R 态，亲和力陡然上升。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "氧解离曲线因此呈 S 形——肺部抓得紧、组织处放得开，一鱼两吃。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "pH、CO₂ 与 2,3-BPG 都会左右曲线左右平移（Bohr 效应）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "别构效应成为酶学与药物设计的通用语言——受体、离子通道都讲这套语法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "希尔系数量化协同性——从血红蛋白到 G 蛋白偶联受体都是它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hill 协同结合模型（1910，1930 年诺奖）；Perutz 血红蛋白结构（1960）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "photosynthesis": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一片叶子每秒拆开上万份水——地球上几乎所有食物与氧气的源头。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "光系统 II 与 I 串联：光子把反应中心的电子打上更高的能级，再逐级下坡放能。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "水被夺走四个电子放出氧气——Z 方案的终点是 NADPH 与 ATP。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要完整类囊体膜与光照；二氧化碳固定由暗反应的 Calvin 循环完成。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Z 方案（1960s）把光合电子传递画成阶梯——生物能量转换的标准图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "人工光合作用是能源研究的长期目标——把阳光存进化学键。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hill 反应（1937）；Calvin 循环（1957 年诺奖）；Hill & Pedersen Z 方案",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "enzyme-kinetics": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "酶把反应提速一百万倍，可底物再多也快不过某个天花板——活性位点就那么几个。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "底物浓度低时速率线性上升，饱和后逼近 Vmax——酶被占满就是天花板。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "V = V_max·[S]/(K_m + [S])",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "初速率条件下测量、酶浓度远低于底物；pH 与温度需固定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "米氏方程（1913）让酶学从定性走向定量——现代药理动力学的模板。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "抑制剂分析区分竞争与非竞争——磺胺到抗病毒药的设计都从这里起步。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Michaelis & Menten（1913）； Briggs & Haldane 稳态近似（1925）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "bacterial-flagellum": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "细菌的鞭毛基座是台旋转马达——不用 ATP，直接拿质子流当代币。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "定子感知质子流的电化学势差，驱动环形转子以每秒上百转旋转。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "马达可瞬间反转——细菌的趋化性就是靠正反转做随机游走加选择。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "依赖跨膜质子动力势；外部粘度决定马达负载与转速。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "旋转马达的发现（1974）第一次直接证明蛋白质机器能旋转。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它成了智能设计论攻击的目标，却也是进化拼装最清晰的教科书案例。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Berg & Anderson 旋转细菌鞭毛（1973）；单分子马达转速测量（1990s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "muscle-contraction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "你抬手的每一下，前臂里有上亿个分子机器在同步拉绳子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "肌球蛋白头结合 ATP 后抓住肌动蛋白丝，摆动一次拉动细丝滑过粗丝。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "钙离子释放揭开肌钙蛋白的遮挡位点——收缩的开关是离子而不是神经。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要 ATP 与钙离子同时在场；疲劳时 ATP 不足则肌肉僵直。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "滑丝模型（1954）解释了肌肉收缩时肌节变短而丝长不变的谜。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从细菌鞭毛到肌肉的横桥，微米级往复马达共享同一套化学-机械转换。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Huxley 滑丝模型（1954）；肌球蛋白单分子力学（1994）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "collagen-bone": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "骨头既有钢筋的硬又有皮革的韧——两种材料按纳米层压的方式叠在一起。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "胶原纤维提供抗拉与韧性，羟基磷灰石纳米晶提供抗压与硬度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "骨小梁沿主应力方向排布——沃尔夫定律让骨架跟着受力自己改建。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "钙磷代谢与维生素 D 决定矿化质量；纳米界面的结合强度是整体强弱关键。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "骨的层状纳米结构启发了贝壳仿生复合材料——裂纹被层层偏转。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "骨质疏松的机理与植入体骨整合都建立在这套复合力学上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Wolff 定律（1892）；骨纳米压痕与层级结构研究（1980s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fret-fluorescence": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "不接触也能量距离——两个荧光分子隔十纳米就能悄悄把手递过去。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "供体的激发能量以偶极-偶极耦合无辐射传给受体，效率随距离六次方衰减。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "效率 E = 1/(1 + (r/R₀)⁶)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "供体发射与受体吸收要有光谱重叠；取向因子与介质折射率影响 R₀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "FRET 让活细胞里测量构象变化成为可能——单分子时代的标准读数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它也是荧光共振能量转移传感器、超分辨显微与量子点器件的物理底座。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Theodor Förster 能量转移理论（1948，1960 年代实验验证）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dna-replication": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "复制叉往前推进时，双螺旋被拉开、两股各自当模板——每份拷贝都一半是旧的。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "解旋酶拆开双链，聚合酶按碱基配对原则在前导链连续、后随链分段合成。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "每百万个碱基才错配一次，再加校对与修复——保真度高到足以撑起遗传。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要引物、四种脱氧核苷三磷酸与镁离子；解旋与合成必须偶联。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "半保留复制的证实（1958）让 DNA 结构立刻有了功能解释。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "PCR 人为复制了这套逻辑——从法医鉴定到新冠检测都靠指数扩增。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Meselson-Stahl 半保留复制实验（1958）；Kornberg 首个 DNA 聚合酶（1956）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "neural-oscillations": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "闭上眼时脑电图上跳出十赫兹的 α 波——亿万神经元临时排成了合唱。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "突触后电位的节律性同步让宏观电场叠加出可记录的振荡。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "不同频段分工：θ 带记忆、γ 带绑定，相位-幅度耦合是信息传递的语法。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "同步需要抑制性中间神经元的节律闸门；麻醉与昏迷会瓦解节律结构。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "脑电节律（Berger, 1929）开启了无创脑功能记录——临床神经科的常规武器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "振荡耦合与工作记忆、意识状态的关联是当代认知神经科学的主战场。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hans Berger 首次人类脑电（1929）；gamma 同步与绑定假说（1990s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "protein-structure": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "蛋白质像句子：二级结构是词、三级结构是段落、四级结构是整篇文章。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "氢键排布出 α 螺旋与 β 折叠的局部规则，侧链相互作用把它们折成三维球。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "多个亚基组装成四级结构——血红蛋白的协同性正来自亚基间的接口。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "序列是折叠的说明书；错一个关键残基就可能整体失折叠。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "结构层次的分级语言让蛋白质设计有了蓝图——从胰岛素到抗体药。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "AlphaFold 用预测替代部分实验——结构生物学的工作流正在改写。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Pauling α 螺旋（1951 年诺奖）；胰岛素结构测定（1958）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "xray-attenuation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "X 光穿过身体时被骨头多咬一口、被脂肪少咬一口——明暗差就是诊断的全部本钱。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "光子被吸收或散射的几率随厚度指数衰减——线性衰减系数由密度与原子序数决定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "I = I₀·e^(−μx)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "软组织对比需要合适滤过与能量；散射线会降低对比，栅格负责拦它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "伦琴 1895 年发现 X 射线——医学影像只用了三个月就进入临床。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "衰减差异让骨骼、肺与结石各就其位——至今仍是使用量最大的影像检查。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Röntgen X 射线发现（1895，1901 年诺奖）；朗伯-比尔定律",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ct-reconstruction": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "围着人转一圈拍一堆投影，再用数学把断层反推出来——这台机器值一个诺贝尔奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "每个角度记录一维投影，反投影把模糊影子铺回去，滤波核去掉晕圈。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "中心切片定理把投影与图像的傅里叶空间缝合——重建就是采样再逆变换。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "角度采样要够密以免条纹伪影；剂量与噪声决定可用的重建迭代次数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Hounsfield 与 Cormack 的 CT（1971）让断层解剖第一次无创可见——1979 年诺奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "迭代重建与人工智能去噪把剂量压低数倍——CT 成了急诊的标准配置。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hounsfield 首台临床 CT（1971）；Cormack 反投影数学（1963）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "mri-k-space": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "磁共振不用一丁点电离辐射——它让氢核在磁场里唱歌，再把歌声翻译成图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "射频脉冲把自旋群打离磁场方向，回波信号的相位被梯度场按位置编码。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "ω₀ = γB₀（拉莫尔频率，氢核约 42.58 MHz/T）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "主场均匀度与梯度线性度决定几何保真；金属植入物是安全禁忌。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Lauterbur 与 Mansfield 的梯度成像（1973）让软组织有了黄金标准——2003 年诺奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "无辐射的软组织对比使其成为脑、关节与肿瘤评估的主力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Lauterbur 梯度成像（1973）；Mansfield echo-planar（1977，2003 年诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fmri-bold": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "想看见脑在想什么——功能磁共振不拍神经元，只拍神经元用完血的样子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "神经活动引来血流超量补充，去氧血红蛋白被稀释——磁化率改变让信号变亮。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "血流响应比神经活动慢几秒，BOLD 因此是间接而滞后的功能读数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "头动是最大噪声源；刺激设计与去卷积模型决定能否分离血流响应。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "BOLD-fMRI（1990s）让全脑功能地图进入实验室——认知神经科学的主力工具。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "静息态网络与术前功能定位都是它的日常产出——但个体推断仍需谨慎。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Ogawa BOLD 对比度发现（1990）；人脑功能成像（1992—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "pet-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "先注射一滴带放射性的糖，再等正电子与电子相拥湮灭——代谢活跃的细胞自己亮起来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "¹⁸F-FDG 被高代谢细胞大量摄取并滞留，β⁺ 衰变放出的正电子很快湮灭。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "一对 511 keV 光子近乎反向飞出，符合电路只认同时到达的那对——方向由此确定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "半衰期必须短于检查时长（F-18 约 110 分钟）；符合窗与飞行时间提升信噪。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "PET 把影像从解剖推进到代谢——肿瘤分期与心脑代谢评估的利器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "PET/CT 与 PET/MR 多模态融合，让功能与结构一次扫描对齐。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "正电子发射断层原理（1960s—1970s）；FDG 肿瘤显像（1970s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "spect-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "SPECT 给伽马光子装上铅制的筛子——只放行来自某个方向的那一根。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "准直器把方向以外的光子统统挡住，旋转探头采集各角度的一维分布。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "重建原理与 CT 类似，但信号来自体内示踪剂自己发的单光子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "准直牺牲了大部分灵敏度——分辨率与计数率需要平衡；常用 Tc-99m。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "SPECT 设备比 PET 便宜、示踪剂更易得——心肌灌注显像在基层普及。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "碘-131 与铊-201 的功能评估至今是内分泌与心脏科的常规武器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Haler 首台 SPECT 原型（1963）；Tc-99m 发生器临床应用（1970s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ultrasound-echo": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "探头边喊边听——回声隔了多久，就说明界面藏了多深。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "压电晶片既发超声也收回波，声阻抗失配处必然反射一部分能量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "深度 d = c·t/2（c ≈ 1540 m/s）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "耦合剂排掉探头与皮肤间的空气；体内气体与骨骼会遮挡声窗。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "超声无辐射、可实时——产科与急诊的首选影像手段。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从 A 超到全数字彩超，探头阵列与波束成形让它越看越清。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Dussik 超声成像实验（1940s）；B 超与相控阵探头（1950s—1970s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "doppler-ultrasound": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "血流朝探头来的信号变高、离开的变低——涂成红蓝就是一张血流地图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "回波频移正比于血细胞速度与发射频率，取样容积圈定测量位置。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "v = c·Δf/(2·f₀·cosθ)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "声束与血流的夹角必须已知——夹角过大测速失真；壁滤波剔除血管壁运动。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "多普勒超声把形态学检查升级为功能检查——狭窄、反流与分流当场判断。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它也是胎心监护与外周血管筛查的常规工具。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Satomura 多普勒血流检测（1957）；彩色血流成像（1980s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hifu": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "体外的超声阵列把能量聚到体内一点——不打孔的手术刀在焦点上点火。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "多阵元相位聚焦让声强在焦点升至每平方厘米数千瓦，焦点处温度升到 65 ℃以上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "焦点以毫米级扫描覆盖病灶，周围组织因声强低而安然无恙。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "声路上不能有骨骼或气体阻挡；实时测温反馈控制每点的辐照剂量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "HIFU 让子宫肌瘤、前列腺与肿瘤治疗多了一条无创路径。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它把超声从诊断工具升级为治疗工具——诊疗一体的代表性方向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Fry 兄弟聚焦超声破坏组织（1954）；临床 HIFU 系统（1990s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "oct-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "给眼底拍断层，只要一束低相干光和一台干涉仪——微米级深度一把量完。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "只有光程差小于相干长度的回波才产生干涉条纹——层选能力来自光源的短相干。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "轴向分辨 ≈ 0.44·λ²/Δλ（光源带宽越宽越细）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要宽带光源与精密参考臂扫描；穿透深度受组织散射限制在毫米量级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "OCT 让视网膜断层成为眼科常规——黄斑病变的随访从猜测变成测量。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "光学频域 OCT 的快速采集正把内窥与皮肤成像一并升级。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Huang OCT 原始论文（1991，MIT）；眼科频域 OCT（2000s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "radiotherapy-dose": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "放疗的难题是：穿过身体的射线必须在肿瘤处最强、在皮肤处最轻。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "高",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "百分深度剂量 PDD(z) = D_z / D_dmax × 100%",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "多野照射与调强让高剂量区贴合肿瘤轮廓；危及器官的限量是硬约束。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "直线加速器与多叶准直器让精确照射成为常规——肿瘤控制率逐年提高。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "剂量学的三原则（靶区、剂量分布、分次）构成了放疗科的操作手册。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Coutard 分次照射（1934）；调强放疗 IMRT（1990s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "radiopharmaceutical": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "示踪剂的半衰期要像航班时刻表——太短赶不上检查、太长白白多挨辐射。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "Tc-99m 半衰期 6 小时、发 140 keV 光子——既够用又好探测、剂量还低。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "配体决定药代去向：进心肌的、进骨骼的、进肿瘤的各配各的载体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "核素衰变必须在体内完成大部分；排泄路径影响本底与图像对比。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Tc-99m 占了核医学检查的八成以上——钼锝发生器让它随用随取。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "诊疗一体化（theranostics）用同一靶点既成像又给药——精准医学的物理底座。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Tc-99m 发生器（1960s）；碘-131 治疗甲状腺（1940s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dual-energy-ct": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "同一块组织在两种能量下衰减不同——双能 CT 不只看密度，还能猜成分。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "高低两组管电压分别成像，光电效应与康普顿散射的贡献被联立拆开。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "有效原子序数图能区分尿酸结石与草酸钙、痛风结晶与软组织。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "两套数据必须精确配准；噪声与剂量略高于单能——按需选择。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "能谱成像把 CT 从解剖影像推向物质定性——去骨减影与虚拟单能由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "双能痛风检测让晶体性关节病有了无创诊断路径。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "双能量 CT 原理（1970s）；临床能谱 CT 平台（2010s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "magnetic-particle-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "不看背景、不减本底——磁粒子成像只认注入体内的纳米磁粉的回声。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "驱动场让磁粉做非线性振荡，选择场在空间中挖出零场窗口逐一扫描。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "磁粉的超谐波信号完全来自示踪剂本身——背景组织一概沉默。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要超导梯度场与快速采样；磁粉的弛豫特性决定信号强弱。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "MPI 把时间分辨率推进到毫秒级——血流动力学可实时追踪。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它是全新成像对比度的样本：不测衰减、不测弛豫，只测磁化率。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Gleich 磁粒子成像原理（2005）；首个原型系统（2010）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "thermal-imaging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "皮肤表面的温度分布泄露了皮下的血流——红外相机把体温变成可见的地形图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "物体按斯特藩-玻尔兹曼定律辐射红外，探测器阵列把辐射功率转成温度矩阵。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "P = ε·σ·T⁴",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "大气窗口与距离影响测温精度；环境反射会造成表观温度偏差。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "红外热像用于发热筛查、血管病变与乳腺检查——快速且无接触。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它也是工业无损检测与建筑节能诊断的常用手段。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Planck 黑体辐射定律（1900）；非制冷红外焦平面阵列（1990s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "contrast-agent": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "磁共振图上的血管之所以发亮，是顺磁的钆原子在悄悄缩短邻近水的弛豫时间。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "钆有七个未配对电子，强烈扰动局部磁场——T1 缩短让信号变亮。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "浓度与弛豫率成正比；剂量按体重算，肾功能不全者要格外小心。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "螯合必须稳定游离钆有毒性；T2 加权序列下部分造影剂反而变暗。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "钆造影剂让血管、血脑屏障破坏与肿瘤强化一目了然。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "靶向分子造影与铁氧化物纳米粒正在把对比剂推向功能与分子层面。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "钆-DTPA 临床应用（1980s）；弛豫理论（Bloembergen-Purcell-Pound）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "imaging-dose-alara": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "每一毫西弗都要有理由——影像科的第一守则是：能低则低，但仍要够诊断。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "有效剂量把各器官的吸收剂量乘以组织权重因子——比较辐射风险的统一标尺。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "E = Σ_T w_T·D_T（单位 mSv）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "ALARA 要求在满足诊断的前提下选最低剂量方案；随机效应随剂量线性累积。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "ALARA 原则把辐射防护从阈值思维改为最优化思维——贯穿全部影像实践。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "低剂量 CT 与迭代重建在保住图像的同时减半剂量——技术与伦理同步推进。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "ICRP 辐射防护建议书（1977 起系列）；ALARA 原则（1960s 起）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "phase-diagram": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "相图是材料的地图：什么温度、什么成分、该出现哪相，全画在一张纸上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "给定温度成分，系统选择让吉布斯自由能最低的相——两相平衡即公切线相切。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "杠杆规则读出两相比例，相界随成分平移——加工窗口由此划定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "相图默认平衡态；快冷可能冻结高温相（亚稳态是另一张图）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Gibbs 相律（1876）把相平衡变成可计算的对象——冶金与陶瓷全靠它导航。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "CALPHAD 方法用热力学数据库计算多元相图——材料设计从试错走向计算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Gibbs 相律（1876）；Fe-Fe₃C 相图（Meyer, 1864 起系列）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "iron-carbon-diagram": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "钢和铸铁的区别只看含碳量——整条工业文明建在这一张相图上。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "奥氏体在共析点（0.77% C）急冷成珠光体——铁素体与渗碳体交替成层。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "含碳越高越硬越脆：铸铁 2.1% 以上、钢在其下——分界线就是铸造性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "平衡冷却速度决定产物；冷得太快得到马氏体——相图之外的动力学。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "铁碳相图是冶金工程的第一课——热处理工艺参数全由它派生。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从锻打到淬火，人类用几千年的经验读懂了这一张图。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Meyer 铁碳相图（1864）；Osmond 马氏体组织学（1890s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "constitutional-supercooling": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "凝固界面推着溶质走，前方液体被溶质拖到实际过冷——平界面自己站不住了。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "溶质在界面前沿堆积使液相线温度抬升，实际温度低于它就出现成分过冷。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "G/R < m·C₀·(1−k)/(k·D)（失稳判据，G 温度梯度、R 生长速率）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要控制梯度与生长速率；溶质分配系数 k 决定堆积强度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Tiller 的成分过冷理论（1953）统一了凝固形态选择——铸造从手艺变科学。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "定向凝固与单晶叶片正是在抑制枝晶分叉中造出了涡轮的耐热骨架。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Rutter & Tiller 成分过冷理论（1953）；单晶高温合金定向凝固（1960s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "czochralski": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把籽晶探进熔硅再匀速提拉——整根无位错单晶锭就这么长出来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "籽晶接触熔体后按其晶向延伸，旋转与拉速控制直径均匀。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "分凝系数决定杂质留在熔中还是进晶体——反复区域熔炼把纯度推到 99.9999999%。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "热场对称、振动与对流可控；氧含量受坩埚与气氛影响。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "直拉法（Czochralski, 1916）产出了半导体工业的全部衬底——没有它就没有芯片。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "区域提纯（1952）让锗硅纯度跃升——两人都拿到了技术史的位置。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Czochralski 提拉法（1916）；Pfann 区域熔炼（1952）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dislocation-slip": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "金属被掰弯时原子层并没有整体滑动——位错像地毯褶皱一样逐列推进。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "位错线扫过滑移面，只需断开/重连一行原子——屈服应力远低于理论剪切强度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "位错密度随形变升高并互相缠结——这就是加工硬化的来源。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "滑移系由晶体结构决定：FCC 易滑、BCC 与 HCP 温度敏感；晶界阻挡位错。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "位错理论（Taylor、Orowan、Polanyi, 1934）解释了金属为何又软又可强化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "透射电镜直接拍到位错运动——理论与显微互相印证的范例。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Taylor 等位错假说（1934）；Hirsch 位错直接观察（1956）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "peierls-nabarro": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "位错在晶格里挪一步并不轻松——晶格本身会对它征收一道摩擦税。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "位错宽度越大、点阵阻力越小；方向相关性决定哪些晶向是软方向。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "τ_PN ∝ G·exp(−2πw/(1−ν)·b)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "连续介质弹性与晶格周期势的杂交模型——半解析而非纯经验。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "P-N 应力把宏观强度连到原子间势——多尺度力学的第一级台阶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它解释了体心立方金属的低温脆性转变——压力容器钢的设计红线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Peierls（1940）与 Nabarro（1947）独立给出；Lothe-Bulan 模型完善",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "hall-petch": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "晶粒磨得越细，金属越强——界墙一多，位错就跑不动了。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "晶界阻碍位错塞积，传递应力需要更长的塞积链——屈服强度与晶粒直径平方根成反比。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "σ_y = σ₀ + k_y/√d",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "纳米晶到约 100 nm 内成立；更细可能出现反 Hall-Petch 软化。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Hall-Petch 关系（1951/1953）是材料强化最简明的经验律。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "细晶强化钢与纳米晶涂层都是它的直接工程产出。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Hall（1951）与 Petch（1953）多晶体强度关系",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "solid-solution-strengthening": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "往纯金属里掺几颗尺寸不同的原子，位错的路就变得难走——固溶强化不花钱却有效。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "溶质原子造成局部晶格畸变，与位错的应力场交互作用抬高滑移阻力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "第二相粒子则让位错绕道（Orowan 弯曲）或切过——沉淀强化更狠。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "溶解度与析出相尺寸是工艺变量；过时效会让粗化粒子失去阻挡力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "铝铜合金的时效硬化让飞机蒙皮既轻又强——杜拉铝的看家本领。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "高温合金的 γ′ 沉淀相撑住了涡轮叶片——航空发动机的材料基石。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Orowan 绕过机制（1948）；铝铜时效硬化（Wilm, 1906）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fick-diffusion": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "原子在晶体里盲目乱跳，可浓度梯度让乱跳产生了净流向——渗碳、时效都靠它计时。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "菲克第一定律：通量正比于浓度梯度；第二定律描述浓度自己怎么变。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "J = −D·∂C/∂x；D = D₀·exp(−Q/RT)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "固态扩散以空位与间隙机制为主；晶界与位错是短路快通道。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "菲克 1855 年的定律把质量传输写成与热传导同构的方程。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "渗碳淬火、半导体掺杂与烧结全都以扩散时钟设定工艺节奏。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Adolf Fick 扩散定律（1855）；Darken 互扩散理论（1948）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "vacancy-diffusion": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "原子不会穿过邻居硬挤过去——它跳进空位，像在公交车上换座位。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "空位是热平衡缺陷，浓度随温度指数上升——高温才有足够多的空座。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "C_v ∝ exp(−G_f/kT)（空位形成自由能 G_f）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "近邻跳动是随机行走；净流向只由浓度梯度与温度场决定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "空位扩散解释了烧结致密化——粉末冶金的黏合剂其实是热力学空位。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "柯肯达尔效应证明了原子确实在互换净流动——扩散机制的直接证据。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Kirkendall 效应（1947）；Coble 与 Herring 烧结模型（1950s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "annealing-recrystallization": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "冷轧后的金属又硬又脆，回炉一烤——新晶粒吃掉旧位错，金属重新柔软。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "回复阶段位错重排成亚结构；再结晶阶段无畸变新晶粒吞并旧基体长大。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "温度再升则晶粒粗化——退火工艺在三段之间找强度与塑性的平衡点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "冷变形量越大再结晶温度越低；保温时间与升温速率都会改结果。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "退火是金属加工的标准收尾——从铝箔到硅片都要经过这道热预算。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "再结晶织构决定板材的冲压性能——汽车钢板深冲性的关键。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "再结晶理论（Matthias、Jeoung, 1930s）；硅区熔退火工艺（1960s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "martensitic-transformation": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "烧红的钢丢进水里，碳来不及搬家——铁自己剪了一刀，硬到让刀卷刃。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "马氏体相变是无扩散的协同剪切：面心立方瞬间切成体心四方，碳被锁在晶格里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "过饱和碳造成巨大畸变——位错几乎无法滑移，硬度由此飙升。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "冷却速率必须越过珠光体转变的鼻尖；回火可释放部分应力换回韧性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "淬火硬化是冶金史的分水岭——从刀剑到模具钢全靠这一步。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "形状记忆与超弹性也源于马氏体可逆相变——相变工程的另一条路。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Martens 马氏体组织命名（1890）；Kurdjumov-Sachs 位向关系（1930）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "shape-memory-alloy": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "被掰弯的镍钛丝放进热水里，当着你的面自己伸直——记忆写在相变里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "低温马氏体可被轻易变形为孪晶再排布；加热逆变为奥氏体时恢复原形。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "相变滞后让驱动与复位有明确温差——做执行器正合适。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "循环次数与疲劳影响记忆寿命；相变温度由成分精确调节。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "镍钛血管支架、牙齿矫正丝与恒温龙头是形状记忆合金的日常岗位。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "它把材料从被动承力变成能感知温度并做功的智能器件。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Büller 记忆效应发现（1932）；NiTi 合金开发（1960s, Naval Ordnance Lab）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "creep": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "喷气叶片在高温里被自己的离心力慢慢拉长——蠕变不猛，却从不停歇。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "第一期减速蠕变后进入稳态：加工硬化与热恢复达成平衡，应变率近乎恒定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "ε̇ = A·σⁿ·exp(−Q/RT)（Norton 幂律）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "同素异形转变、熔点与扩散率决定耐温上限——陶瓷优于金属、单晶优于多晶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "蠕变研究让涡轮入口温度每十年提升约 30 ℃——发动机效率的隐形推手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "单晶叶片消除了晶界滑移——航空发动机的材料尖端。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Andrade 蠕变律（1910）；镍基单晶涡轮叶片（1970s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fatigue-crack": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "远低于强度的交变应力反复弯折，金属会在毫无预兆下断裂——疲劳是沉默的杀手。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "S-N 曲线给出指定寿命下的应力幅；存在疲劳极限时低于它便无限次安全。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "da/dN = C·(ΔK)ᵐ（Paris 律）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "平均应力、环境与加载频率都会影响寿命；表面质量决定萌生难易。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "19 世纪多次火车轴断裂事故催生了疲劳研究——断裂力学由此诞生。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从飞机蒙皮到桥梁焊缝，疲劳寿命核算是工程安全的常规科目。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Wöhler S-N 曲线（1860）；Paris 断裂力学定律（1961）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fracture-toughness": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "材料能扛多大应力，取决于它带着多长的裂纹——K_IC 是设计的最后底线。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "裂纹尖端的应力场强度由 K 描述；K 超过材料的临界值 K_IC 即失稳扩展。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "K_I = Y·σ·√(πa)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "试样尺寸须满足平面应变；低温脆性材料的 K_IC 随温度骤降。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Griffith 脆性断裂理论（1921）与 Irwin 修正奠定了断裂力学。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从压力容器到航空结构，容限设计让带裂纹工作成为可计算的安全。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Griffith 表面能理论（1921）；Irwin 应力强度因子（1957）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "fiber-composite": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "碳纤维负责扛、树脂负责粘——两种平庸材料叠出比金属还强的板子。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "沿纤维方向的强度近似混合律加权：纤维分担载荷、基体传递剪切。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "E_c = E_f·V_f + E_m·V_m",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "界面黏结是命门；分层与冲击损伤常在外观完好的情况下发生（BVID）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "碳纤维复合材料让飞机与风力叶片一并减重——波音 787 过半结构用复合。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "失效模式从屈服变成分层，检验方法也随之改写——超声与热成像上岗。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Bakelite 早期层压（1907）；碳纤维增强复合材料（1960s, Rolls-Royce 等）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "polymer-glass-transition": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "同一种塑料，二十度以下脆如玻璃、二十度以上软如橡胶——中间只隔一个 Tg。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "玻璃化转变是链段运动被冻结的连续转变，自由体积收缩到临界值即冻结。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "Tg 之上高弹态、之下玻璃态——日常塑料多用在 Tg 以下，橡胶则相反。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "升温速率影响测得的 Tg；增塑剂与共聚都能调节转变温度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Tg 是聚合物加工与选材的第一参数——注塑温度窗由此划定。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "PET 瓶的耐热改性、隐形眼镜与 3D 打印耗材都在 Tg 上做文章。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Tammann & Dieterich 玻璃化研究（1900s）；Fox-Flory 自由体积理论（1950）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "rubber-elasticity": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "拉长的橡皮一松手就弹回——推它回去的不是能量，而是混乱的渴望。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "交联橡胶被拉直时构象数骤减，熵显著下降——回缩力来自熵而非内能。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "f = ρRT/M_c·(α − 1/α²)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需交联防止链滑移；过度拉伸会结晶强化并接近断裂。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "熵弹性确立了橡胶的统计力学理论（1930s, Meyer、Flory）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "轮胎、减震与软体机器人共用这一个理论底座——从轮胎到人工肌肉。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Meyer-Haidinger 橡胶熵弹性（1934）；Flory 交联网络理论（1953 年诺奖）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "ceramic-solid": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "陶瓷硬、耐高温、还绝缘——可它脆得掉地就碎，强键从不给你商量余地。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "离子键与共价键方向性强、无自由电子——高熔点、高硬度、低导电。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "位错难以滑移且裂纹尖端无塑性钝化——脆性是强键的代价。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "增韧手段包括相变增韧（氧化锆）与纤维增强——让裂纹付更多代价。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "氧化锆相变增韧把陶瓷从装饰材料变成结构材料——牙齿贴面与刀具。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "先进陶瓷撑起切削、绝缘、耐热与生物植入的多个关键岗位。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "氧化锆相变增韧（1975, Garvie 等）；BaTiO₃ 铁电陶瓷（1940s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "type-ii-superconductor": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "第二类超导体把磁场切成一根根量子化的细丝穿过去——自己却照样零电阻。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "介于 Hc1 与 Hc2 之间进入混合态：磁通以 h/2e 的量子化涡旋渗透。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "涡旋被缺陷钉扎住才不会流动耗能——钉扎强度决定临界电流密度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "温度、磁场与电流三者都必须低于各自的临界值——超导穹顶的三个边。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "第二类超导让高场磁体成为可能——MRI 与核聚变的磁体全靠它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "高温超导的强钉扎潜力指向紧凑型聚变堆与无损输电——仍在攻关。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Abrikosov 混合态理论（1957，2003 年诺奖）；钉扎与临界电流研究（1960s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "quasicrystal": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "五重对称衍射斑曾被当成样品放错的笑话——有序却不重复的固体真的存在。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "准晶有长程取向序却没有平移周期——彭罗斯拼接是它的几何模型。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "电子局域在准周期势中——输运与热导因此反常，硬度却接近陶瓷。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "急冷与特定成分比是形成条件；轻微退火就可能破坏准晶相。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Shechtman 1982 年的发现被同行质疑十年——1991 年获得认定，2011 年诺奖。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "准晶的低摩擦与不粘性被用于不粘锅涂层与发动机部件——反直觉的材料性格。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Shechtman 准晶发现（1982, NBS）；Levine-Steinhardt 准晶理论（1984）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "metallic-glass": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "把金属液冷得够快，原子还没来得及排队就冻住了——没有晶界的金属玻璃。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "临界冷却速率必须跳过鼻尖避开结晶——非晶形成能力是成分的函数。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "临界冷却速率 R_c ~ 10²–10⁶ K/s（视合金系而定）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "带材厚度受冷却能力限制；退火可调磁性与力学（软磁应用）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "Duwez 快淬实验（1960）开启了非晶金属——从变压器带材到高尔夫球杆。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "块体金属玻璃让非晶从薄膜走进三维构件——成分设计仍是主战场。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Duwez Au-Si 非晶合金（1960）；块体金属玻璃（Inoue, 1990s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "thin-film-deposition": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一层原子一层原子地盖房子——芯片与镜片的表面功夫全在这门手艺。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "真空蒸发与溅射让原子以可控动能落片；化学气相沉积靠表面反应生长。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "外延要求衬底与薄膜晶格匹配——失配位错是外延的天敌，也是应变工程的工具。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "本底真空、衬底温度与沉积速率共同决定膜的结构与缺陷密度。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "MBE 与 MOCVD 让半导体异质结逐层可调——激光器与高电子迁移晶体管由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从光学镀膜到硬质涂层，薄膜工艺支撑了从消费电子到航空的表面技术。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "MINSPLAN 外延技术（1958, Nelson）；分子束外延（Cho & Arthur, 1970）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "thin-film-stress": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "薄膜总绷着一股劲——热膨胀不匹配让它要么翘、要么裂，要么整片剥落。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "本征应力来自生长缺陷与晶格失配；热应力来自降温时两侧收缩不一致。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "σ = E_s·t_s²/(6·t_f·R)",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "黏附功必须大于应变能释放率，否则界面开裂；附着层是常用保险。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "薄膜应力控制是集成电路平坦化与面板镀膜的日常课题。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "压应力与拉应力的调控直接决定器件寿命——从硬质刀具涂层到柔性屏。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Stoney 薄膜应力公式（1909）；应力工程与化学机械抛光（1980s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "surface-plasmon": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "中世纪的匠人往玻璃里撒金粉烧出红色——他们不知道那是电子在集体荡秋千。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "入射光驱动金属纳米颗粒表面电子集体振荡，特定频率共振吸收与散射。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "粒径与形状决定共振峰位——金从红到紫、银到蓝，尺寸色由此而来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要介电函数实部为负的金属；局域场增强依赖颗粒间距（热点）。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "彩色玻璃、金标签与莱纳玻璃的颜色全部来自等离激元。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "LSPR 传感与表面增强拉曼（SERS）把单分子检测拉进了现实。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Mie 理论（1908）；局域表面等离激元传感（1990s—2000s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "surface-catalysis": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "催化剂不参加反应，却让反应物在它脸上低头弯腰——键被打松，反应就容易了。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "吸附把分子按住并削弱其化学键，过渡态能量下降——活化能被改写。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "吸附太强产物不走、太弱反应不来——火山曲线顶上才是最佳催化剂。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "表面活性位数量与温度压力共同决定速率；中毒杂质会占据位点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "哈伯-博施合成氨靠铁催化剂撑起全球粮食——工业催化之王。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "汽车三元催化与燃料电池铂族催化剂，把表面科学变成了空气与能源的净化器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Langmuir 吸附理论（1918 年诺奖）；Gerischer 电催化理论（1960s）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "corrosion-electrochemistry": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "生锈是金属自发地回到矿石状态——热力学注定，动力学却可以拖慢它。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "阳极金属溶解、阴极氧还原构成腐蚀电池——电位差是驱动力。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "钝化膜（如不锈钢的铬氧膜）与阴极保护是人类的两道反制。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "需要电解质与氧气；氯离子会击穿钝化膜——海水因此格外凶。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "腐蚀每年吃掉 GDP 的百分之几——跨海大桥与管线的维护是一场持久战。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "涂层、牺牲阳极与缓蚀剂构成防腐三件套——工程耐久性的基本功。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Evans 腐蚀电池理论（1920s）；点蚀与应力腐蚀研究（20 世纪）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "striebeck-lubrication": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "一滴油能让摩擦系数在三个数量级里跳动——是干磨、边界还是油膜浮起。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "低速重载时仅表面微凸体接触（边界润滑）；速度升高油膜建立进入全膜润滑。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "Stribeck 曲线以黏度×速度/载荷为横轴，U 形谷底是设计工作的甜蜜点。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "粗糙度、黏度与载荷共同定位曲线区段；添加剂负责边界段的化学保护。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "润滑把磨损降到微米每千小时——发动机大修周期因此从千小时跨到十万公里。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "从轴承到人工关节，摩擦学决定了几乎所有运动部件的寿命。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Stribeck 摩擦曲线（1902）；边界润滑与添加剂理论（1920s—）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "carrier-mobility": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "芯片越来越快的秘密之一，是让电子少被撞——迁移率是半导体的交通指标。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "低温下电离杂质散射主导、高温下声学声子主导——迁移率随温度走出驼峰。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "μ = e·τ/m*（τ 为平均弛豫时间）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "掺杂浓度、界面粗糙与晶界都是散射源；薄沟道量子化也会改变散射。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "迁移率工程是摩尔定律的隐形支柱——从 SiGe 沟道到 FinFET 再到 GAA。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "化合物半导体的高迁移率让 5G 射频与功率器件换道超车。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Drude-Sommerfeld 输运理论（1900/1928）；应变硅技术（1990s, Intel）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "piezoelectric-ferrcelectric": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "压电陶瓷能听见也能发声——形变与电荷在晶体对称破缺里互相兑换。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "无中心对称结构受压产生极化电荷（正压电）；外加电场反过来驱动物体变形。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "d₃₃ = Δx/V（压电常数，pm/V 量级）",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "居里点以上铁电性消失（退极化）；极化处理后才有宏观压电性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "PZT 压电陶瓷撑起超声探头、蜂鸣器与喷墨打印头——无处不在的换能器。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "铁电存储与多铁材料把电、磁、力耦合在一起——功能材料的活跃前沿。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "居里兄弟压电效应（1880）；PZT 压电陶瓷（1950s）；铁电迟滞理论",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "dielectric-aging": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "绝缘不会突然垮——电树枝在材料里悄悄生长，直到某天击穿整块介质。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "局部场强引发微弱放电形成树枝状通道，逐步延伸直至贯穿性击穿。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "介电常数与损耗随老化上升，漏电流是绝缘状态的先行指标。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "水分、杂质与机械应力加速老化；温度每升 8-10 ℃ 寿命近似减半。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "电缆绝缘与变压器油的老化监测是电网运维的核心项目。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "高分子电介质的击穿与恢复研究支撑了从电容器到柔性电子的可靠性。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "电树枝放电理论（1960s—）；IEEE/IEC 绝缘寿命模型",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "high-entropy-alloy": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "五种金属等量混在一起，反而没有谁当主角——高熵把相分离压了下去。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "五种以上主元各占 5-35%，构型熵 ΔS ≈ R·ln5 把吉布斯自由能拉向单相固溶体。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "公式内容",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "ΔG_mix = ΔH_mix − T·ΔS_mix；ΔS_mix ≈ −RΣxᵢ ln xᵢ",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "电负性与原子尺寸差决定是固溶还是金属间化合物——参数空间巨大。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "高熵合金（2004, Yeh 与 Cantor 独立提出）改写了百年来的合金设计范式。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "低温高韧、耐辐照与催化性能让它成为核电与能源材料的候选。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Cantor 多主元合金（2004）；Yeh 高熵合金理论（2004）",
+        "duration_ms": 0
+      }
+    ]
+  },
+  "materials-genome": {
+    "source": "phy-seed",
+    "lines": [
+      {
+        "section_id": "intro",
+        "section_title": "开场",
+        "line_index": 0,
+        "line_id": "intro-1",
+        "text": "先让计算机筛掉九成候选，再让实验室验证剩下的——材料研发从十年缩短到几年。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 0,
+        "line_id": "statement-1",
+        "text": "第一性原理高通量计算批量产出相图、弹性常数与能带——虚拟材料库先建起来。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "statement",
+        "section_title": "核心概念",
+        "line_index": 1,
+        "line_id": "statement-2",
+        "text": "实验侧用组合芯片一次合成上百成分，数据闭环喂给机器学习模型。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "conditions",
+        "section_title": "适用条件",
+        "line_index": 0,
+        "line_id": "conditions-1",
+        "text": "计算精度与实验表征必须互校；数据标准与共享决定复用价值。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 0,
+        "line_id": "impact-1",
+        "text": "材料基因组计划（2011, 美国）把数据驱动研发写进国家战略。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "impact",
+        "section_title": "历史影响",
+        "line_index": 1,
+        "line_id": "impact-2",
+        "text": "无钴高镍电池正极、新型热电材料等已走完计算-验证闭环——流程被证明可行。",
+        "duration_ms": 0
+      },
+      {
+        "section_id": "source",
+        "section_title": "出处",
+        "line_index": 0,
+        "line_id": "source-1",
+        "text": "Materials Genome Initiative（2011, 美国白宫）；CALPHAD 与高通量实验（2000s—）",
+        "duration_ms": 0
+      }
+    ]
+  }
+}

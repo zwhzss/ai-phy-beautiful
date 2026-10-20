@@ -1,0 +1,374 @@
+{
+  "x-ray-machine": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一八九五年，伦琴夫人把手放在荧光屏前，人类第一次看见了自己的骨骼。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "高能电子轰击靶材产生强穿透性的电磁辐射，软组织透明而骨骼吸收。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "管电压决定光子能量与穿透深度，密度差异成像——X 射线的本质是短波光。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需控制辐射剂量；衍射应用则利用其与晶体同量级的波长。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "医学影像的开端：骨折诊断、胸片与 CT 全部源于此，伦琴拒绝为它申请专利。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "X 射线衍射随后揭开了 DNA 双螺旋与无数晶体结构的面纱。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：伦琴，《论一种新射线》，一八九五年（一九〇一年首届诺贝尔奖）。", "duration_ms": 0 }
+    ]
+  },
+  "curie-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "磁铁加热到居里点以上会失去磁性——温度与磁性之间有一条简单定律。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "顺磁材料的磁化率与绝对温度成反比——温度越高，热扰动越打乱磁矩取向。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "热运动与有序化的一次正面对决，居里常数由材料本身决定。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "居里点以上、弱磁场近似；铁磁材料在居里点以下需外斯分子场修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "磁性材料理论的基石之一，低温物理中用磁化率标定温度。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "居里夫人由此被载入史册——她是首位获诺贝尔奖的女性。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：居里，《化学与物理学年鉴》，一八九五年。", "duration_ms": 0 }
+    ]
+  },
+  "radio": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "赫兹的火花在马可尼手里变成了跨越大西洋的信号——无线电时代开启。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "发射机把信号调制到高频电磁波，接收机以谐振回路选出并解调。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "谐振频率由电感电容决定——调谐回路决定听哪个台。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需天线与地线，尺寸与波长匹配；后来的三极管放大与调制技术极大扩展了它。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "广播、电视、雷达、移动通信与无线网络的总源头。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "一九〇一年马可尼跨大西洋收报，宣告世界进入无线互联的世纪。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：马可尼，一八九五至一八九九年系列实验与专利。", "duration_ms": 0 }
+    ]
+  },
+  "radioactive-decay-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "铀矿亿万年不变，碳十四却能给木乃伊断代——原子核自带时钟。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "放射性核数随时间指数衰减，衰变速率只与现存核数成正比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "单个核何时衰变完全随机，但大量核的统计行为精确指数——半衰期由此定义。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "放射性核素统计系综，衰变常数恒定不受温度压力影响。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "给出放射性的定量语言，成为地质定年、核能与核医学的时间标尺。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "碳十四半衰期五千七百年，让考古学第一次拥有可算的年代。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：卢瑟福与索迪，《哲学杂志》，一九〇二年。", "duration_ms": 0 }
+    ]
+  },
+  "leavitt-law": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "要丈量宇宙，先要有一把够长的尺子——勒维特找到了第一级台阶。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "造父变星的光变周期越长，其真实亮度越大——周光关系。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "知道周期就知道真实亮度，再比对视亮度即可算出距离——标准烛光。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "经验关系，需用星团或视差标定零点；金属丰度有次级影响。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "宇宙距离阶梯第一级：哈勃据此测出仙女座距离，岛宇宙之争终结。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "哈佛计算员的统计工作改写宇宙尺度——女性科学家常被历史低估的例证。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：勒维特，《哈佛天文台通报》一七三号，一九〇八年。", "duration_ms": 0 }
+    ]
+  },
+  "geiger-counter": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "嘀、嘀、嘀——盖革计数器让看不见的放射性发出了声音。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "气体电离放电管把单个电离事件放大成可听可计的电脉冲。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "计数率正比于放射性活度——核物理实验从此有了耳朵。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "死时间限制计数率上限，高活度需修正；需淬灭电路防止连续放电。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "放射性研究、核辐射防护与医疗剂量监测的标准工具，沿用百年。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "从福岛到切尔诺贝利，事故现场的滴答声是公众对核辐射的集体记忆。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：盖革与卢瑟福，《皇家学会会刊》，一九〇八年。", "duration_ms": 0 }
+    ]
+  },
+  "brownian-motion-proof": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "花粉颗粒在水面上永不停歇地颤动——一八二七年布朗看见了分子的舞蹈。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "爱因斯坦给出位移方差公式，佩兰的精密测量与之定量吻合，原子从哲学争论变成事实。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "颗粒越小、温度越高，颤动越剧烈——扩散系数与半径成反比。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "悬浮颗粒足够小、液体温度均匀；需显微跟踪与统计平均。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "终结原子是否存在大论战；佩兰由此获一九二六年诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "随机过程成为物理与金融的公共数学——布朗运动是随机分析的起点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦，《物理学年鉴》三二二卷，一九〇五年。", "duration_ms": 0 }
+    ]
+  },
+  "cloud-chamber": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "过饱和蒸气里，带电粒子飞过之处留下一串白雾——粒子第一次被肉眼看见。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "电离路径使蒸气局部凝结成雾珠，径迹粗细与粒子电荷、速度相关。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "外加磁场让径迹弯曲，由曲率可测动量，由粗细可测电离本领。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需过饱和度控制与曝光技术；威尔逊因发明获一九二七年诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "正电子一九三二年、缪子一九三六年相继在云室中被发现。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "宇宙线研究的主力设备，也是物理图像教育的经典教具。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：威尔逊，《皇家学会哲学汇刊》二一四卷，一九一一年。", "duration_ms": 0 }
+    ]
+  },
+  "bohr-atomic-model": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "氢气放电的光为什么是分立亮线？玻尔让卢瑟福的太阳系原子活了过来。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "电子只能在角动量量子化的轨道上运行，跃迁时吸收或放出等于能级差的光子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "能级负十三点六电子伏除以主量子数平方——分立轨道给出分立谱线。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "氢原子或类氢离子精确成立；多电子需屏蔽与自旋轨道耦合修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "量子化第一次看见了原子内部；化学键、激光与能带理论从这幅图像出发。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "玻尔一九二二年获诺贝尔奖，哥本哈根成为量子力学的圣地。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：玻尔，《哲学杂志》二十六卷，一九一三年。", "duration_ms": 0 }
+    ]
+  },
+  "millikan-photoelectric": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦一九〇五年的光电方程曾被称作天才猜想——十年后它被数据完全确认。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "米利肯用十年精密实验测出光电方程的线性关系，精确求得普朗克常数。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "光电子能量只随频率线性增加，与光强无关——量子假设可测可证。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "超高真空避免金属氧化，接触电位差与功函数需逐项扣除。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "普朗克常数成为自然界基本常数之一，h 的实验室测定沿用至今。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "密立根因油滴实验与光电研究同获一九二三年诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：密利根，《物理评论》七卷，一九一六年。", "duration_ms": 0 }
+    ]
+  },
+  "einstein-ab-coefficients": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦为解释黑体辐射，写下了辐射与物质交换能量的三个概率系数。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "自发辐射、受激吸收与受激辐射三过程的概率系数满足确定关系。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "热平衡下吸收略占上风；打破平衡实现粒子数反转，即可放大光。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "由黑体辐射平衡推导；量子电动力学给出更精确形式。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "四十三年后这组系数直接变成激光器的理论蓝图。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "受激辐射从纸面推演走向工程——爱因斯坦本人未曾料到。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦，《物理学杂志》十八卷，一九一七年。", "duration_ms": 0 }
+    ]
+  },
+  "gravitational-lensing-1919": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九一九年日全食，两支远征队测到了星光的偏折——广义相对论一战成名。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "太阳身后恒星的视位置偏移约一点七角秒，与广义相对论一致，牛顿理论只有一半。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "太阳质量弯曲了身后恒星的光——时空弯曲首次被拍照证实。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需日全食、双底片对比与严苛的大气折射修正。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "爱因斯坦一夜成名，广义相对论从数学构造升格为物理事实。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "引力透镜此后成为巡天找暗物质、系外行星与引力波电磁对应体的工具。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱丁顿等，《自然》一〇七卷，一九一九年。", "duration_ms": 0 }
+    ]
+  },
+  "bohr-correspondence": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "新理论会不会推翻旧理论？玻尔给出一条底线：必须在边界处握手。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "量子理论在大量子数极限下，必须渐近地回到经典物理的结果。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "对应原理为新理论的自洽性提供判据——普朗克称其为唯一可靠的路线图。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "高激发态的里德伯原子等极限情形；至今是新理论落地的检验标准。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "在矩阵力学与波动力学成型前，它给出了理论构建的指南针。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "经典与量子不是断裂而是包含——科学革命的连续性在此彰显。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：玻尔，《物理学杂志》三十四卷，一九二〇年。", "duration_ms": 0 }
+    ]
+  },
+  "friedmann-equations": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "哈勃还在观测时，一位俄国气象学家已经从方程里算出了宇宙会膨胀。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "宇宙尺度因子的演化由物质与能量密度决定——动态宇宙学的运动方程。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "宇宙要么膨胀要么收缩，静止只是临界特例；比哈勃观测早四年从场方程导出。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "均匀各向同性的弗里德曼-罗伯逊-沃尔克度规；加入宇宙常数即得标准模型。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "大爆炸宇宙学的骨架：宇宙年龄、组成与命运都从它导出。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "理论先行于观测的典范——爱因斯坦本人一度拒绝膨胀解。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：弗里德曼，《物理学杂志》十卷，一九二二年。", "duration_ms": 0 }
+    ]
+  },
+  "stern-gerlach": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "银原子束穿过不均匀磁场，没有散开成一片，而是分成清晰的两束。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "非均匀磁场对磁矩施加净力，角动量空间量子化被宏观地分束出来。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "空间不是连续的：磁矩只有两个取向，电子自旋的概念随后补齐了解释。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "真空、非均匀磁场与原子束准直；一九二二年先于自旋概念被发现。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "量子力学最直观的实验图景——空间量子化第一次被看见。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "核磁共振、原子钟与量子计算的操控都以分束思想为原型。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：斯特恩与格拉赫，《物理学杂志》八卷，一九二二年。", "duration_ms": 0 }
+    ]
+  },
+  "bose-einstein-statistics": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "光子不分你我——一个印度物理学家的来信，让爱因斯坦替他推广到了原子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 0, "line_id": "stmt-1", "text": "全同玻色子不遵守不相容原理，可任意数量占据同一量子态。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "定律内容", "line_index": 1, "line_id": "stmt-2", "text": "光子聚居同一模式形成激光；足够冷时宏观数量粒子占据基态形成凝聚。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "全同玻色子（整数自旋）、平衡态；凝聚需极低温接近基态能量。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "激光、超流氦与一九九五年玻色-爱因斯坦凝聚实现的理论前提。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "量子统计三分天下有其一，与费米-狄拉克统计共同编排微观粒子的集体行为。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：玻色一九二四年致爱因斯坦；爱因斯坦同年德文发表。", "duration_ms": 0 }
+    ]
+  },
+  "heisenberg-matrix-mechanics": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "二十三岁的海森堡在黑尔戈兰岛上过敏彻夜，第二天矩阵力学诞生。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "可观测量用非对易的矩阵表示，对易关系给出量子力学的代数骨架。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "位置与动量算符不对易——测量次序影响结果，这是量子与经典的代数分界。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "希尔伯特空间表示；一九二六年被证明与薛定谔的波动力学等价。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "第一个自洽的量子力学体系，一九三二年诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "对易关系是量子光学、量子信息与粒子物理的通用语言。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：海森堡，《物理学杂志》三十三卷，一九二五年。", "duration_ms": 0 }
+    ]
+  },
+  "electron-diffraction": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "电子打在镍单晶上，出现了本该属于波的衍射图样——物质波被证实。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "衍射是波的行为，而电子是粒子——波粒二象性在同一个实体上共存。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "晶格充当天然衍射光栅，电子波长由加速电压决定，满足布拉格条件即出现极大。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需单晶样品与真空；汤姆孙的独立实验同时给出透射衍射斑。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "德布罗意猜想的直接验证，波动力学获得实验支柱。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "电子显微镜由此发端——用电子的短波长看见原子。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：戴维森与革末，《物理评论》三十卷，一九二七年。", "duration_ms": 0 }
+    ]
+  },
+  "dirac-equation": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "把量子力学与狭义相对论拼在一起，方程多出来的解预言了反物质。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "狄拉克方程自然导出电子自旋与磁矩，负能解对应正电子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "四年后安德森在云室中发现正电子——数学多余的部分成了物理实在。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "自由相对论性电子；场论化后即量子电动力学。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "反物质从数学怪癖变成事实，粒子物理的场论之路由此铺开。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "狄拉克一九三三年获诺贝尔奖，方程至今是相对论量子理论的起点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：狄拉克，《皇家学会会刊》A 一二七卷，一九二八年。", "duration_ms": 0 }
+    ]
+  },
+  "cyclotron": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "劳伦斯用邮购零件造出真空罐与线圈，粒子开始在 D 形盒里画螺旋。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "交变电场反复加速、恒定磁场偏转，粒子沿螺旋线获得能量。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "非相对论区回旋周期与半径无关——固定频率电场即可持续共振加速。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "相对论质量增长后需同步加速器或直线加速器接棒。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "人工放射性、核反应与粒子物理实验的开端，大科学装置模式由此确立。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "劳伦斯一九三九年获诺贝尔奖，回旋加速器成为核物理的标配。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：劳伦斯与利文斯顿，《物理评论》三八卷，一九三一年。", "duration_ms": 0 }
+    ]
+  },
+  "landau-levels": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "二维电子在强磁场中无法自由运动——能级被压成一串等间距的台阶。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "朗道能级：能量量子化为回旋频率的半整数倍，随磁场线性劈裂。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "连续能带在磁场中塌缩成高度简并的分立能级——磁量子化的直接结果。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "均匀磁场、二维电子气；回旋共振可直接观测到能级间距。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "整数与分数量子霍尔效应的物理舞台，强磁场凝聚态物理的核心能谱。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "朗道是理论物理全能手，其教程训练了几代物理学家。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：朗道，《物理学杂志》六十四卷，一九三〇年。", "duration_ms": 0 }
+    ]
+  },
+  "chandrasekhar-limit": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "白矮星能有多重？十九岁的钱德拉塞卡在赴英船上算出了答案。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "白矮星存在最大质量约一点四四倍太阳质量，超过则简并电子压无法抵抗引力。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "量子力学的泡利不相容支撑起简并压——微观定律为恒星命运设下硬上限。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "零温理想简并电子气；计入相对论修正后极限略降。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "超限恒星坍缩为中子星或黑洞——钱德拉塞卡与爱丁顿的论战持续二十年。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "Ia 型超新星因此成为标准烛光，宇宙加速膨胀的测量正依赖这把标尺。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：钱德拉塞卡，《皇家天文学会月刊》九十五卷，一九三五年。", "duration_ms": 0 }
+    ]
+  },
+  "neutron-discovery": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "α 粒子打在铍上，产生的辐射竟能穿透铅板——一种不带电的新粒子现形。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "高穿透辐射不被电场偏转，质量接近质子——查德威克确认它是电中性粒子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "石蜡层减速中子打出质子，由反冲质子电离量推断质量。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "不带电就不会被库仑势挡在核外——用中子轰击原子核才成为可能。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "核结构与人工放射性研究的新纪元，查德威克一九三五年获诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "哈恩一九三八年的裂变发现与一九四二年的反应堆，都以此为前提。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：查德威克，《自然》一二九卷，一九三二年。", "duration_ms": 0 }
+    ]
+  },
+  "epr-paradox": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "爱因斯坦与两位同事合写了一篇论文，质疑量子力学的完备性。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 0, "line_id": "stmt-1", "text": "纠缠粒子对的测量结果允许幽灵般的超距作用——EPR 认为理论不完备。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "公式内容", "line_index": 1, "line_id": "stmt-2", "text": "定域性与实在论同量子力学冲突：要么存在隐变量，要么世界是非定域的。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "理想纠缠对思想实验；贝尔一九六四年将其化为可测不等式。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "争论二十年后由实验裁决：非定域性是自然的属性。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "量子信息与量子密码的思想源头——哲学争论长出了新技术。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：爱因斯坦、波多尔斯基、罗森，《物理评论》四十七卷，一九三五年。", "duration_ms": 0 }
+    ]
+  },
+  "muon-discovery": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "云室里的一条径迹，弯曲程度介于电子与质子之间——粒子动物园开始失控。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "宇宙线中发现质量约为电子两百零七倍的新粒子，最初误认为汤川介子。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "自然界真的还有第三种粒子——物质结构远比质子加电子复杂。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "需宇宙线与云室或核乳胶；人工加速器产生要等到一九五〇年代。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "缪子成为弱作用与精确测量的探针，g-2 实验至今在检验标准模型。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "缪子的发现同时引出了中微子的猜想——泡利的'绝望之举'后来被证实。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：内德迈尔与安德森，《物理评论》五十卷，一九三六年。", "duration_ms": 0 }
+    ]
+  },
+  "nuclear-fission": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "柏林实验室里，铀被中子轰击后出现了钡——铀核裂开了。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "铀核分裂成两块中等质量核并释放能量与中子，质量亏损按质能方程换算。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "释放的中子可引发链式反应——迈特纳用 E=mc² 给出定量解释。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "热中子俘获截面最大；需临界质量方能自持链式反应。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "核能与核武器的物理起点——一项基础研究直接改变了世界格局。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "哈恩获一九四四年化学奖，迈特纳的贡献长期被低估，如今被广泛承认。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：哈恩与斯特拉斯曼，《自然化学生物学》一九三八年；迈特纳与弗里施一九三九年解释。", "duration_ms": 0 }
+    ]
+  },
+  "superfluid-helium": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "液氦冷到两开尔文以下，开始沿着杯壁自己爬出来——超流相登场。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "越过兰姆达点，液氦黏度归零，可无摩擦流动并穿过多孔塞。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "氦四是玻色子，低温下大量粒子占据同一量子态——宏观量子现象。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "兰姆达点二点一七开尔文以下；第二类超流用量子化涡旋解释爬壁。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "超流与超导互为镜像，低温物理与量子流体研究的基石。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "液氦冷却让超导磁体与太空探测器成为可能——昂内斯一九一三年获诺奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：卡末林·昂内斯，莱顿实验室通讯，一九三八年发现第二类超流。", "duration_ms": 0 }
+    ]
+  },
+  "radar": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "发射一束无线电脉冲，听它的回声——电磁波的回声能看见飞机。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "由脉冲往返时间测距，由多普勒频移测速——距离等于光速乘时间的一半。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "厘米波段利于穿透雨雾，天线孔径决定角分辨率。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "受地物杂波与大气衰减限制；脉冲重复频率决定最大不模糊距离。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "二战防空与此后一切空中交通管制、气象预报与遥感的基础技术。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "微波炉的发明也是雷达磁控管的意外副产品——技术溢出的经典案例。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "出处：沃森-瓦特，一九三五年；英国链家雷达网一九四〇年。", "duration_ms": 0 }
+    ]
+  },
+  "nuclear-reactor": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "一九四二年十二月二日，芝加哥一号堆达到临界——人类第一次握住太阳的开关。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "铀二三五的中子增殖系数被控制在临界点：每代中子数恰好等于上一代。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "石墨慢化剂让快中子变慢以提高俘获概率，镉控制棒随时吸收多余中子。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "需慢化剂、控制棒与几何布置；次临界安全裕度是设计底线。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "核电站、同位素医学与核动力舰船的起点，费曼因此参与曼哈顿计划。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "可控链式反应证明：毁灭性力量可以被工程驯服为能源。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "出处：芝加哥一号堆（CP-1），一九四二年十二月二日。", "duration_ms": 0 }
+    ]
+  },
+  "nuclear-mri": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "不用手术刀就能看见软组织——核磁共振把原子核的进动变成了影像。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 0, "line_id": "stmt-1", "text": "外磁场中核自旋进动，射频脉冲翻转后感应出衰减信号，频率正比于磁场强度。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "内容", "line_index": 1, "line_id": "stmt-2", "text": "不同化学环境的核进动频率略有差异，梯度场完成空间编码——信号即图像。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "适用条件", "line_index": 0, "line_id": "cond-1", "text": "强均匀磁场加射频线圈；超导磁体维持稳场，需定期补充液氦。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "医学影像革命：无辐射的软组织成像，脑与心脏检查的标准手段。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "布洛赫与珀塞耳一九四六年各自实现核磁共振，共享一九五二年诺贝尔奖。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：布洛赫与珀塞耳，《物理评论》七十卷，一九四六年。", "duration_ms": 0 }
+    ]
+  },
+  "casimir-effect": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场", "line_index": 0, "line_id": "intro-1", "text": "真空里两块不带电的金属板，居然会互相靠近——真空并不空。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 0, "line_id": "stmt-1", "text": "板间可容纳的虚光子模式少于板外，压强差把板推到一起——吸引力与距离四次方成反比。", "duration_ms": 0 },
+      { "section_id": "statement", "section_title": "实验内容", "line_index": 1, "line_id": "stmt-2", "text": "量子真空的零点能具有可观测的宏观效应。", "duration_ms": 0 },
+      { "section_id": "conditions", "section_title": "实验条件", "line_index": 0, "line_id": "cond-1", "text": "间距远小于特征波长；实测需扣除静电与热效应，精度极高。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 0, "line_id": "imp-1", "text": "首次把真空涨落变成可测力，纳米机电系统的理论先声。", "duration_ms": 0 },
+      { "section_id": "impact", "section_title": "历史影响", "line_index": 1, "line_id": "imp-2", "text": "与引力常数测量并列为检验量子场论的精密桌面实验。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "出处", "line_index": 0, "line_id": "sum-1", "text": "文献出处：卡西米尔，荷兰皇家科学院会刊，一九四八年。", "duration_ms": 0 }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "projectile-motion": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "篮球出手、烟花升空、炮弹划过天际——它们都在走同一种路线，抛物线。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "今天我们就把这道优美的弧线拆开，看看重力是怎么一笔一笔画出它的。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "抛体运动可以拆成两个独立的运动：水平方向匀速直线运动，竖直方向匀加速运动。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "水平速度保持不变，竖直速度每秒减少九点八米每秒，两条运动互不干扰。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "把两个方向合起来，消去时间，就得到轨迹方程，它是一条开口向下的抛物线。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "射程等于初速度平方乘正弦二倍角，再除以重力加速度。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "试着把抛射角调到四十五度，射程达到最大；三十度和六十度的射程则完全相同。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "把环境切到月球，重力变成六分之一，同样的抛射，弧线立刻变得又高又远。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "抛体运动告诉我们：复杂的运动，往往只是几个简单运动的叠加。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "这正是物理学拆解世界的方式，我们下个展项见。", "duration_ms": 0 }
+    ]
+  },
+  "simple-pendulum": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "摆钟滴答作响，摆锤来回摇晃。为什么无论摆幅大小，它总是一样准？", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "单摆的回复力来自重力的切向分量，位移越大，拉回它的力就越大。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "在小角度下，回复力与位移成正比，这正是简谐振动的条件。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "单摆周期等于二派乘以根号下摆长除以重力加速度。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "摆长变成四倍，周期就加倍；把摆钟的钟摆调长一点，它就会走慢。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "把初始角度从五度拉到八十度，你会看到周期几乎不变，这就是等时性。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "伽利略正是利用这一性质设计了摆钟，人类第一次用振动来度量时间。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "一个简单的摆，藏着周期、等时性与谐振的全部要素。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "把摆长、重力和角度都调一遍，看看公式和画面是否始终一致。", "duration_ms": 0 }
+    ]
+  },
+  "double-slit": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一束光穿过两条狭缝，屏上出现的不是两条亮带，而是一排明暗相间的条纹。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "这就是杨氏双缝实验，物理学史上最漂亮的实验之一。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "两条缝成为两个相干波源，波峰与波峰相遇处加强，波峰与波谷相遇处抵消。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "波程差等于波长整数倍的地方出现亮纹，等于半整数倍的地方出现暗纹。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "相邻亮纹的角间距等于波长除以缝距，所以红光条纹最宽，紫光最窄。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "增大缝距，条纹变密；增大波长，条纹变疏，拖动参数亲自验证这条关系。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 1, "line_id": "app-2", "text": "单缝包络像一只无形的手，压住了边缘条纹的亮度，虚线画的就是这只手。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "干涉是波的指纹；后来把电子打过双缝，连粒子也留下了同样的指纹。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "量子世界的波粒二象性，就从这排条纹开始。", "duration_ms": 0 }
+    ]
+  },
+  "carnot-cycle": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "蒸汽机、汽车发动机、发电厂——所有热机都在重复同一个循环。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "十九世纪的卡诺问了一个根本问题：热机的效率最高能到多少？", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "卡诺循环由四个冲程组成：等温膨胀吸热、绝热膨胀降温、等温压缩放热、绝热压缩升温。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "在压力体积图上，它是一条闭合曲线；曲线围成的面积，就是一圈所做的功。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "卡诺效率等于一减去低温热源温度除以高温热源温度，只和两个温度有关。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "六百开尔文对三百开尔文，最高效率是百分之五十，任何机器都无法超过它。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "把高温热源拉到九百度、低温压到二百五十度，效率读数会告诉你提升了多少。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "热力学第二定律给所有热机划下了天花板，也给'永动机'判了死刑。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "提高效率只有两条路：把火烧得更旺，或者把废热排得更彻底。", "duration_ms": 0 }
+    ]
+  },
+  "blackhole-accretion": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "二零一九年，人类第一次拍到了黑洞的照片——一个被橙红色光环环绕的黑色圆影。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "切换到三维场景，看看这圈光环到底是怎么亮起来的。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "黑色的圆影是事件视界投下的阴影，连光也无法从中逃逸。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "外面发光的吸积盘里，气体被加热到上千万度，发出强烈的X射线。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "史瓦西半径等于二倍引力常数乘质量除以光速平方，太阳的半径只有三公里。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "吸积盘内圈转得比外圈快，角速度与半径的二分之三次方成反比。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "观察三维场景里粒子的差速旋转，越靠内越快，这正是开普勒运动的极端版本。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "黑洞看不见，但它周围的物质替它说出了所有参数：质量、自转与温度。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "二零一五年的引力波探测，则让我们'听'到了两个黑洞并合的声音。", "duration_ms": 0 }
+    ]
+  },
+  "spacetime-bending": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "为什么地球绕着太阳转？牛顿说因为引力，爱因斯坦说：因为时空弯了。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "在三维画面里，质量把平坦的时空网格压出一个凹陷，就像躺在床垫上的铅球。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "行星并没有被一根无形的绳子拉着，它只是在弯曲时空中沿最直的路线前进。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "爱因斯坦场方程左边是时空的曲率，右边是物质的能量动量分布。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "物质告诉时空如何弯曲，时空告诉物质如何运动，这是广义相对论最著名的一句话。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "一九一九年日食观测中，星光经过太阳时偏折了一点七角秒，与方程预言完全一致。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "引力不是力，而是几何；这是人类对'引力'最深刻的一次改写。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "拖动质量参数，看看凹陷如何加深，轨道如何随之改变。", "duration_ms": 0 }
+    ]
+  },
+  "atomic-levels": {
+    "source": "phy-seed",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "氢气放电时发出的光，不是连续的彩虹，而是一条条分立的亮线。", "duration_ms": 0 },
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 1, "line_id": "intro-2", "text": "分立的谱线说明：原子中的电子，只能待在特定的能量台阶上。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 0, "line_id": "concept-1", "text": "氢原子的能级等于负十三点六电子伏除以主量子数的平方。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心概念", "line_index": 1, "line_id": "concept-2", "text": "电子从高能级跳到低能级，多余的能量以一个光子的形式放出。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 0, "line_id": "formula-1", "text": "光子能量等于两能级之差，波长等于一千二百四十除以这个能量差。", "duration_ms": 0 },
+      { "section_id": "formula", "section_title": "公式与推导", "line_index": 1, "line_id": "formula-2", "text": "从第三能级跳到第二能级，放出六百五十六纳米的红光，这就是H阿尔法线。", "duration_ms": 0 },
+      { "section_id": "application", "section_title": "直观与应用", "line_index": 0, "line_id": "app-1", "text": "切换线系：莱曼系在紫外，帕邢系在红外，巴尔末系正好横跨可见光。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 0, "line_id": "summary-1", "text": "分立能级解释了谱线，也解释了元素周期表，更催生了激光。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "总结", "line_index": 1, "line_id": "summary-2", "text": "天文学家正是靠这些谱线，测出了几十亿光年外星系的成分与退行速度。", "duration_ms": 0 }
+    ]
+  }
+}

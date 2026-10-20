@@ -1,0 +1,365 @@
+{
+  "newton-leibniz-formula": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "求曲线下的面积，和求函数的切线，看起来毫无关系。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "十七世纪七十年代，牛顿与莱布尼茨各自发现了它们的联系。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "定积分等于原函数在两端点的取值之差——求积与求导互为逆运算。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色阴影是面积，绿色虚线是面积函数，它在每一点的斜率恰好等于曲线的高度。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动积分上限，看面积增长与曲线高度怎样始终同步。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "两个看似无关的运算被一个等号连接，整个分析学由此展开。", "duration_ms": 0 }
+    ]
+  },
+  "newton-binomial-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "二项式展开，指数不一定是正整数的时候还能用吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "牛顿在一六七六年把展开推广到任意实数指数。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "系数由组合数推广而来，展开变成无穷级数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "实线是目标函数，虚线是级数部分和，取项越多越贴合。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整指数和项数，观察误差怎样随着项数增加迅速缩小。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一次大胆的推广，为幂级数与微积分提供了通用工具。", "duration_ms": 0 }
+    ]
+  },
+  "de-moivre-formula": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "复数相乘，几何上其实是旋转。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "棣莫弗在一七二二年给出了这条把乘方化为角度乘法的公式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "复数的 n 次方，就是把幅角乘以 n。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色向量是 z，橙色是 z 的 n 次方，两者都在单位圆上。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变角度与幂次，看终边怎样一圈圈绕过去。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "令角度为三百六十度除以 n，就得到 n 次单位根，它们构成正 n 边形。", "duration_ms": 0 }
+    ]
+  },
+  "euler-identity-history": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "五个最重要的数学常数，被一个等号串在了一起。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧拉在一七四八年的无穷分析引论中给出了这个公式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "e 的 i 乘角度次方，等于余弦加 i 倍正弦。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色终边沿单位圆转动，转过的角度就是指数里的角度。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "把角度拖到一百八十度，终边落在负一上。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "e 的 iπ 次方加一等于零，被誉为最优美的公式。", "duration_ms": 0 }
+    ]
+  },
+  "cramers-rule-history": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "解二元一次方程组，除了消元还有更直接的办法。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "克莱姆在一七五零年把解写成行列式之比。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "系数行列式不为零时，两个未知量都等于相应行列式除以它。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "两条直线的交点就是解，而系数行列式是两个系数向量张成的面积。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整四个系数，看交点移动；当两线平行时行列式归零。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "行列式为零意味着两条直线共线，这就是可逆的判据。", "duration_ms": 0 }
+    ]
+  },
+  "harmonic-series-divergence": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "每一项都在变小，总和却可以超过任何给定的数。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "雅各布伯努利给出了经典证明，并于一六八九年发表。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把项分组，每组之和都大于二分之一，因此部分和可以任意大。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色曲线是部分和，青色虚线是对数加欧拉常数，两者只差一个常数。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加项数，看部分和怎样缓慢却不停地往上爬。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "项趋于零只是收敛的必要条件，并不充分。", "duration_ms": 0 }
+    ]
+  },
+  "bernoulli-law-of-large-numbers": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "掷硬币次数越多，正面的比例越接近一半。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "雅各布伯努利在猜度术中证明了这个规律。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "试验次数足够多时，事件发生的频率依概率收敛到它的概率。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色虚线是真实概率，蓝色曲线是频率，它起初抖动得厉害，随后逐渐贴上去。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整真实概率和试验次数，看频率怎样稳定下来。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这一定理让概率论从赌博技巧走向极限理论。", "duration_ms": 0 }
+    ]
+  },
+  "taylor-formula-history": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "复杂的函数，能不能用最简单的多项式去模仿？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "布鲁克泰勒在一七一五年给出了这个展开式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "用函数在某点的各阶导数构造多项式，逐次逼近原函数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "实线是原函数，虚线是多项式，阶数越高，吻合的区间越宽。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换余弦、正弦、指数和对数，调节阶数看误差怎样变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "多项式在展开点附近模仿了函数的所有阶导数，这是数值计算的基础。", "duration_ms": 0 }
+    ]
+  },
+  "stirlings-approximation": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "阶乘增长极快，怎样才能快速估计它的大小？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "斯特林在一七三零年给出了这个近似公式。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "n 的阶乘约等于根号下二πn，乘以 n 除以 e 的 n 次方。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "图中曲线是真实值与近似值之比，它一路逼近于一。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增大参数 n，看比值怎样越来越接近一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它把离散的阶乘与连续函数连接起来，是概率与统计物理的标准工具。", "duration_ms": 0 }
+    ]
+  },
+  "basel-problem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "所有正整数平方的倒数和，会收敛到哪里？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一七三四年，欧拉给出了答案，震惊了当时的数学界。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "这个和恰好等于 π 的平方除以六。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色部分和曲线缓慢上升，橙色虚线是极限值一点六四四九。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加项数，看部分和怎样一点点贴近 π 平方除以六。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一个只与整数有关的级数，答案里却出现了圆周率。", "duration_ms": 0 }
+    ]
+  },
+  "euler-calculus-of-variations": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "求一个数的最大值是微分，求一条曲线的最优形状呢？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "欧拉在一七四四年把它发展成独立的数学分支。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把「函数值」换成「整条曲线的某个积分」，求它的极值。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰色曲线是一族候选路径，橙色直线是弧长最小的那条。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "弯曲当前曲线，看弧长怎样总是大于直线。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "欧拉-拉格朗日方程至今仍是最速降线、测地线与最优控制的核心工具。", "duration_ms": 0 }
+    ]
+  },
+  "fundamental-theorem-of-algebra": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个方程到底有几个根？这个问题的答案是确定的。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "高斯在一七九九年的博士论文中给出了严格证明。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "任何次数大于零的复系数多项式至少有一个复根，因此恰有 n 个复根。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色点是方程 z 的 n 次方等于一的根，它们均匀分布在单位圆上。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变次数，看根的个数和正多边形的边数一起变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "实数域上无解的方程，在复数域里总能解出——复数域是代数闭的。", "duration_ms": 0 }
+    ]
+  },
+  "pascal-fermat-probability": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一场赌局中途被打断，赌金该怎么分？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一六五四年，帕斯卡与费马为此往复通信。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "列举所有可能的后续结果，按各自的概率计算期望。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左侧的组合数表就是计数的工具，右侧给出双方应得的比例。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整还需赢的局数和每局胜率，看概率怎样变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一场关于赌金的讨论，让概率成为独立的数学学科。", "duration_ms": 0 }
+    ]
+  },
+  "cubic-quartic-formulas": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "二次方程有求根公式，那么三次和四次呢？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "十六世纪，费罗、塔尔塔利亚与卡尔达诺接力攻克了它。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "三次方程必有一个实根，其余两个可能是复根。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红点是曲线与横轴的交点，就是方程的实根。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "调整三个系数，看实根个数在三个和一个之间变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "求根过程中出现了负数的平方根，虚数被迫登场。", "duration_ms": 0 }
+    ]
+  },
+  "brahmagupta-pell": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "找出方程 x 平方减 D 乘 y 平方等于一的整数解。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "婆罗摩笈多在公元六百二十八年给出了解法，比欧洲早了近千年。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "解总是成对出现，并可由最小解递推得到更大的解。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色点是双曲线上的整数格点，它们稀疏地散布着。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换 D 的值，看解的分布怎样变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "当 D 为六十一时，最小解高达十七亿多，令人叹服。", "duration_ms": 0 }
+    ]
+  },
+  "diophantus-arithmetica": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个方程写在连续曲线上，但只有落在格点上的才是解。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "丢番图的算术最早系统研究这类整数方程。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "有解的条件是两个系数的最大公约数能整除常数项。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色点就是全部整数解，它们等间距排列在直线上。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变系数，观察解的个数与分布。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "费马正是读着这本书，在页边写下了那条著名批注。", "duration_ms": 0 }
+    ]
+  },
+  "fourier-series-history": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个方方正正的波形，能用平滑的正弦波拼出来吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "傅里叶研究热传导时提出：任何波形都是正弦波的叠加。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把周期函数展开成不同频率正弦与余弦的和。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "灰色虚线是原波形，蓝色是有限项叠加，项数越多越接近。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加谐波项数，注意跳跃点附近始终有过冲，这是吉布斯现象。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这个断言重塑了分析学，也成为信号处理与图像压缩的基础。", "duration_ms": 0 }
+    ]
+  },
+  "cauchy-integral-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "在复平面上沿一条闭合路径绕一圈，积分会是多少？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "柯西在一八二五年给出了出人意料的答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "只要函数在路径及其内部处处可导，积分恒等于零。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色是闭合路径，青色是路径内的解析点，没有奇点时结果为零。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换路径的形状与大小，结论始终不变。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "路径内若有奇点，结果就不再为零——这正是留数定理的由来。", "duration_ms": 0 }
+    ]
+  },
+  "non-euclidean-geometry": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "过直线外一点，真的只能画一条平行线吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "十九世纪三十年代，罗巴切夫斯基、鲍耶与高斯几乎同时发现：不一定。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "平行公设无法由其余公理推出，改换它就能得到自洽的新几何。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "双曲几何里有无数条，椭圆几何里一条也没有，欧氏几何恰好一条。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换三种模型，看同一个点与同一条直线的平行线数量怎样变化。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "几何第一次拥有了多种可能，两千年来的垄断被打破。", "duration_ms": 0 }
+    ]
+  },
+  "cantor-uncountability": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "无穷和无穷之间，还能比较大小吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一八七四年，康托尔证明了实数比自然数多得多。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "假设实数能排成一列，沿对角线取反，就造出一个不在列表中的数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "橙色是对角线，绿色是构造出来的新数，它与列表中每一行都至少有一位不同。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加列出的实数个数，新数依然逃得出这张名单。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "无穷有了大小之分，超限数理论由此诞生，也引发了一场大争论。", "duration_ms": 0 }
+    ]
+  },
+  "bolzano-weierstrass": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个数列虽然不收敛，却可能藏着收敛的部分。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "波尔查诺与魏尔斯特拉斯在十九世纪给出了严格表述。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "只要数列有界，就必定存在一个收敛的子列。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红点是落在聚点附近的项，它们越聚越密。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变项数和随机种子，看聚点附近的点总是存在。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它等价于实数的完备性，是分析严密化的基石之一。", "duration_ms": 0 }
+    ]
+  },
+  "quadratic-reciprocity": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个数是不是另一个素数的平方剩余，能反过来判断吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "高斯在一八零一年给出了它，并称之为算术的宝石。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "两个勒让德符号之间相差一个符号因子，这个因子只取决于两者除以四的余数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "绿色表示是二次剩余，红色表示不是，表格的对称性正体现了互反关系。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "改变素数的个数，观察表格的规模与对称规律。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它开启了近代数论，后来被推广为类域论与自守形式。", "duration_ms": 0 }
+    ]
+  },
+  "galois-theory": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "为什么三次四次方程有根式解，五次方程却没有？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "伽罗瓦用根的对称性回答了这个问题，去世时还不到二十一岁。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "把方程全部根的置换收集起来构成群，方程能用根式解等价于这个群可解。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "每个方块是一次置换，绿色表示某个根留在原位。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "在三次与四次之间切换，看置换的个数从六个变成二十四个。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "一个关于方程的判据，让群成为整个现代数学的语言。", "duration_ms": 0 }
+    ]
+  },
+  "riemannian-geometry": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "如果空间本身是弯的，我们该怎么测量它？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "黎曼在一八五四年的就职演讲中给出了答案。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "在每一点规定如何测量长度，几何的全部性质都由这个规则导出。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "正曲率时测地线汇聚，负曲率时发散，零曲率时保持平行。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动曲率参数，看测地线的走向怎样改变。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "半个世纪后，这套语言成为广义相对论描述时空的现成工具。", "duration_ms": 0 }
+    ]
+  },
+  "dirichlet-convergence": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "傅里叶级数一定会收敛到原来的函数吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "狄利克雷在一八二九年给出了第一个收敛判据。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "分段单调且有界的函数，其级数在每一点都收敛。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "在跳跃点，级数收敛到左右极限的平均值，橙色点标出了它。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "增加谐波项数，看部分和怎样贴近分段函数并在跳跃点取中点。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "傅里叶那个大胆的断言，终于获得了严格的数学地位。", "duration_ms": 0 }
+    ]
+  },
+  "noethers-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "为什么有些物理量永远守恒？答案藏在对称性里。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "艾米诺特在一九一八年证明了这个深刻对应。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "每一个连续对称性，都恰好对应一个守恒量。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "时间平移对应能量守恒，空间平移对应动量守恒，旋转对应角动量守恒。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换不同的对称性，看它对应的守恒量怎样浮现。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "寻找守恒量的方法从此变成了寻找对称性，这是现代物理的支柱。", "duration_ms": 0 }
+    ]
+  },
+  "godel-incompleteness": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "数学能被完全形式化吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一九三一年，哥德尔用一个自指命题给出了否定的回答。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "任何足够强且一致的形式系统，都存在既不能证明也不能证伪的命题。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "绿色是可证命题，蓝色是真命题，红色点 G 落在真却不可证的环带里。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换标注，理解这个命题既不能证明也不能证伪。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "它终结了把数学完全公理化的计划，也深刻影响了逻辑学与计算机科学。", "duration_ms": 0 }
+    ]
+  },
+  "vinogradov-three-primes": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个大奇数，能不能拆成三个素数之和？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "维诺格拉多夫在一九三七年给出了肯定回答。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "足够大的奇数都能表示为三个素数之和。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "三根彩色柱子就是拆出来的三个素数，它们之和等于目标奇数。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动滑块换一个奇数，看新的三素数分解。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这是哥德巴赫猜想奇数版的重大突破，被誉为解析数论的里程碑。", "duration_ms": 0 }
+    ]
+  },
+  "prime-number-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "素数出现的密度，有没有规律？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一八九六年由阿达马与德拉瓦莱普桑证明，一九四九年有了初等证明。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "小于 x 的素数个数，近似等于 x 除以它的自然对数。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "蓝色是实际素数个数，橙色虚线是渐近估计，两者越走越近。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "扩大范围，看实际值与估计值的比值怎样趋向于一。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "素数的分布虽然没有简单公式，却有清晰的渐近规律。", "duration_ms": 0 }
+    ]
+  },
+  "fermats-last-theorem": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "把勾股定理的平方换成三次方、四次方，还有整数解吗？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "费马在一六三七年写下：我确信已找到绝妙证明，可惜这里空白太小。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "当 n 大于二时，x 的 n 次方加 y 的 n 次方等于 z 的 n 次方没有正整数解。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "红色点表示找到的解；当 n 等于二时有无穷多组。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "把幂次从二调到三，搜索范围内的解立刻全部消失。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这条批注悬置了三百五十八年，直到一九九四年才被完成。", "duration_ms": 0 }
+    ]
+  },
+  "wiles-proof": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "一个纯数论问题，最终被几何工具攻克。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "一九九三年怀尔斯宣布证明，一九九四年与泰勒合作补全。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "他证明了谷山志村猜想的一个关键情形：一类椭圆曲线必对应模形式。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "左边是椭圆曲线，右边是高度对称的模形式，两者存在深刻对应。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "切换到证明的逻辑链，看矛盾是怎样一步步构造出来的。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "数论与代数几何由此被编织在一起，这是朗兰兹纲领的一部分。", "duration_ms": 0 }
+    ]
+  },
+  "poincare-conjecture": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "怎样判断一个三维形状是不是球面？", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "庞加莱在一九零四年提出猜想，佩雷尔曼于二零零三年完成证明。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "若闭曲面上的任一条闭曲线都能收缩成一点，它就同胚于球面。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "球面上的红色环可以缩到一点，而环面上的环被洞卡住，永远缩不掉。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "拖动收缩程度，对比球面与环面的不同命运。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "佩雷尔曼用里奇流完成证明，并拒绝了菲尔兹奖与百万美元奖金。", "duration_ms": 0 }
+    ]
+  },
+  "lagrange-permutation-group": {
+    "source": "math-history",
+    "lines": [
+      { "section_id": "intro", "section_title": "开场引入", "line_index": 0, "line_id": "intro-1", "text": "方程的根可以换位置，但有些组合换了也看不出变化。", "duration_ms": 0 },
+      { "section_id": "history", "section_title": "历史背景", "line_index": 0, "line_id": "hist-1", "text": "拉格朗日在十八世纪七十年代研究了根的置换。", "duration_ms": 0 },
+      { "section_id": "concept", "section_title": "核心内容", "line_index": 0, "line_id": "concept-1", "text": "三个根共有六种排列，某些对称组合在置换下保持不变。", "duration_ms": 0 },
+      { "section_id": "intuition", "section_title": "直观理解", "line_index": 0, "line_id": "intu-1", "text": "绿色方块表示那个根留在原位，蓝色表示它换了位置。", "duration_ms": 0 },
+      { "section_id": "interaction", "section_title": "交互提示", "line_index": 0, "line_id": "int-1", "text": "逐个切换六个置换，看哪些根被移动、哪些不动。", "duration_ms": 0 },
+      { "section_id": "summary", "section_title": "小结", "line_index": 0, "line_id": "sum-1", "text": "这项工作把群的思想带入代数，为伽罗瓦铺好了道路。", "duration_ms": 0 }
+    ]
+  }
+}

@@ -1,0 +1,562 @@
+[
+ {
+  "id": "P197",
+  "slug": "generalized-coordinates",
+  "title": "广义坐标与自由度",
+  "score": 3,
+  "scene": "双摆与带杆件约束的连杆机构：位形点只能在约束曲面上沿广义坐标方向滑动，实时数出被完整约束消去的自由度",
+  "geom": "linkage-config-manifold"
+ },
+ {
+  "id": "P201",
+  "slug": "virial-theorem",
+  "title": "维里定理",
+  "score": 3,
+  "scene": "自引力恒星团中每颗星沿三维轨道绕行质心，实时统计 2⟨T⟩ 与 ⟨Σr·F⟩，两条时间平均曲线锁成 −2 比例",
+  "geom": "nbody-cluster-virial"
+ },
+ {
+  "id": "P337",
+  "slug": "blood-rheology",
+  "title": "血液流变与法-朗效应",
+  "score": 4,
+  "scene": "微血管分支网络中红细胞叠成缗钱状聚集又被高剪切拆散，管腔中心富集、壁面出现无细胞层，管径越小压积越低",
+  "geom": "microvessel+cellflow"
+ },
+ {
+  "id": "P346",
+  "slug": "neural-oscillations",
+  "title": "脑电与神经振荡",
+  "score": 3,
+  "scene": "皮层体素网格上神经元集群相位同步成行进波，电极阵列读出 α/γ 时序，相位耦合以矢量箭头显示",
+  "geom": "cortex-phase-wave"
+ },
+ {
+  "id": "P299",
+  "slug": "young-modulus",
+  "title": "杨氏模量测量",
+  "score": 3,
+  "scene": "拉伸机中的钢丝按真实比例伸长，截面与载荷同步渲染应力应变曲线，颈缩出现时局部变细直至拉断",
+  "geom": "tensile-wire-necking"
+ },
+ {
+  "id": "P57",
+  "slug": "rolling-friction",
+  "title": "滚动与滑动摩擦",
+  "score": 3,
+  "scene": "滚轮与滑块同屏对比：接触斑的迟滞变形与偏移法向力给出小滚阻力矩，滑动时微凸体整面剪切咬合",
+  "geom": "rolling-contact-patch"
+ },
+ {
+  "id": "P264",
+  "slug": "space-telescope",
+  "title": "空间望远镜",
+  "score": 4,
+  "scene": "日-地 L2 晕轨道与太阳翼遮挡几何：主镜-副镜-焦面光路同屏，冷侧/热侧温度分层随姿态变化",
+  "geom": "l2-halo+sunshield"
+ },
+ {
+  "id": "P270",
+  "slug": "stellar-parallax",
+  "title": "三角视差测距",
+  "score": 5,
+  "scene": "地球公转轨道作基线，前景恒星相对背景天球随观测点位移；从黄道极俯视整个视差锥，1 角秒即 1 秒差距",
+  "geom": "orbit+parallax-cone"
+ },
+ {
+  "id": "P276",
+  "slug": "neutrino-observation",
+  "title": "中微子天文学",
+  "score": 5,
+  "scene": "立方公里冰体/水池探测器中，中微子作用产生的带电粒子拉出切伦科夫光锥，PMT 球壳阵列按命中时刻重建径迹方向",
+  "geom": "cherenkov-cone+pmt-array"
+ },
+ {
+  "id": "P280",
+  "slug": "gamma-astronomy",
+  "title": "伽马射线天文观测",
+  "score": 4,
+  "scene": "伽马光子进入量能器转为正负电子对并级联成簇射，上下追踪器的符合锥与逐层能量沉积柱重建入射方向",
+  "geom": "pair-cascade+detector-stack"
+ },
+ {
+  "id": "P287",
+  "slug": "lensing-time-delay",
+  "title": "引力透镜时间延迟",
+  "score": 5,
+  "scene": "前景星系质量势把同一颗类星体的四条光路弯成不同几何长度，旋转观察像点排布与到达时刻差，实时读出时延",
+  "geom": "lens+multiple-raypaths"
+ },
+ {
+  "id": "P291",
+  "slug": "spectrograph",
+  "title": "观测光谱仪",
+  "score": 4,
+  "scene": "狭缝-准直镜-光栅/棱镜-相机的三维谱段光路，白光扇形色散到像元上，调狭缝与级次看自由光谱范围重叠",
+  "geom": "grating-spectrograph"
+ },
+ {
+  "id": "P183",
+  "slug": "dark-energy-eos",
+  "title": "暗能量状态方程",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P115",
+  "slug": "lc-resonance",
+  "title": "LC 谐振",
+  "score": 4,
+  "scene": "电容板间电场线与螺线管内磁场线反相脉动，能量在两元件体积间来回流动，旁侧相空间描出守恒闭合环",
+  "geom": "lc-field-exchange"
+ },
+ {
+  "id": "P119",
+  "slug": "dc-motor",
+  "title": "直流电动机",
+  "score": 5,
+  "scene": "定子磁极间矩形线圈受安培力偶旋转，换向器铜片与电刷每半圈切断换流，力矩矢量与反电动势同步可见",
+  "geom": "rotor+commutator"
+ },
+ {
+  "id": "P439",
+  "slug": "capacitor-energy",
+  "title": "电容器的能量",
+  "score": 4,
+  "scene": "极化介质与真空中电场线密度对比，能量密度 ½εE² 以发光体素云充满板间体积，充电时体素逐层点亮",
+  "geom": "field-energy-voxel"
+ },
+ {
+  "id": "P207",
+  "slug": "lensmaker",
+  "title": "透镜制作者公式",
+  "score": 5,
+  "scene": "拖动两面曲率半径与折射率，平行光锥在前后焦点间实时改形；再叠一对胶合双合透镜对比红蓝两色的消色差锥",
+  "geom": "lens-surface+raycone"
+ },
+ {
+  "id": "P90",
+  "slug": "magnifier",
+  "title": "放大镜与视角",
+  "score": 3,
+  "scene": "眼-透镜-物体三者的视角锥：物体置于焦内成放大虚像，绕眼旋转可看瞳孔张角随透镜位置与明视距离变化",
+  "geom": "eye-visual-angle-cone"
+ },
+ {
+  "id": "P470",
+  "slug": "damped-q-factor",
+  "title": "阻尼振动的能量衰减",
+  "score": 3,
+  "scene": "相空间 (x, v) 中的衰减螺旋轨迹按时间着色，外包络 e^(−βt) 与能量壳 e^(−2βt) 双层套叠，Q 值决定螺旋收紧速率",
+  "geom": "phase-spiral-envelope"
+ },
+ {
+  "id": "P487",
+  "slug": "ac-power-factor",
+  "title": "交流功率与功率因数",
+  "score": 3,
+  "scene": "电压与电流相量在三维空间旋出两条螺旋，功率三角形由两者夹角张出；并入补偿电容使无功支路矢量缩短",
+  "geom": "phasor-power-triangle"
+ },
+ {
+  "id": "P496",
+  "slug": "partition-function-z",
+  "title": "配分函数与热力学量",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P500",
+  "slug": "adiabatic-polytropic",
+  "title": "绝热过程与多方过程",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P504",
+  "slug": "critical-exponents",
+  "title": "临界现象与临界指数",
+  "score": 3,
+  "scene": "三维伊辛格阵趋近临界点时磁畴关联长度发散成自相似斑块，序参量幂律与标度塌缩同屏显示",
+  "geom": "ising-domain-critical"
+ },
+ {
+  "id": "P512",
+  "slug": "heisenberg-picture",
+  "title": "海森堡绘景",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P517",
+  "slug": "phase-shift-scattering",
+  "title": "分波法与相移",
+  "score": 5,
+  "scene": "入射平面波在势场附近逐层拆成同心球面分波（s/p/d 花瓣），每层带上相移 δ_l 后重新干涉，远场角分布花瓣即散射截面",
+  "geom": "partial-wave-spheres"
+ },
+ {
+  "id": "P530",
+  "slug": "rydberg-series-hydrogen",
+  "title": "氢原子光谱与里德伯系",
+  "score": 3,
+  "scene": "1/n² 能级阶梯铺成三维级面，巴尔末与帕邢系的跃迁箭头射出对应谱线，线系极限处阶梯密集到电离阈值",
+  "geom": "level-ladder-transitions"
+ },
+ {
+  "id": "P234",
+  "slug": "stochastic-gw",
+  "title": "随机引力波背景",
+  "score": 4,
+  "scene": "遍布天球的毫秒脉冲星与地球组成探测网络，随机背景应变拉胀日-星连线，双时延残差在天球上呈现角相关曲线",
+  "geom": "pulsar-sky-network"
+ },
+ {
+  "id": "P367",
+  "slug": "constitutional-supercooling",
+  "title": "成分过冷与凝固",
+  "score": 5,
+  "scene": "凝固界面前沿溶质富集边界层使平界面失稳，枝晶主臂与二次臂沿三维晶轴伸展，切开可见溶质等值面与过冷区",
+  "geom": "dendrite+solute-layer"
+ },
+ {
+  "id": "P378",
+  "slug": "creep",
+  "title": "高温蠕变",
+  "score": 3,
+  "scene": "涡轮叶片显微结构中位错攀移、晶界逐渐张开孔洞直至颈断，应变-时间三段曲线与组织演化同屏推进",
+  "geom": "creep-voids-grainboundary"
+ },
+ {
+  "id": "P387",
+  "slug": "metallic-glass",
+  "title": "金属玻璃",
+  "score": 4,
+  "scene": "同一熔体慢冷排成有序晶格、快冷冻结成无序密堆；切开非晶块看自由体积空洞与剪切转变区的空间分布",
+  "geom": "amorphous-vs-crystal"
+ },
+ {
+  "id": "P393",
+  "slug": "striebeck-lubrication",
+  "title": "摩擦磨损与润滑",
+  "score": 4,
+  "scene": "两粗糙表面间油膜楔随转速与黏度增厚，从微凸体直接接触的边界润滑过渡到完全浮起的黏性润滑，摩擦系数同步走 Stribeck 曲线",
+  "geom": "lubricant-film-wedge"
+ },
+ {
+  "id": "P398",
+  "slug": "materials-genome",
+  "title": "材料基因组与高通量筛选",
+  "score": 1,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P539",
+  "slug": "laguerre-hydrogen-radial",
+  "title": "拉盖尔多项式与氢原子径向方程",
+  "score": 3,
+  "scene": "氢原子径向概率壳层由连合拉盖尔多项式决定，剖开球壳可数出 n−l−1 个节点球面并对照 R_nl 振荡",
+  "geom": "radial-shell-nodes"
+ },
+ {
+  "id": "P546",
+  "slug": "poisson-green-function",
+  "title": "泊松方程与格林函数",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P553",
+  "slug": "boundary-integral",
+  "title": "边界积分与边界元思想",
+  "score": 3,
+  "scene": "封闭边界剖成带法向的面元，体积分塌缩为面积分；旋转看内部场仅由表面量重建的降维过程",
+  "geom": "boundary-element-surface"
+ },
+ {
+  "id": "P566",
+  "slug": "fourier-series-convergence",
+  "title": "傅里叶级数与收敛性",
+  "score": 3,
+  "scene": "逐级缩小的旋转相量链（本轮序列）首尾相接描出方波，项数增加时间断处的吉布斯过冲稳定保持约 9% 不消失",
+  "geom": "epicycle-chain-wave"
+ },
+ {
+  "id": "P571",
+  "slug": "transform-evolution-equation",
+  "title": "积分变换解演化方程",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P576",
+  "slug": "einstein-field-equations",
+  "title": "爱因斯坦场方程的推导脉络",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P581",
+  "slug": "hamilton-principle-action",
+  "title": "哈密顿原理与最小作用量",
+  "score": 3,
+  "scene": "两固定端之间的候选路径族群在位形空间铺成曲面，按作用量值着色，δS=0 表现为邻近路径一高一低的平稳脊",
+  "geom": "path-family-action"
+ },
+ {
+  "id": "P586",
+  "slug": "projector-subspace",
+  "title": "投影算符与子空间分解",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P595",
+  "slug": "master-equation-markov",
+  "title": "主方程与马尔可夫链",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P358",
+  "slug": "radiotherapy-dose",
+  "title": "放射治疗与剂量",
+  "score": 4,
+  "scene": "患者体内多入射射束从不同角度汇聚于肿瘤，深度剂量与布拉格峰以等值面体渲染，调权重时危及器官剂量热图实时重分配",
+  "geom": "beam-converge+dosemap"
+ },
+ {
+  "id": "P363",
+  "slug": "contrast-agent",
+  "title": "造影剂与弛豫",
+  "score": 3,
+  "scene": "水质子绕钆离子进动加快、T1 被缩短，周围体素在图像中变亮，沿血管的浓度梯度显示造影增强",
+  "geom": "gadolinium-spin-relax"
+ },
+ {
+  "id": "P176",
+  "slug": "beta-decay",
+  "title": "β 衰变与弱作用",
+  "score": 4,
+  "scene": "核内中子经 W 玻色子变质子，电子与中微子分担衰变能给出连续能谱；Wu 实验中沿核自旋方向的电子发射不对称，镜像翻转后立即显出宇称破坏",
+  "geom": "beta-vertex+parity-asymmetry"
+ },
+ {
+  "id": "P458",
+  "slug": "xray-characteristic",
+  "title": "特征 X 射线与莫塞莱",
+  "score": 3,
+  "scene": "入射电子击出 K 层空位、外层电子级联填空位射出特征 X 射线，换靶时 Kα 峰按 √(Z−b) 直线滑动",
+  "geom": "shell-transition-xrayspectrum"
+ },
+ {
+  "id": "P401",
+  "slug": "cosmological-constant",
+  "title": "宇宙学常数与真空灾难",
+  "score": 1,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P405",
+  "slug": "confinement-mass",
+  "title": "色禁闭与质子质量之谜",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P409",
+  "slug": "axion-strongcp",
+  "title": "轴子与强 CP 问题",
+  "score": 3,
+  "scene": "ADMX 围猎装置：强磁体中可调高 Q 微波腔，轴子在腔内相干转换为微波光子，扫频经过时共振功率峰凸起",
+  "geom": "haloscope-cavity"
+ },
+ {
+  "id": "P415",
+  "slug": "inflation-testability",
+  "title": "暴胀的可检验性",
+  "score": 1,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P420",
+  "slug": "time-crystal",
+  "title": "时间晶体",
+  "score": 3,
+  "scene": "周期驱动下的自旋链每隔两个驱动周期才整体翻转一次，与驱动节拍失锁；多体局域阻止系统热化吞掉有序",
+  "geom": "driven-spin-chain"
+ },
+ {
+  "id": "P215",
+  "slug": "critical-exponent",
+  "title": "临界指数与普适性",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P219",
+  "slug": "curie-weiss",
+  "title": "居里-外斯定律",
+  "score": 3,
+  "scene": "三维磁矩矢量场随温度升高逐渐失序，越过居里点整体磁化消失；旁挂 χ=C/(T−Tc) 直线外推定 Tc",
+  "geom": "spin-disorder-curie"
+ },
+ {
+  "id": "P246",
+  "slug": "plasma-frequency",
+  "title": "等离子体频率",
+  "score": 4,
+  "scene": "电子气相对离子背景整体位移形成电荷分层并回复振荡，低于等离子体频率的电磁波在界面被全反射，切开电离层看截止高度",
+  "geom": "electron-slosh+wave-cutoff"
+ },
+ {
+  "id": "P255",
+  "slug": "virtual-particle",
+  "title": "虚粒子与费曼图",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P156",
+  "slug": "rydberg-series",
+  "title": "里德伯原子",
+  "score": 5,
+  "scene": "n≈100 的巨型原子中电子波包沿类开普勒轨道绕离子实运行，轨道半径与能级按 n²/n⁻² 标度展开，加电场现出斯塔克阶梯",
+  "geom": "giant-orbital+wavepacket"
+ },
+ {
+  "id": "P160",
+  "slug": "quantum-measurement",
+  "title": "量子测量与坍缩",
+  "score": 4,
+  "scene": "布洛赫球上的态矢量沿所选测量轴投影并跳落到两极，玻恩概率即矢量在轴上的投影长度；退相干时矢量向球内收缩",
+  "geom": "bloch-sphere-projection"
+ },
+ {
+  "id": "P323",
+  "slug": "jj-thomson-em",
+  "title": "阴极射线荷质比",
+  "score": 4,
+  "scene": "射线管中电子束同时穿过偏转板电场与线圈磁场，两条曲率相反的轨迹在 E=vB 条件下被拉直，据此称出 e/m",
+  "geom": "crossed-fields-beam"
+ },
+ {
+  "id": "P453",
+  "slug": "variational-method",
+  "title": "变分法与近似基态",
+  "score": 3,
+  "scene": "宽度可调的试波函数叠在真实基态上，能量随变分参数隆成向上弯曲的曲面，极小点给出基态能量的严格上界",
+  "geom": "trial-wavefunction-energy"
+ },
+ {
+  "id": "P238",
+  "slug": "superdense-coding",
+  "title": "超密编码",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P223",
+  "slug": "four-level-laser",
+  "title": "四能级激光",
+  "score": 3,
+  "scene": "四能级阶梯上粒子被泵至上能级、无辐射弛豫到亚稳上激光能级形成反转，下激光能级迅速抽空，腔内驻波被逐程放大",
+  "geom": "four-level-cavity"
+ },
+ {
+  "id": "P228",
+  "slug": "photon-antibunching",
+  "title": "光子反聚束",
+  "score": 4,
+  "scene": "单光子源射向分束器，两个探测器从不同时咔哒；符合计数直方图在零延迟处凹下去的三维剖面即 g²(0)=0",
+  "geom": "hbt-beamsplitter-coincidence"
+ },
+ {
+  "id": "P128",
+  "slug": "simultaneity",
+  "title": "同时性的相对论",
+  "score": 4,
+  "scene": "火车-站台的时空体中光锥与世界线立起来，同时面随速度倾斜；从时间轴外侧看两次雷击的先后次序发生翻转",
+  "geom": "spacetime+tilted-now-plane"
+ },
+ {
+  "id": "P27",
+  "slug": "order-of-magnitude",
+  "title": "宇宙数量级阶梯",
+  "score": 1,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P463",
+  "slug": "crystal-binding",
+  "title": "晶体结合与内聚能",
+  "score": 4,
+  "scene": "四种结合的晶格并置：NaCl 交替离子库仑势、共价定向键、离子浸在电子气海中、范德华大层距；切面看各自内聚能势阱深浅",
+  "geom": "bonding-lattice-set"
+ },
+ {
+  "id": "P310",
+  "slug": "three-phase-point",
+  "title": "三相点与相平衡",
+  "score": 4,
+  "scene": "P-T-V 相图上三个单相面沿三条共存线交汇于唯一一点；旁置 sealed 三相点瓶，冰、水、汽在同一腔内共存",
+  "geom": "phase-surface-triplepoint"
+ },
+ {
+  "id": "P104",
+  "slug": "refrigeration",
+  "title": "制冷循环",
+  "score": 4,
+  "scene": "压缩机-冷凝器-节流阀-蒸发器的闭合回路中制冷剂分子被压缩放热、膨胀吸热，同屏在 P-h 图上描出逆卡诺环路",
+  "geom": "refrigeration-loop-cycle"
+ },
+ {
+  "id": "P442",
+  "slug": "maxwell-relations",
+  "title": "麦克斯韦关系",
+  "score": 2,
+  "scene": null,
+  "geom": null
+ },
+ {
+  "id": "P243",
+  "slug": "topological-invariant",
+  "title": "拓扑不变量",
+  "score": 5,
+  "scene": "环面与咖啡杯在同一连续形变下逐格着色曲率，积分总和恒为 2πχ；捅破一个洞的瞬间亏格与陈数整数跳变",
+  "geom": "genus-surface+curvature-integral"
+ },
+ {
+  "id": "P202",
+  "slug": "fabry-perot",
+  "title": "法布里-珀罗干涉仪",
+  "score": 4,
+  "scene": "两面高反镜间光束逐次反射相干，透射呈同心环锥；调腔长时驻波模与 Airy 透射梳齿逐一对齐",
+  "geom": "etalon-multipass-rings"
+ },
+ {
+  "id": "P446",
+  "slug": "abbe-imaging",
+  "title": "阿贝成像与空间频率",
+  "score": 5,
+  "scene": "4f 系统第一步衍射、第二步干涉：物面各级平面波在频谱面上聚成一排排空间频率亮点，逐个光阑滤除时像面条纹同步变化",
+  "geom": "4f-system+fourier-plane"
+ }
+]
