@@ -128,6 +128,29 @@ func narrationScripts() (map[string]narrationScript, error) {
 	return narrationData, narrationErr
 }
 
+// SeedNarrationLineIDs 返回内置展项稿件的 slug → line_id 集合。
+//
+// 发布打包用它作为"这句讲解必须有音频"的基准：首次运行时数据库就是按这份稿件
+// 建库的，而开发库里可能还有本地 AI 版内容生成的额外台词，那些不属于发布内容。
+func SeedNarrationLineIDs() (map[string]map[string]bool, error) {
+	return lineIDsBySlug(narrationScripts())
+}
+
+func lineIDsBySlug(scripts map[string]narrationScript, err error) (map[string]map[string]bool, error) {
+	if err != nil {
+		return nil, err
+	}
+	out := make(map[string]map[string]bool, len(scripts))
+	for slug, s := range scripts {
+		set := make(map[string]bool, len(s.Lines))
+		for _, l := range s.Lines {
+			set[l.LineID] = true
+		}
+		out[slug] = set
+	}
+	return out, nil
+}
+
 // NarrationStats 返回内置稿件的规模（实验数、台词行数）。
 func NarrationStats() (experiments, lines int) {
 	scripts, err := narrationScripts()

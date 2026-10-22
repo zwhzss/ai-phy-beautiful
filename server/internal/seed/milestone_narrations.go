@@ -4,6 +4,7 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
+	"sync"
 
 	"github.com/ai-phy-beautiful/server/internal/model"
 	"gorm.io/gorm"
@@ -26,16 +27,9 @@ var narrationMilestoneDRaw []byte
 // skipExisting 时跳过已有讲解的里程碑；音频路径约定：/audio/ms<milestone_id>/<voice>/<line_id>.mp3
 // （ms 前缀避免与展项的纯数字目录冲突）。
 func ImportMilestoneNarrations(db *gorm.DB, skipExisting bool) (milestones, lines int, err error) {
-	// 分批合并加载（第一批 31 条 + 第二批 24 + 第三批 31 + 第四批 34 = 120 条）
-	scripts := map[string]narrationScript{}
-	for _, raw := range [][]byte{narrationMilestoneRaw, narrationMilestoneBRaw, narrationMilestoneCRaw, narrationMilestoneDRaw} {
-		var batch map[string]narrationScript
-		if err := json.Unmarshal(raw, &batch); err != nil {
-			return 0, 0, fmt.Errorf("解析里程碑讲解稿件失败: %w", err)
-		}
-		for slug, s := range batch {
-			scripts[slug] = s
-		}
+	scripts, err := milestoneNarrationScripts()
+	if err != nil {
+		return 0, 0, err
 	}
 
 	var msList []model.Milestone
@@ -87,4 +81,34 @@ func ImportMilestoneNarrations(db *gorm.DB, skipExisting bool) (milestones, line
 		lines += len(records)
 	}
 	return milestones, lines, nil
+}
+
+var (
+	milestoneNarrationOnce sync.Once
+	milestoneNarrationData map[string]narrationScript
+	milestoneNarrationErr  error
+)
+
+// milestoneNarrationScripts 合并加载里程碑稿件（四批共 120 个里程碑）。
+func milestoneNarrationScripts() (map[string]narrationScript, error) {
+	milestoneNarrationOnce.Do(func() {
+		milestoneNarrationData = map[string]narrationScript{}
+		for _, raw := range [][]byte{narrationMilestoneRaw, narrationMilestoneBRaw, narrationMilestoneCRaw, narrationMilestoneDRaw} {
+			var batch map[string]narrationScript
+			if err := json.Unmarshal(raw, &batch); err != nil {
+				milestoneNarrationErr = fmt.Errorf("解析里程碑讲解稿件失败: %w", err)
+				return
+			}
+			for slug, s := range batch {
+				milestoneNarrationData[slug] = s
+			}
+		}
+	})
+	return milestoneNarrationData, milestoneNarrationErr
+}
+
+// SeedMilestoneNarrationLineIDs 返回内置里程碑稿件的 slug → line_id 集合，
+// 用途同 [SeedNarrationLineIDs]。
+func SeedMilestoneNarrationLineIDs() (map[string]map[string]bool, error) {
+	return lineIDsBySlug(milestoneNarrationScripts())
 }

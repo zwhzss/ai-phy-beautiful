@@ -2,6 +2,9 @@
 //
 // 用途：生成/回归检查时快速回答“还差多少音频需要合成”。
 //
+// 只统计库里**生效**的讲解行（软删除的历史版本不算）。注意这里含本地 AI 版内容
+// 生成的台词；发布打包的校验基准是内置稿件，见 cmd/audio-pack，两边数字会略有差异。
+//
 // 用法：
 //
 //	go run ./cmd/audioaudit -db <sqlite 文件> -audio <音频目录> [-json <输出>]
@@ -74,6 +77,7 @@ func main() {
 	}
 	if err := db.Raw(`SELECT e.id AS id, e.slug AS slug, n.line_id AS line_id
 		FROM narrations n JOIN experiments e ON e.id = n.experiment_id
+		WHERE n.deleted_at IS NULL
 		ORDER BY e.number, n.line_index`).Scan(&expRows).Error; err != nil {
 		fmt.Fprintf(os.Stderr, "查询展项讲解失败: %v\n", err)
 		os.Exit(1)
@@ -86,6 +90,7 @@ func main() {
 	}
 	if err := db.Raw(`SELECT m.id AS id, m.slug AS slug, n.line_id AS line_id
 		FROM milestone_narrations n JOIN milestones m ON m.id = n.milestone_id
+		WHERE n.deleted_at IS NULL
 		ORDER BY m.year, n.line_index`).Scan(&msRows).Error; err != nil {
 		fmt.Fprintf(os.Stderr, "查询里程碑讲解失败: %v\n", err)
 		os.Exit(1)

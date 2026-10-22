@@ -19,6 +19,12 @@
 //
 // 清单里逐文件记录落盘目录，解压时按清单直取，结果与打包机一致、与运行库的 id 无关。
 //
+// 为什么校验基准是内置稿件而不是库里的讲解行：
+//
+// 安装包首次运行时用内置稿件建库，学生听到的就是稿件那几句，所以"缺音频"必须按稿件判。
+// 开发库里可能还留着本地 AI 版内容生成的额外台词（例如把某个展项切成 AI 版重新写过讲解），
+// 那些句子不会随发布库分发给用户，缺失只跳过、不阻塞构建；磁盘上已有的仍照常打包。
+//
 // 用法：
 //
 //	go run ./cmd/audio-pack -db <sqlite> -audio <音频目录> -out <zip 路径> [-report <json>]
@@ -39,6 +45,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/ai-phy-beautiful/server/internal/seed"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
@@ -76,7 +83,10 @@ type packUnit struct {
 	Kind   string
 	Slug   string
 	Dir    string
-	LineID []string
+	// Required 是内置稿件声明的 line_id：安装包首次运行按稿件建库，
+	// 这些句子必须有音频。库内多出来的行（本地 AI 版内容）只打包、不校验。
+	Required map[string]bool
+	lines    map[string]bool // 需要打包的全部 line_id（稿件 + 库内额外行）
 }
 
 // entryManifest 是清单里单个音频条目的记录。
@@ -147,12 +157,25 @@ func main() {
 		os.Exit(1)
 	}
 
+	// slug → 落盘目录取自展项/里程碑表本身，与 seed 导入同一口径
+	// （软删除的实体不算）：讲解行表里可能留着已删除实体的残留行。
+	var expEntities []dbRow
+	if err := db.Raw(`SELECT id, slug FROM experiments WHERE deleted_at IS NULL`).Scan(&expEntities).Error; err != nil {
+		fmt.Fprintf(os.Stderr, "查询展项失败: %v\n", err)
+		os.Exit(1)
+	}
+	var msEntities []dbRow
+	if err := db.Raw(`SELECT id, slug FROM milestones WHERE deleted_at IS NULL`).Scan(&msEntities).Error; err != nil {
+		fmt.Fprintf(os.Stderr, "查询里程碑失败: %v\n", err)
+		os.Exit(1)
+	}
+
 	expDirBySlug := map[string]string{}
-	for _, r := range exps {
+	for _, r := range expEntities {
 		expDirBySlug[r.Slug] = strconv.FormatUint(uint64(r.ID), 10)
 	}
 	msDirBySlug := map[string]string{}
-	for _, r := range mss {
+	for _, r := range msEntities {
 		msDirBySlug[r.Slug] = "ms" + strconv.FormatUint(uint64(r.ID), 10)
 	}
 
@@ -173,35 +196,68 @@ func main() {
 	// 展项与里程碑各自独立成单元（kind + slug）。同名 slug 两侧即使是同一 line_id，
 	// 台词文本也不同（例如 mass-energy-equivalence 的 intro-1：展项与里程碑是两段不同讲解），
 	// 因此两侧都必须各自打包自己的音频，不能合并去重。
-	linesByKey := map[string][]string{}
-	order := []string{}
-	for _, r := range exps {
-		k := kindExperiment + "\x00" + r.Slug
-		if _, ok := linesByKey[k]; !ok {
-			order = append(order, k)
-		}
-		linesByKey[k] = append(linesByKey[k], r.LineID)
+	//
+	// 每个单元的词句来自两处：内置稿件（决定"必须有音频"）与库内讲解行
+	// （决定"有什么可打包"，含本地 AI 版内容生成的额外台词）。
+	seedExpLines, err := seed.SeedNarrationLineIDs()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "读取内置展项稿件失败: %v\n", err)
+		os.Exit(1)
 	}
-	for _, r := range mss {
-		k := kindMilestone + "\x00" + r.Slug
-		if _, ok := linesByKey[k]; !ok {
-			order = append(order, k)
-		}
-		linesByKey[k] = append(linesByKey[k], r.LineID)
+	seedMsLines, err := seed.SeedMilestoneNarrationLineIDs()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "读取内置里程碑稿件失败: %v\n", err)
+		os.Exit(1)
 	}
 
-	var units []packUnit
-	for _, k := range order {
-		parts := strings.SplitN(k, "\x00", 2)
-		kind, slug := parts[0], parts[1]
+	unitsByKey := map[string]*packUnit{}
+	order := []string{}
+	unitFor := func(kind, slug string) *packUnit {
+		k := kind + "\x00" + slug
+		if u, ok := unitsByKey[k]; ok {
+			return u
+		}
 		dir := expDirBySlug[slug]
 		if kind == kindMilestone {
 			dir = msDirBySlug[slug]
 		}
-		units = append(units, packUnit{
-			Kind: kind, Slug: slug, Dir: dir,
-			LineID: dedupStrings(linesByKey[k]),
-		})
+		u := &packUnit{Kind: kind, Slug: slug, Dir: dir,
+			Required: map[string]bool{}, lines: map[string]bool{}}
+		unitsByKey[k] = u
+		order = append(order, k)
+		return u
+	}
+
+	// 稿件里有、库里却没有对应实体的 slug：安装库里也没有这个展项/里程碑，不需要音频。
+	skippedSeedSlugs := 0
+	addSeed := func(kind string, bySlug map[string]map[string]bool, dirBySlug map[string]string) {
+		for slug, lineIDs := range bySlug {
+			if _, ok := dirBySlug[slug]; !ok {
+				skippedSeedSlugs++
+				continue
+			}
+			u := unitFor(kind, slug)
+			for line := range lineIDs {
+				u.lines[line] = true
+				u.Required[line] = true
+			}
+		}
+	}
+	addSeed(kindExperiment, seedExpLines, expDirBySlug)
+	addSeed(kindMilestone, seedMsLines, msDirBySlug)
+
+	for _, r := range exps {
+		u := unitFor(kindExperiment, r.Slug)
+		u.lines[r.LineID] = true
+	}
+	for _, r := range mss {
+		u := unitFor(kindMilestone, r.Slug)
+		u.lines[r.LineID] = true
+	}
+
+	var units []*packUnit
+	for _, k := range order {
+		units = append(units, unitsByKey[k])
 	}
 	// 先按 slug，再让展项排在里程碑之前：同名 slug 的消歧命名依赖这个次序
 	sort.SliceStable(units, func(i, j int) bool {
@@ -216,22 +272,44 @@ func main() {
 
 	// ---- 解析每个音频的来源与归档路径 ----
 	var entries []packEntry
-	var missing []string
-	var zeroByte []string
+	var missingSeed []string    // 内置稿件要求却没有音频 → 构建失败
+	var zeroByteSeed []string   // 内置稿件要求但是零字节 → 构建失败
+	var missingOther []string   // 仅开发库引用（本地 AI 版）→ 跳过，不校验
+	var zeroByteOther []string  // 同上
+	var conflicts []string      // 归档路径抢占，任何情况都算失败
 	var renamed []string
+	var noDirUnits []string
 	usedArchive := map[string]string{} // 归档路径 → 落盘目录（检测覆盖）
 
 	for _, u := range units {
+		if u.Dir == "" {
+			noDirUnits = append(noDirUnits, u.Kind+"/"+u.Slug)
+			continue
+		}
+		lines := make([]string, 0, len(u.lines))
+		for line := range u.lines {
+			lines = append(lines, line)
+		}
+		sort.Strings(lines)
 		for _, v := range voices {
-			for _, line := range u.LineID {
+			for _, line := range lines {
+				rel := filepath.ToSlash(filepath.Join(u.Dir, v, line+".mp3"))
 				abs := filepath.Join(*audioDir, u.Dir, v, line+".mp3")
 				info, statErr := os.Stat(abs)
 				if statErr != nil {
-					missing = append(missing, filepath.ToSlash(filepath.Join(u.Dir, v, line+".mp3")))
+					if u.Required[line] {
+						missingSeed = append(missingSeed, rel)
+					} else {
+						missingOther = append(missingOther, rel)
+					}
 					continue
 				}
 				if info.Size() == 0 {
-					zeroByte = append(zeroByte, filepath.ToSlash(filepath.Join(u.Dir, v, line+".mp3")))
+					if u.Required[line] {
+						zeroByteSeed = append(zeroByteSeed, rel)
+					} else {
+						zeroByteOther = append(zeroByteOther, rel)
+					}
 					continue
 				}
 				// 归档路径默认 <slug>/<voice>/<line>.mp3；同名 slug 的同名 line_id
@@ -243,7 +321,7 @@ func main() {
 					renamed = append(renamed, fmt.Sprintf("%s → %s", u.Slug+"/"+v+"/"+line+".mp3", archive))
 				}
 				if prev, taken := usedArchive[archive]; taken && prev != u.Dir {
-					missing = append(missing, fmt.Sprintf("归档路径冲突: %s（%s vs %s）", archive, prev, u.Dir))
+					conflicts = append(conflicts, fmt.Sprintf("归档路径冲突: %s（%s vs %s）", archive, prev, u.Dir))
 					continue
 				}
 				usedArchive[archive] = u.Dir
@@ -261,16 +339,33 @@ func main() {
 		}
 	}
 
-	sort.Strings(missing)
-	sort.Strings(zeroByte)
-	if len(missing) > 0 || len(zeroByte) > 0 {
-		fmt.Fprintf(os.Stderr, "音频不完整：缺失 %d，零字节 %d\n", len(missing), len(zeroByte))
-		printLimited(os.Stderr, "缺失", missing)
-		printLimited(os.Stderr, "零字节", zeroByte)
+	for _, s := range [][]string{missingSeed, zeroByteSeed, missingOther, zeroByteOther, conflicts} {
+		sort.Strings(s)
+	}
+	if len(conflicts) > 0 {
+		fmt.Fprintf(os.Stderr, "归档路径冲突 %d 个（会互相覆盖、丢音频）：\n", len(conflicts))
+		printLimited(os.Stderr, "  冲突", conflicts)
+		os.Exit(1)
+	}
+	if len(noDirUnits) > 0 {
+		sort.Strings(noDirUnits)
+		fmt.Printf("无落盘目录的讲解单元 : %d（库内讲解行指向了已删除实体，跳过）\n", len(noDirUnits))
+		printLimited(os.Stdout, "  跳过单元", noDirUnits)
+	}
+	if len(missingSeed) > 0 || len(zeroByteSeed) > 0 {
+		fmt.Fprintf(os.Stderr, "seed 稿件音频不完整：缺失 %d，零字节 %d\n", len(missingSeed), len(zeroByteSeed))
+		printLimited(os.Stderr, "缺失", missingSeed)
+		printLimited(os.Stderr, "零字节", zeroByteSeed)
 		if *strict {
 			os.Exit(1)
 		}
 		fmt.Fprintln(os.Stderr, "（-strict=false：继续打包现有文件）")
+	}
+	if len(missingOther) > 0 || len(zeroByteOther) > 0 {
+		// 只有开发库里有这些台词（本地 AI 版内容），不在发布范围内，因此不阻塞构建。
+		fmt.Printf("非 seed 讲解音频（本地 AI 版内容，不校验）: 缺失 %d，零字节 %d\n",
+			len(missingOther), len(zeroByteOther))
+		printLimited(os.Stdout, "  跳过", missingOther)
 	}
 
 	sort.Slice(entries, func(i, j int) bool { return entries[i].Archive < entries[j].Archive })
@@ -284,9 +379,17 @@ func main() {
 		slugSeen[e.Slug] = true
 	}
 
+	seedUnits := 0
+	for _, u := range units {
+		if len(u.Required) > 0 {
+			seedUnits++
+		}
+	}
+
 	fmt.Printf("音频目录 : %s\n输出归档 : %s\n", *audioDir, *outPath)
-	fmt.Printf("讲解单元 : 展项 %d 个 / 里程碑 %d 个（同名 slug %d 个）\n",
-		len(expDirBySlug), len(msDirBySlug), len(collisions))
+	fmt.Printf("讲解单元 : %d 个（库内讲解行 + 内置稿件并集）\n", len(units))
+	fmt.Printf("校验基准 : 内置 seed 稿件的 %d 个单元；稿件里另有 %d 个 slug 在库里没有对应实体，不发布\n",
+		seedUnits, skippedSeedSlugs)
 	fmt.Printf("音色     : %v\n", voices)
 	fmt.Printf("待打包   : %d 个文件 / %.1f MB\n", len(entries), float64(totalBytes)/1024/1024)
 	if len(collisions) > 0 {
@@ -475,10 +578,16 @@ func main() {
 			"milestones":      len(msDirBySlug),
 			"slug_collisions": nonNil(collisions),
 			"renamed":         nonNil(renamed),
-			"missing_files":   nonNil(missing),
-			"zero_byte":       nonNil(zeroByte),
-			"audio_dir":       *audioDir,
-			"db":              *dbPath,
+			// missing_files / zero_byte 只统计内置稿件要求的部分：
+			// 构建脚本按这两个字段判成败，本地 AI 版内容的缺音不在发布范围内。
+			"missing_files":         nonNil(missingSeed),
+			"zero_byte":             nonNil(zeroByteSeed),
+			"missing_nonseed_files": nonNil(missingOther),
+			"zero_byte_nonseed":     nonNil(zeroByteOther),
+			"seed_slug_not_in_db":   skippedSeedSlugs,
+			"units_without_dir":     nonNil(noDirUnits),
+			"audio_dir":             *audioDir,
+			"db":                    *dbPath,
 		}
 		buf, _ := json.MarshalIndent(rep, "", "  ")
 		if err := os.WriteFile(*reportPath, buf, 0o644); err != nil {
@@ -699,21 +808,6 @@ func hashFile(path string) (string, int64, error) {
 		return "", 0, err
 	}
 	return hex.EncodeToString(h.Sum(nil)), n, nil
-}
-
-// dedupStrings 去重并排序。
-func dedupStrings(in []string) []string {
-	seen := map[string]bool{}
-	out := make([]string, 0, len(in))
-	for _, s := range in {
-		if seen[s] {
-			continue
-		}
-		seen[s] = true
-		out = append(out, s)
-	}
-	sort.Strings(out)
-	return out
 }
 
 func splitCSV(s string) []string {

@@ -91,22 +91,30 @@ func main() {
 		Text   string
 	}
 	var list []seedRow
-	// 默认处理库内全部有讲解的展项（可用 -category / -only 收窄）
-	query := `SELECT e.id AS id, e.slug AS slug, n.line_id AS line_id, n.text AS text
-		FROM narrations n
+	// 默认处理库内全部有讲解的展项（可用 -category / -only 收窄）。
+	//
+	// 只取生效行：软删除的历史讲解（切版前的旧台词）会和生效行共用同一个 line_id，
+	// 一起合成就会把 <line_id>.mp3 覆盖成旧文本的音频。
+	from := `FROM narrations n
 		JOIN experiments e ON e.id = n.experiment_id`
+	where := []string{"n.deleted_at IS NULL"}
 	args := []any{}
 	if cats := strings.TrimSpace(*category); cats != "" {
-		query += ` JOIN categories c ON c.id = e.category_id WHERE c.slug IN (?)`
+		from += `
+		JOIN categories c ON c.id = e.category_id`
 		parts := []string{}
 		for _, c := range strings.Split(cats, ",") {
 			if c = strings.TrimSpace(c); c != "" {
 				parts = append(parts, strings.ReplaceAll(c, "'", ""))
 			}
 		}
+		where = append(where, "c.slug IN (?)")
 		args = append(args, parts)
 	}
-	query += ` ORDER BY e.number, n.line_index`
+	query := `SELECT e.id AS id, e.slug AS slug, n.line_id AS line_id, n.text AS text
+		` + from + `
+		WHERE ` + strings.Join(where, ` AND `) + `
+		ORDER BY e.number, n.line_index`
 	if err := db.Raw(query, args...).Scan(&list).Error; err != nil {
 		fmt.Fprintf(os.Stderr, "查询讲解失败: %v\n", err)
 		os.Exit(1)
@@ -133,6 +141,7 @@ func main() {
 	if err := db.Raw(`SELECT m.id AS id, m.slug AS slug, n.line_id AS line_id, n.text AS text
 		FROM milestone_narrations n
 		JOIN milestones m ON m.id = n.milestone_id
+		WHERE n.deleted_at IS NULL
 		ORDER BY m.year, n.line_index`).Scan(&msList).Error; err != nil {
 		fmt.Fprintf(os.Stderr, "查询里程碑讲解失败: %v\n", err)
 		os.Exit(1)
@@ -230,12 +239,15 @@ func main() {
 			fmt.Printf("  已生成 %d / %d\n", ok, len(pending))
 		}
 		// 回写时长（同一实验同一 line_id 的两个音色取先到的值即可）
+		// 只写生效行，软删除的历史版本保持原样。
 		if r.Ms > 0 {
 			if r.Job.Kind == "m" {
-				db.Exec(`UPDATE milestone_narrations SET duration_ms = ? WHERE milestone_id = ? AND line_id = ? AND duration_ms = 0`,
+				db.Exec(`UPDATE milestone_narrations SET duration_ms = ?
+					WHERE milestone_id = ? AND line_id = ? AND duration_ms = 0 AND deleted_at IS NULL`,
 					r.Ms, r.Job.ExpID, r.Job.LineID)
 			} else {
-				db.Exec(`UPDATE narrations SET duration_ms = ? WHERE experiment_id = ? AND line_id = ? AND duration_ms = 0`,
+				db.Exec(`UPDATE narrations SET duration_ms = ?
+					WHERE experiment_id = ? AND line_id = ? AND duration_ms = 0 AND deleted_at IS NULL`,
 					r.Ms, r.Job.ExpID, r.Job.LineID)
 			}
 		}
