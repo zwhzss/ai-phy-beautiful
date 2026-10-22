@@ -27,6 +27,22 @@
       -AudioDb          path to the SQLite DB used to build the audio pack
       -AudioDir         path to the narration audio directory
       -NoInstaller      build only the desktop exe, skip the NSIS installer
+      -SkipOfflineWebView2
+                        do not ship the offline WebView2 runtime (installer then
+                        needs internet during install, like stock Wails does)
+      -WebView2Installer
+                        path to an already downloaded
+                        MicrosoftEdgeWebView2RuntimeInstallerX64.exe (skips download)
+      -SignPfx / -SignThumbprint
+                        Authenticode signing target. Also readable from the
+                        environment (PHY_SIGN_PFX / PHY_SIGN_PFX_PASSWORD /
+                        PHY_SIGN_THUMBPRINT). Without one the build still succeeds
+                        but the binaries stay unsigned.
+
+    Code signing notes: a thumbprint refers to a certificate already in the
+    machine's Personal store and needs no password on the command line, so prefer
+    it over -SignPfx. Self-signed certificates do NOT remove the SmartScreen
+    warning, they only help when the root certificate is deployed to managed PCs.
 #>
 [CmdletBinding()]
 param(
@@ -36,7 +52,11 @@ param(
     [switch]$SkipAudioCheck,
     [string]$AudioDb = '',
     [string]$AudioDir = '',
-    [switch]$NoInstaller
+    [switch]$NoInstaller,
+    [switch]$SkipOfflineWebView2,
+    [string]$WebView2Installer = '',
+    [string]$SignPfx = '',
+    [string]$SignThumbprint = ''
 )
 
 Set-StrictMode -Version Latest
@@ -55,6 +75,16 @@ $nsiFile      = Join-Path $installerDir 'project.nsi'
 $binDir       = Join-Path $desktopDir 'build\bin'
 $desktopExe   = Join-Path $binDir 'PhysicsBeauty.exe'
 $installerExe = Join-Path $binDir 'phy-beauty-amd64-installer.exe'
+
+# Offline WebView2 runtime. Stock Wails only bundles the 1.8 MB "online only"
+# bootstrapper, so installing on a machine without internet leaves the app with no
+# webview. Microsoft's Evergreen stand-alone installer (~204 MB) carries the whole
+# runtime, so we bundle that instead and fall back to the stock macro on request.
+$wv2TmpDir      = Join-Path $installerDir 'tmp'
+$wv2OfflineName = 'MicrosoftEdgeWebView2RuntimeInstallerX64.exe'
+$wv2OfflinePath = Join-Path $wv2TmpDir $wv2OfflineName
+$wv2OfflineUrl  = 'https://go.microsoft.com/fwlink/?linkid=2124701'
+$wv2MinBytes    = 150MB
 
 $script:stepNo   = 0
 $script:stepSum  = 9
@@ -100,6 +130,220 @@ function Format-Size([long]$bytes) {
     if ($bytes -ge 1GB) { return ('{0:N2} GB' -f ($bytes / 1GB)) }
     if ($bytes -ge 1MB) { return ('{0:N2} MB' -f ($bytes / 1MB)) }
     return ('{0:N0} KB' -f ($bytes / 1KB))
+}
+
+# ---------------------------------------------------------------------------
+# offline WebView2 runtime
+# ---------------------------------------------------------------------------
+
+$script:wv2MarkerBegin = '# --- PHY: offline WebView2 begin ---'
+$script:wv2MarkerEnd   = '# --- PHY: offline WebView2 end ---'
+
+# The block that replaces stock Wails' "!insertmacro wails.webview2runtime".
+# Kept as a single-quoted here-string: NSIS variables ($0, $pluginsdir) must not
+# be expanded by PowerShell.
+$script:wv2NsiBlock = @'
+    # --- PHY: offline WebView2 begin ---
+    # Install the WebView2 runtime from the Evergreen stand-alone package shipped
+    # inside this installer, so an offline machine still gets a working app.
+    # The registry check is the same one wails_tools.nsh uses for the online
+    # bootstrapper; when the runtime is already there, nothing is extracted.
+    SetRegView 64
+    ReadRegStr $0 HKLM "SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}" "pv"
+    ${If} $0 != ""
+        Goto phy_wv2_ok
+    ${EndIf}
+    DetailPrint "Installing: WebView2 Runtime (offline package)"
+    InitPluginsDir
+    CreateDirectory "$pluginsdir\webview2offline"
+    SetOutPath "$pluginsdir\webview2offline"
+    File "tmp\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"
+    ExecWait '"$pluginsdir\webview2offline\MicrosoftEdgeWebView2RuntimeInstallerX64.exe" /silent /install'
+    RMDir /r "$pluginsdir\webview2offline"
+    phy_wv2_ok:
+    # --- PHY: offline WebView2 end ---
+'@
+
+function Test-OfflineWebView2File([string]$path) {
+    if (-not (Test-Path $path)) { return $false }
+    if ((Get-Item $path).Length -lt $wv2MinBytes) { return $false }
+    # The file comes from a Microsoft CDN. Check the Authenticode signature instead
+    # of a pinned hash: Microsoft refreshes this installer regularly and the fwlink
+    # always points at the current build, so a fixed hash would break every build.
+    $sig = Get-AuthenticodeSignature $path
+    if ($sig.Status -ne 'Valid') { return $false }
+    if (-not $sig.SignerCertificate) { return $false }
+    if ($sig.SignerCertificate.Subject -notmatch 'CN=Microsoft Corporation') { return $false }
+    return $true
+}
+
+function Ensure-OfflineWebView2 {
+    if (-not (Test-Path $wv2TmpDir)) { New-Item -ItemType Directory -Path $wv2TmpDir -Force | Out-Null }
+
+    if ($WebView2Installer) {
+        if (-not (Test-Path $WebView2Installer)) { Fail "WebView2 installer not found: $WebView2Installer" }
+        if (-not (Test-OfflineWebView2File $WebView2Installer)) {
+            Fail ("WebView2 installer failed the signature/size check: {0}" -f $WebView2Installer)
+        }
+        if ((Resolve-Path $WebView2Installer).ProviderPath -ne $wv2OfflinePath) {
+            Copy-Item -LiteralPath $WebView2Installer -Destination $wv2OfflinePath -Force
+        }
+    }
+    elseif (Test-OfflineWebView2File $wv2OfflinePath) {
+        Write-Info 'reusing cached offline WebView2 package'
+    }
+    else {
+        Write-Info ('downloading Evergreen WebView2 runtime (~204 MB): {0}' -f $wv2OfflineUrl)
+        $partial = "$wv2OfflinePath.part"
+        Remove-Item -LiteralPath $partial -ErrorAction SilentlyContinue
+        # curl.exe ships with Windows 10+; -L follows the fwlink redirect, --fail makes
+        # an HTTP error a non-zero exit instead of a saved error page.
+        Invoke-Native 'webview2 download' {
+            & curl.exe -sSL --fail --retry 3 --connect-timeout 20 -o $partial $wv2OfflineUrl
+        }
+        Move-Item -LiteralPath $partial -Destination $wv2OfflinePath -Force
+    }
+
+    if (-not (Test-OfflineWebView2File $wv2OfflinePath)) {
+        Fail ("offline WebView2 package is missing, truncated, not signed by Microsoft, or smaller than {0} MB: {1}" -f `
+            [int]($wv2MinBytes / 1MB), $wv2OfflinePath)
+    }
+    Write-Ok ("offline WebView2 package: {0} ({1})" -f $wv2OfflineName, (Format-Size (Get-Item $wv2OfflinePath).Length))
+}
+
+# Patch (or unpatch) the NSIS project so the runtime installs from the package.
+#
+# project.nsi lives under desktop\build, which is gitignored: Wails regenerates it
+# only when it is missing, so manual edits survive a normal build but a fresh clone
+# starts from the stock template. Patching here from the (tracked) build script keeps
+# both cases identical and idempotent.
+function Set-NsiWebView2Offline([bool]$enabled) {
+    $text = [System.IO.File]::ReadAllText($nsiFile, [System.Text.Encoding]::UTF8)
+    $stock = '!insertmacro wails.webview2runtime'
+    $patched = $text.Contains($script:wv2MarkerBegin)
+
+    if ($enabled) {
+        if ($patched) { Write-Ok 'project.nsi already installs WebView2 offline'; return }
+        # Match the whole line (including its indentation) so the block lands flush.
+        $pattern = '(?m)^[ \t]*' + [regex]::Escape($stock) + '[ \t]*\r?\n'
+        if ($text -notmatch $pattern) {
+            Fail ("cannot wire the offline WebView2 install: '{0}' not found in {1}" -f $stock, $nsiFile)
+        }
+        $block = $script:wv2NsiBlock.TrimEnd() + "`r`n"
+        $text = [regex]::Replace($text, $pattern, ($block.Replace('$', '$$')))
+        [System.IO.File]::WriteAllText($nsiFile, $text, (New-Object System.Text.UTF8Encoding($false)))
+        # Never trust the write: re-read and confirm the block really replaced the
+        # stock macro. An unnoticed no-op yields a silent 200 MB difference in the
+        # installer and nobody notices until a machine without internet fails.
+        $after = [System.IO.File]::ReadAllText($nsiFile, [System.Text.Encoding]::UTF8)
+        if (-not $after.Contains($script:wv2MarkerBegin)) {
+            Fail ("project.nsi patch did not take effect: {0}" -f $nsiFile)
+        }
+        if ($after.Contains($stock)) {
+            Fail 'project.nsi still installs WebView2 from the online bootstrapper after patching'
+        }
+        Write-Ok 'project.nsi patched: WebView2 installs from the offline package'
+    }
+    else {
+        if (-not $patched) { return }
+        # makensis aborts when the File line points at a missing 204 MB package,
+        # so reverting has to remove the whole block.
+        # (?sm): ^ must match the start of the LINE, not of the file.
+        $pattern = '(?sm)^[ \t]*' + [regex]::Escape($script:wv2MarkerBegin) + '.*?' + [regex]::Escape($script:wv2MarkerEnd) + '[ \t]*\r?\n?'
+        $text = [regex]::Replace($text, $pattern, ('    ' + $stock).Replace('$', '$$') + "`r`n")
+        [System.IO.File]::WriteAllText($nsiFile, $text, (New-Object System.Text.UTF8Encoding($false)))
+        $after = [System.IO.File]::ReadAllText($nsiFile, [System.Text.Encoding]::UTF8)
+        if ($after.Contains($script:wv2MarkerBegin)) {
+            Fail ("project.nsi revert did not take effect: {0}" -f $nsiFile)
+        }
+        if (-not $after.Contains($stock)) {
+            Fail 'project.nsi lost the WebView2 install step while reverting'
+        }
+        Write-Warn 'project.nsi restored to the online WebView2 bootstrapper (-SkipOfflineWebView2)'
+    }
+}
+
+# ---------------------------------------------------------------------------
+# Authenticode signing (optional)
+# ---------------------------------------------------------------------------
+
+$script:signedFiles  = @()
+$script:signWarned   = $false
+
+function Resolve-SignTool {
+    if ($env:SIGNTOOL -and (Test-Path $env:SIGNTOOL)) { return $env:SIGNTOOL }
+    $kitRoots = @(
+        "${env:ProgramFiles(x86)}\Windows Kits\10\bin",
+        "$env:ProgramFiles\Windows Kits\10\bin"
+    )
+    $best = $null
+    $bestVersion = [version]'0.0'
+    foreach ($root in $kitRoots) {
+        if (-not (Test-Path $root)) { continue }
+        foreach ($cand in Get-ChildItem -Path $root -Filter 'signtool.exe' -Recurse -ErrorAction SilentlyContinue) {
+            # x64 signtool only: it has to handle the 600 MB installer
+            if ($cand.FullName -notmatch '\\x64\\') { continue }
+            # Take the SDK version from the path (bin\10.0.26100.0\x64\signtool.exe);
+            # the FileVersion resource is not reliably populated for every SDK drop.
+            $parsed = [version]$null
+            if ($cand.FullName -match '\\bin\\([^\\]+)\\x64\\signtool\.exe$' -and
+                [version]::TryParse($matches[1], [ref]$parsed)) {
+                if ($parsed -gt $bestVersion) { $bestVersion = $parsed; $best = $cand.FullName }
+            }
+        }
+    }
+    return $best
+}
+
+function Invoke-CodeSign([string]$file, [string]$label) {
+    $pfx = $SignPfx; if (-not $pfx) { $pfx = $env:PHY_SIGN_PFX }
+    $thumb = $SignThumbprint; if (-not $thumb) { $thumb = $env:PHY_SIGN_THUMBPRINT }
+
+    if (-not $pfx -and -not $thumb) {
+        if (-not $script:signWarned) {
+            $script:signWarned = $true
+            Write-Warn 'binaries are UNSIGNED: pass -SignPfx/-SignThumbprint (or PHY_SIGN_PFX / PHY_SIGN_THUMBPRINT)'
+        }
+        return
+    }
+    if (-not (Test-Path $file)) { Fail ("cannot sign {0}: file not found" -f $label) }
+
+    $signtool = Resolve-SignTool
+    if (-not $signtool) {
+        Fail 'signtool.exe was not found (Windows 10/11 SDK). Install the SDK or set $env:SIGNTOOL.'
+    }
+    $timestamp = 'http://timestamp.digicert.com'
+    if ($env:PHY_SIGN_TIMESTAMP) { $timestamp = $env:PHY_SIGN_TIMESTAMP }
+
+    # signtool's subcommand is "sign" (no slash); only its options take a slash.
+    $argsList = @('sign', '/fd', 'SHA256', '/tr', $timestamp, '/td', 'SHA256')
+    if ($pfx) {
+        if (-not (Test-Path $pfx)) { Fail ("certificate not found: {0}" -f $pfx) }
+        $argsList += @('/f', $pfx)
+        # Prefer PHY_SIGN_PFX_PASSWORD over -p on the command line: command lines of
+        # other processes can be read by any local user.
+        if ($env:PHY_SIGN_PFX_PASSWORD) { $argsList += @('/p', $env:PHY_SIGN_PFX_PASSWORD) }
+    }
+    else {
+        $argsList += @('/sha1', $thumb)
+    }
+    $argsList += $file
+
+    Invoke-Native ("sign " + $label) { & $signtool @argsList }
+    # /pa checks the full Authenticode trust chain. A self-signed certificate always
+    # fails it, and that is a real problem for end users (SmartScreen still blocks),
+    # so stop here instead of shipping a package that looks signed but is not trusted.
+    $null = & $signtool verify /pa /all $file
+    if ($LASTEXITCODE -ne 0) {
+        # Build the message first: "-f" binds tighter than "+", so formatting an
+        # inline concatenation only ever touches the last string.
+        $why = ('signature of {0} is not trusted (signtool verify exit {1}). Use a CA-issued code ' +
+                'signing certificate; self-signed certificates do not satisfy the Authenticode chain.') -f `
+                $label, $LASTEXITCODE
+        Fail $why
+    }
+    $script:signedFiles += $label
+    Write-Ok ("signed: {0}" -f $label)
 }
 
 # ---------------------------------------------------------------------------
@@ -342,6 +586,10 @@ try {
 if (-not (Test-Path $desktopExe)) { Fail "desktop executable not found: $desktopExe" }
 Write-Ok ("desktop exe: {0} ({1})" -f $desktopExe, (Format-Size (Get-Item $desktopExe).Length))
 
+# Sign before NSIS packs the exe: the copy embedded in the installer has to carry
+# its signature already, and the installer itself is signed after step 8.
+Invoke-CodeSign $desktopExe 'desktop exe'
+
 # ---------------------------------------------------------------------------
 # 8. NSIS installer
 # ---------------------------------------------------------------------------
@@ -352,6 +600,15 @@ if ($NoInstaller) {
     Write-Step 'Building NSIS installer'
 
     if (-not (Test-Path $nsiFile)) { Fail "NSIS script not found: $nsiFile" }
+
+    # Bundle the offline WebView2 runtime and make sure project.nsi installs from it.
+    if ($SkipOfflineWebView2) {
+        Set-NsiWebView2Offline $false
+    }
+    else {
+        Ensure-OfflineWebView2
+        Set-NsiWebView2Offline $true
+    }
 
     # The script contains non-ASCII UI strings and must be UTF-8 with BOM,
     # otherwise makensis fails with "Bad text encoding".
@@ -389,6 +646,15 @@ if ($NoInstaller) {
         }
     }
 
+    # Same guard for the offline WebView2 runtime: without its File line the
+    # installer is 200 MB lighter and breaks on any machine lacking the runtime.
+    if (-not $SkipOfflineWebView2) {
+        $payloadMb += (Get-Item $wv2OfflinePath).Length / 1MB
+        if ($nsiText -notmatch [regex]::Escape($wv2OfflineName)) {
+            Fail ("project.nsi does not install {0}: the offline WebView2 block is missing" -f $wv2OfflineName)
+        }
+    }
+
     # Loose sanity check: NSIS compresses the payload (zlib), so the installer can
     # legitimately be smaller than the archives. But it cannot be smaller than
     # ~85% of them while still carrying them, and dropping the archives would make
@@ -401,6 +667,8 @@ if ($NoInstaller) {
         }
         Write-Ok ("installer carries all packs ({0:N1} MB installer vs {1:N1} MB packed)" -f $instMb, $payloadMb)
     }
+
+    Invoke-CodeSign $installerExe 'installer'
 }
 
 # ---------------------------------------------------------------------------
@@ -416,5 +684,20 @@ Write-Host ("  desktop  : {0}" -f $desktopExe)
 if (Test-Path $audioPack) { Write-Host ("  audio    : {0} ({1})" -f $audioPack, (Format-Size (Get-Item $audioPack).Length)) }
 if (Test-Path $assetsPack) { Write-Host ("  assets   : {0} ({1})" -f $assetsPack, (Format-Size (Get-Item $assetsPack).Length)) }
 if (Test-Path $installerExe) { Write-Host ("  installer: {0}" -f $installerExe) }
+if ($NoInstaller) {
+    Write-Host '  webview2 : not bundled (no installer built)'
+}
+elseif ($SkipOfflineWebView2) {
+    Write-Host '  webview2 : online bootstrapper only (-SkipOfflineWebView2)'
+}
+else {
+    Write-Host ("  webview2 : offline runtime bundled ({0})" -f $wv2OfflineName)
+}
+if ($script:signedFiles.Count -gt 0) {
+    Write-Host ("  signed   : {0}" -f ($script:signedFiles -join ', '))
+}
+else {
+    Write-Host '  signed   : no (unsigned binaries)'
+}
 Write-Host ''
 exit 0
