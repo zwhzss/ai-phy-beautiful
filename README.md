@@ -1,5 +1,7 @@
 # 物理之美教育软件
 
+仓库地址：<https://github.com/zwhzss/ai-phy-beautiful>
+
 物理之美教育软件 —— 以"真实为锚、尺度为线"的交互式物理可视化教育系统：
 真实素材建立信任，尺度穿越串联认知，2D 解释结构，3D 建立直觉，定律驱动的仿真揭示规律，标注清楚的未知保留敬畏。
 系统覆盖**从通识到科研·学术级（难度六级）的物理知识全谱**，并重点呈现
@@ -72,7 +74,7 @@ npm run dev
 
 | 归档 | 内容 | 解压位置 |
 |---|---|---|
-| `narrations-audio.zip` | 600 个展项 + 120 个里程碑的双音色讲解音频（9962 个文件，约 421 MB） | `audio\<id>\<voice>\*.mp3`、`audio\ms<id>\<voice>\*.mp3` |
+| `narrations-audio.zip` | 600 个展项 + 120 个里程碑的双音色讲解音频（10122 个文件，约 430 MB；其中 9962 个是新装库真正引用的） | `audio\<id>\<voice>\*.mp3`、`audio\ms<id>\<voice>\*.mp3` |
 | `phy-assets.zip` | 素材资产（图片 / 数据集） | `assets\image\*`、`assets\dataset\*` |
 
 > 归档内带 `manifest.json` 逐文件记录落盘目录：有 21 个 slug 既是展项又是里程碑，
@@ -81,6 +83,10 @@ npm run dev
 > ⚠️ **清理约定（勿删）**：音频源目录 `server/data/audio/`（约 452 MB，TTS 批量合成，重生成代价高）
 > 与打包归档 `desktop/assets/narrations-audio.zip` 是安装包随附资产，任何仓库/磁盘清理都必须保留；
 > 两者均被 `.gitignore` 排除、只存在于磁盘。`build-release.ps1` 从音频源重新生成归档并校验安装包实际携带。
+
+> **目标机器无需联网**：安装包默认内置约 204 MB 的 WebView2 离线运行库（体积 402 MB → 约 605 MB），
+> 断网机器也能装；`-SkipOfflineWebView2` 可出在线版。代码签名走 `-SignPfx` / `PHY_SIGN_THUMBPRINT`，
+> 默认不签。占用明细与前提见 [docs/部署指南.md](./docs/部署指南.md) §4.3.2。
 
 ## API 端点
 
