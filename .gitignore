@@ -53,6 +53,9 @@ desktop/assets/*.report.json
 # Generated TTS audio (regenerable, ~450MB)
 server/data/audio/
 
+# TTS toolchain venv (needs edge-tts >= 7.3 for the v2 Sec-MS-GEC token)
+.venv-tts/
+
 # Playwright output
 client/test-results/
 client/playwright-report/

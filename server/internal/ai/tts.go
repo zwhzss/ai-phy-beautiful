@@ -95,16 +95,48 @@ type edgeCandidate struct {
 	args []string
 }
 
+// edgeCandidates 按优先级返回调用方式。
+//
+// EDGE_TTS_BIN 用来锁定"带 Sec-MS-GEC v2 令牌的 edge-tts"：微软从 2026-10 起把
+// Sec-MS-GEC 升级到 v2（令牌形如 <CS64>-<64 位 hex>，且版本号前缀必须是 2-），
+// 7.2.x 及更早的版本仍发 v1 令牌 + 1- 前缀，握手阶段就被拒（HTTP 403、空响应体），
+// 一条音频都合成不出来。值可以是 venv 里的 python.exe（按 -m edge_tts 调用），
+// 也可以直接是 edge-tts 可执行文件。
+func edgeCandidates() ([]edgeCandidate, error) {
+	candidates := []edgeCandidate{}
+	if bin := strings.TrimSpace(os.Getenv("EDGE_TTS_BIN")); bin != "" {
+		if _, err := os.Stat(bin); err != nil {
+			return nil, fmt.Errorf("EDGE_TTS_BIN 指向的文件不存在: %s", bin)
+		}
+		if isPythonBin(bin) {
+			candidates = append(candidates, edgeCandidate{bin: bin, args: []string{"-m", "edge_tts"}})
+		} else {
+			candidates = append(candidates, edgeCandidate{bin: bin})
+		}
+	}
+	return append(candidates,
+		edgeCandidate{bin: "edge-tts"},
+		edgeCandidate{bin: "python", args: []string{"-m", "edge_tts"}},
+		edgeCandidate{bin: "python3", args: []string{"-m", "edge_tts"}},
+		edgeCandidate{bin: "py", args: []string{"-m", "edge_tts"}},
+	), nil
+}
+
+// isPythonBin 判断路径是解释器还是 edge-tts 入口：venv 里两者都可能被填进来。
+func isPythonBin(path string) bool {
+	base := strings.ToLower(filepath.Base(path))
+	base = strings.TrimSuffix(base, ".exe")
+	return base == "py" || strings.HasPrefix(base, "python")
+}
+
 // synthEdge 调用本地 edge-tts 命令（免费，需要 pip install edge-tts）。
 // edge-tts 对连续快速请求会限流（返回 No audio was received），因此这里带退避重试。
 func synthEdge(ctx context.Context, cfg *model.AIModel, text, voice, outPath string) error {
 	voiceName := resolveVoice(cfg, voice, edgeVoices)
 
-	candidates := []edgeCandidate{
-		{bin: "edge-tts"},
-		{bin: "python", args: []string{"-m", "edge_tts"}},
-		{bin: "python3", args: []string{"-m", "edge_tts"}},
-		{bin: "py", args: []string{"-m", "edge_tts"}},
+	candidates, err := edgeCandidates()
+	if err != nil {
+		return err
 	}
 
 	var (
@@ -221,6 +253,14 @@ func commitTemp(tmpPath, dst string) error {
 
 // conciseEdgeError 把 edge-tts 的冗长 traceback 压缩成一行可读信息。
 func conciseEdgeError(stderr string, fallback error) string {
+	// 微软这条未公开接口在 2026-10 把 Sec-MS-GEC 令牌升级到 v2：7.2.x 仍发 v1 令牌并配
+	// "1-" 版本前缀，握手即被拒，且响应体为空（Content-Length: 0），堆栈里只剩 URL 可读。
+	// 空响应没有更多信息可挖，直接把两个已知成因写在错误里，免得下次从头排查。
+	if strings.Contains(stderr, "403") && strings.Contains(stderr, "readaloud") {
+		return "edge-tts 被语音服务拒绝（HTTP 403）：Sec-MS-GEC 令牌代次过旧，或本机时钟偏差超出时间窗。" +
+			"请改用支持 v2 令牌的 edge-tts（7.3+），或把 EDGE_TTS_BIN 指向装好该版本的解释器，并校准系统时间"
+	}
+
 	lines := strings.Split(strings.TrimSpace(stderr), "\n")
 	for i := len(lines) - 1; i >= 0; i-- {
 		line := strings.TrimSpace(lines[i])
